@@ -1202,53 +1202,6 @@
     ]
   },
   {
-    "id": "27",
-    "name": {
-      "he": "קופיקס",
-      "en": "Cofix"
-    },
-    "dish_name": {
-      "he": "כריך / פוקצ'ה / חביתה",
-      "en": "Sandwich / Focaccia / Omelet"
-    },
-    "price": 6,
-    "category": {
-      "he": "בית קפה / ביס מהיר",
-      "en": "Cafe / Quick Bite"
-    },
-    "location": {
-      "city": {
-        "he": "ארצי",
-        "en": "National"
-      },
-      "address": {
-        "he": "100+ branches across Israel",
-        "en": "100+ branches across Israel"
-      },
-      "region": {
-        "he": "ארצי",
-        "en": "National"
-      }
-    },
-    "kosher_status": {
-      "he": "כשר",
-      "en": "Kosher"
-    },
-    "source_url": "https://cofix.co.il/en/menu/",
-    "verified_date": "2026-02-11",
-    "notes": {
-      "he": "Every item on menu is 6 NIS. Includes sandwiches, omelets, pastries, focaccias, bourekas. Can combine multiple items and still be under 35 NIS.",
-      "en": "Every item on menu is 6 NIS. Includes sandwiches, omelets, pastries, focaccias, bourekas. Can combine multiple items and still be under 35 NIS."
-    },
-    "coordinates": null,
-    "accepted_cards": [
-      "10bis",
-      "cibus",
-      "credit_card",
-      "cash"
-    ]
-  },
-  {
     "id": "28",
     "name": {
       "he": "חומוס לינא",
