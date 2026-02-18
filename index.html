@@ -881,7 +881,7 @@
         const opt = msOptions[key].find(o => o.value === sel[0]);
         return opt ? opt.label() : sel[0];
       }
-      return ms.nSelected(sel.length);
+      return t().ms.nSelected(sel.length);
     }
 
     function updateTrigger(key) {
