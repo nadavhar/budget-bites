@@ -1,0 +1,1203 @@
+[
+  {
+    "restaurant_name": "Falafel Ratzon / פלאפל רצון",
+    "dish_name": "Falafel in Pita",
+    "price": 9,
+    "category": "Street Food",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "King George 17",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Kosher",
+    "source_url": "https://easy.co.il/en/page/9390554",
+    "verified_date": "2026-02-11",
+    "notes": "Cheapest falafel in Tel Aviv. Generous portion with warm pita."
+  },
+  {
+    "restaurant_name": "New Deli / ניו דלי",
+    "dish_name": "Mini Rib Entrecote Burger",
+    "price": 20,
+    "category": "Burger",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "King George St (near Dizengoff Center)",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": null
+  },
+  {
+    "restaurant_name": "Pizza Shiroqo / פיצה שירוקו",
+    "dish_name": "Large Pizza Slice",
+    "price": 15,
+    "category": "Pizza",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "King George 14",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": null
+  },
+  {
+    "restaurant_name": "Oh Mama / או מאמא",
+    "dish_name": "Pasta (250ml)",
+    "price": 18,
+    "category": "Italian",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "King George 26",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": null
+  },
+  {
+    "restaurant_name": "Adi's Pizza / פיצה עדי",
+    "dish_name": "Pizza Slice (plain)",
+    "price": 16,
+    "category": "Pizza",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "Dizengoff Center, Gate 1",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": "18 NIS with topping"
+  },
+  {
+    "restaurant_name": "Tomato Pizza / פיצה עגבניה",
+    "dish_name": "Quarter Pan Pizza",
+    "price": 19,
+    "category": "Pizza",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "Dizengoff Center, Floor 2",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": null
+  },
+  {
+    "restaurant_name": "Not Just Burekas / לא רק בורקס",
+    "dish_name": "Turkish Burekas",
+    "price": 20,
+    "category": "Bakery",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "Hatikva neighborhood (near market)",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": null
+  },
+  {
+    "restaurant_name": "Rozita / רוזיטה",
+    "dish_name": "Sabich",
+    "price": 17,
+    "category": "Street Food",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "Carmel Market (Shuk HaCarmel)",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": null
+  },
+  {
+    "restaurant_name": "Sabich Frishman / סביח פרישמן",
+    "dish_name": "Sabich in Pita",
+    "price": 29,
+    "category": "Street Food",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "Frishman / Dizengoff area",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://easy.co.il/en/page/8823311",
+    "verified_date": "2026-02-11",
+    "notes": "Considered among the best sabich in Israel"
+  },
+  {
+    "restaurant_name": "Sabich Oved / סביח עובדיה",
+    "dish_name": "Sabich",
+    "price": 13,
+    "category": "Street Food",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "Tel Aviv",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://humus101.com/?p=97",
+    "verified_date": "2026-02-11",
+    "notes": "One of the cheapest sabich options"
+  },
+  {
+    "restaurant_name": "David Habib / דויד חביב",
+    "dish_name": "Fried Sambousak",
+    "price": 12,
+    "category": "Street Food",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "Carmel Market (Shuk HaCarmel)",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": null
+  },
+  {
+    "restaurant_name": "Kuba al-Dajaj / קובה על הדג'אג",
+    "dish_name": "Potato Kuba in Pita",
+    "price": 17,
+    "category": "Street Food",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "Hatikva 64",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": null
+  },
+  {
+    "restaurant_name": "Asia Center / אסיה סנטר",
+    "dish_name": "Hot Prepared Dishes (Asian)",
+    "price": 20,
+    "category": "Asian",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "Messilat Yesharim 21",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Not Kosher",
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": null
+  },
+  {
+    "restaurant_name": "Al-Asli Hummus Center / אל-אסלי מרכז חומוס",
+    "dish_name": "Half Portion Hummus Plate",
+    "price": 20,
+    "category": "Hummus",
+    "location": {
+      "city": "Jaffa (Tel Aviv-Yafo)",
+      "address": "Yefet 73, Jaffa",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": null
+  },
+  {
+    "restaurant_name": "Ben Hur Falafel / פלאפל בן חור",
+    "dish_name": "Half Portion Sabich",
+    "price": 15,
+    "category": "Street Food",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "Washington Blvd 32",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": null
+  },
+  {
+    "restaurant_name": "Gogi's Grill Bar / גוגיס גריל בר",
+    "dish_name": "Skewer (chicken/kebab/liver/hearts)",
+    "price": 28,
+    "category": "Grill",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "Allenby 47",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://timeout.co.il/%D7%9E%D7%A1%D7%A2%D7%93%D7%95%D7%AA-%D7%96%D7%95%D7%9C%D7%95%D7%AA-%D7%98%D7%95%D7%91%D7%95%D7%AA-%D7%91%D7%AA%D7%9C-%D7%90%D7%91%D7%99%D7%91/",
+    "verified_date": "2026-02-11",
+    "notes": null
+  },
+  {
+    "restaurant_name": "Pizza Baba / פיצה באבא",
+    "dish_name": "Family Pizza Pan",
+    "price": 25,
+    "category": "Pizza",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "Ramat Aviv",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": null
+  },
+  {
+    "restaurant_name": "Bagel Cham / בייגל חם",
+    "dish_name": "Two Pastries",
+    "price": 15,
+    "category": "Bakery",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "Ben Tzvi St 32",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": null
+  },
+  {
+    "restaurant_name": "Abu Hassan (Ali Karavan) / אבו חסן",
+    "dish_name": "Hummus Plate",
+    "price": 28,
+    "category": "Hummus",
+    "location": {
+      "city": "Jaffa (Tel Aviv-Yafo)",
+      "address": "HaDolphin St, Jaffa",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Not Kosher",
+    "source_url": "https://www.tripadvisor.com/Restaurant_Review-g293984-d803562-Reviews-Abu_Hasan_Ali_Karavan-Tel_Aviv_Tel_Aviv_District.html",
+    "verified_date": "2026-02-11",
+    "notes": "Considered the best hummus in Israel. Opens 8am, sells out by ~2:30pm."
+  },
+  {
+    "restaurant_name": "WABI / וואבי",
+    "dish_name": "Katsu Sandwich",
+    "price": 35,
+    "category": "Asian",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "De Pigueto 23",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://timeout.co.il/%D7%9E%D7%A1%D7%A2%D7%93%D7%95%D7%AA-%D7%96%D7%95%D7%9C%D7%95%D7%AA-%D7%98%D7%95%D7%91%D7%95%D7%AA-%D7%91%D7%AA%D7%9C-%D7%90%D7%91%D7%99%D7%91/",
+    "verified_date": "2026-02-11",
+    "notes": "Also serves seaweed salad at 23 NIS"
+  },
+  {
+    "restaurant_name": "Port 19 / פורט 19",
+    "dish_name": "Sausage with Coleslaw & Mustard",
+    "price": 33,
+    "category": "Street Food",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "Multiple locations",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://timeout.co.il/%D7%9E%D7%A1%D7%A2%D7%93%D7%95%D7%AA-%D7%96%D7%95%D7%9C%D7%95%D7%AA-%D7%98%D7%95%D7%91%D7%95%D7%AA-%D7%91%D7%AA%D7%9C-%D7%90%D7%91%D7%99%D7%91/",
+    "verified_date": "2026-02-11",
+    "notes": "Special seasoning, homemade coleslaw, crispy onion"
+  },
+  {
+    "restaurant_name": "Schnitzel Pita Stand / דוכן שניצל בפיתה",
+    "dish_name": "Schnitzel in Pita",
+    "price": 20,
+    "category": "Street Food",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "Hatikva 2",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": null
+  },
+  {
+    "restaurant_name": "Sabich De Luxe / סביח דה לוקס",
+    "dish_name": "Sabich",
+    "price": 20,
+    "category": "Street Food",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "HaRakevet 2",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://humus101.com/2928",
+    "verified_date": "2026-02-11",
+    "notes": "One of the best sabich in the country"
+  },
+  {
+    "restaurant_name": "Shawarma Street / שווארמה סטריט",
+    "dish_name": "Shawarma in Pita",
+    "price": 25,
+    "category": "Street Food",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "Allenby 49",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Kosher",
+    "source_url": "https://shawarmastreet.co.il/",
+    "verified_date": "2026-02-11",
+    "notes": "Chain with branches also in Ramat Gan (Bialik 77), Petah Tikva (Haim Ozer), Rishon LeZion (Rothschild), Eilat. Revolutionary low-price model at 25 NIS vs industry avg of 55 NIS."
+  },
+  {
+    "restaurant_name": "Shawarma Street / שווארמה סטריט",
+    "dish_name": "Shawarma in Pita",
+    "price": 25,
+    "category": "Street Food",
+    "location": {
+      "city": "Ramat Gan",
+      "address": "Bialik 77",
+      "region": "Center"
+    },
+    "kosher_status": "Kosher",
+    "source_url": "https://easy.co.il/en/page/26563430",
+    "verified_date": "2026-02-11",
+    "notes": "Branch of Shawarma Street chain"
+  },
+  {
+    "restaurant_name": "Shawarma Street / שווארמה סטריט",
+    "dish_name": "Shawarma in Pita",
+    "price": 25,
+    "category": "Street Food",
+    "location": {
+      "city": "Eilat",
+      "address": "Eilat branch",
+      "region": "South"
+    },
+    "kosher_status": "Kosher",
+    "source_url": "https://shawarmastreet.co.il/branches/",
+    "verified_date": "2026-02-11",
+    "notes": "Branch of Shawarma Street chain"
+  },
+  {
+    "restaurant_name": "Cofix / קופיקס",
+    "dish_name": "Sandwich / Focaccia / Omelet",
+    "price": 6,
+    "category": "Cafe / Quick Bite",
+    "location": {
+      "city": "National",
+      "address": "100+ branches across Israel",
+      "region": "National"
+    },
+    "kosher_status": "Kosher",
+    "source_url": "https://cofix.co.il/en/menu/",
+    "verified_date": "2026-02-11",
+    "notes": "Every item on menu is 6 NIS. Includes sandwiches, omelets, pastries, focaccias, bourekas. Can combine multiple items and still be under 35 NIS."
+  },
+  {
+    "restaurant_name": "Hummus Lina / חומוס לינא",
+    "dish_name": "Hummus Plate",
+    "price": 28,
+    "category": "Hummus",
+    "location": {
+      "city": "Jerusalem",
+      "address": "Old City, Christian Quarter",
+      "region": "Jerusalem"
+    },
+    "kosher_status": "Not Kosher",
+    "source_url": "https://backpackisrael.com/my-favorite-budget-places-to-eat-in-jerusalem/",
+    "verified_date": "2026-02-11",
+    "notes": "Falafel balls 10 NIS. Extras (egg, mushrooms, fried onion) a few NIS more."
+  },
+  {
+    "restaurant_name": "Hummus Lina / חומוס לינא",
+    "dish_name": "Falafel Balls Plate",
+    "price": 10,
+    "category": "Street Food",
+    "location": {
+      "city": "Jerusalem",
+      "address": "Old City, Christian Quarter",
+      "region": "Jerusalem"
+    },
+    "kosher_status": "Not Kosher",
+    "source_url": "https://backpackisrael.com/my-favorite-budget-places-to-eat-in-jerusalem/",
+    "verified_date": "2026-02-11",
+    "notes": null
+  },
+  {
+    "restaurant_name": "Hummus Magen David / חומוס מגן דוד",
+    "dish_name": "Hummus / Ful Plate",
+    "price": 15,
+    "category": "Hummus",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "Allenby 52",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": "One of the cheapest hummus options in Tel Aviv"
+  },
+  {
+    "restaurant_name": "Falafel George / פלאפל ג'ורג'",
+    "dish_name": "Falafel in Pita",
+    "price": 20,
+    "category": "Street Food",
+    "location": {
+      "city": "Haifa",
+      "address": "Wadi Nisnas neighborhood",
+      "region": "North"
+    },
+    "kosher_status": "Not Kosher",
+    "source_url": "https://www.tripadvisor.com/Restaurants-g293982-c10686-Haifa_Haifa_District.html",
+    "verified_date": "2026-02-11",
+    "notes": "Popular spot with wide selection of sauces and fresh salad. Estimated price."
+  },
+  {
+    "restaurant_name": "HaZkenim Falafel / פלאפל הזקנים",
+    "dish_name": "Falafel in Pita",
+    "price": 20,
+    "category": "Street Food",
+    "location": {
+      "city": "Haifa",
+      "address": "Wadi Nisnas neighborhood",
+      "region": "North"
+    },
+    "kosher_status": "Not Kosher",
+    "source_url": "https://www.timeout.com/israel/restaurants/10-history-rich-haifa-street-food-establishments",
+    "verified_date": "2026-02-11",
+    "notes": "Historic establishment. Area also known for baklava and knafeh. Estimated price."
+  },
+  {
+    "restaurant_name": "Abu Shaker Hummus / חומוס אבו שאקר",
+    "dish_name": "Hummus Plate",
+    "price": 25,
+    "category": "Hummus",
+    "location": {
+      "city": "Haifa",
+      "address": "Downtown Haifa",
+      "region": "North"
+    },
+    "kosher_status": "Not Kosher",
+    "source_url": "https://wanderlog.com/list/geoCategory/21965/best-cheap-eats-in-haifa",
+    "verified_date": "2026-02-11",
+    "notes": "Considered the best hummus in the country by many. Estimated price."
+  },
+  {
+    "restaurant_name": "Sing Long / סינג לונג",
+    "dish_name": "Vegetable Noodles",
+    "price": 28,
+    "category": "Asian",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "Tel Aviv",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": null
+  },
+  {
+    "restaurant_name": "Burgers Bar / בורגרס בר",
+    "dish_name": "Pair of Mini Burgers (beef or lamb)",
+    "price": 27,
+    "category": "Burger",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "Multiple locations",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Kosher",
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": "National chain with branches across Israel"
+  },
+
+  {
+    "restaurant_name": "Archanto Empanadas / ארצ'נטו אמפנדס",
+    "dish_name": "Hand-made Empanada",
+    "price": 15,
+    "category": "Street Food",
+    "location": {
+      "city": "Jerusalem",
+      "address": "Iraqi Market, Mahane Yehuda",
+      "region": "Jerusalem"
+    },
+    "kosher_status": "Kosher",
+    "source_url": "https://www.ynet.co.il/food/foodnews/article/rkxkhkxdq",
+    "verified_date": "2026-02-11",
+    "notes": "15-19 NIS per empanada"
+  },
+  {
+    "restaurant_name": "Tacos Louis / טאקוס לואיס",
+    "dish_name": "Taco",
+    "price": 15,
+    "category": "Mexican",
+    "location": {
+      "city": "Jerusalem",
+      "address": "Shlomo HaMelech 11",
+      "region": "Jerusalem"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://www.ynet.co.il/food/foodnews/article/rkxkhkxdq",
+    "verified_date": "2026-02-11",
+    "notes": "14-15 NIS per taco"
+  },
+  {
+    "restaurant_name": "Jachnun Bar / ג'חנון בר",
+    "dish_name": "Jachnun with Tomato & Schug",
+    "price": 15,
+    "category": "Yemenite",
+    "location": {
+      "city": "Jerusalem",
+      "address": "Egoz 30, Mahane Yehuda",
+      "region": "Jerusalem"
+    },
+    "kosher_status": "Kosher",
+    "source_url": "https://www.gojerusalem.com/items/593/Jachnun-Bar/",
+    "verified_date": "2026-02-11",
+    "notes": "Range 15-32 NIS. Also serves malawach and shakshuka. Operating since 2002."
+  },
+  {
+    "restaurant_name": "Arika Sabich / אריכה סביח",
+    "dish_name": "Sabich Wrap",
+    "price": 23,
+    "category": "Street Food",
+    "location": {
+      "city": "Jerusalem",
+      "address": "Agrippas 83, Mahane Yehuda",
+      "region": "Jerusalem"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://www.ynet.co.il/food/foodnews/article/rkxkhkxdq",
+    "verified_date": "2026-02-11",
+    "notes": "23-32 NIS range"
+  },
+  {
+    "restaurant_name": "Kebab Al Shaab / קבב אל שעב",
+    "dish_name": "Grilled Meat Skewer",
+    "price": 12,
+    "category": "Grill",
+    "location": {
+      "city": "Jerusalem",
+      "address": "Spice Market, Old City",
+      "region": "Jerusalem"
+    },
+    "kosher_status": "Not Kosher",
+    "source_url": "https://www.ynet.co.il/food/foodnews/article/rkxkhkxdq",
+    "verified_date": "2026-02-11",
+    "notes": null
+  },
+  {
+    "restaurant_name": "Yemenite Falafel / פלאפל תימני",
+    "dish_name": "Falafel in Pita",
+    "price": 13,
+    "category": "Street Food",
+    "location": {
+      "city": "Jerusalem",
+      "address": "HaNeviim 48",
+      "region": "Jerusalem"
+    },
+    "kosher_status": "Kosher",
+    "source_url": "https://www.ynet.co.il/food/foodnews/article/rkxkhkxdq",
+    "verified_date": "2026-02-11",
+    "notes": "13-25 NIS range"
+  },
+  {
+    "restaurant_name": "Kraft Pizza / פיצה קראפט",
+    "dish_name": "NY-Style Pizza Slice",
+    "price": 20,
+    "category": "Pizza",
+    "location": {
+      "city": "Jerusalem",
+      "address": "HaTapuach 12, Mahane Yehuda Market",
+      "region": "Jerusalem"
+    },
+    "kosher_status": "Kosher",
+    "source_url": "https://www.ynet.co.il/food/foodnews/article/rkxkhkxdq",
+    "verified_date": "2026-02-11",
+    "notes": "Estimated price for a slice"
+  },
+  {
+    "restaurant_name": "Turkishuk / טורקישוק",
+    "dish_name": "Turkish Pastry",
+    "price": 32,
+    "category": "Bakery",
+    "location": {
+      "city": "Jerusalem",
+      "address": "Shzif 15, Mahane Yehuda",
+      "region": "Jerusalem"
+    },
+    "kosher_status": "Kosher",
+    "source_url": "https://www.ynet.co.il/food/foodnews/article/rkxkhkxdq",
+    "verified_date": "2026-02-11",
+    "notes": "32-48 NIS range"
+  },
+  {
+    "restaurant_name": "Burekas Ima / בורקס אמא",
+    "dish_name": "Burekas",
+    "price": 15,
+    "category": "Bakery",
+    "location": {
+      "city": "Jerusalem",
+      "address": "Baka neighborhood",
+      "region": "Jerusalem"
+    },
+    "kosher_status": "Kosher",
+    "source_url": "https://restaurantguru.com/Burekas-Ima-Jerusalem",
+    "verified_date": "2026-02-11",
+    "notes": "Old institution in Baka. 1-20 NIS range."
+  },
+  {
+    "restaurant_name": "Chochmat HaBurekas / חכמת הבורקס מחיפה",
+    "dish_name": "Turkish / Spanish Burekas",
+    "price": 18,
+    "category": "Bakery",
+    "location": {
+      "city": "Jerusalem",
+      "address": "Mahane Yehuda Market",
+      "region": "Jerusalem"
+    },
+    "kosher_status": "Kosher",
+    "source_url": "https://www.machne.co.il/category/%D7%97%D7%9B%D7%9E%D7%AA-%D7%94%D7%91%D7%95%D7%A8%D7%A7%D7%A1-%D7%9E%D7%97%D7%99%D7%A4%D7%94",
+    "verified_date": "2026-02-11",
+    "notes": "Made without margarine, with canola oil. Turkish, Spanish, and boyos varieties."
+  },
+  {
+    "restaurant_name": "Mian Noodles / מיאן נודלס",
+    "dish_name": "Ramen Bowl",
+    "price": 35,
+    "category": "Asian",
+    "location": {
+      "city": "Jerusalem",
+      "address": "Shlomo HaMelech 22",
+      "region": "Jerusalem"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://www.ynet.co.il/food/foodnews/article/rkxkhkxdq",
+    "verified_date": "2026-02-11",
+    "notes": "35-50 NIS range"
+  },
+  {
+    "restaurant_name": "Dini's Pita Bar / דיני'ס פיתה בר",
+    "dish_name": "Fish Shawarma Wrap",
+    "price": 35,
+    "category": "Street Food",
+    "location": {
+      "city": "Jerusalem",
+      "address": "Beit Yaakov 6, Mahane Yehuda",
+      "region": "Jerusalem"
+    },
+    "kosher_status": "Kosher",
+    "source_url": "https://www.ynet.co.il/food/foodnews/article/rkxkhkxdq",
+    "verified_date": "2026-02-11",
+    "notes": "35-57 NIS range. Fish shawarma starting at 35."
+  },
+  {
+    "restaurant_name": "Crave / קרייב",
+    "dish_name": "Slider / Mini Burger",
+    "price": 25,
+    "category": "Burger",
+    "location": {
+      "city": "Jerusalem",
+      "address": "Shita 1, Mahane Yehuda",
+      "region": "Jerusalem"
+    },
+    "kosher_status": "Kosher",
+    "source_url": "https://www.ynet.co.il/food/foodnews/article/rkxkhkxdq",
+    "verified_date": "2026-02-11",
+    "notes": "25 NIS starting price for sliders"
+  },
+  {
+    "restaurant_name": "Hummus Said / חומוס סעיד",
+    "dish_name": "Hummus Plate",
+    "price": 15,
+    "category": "Hummus",
+    "location": {
+      "city": "Acre (Akko)",
+      "address": "Old City Market (Shuk)",
+      "region": "North"
+    },
+    "kosher_status": "Not Kosher",
+    "source_url": "https://easy.co.il/en/page/8839595",
+    "verified_date": "2026-02-11",
+    "notes": "Iconic hummus spot in Akko Old City. Operating ~40 years. Open 06:00-14:30 Sun-Fri. Tel: 04-9913945."
+  },
+  {
+    "restaurant_name": "Hummus Ful Shamsia / חומוס פול שמסייה",
+    "dish_name": "Hummus with Ful",
+    "price": 20,
+    "category": "Hummus",
+    "location": {
+      "city": "Acre (Akko)",
+      "address": "Weizmann St, Old City Market",
+      "region": "North"
+    },
+    "kosher_status": "Not Kosher",
+    "source_url": "https://www.tripadvisor.com/Restaurants-g297736-Acre_Northern_District.html",
+    "verified_date": "2026-02-11",
+    "notes": "Estimated price"
+  },
+  {
+    "restaurant_name": "Maafiat Ouda Bakery / מאפיית עודה",
+    "dish_name": "Fresh Pita / Zaatar Bread",
+    "price": 10,
+    "category": "Bakery",
+    "location": {
+      "city": "Acre (Akko)",
+      "address": "Old City",
+      "region": "North"
+    },
+    "kosher_status": "Not Kosher",
+    "source_url": "https://www.tripadvisor.com/Restaurants-g297736-Acre_Northern_District.html",
+    "verified_date": "2026-02-11",
+    "notes": "Freshly baked pitas and zaatar flatbread. Estimated price."
+  },
+  {
+    "restaurant_name": "Pizza Kimat Chinam / פיצה כמעט חינם",
+    "dish_name": "Pizza Tray",
+    "price": 25,
+    "category": "Pizza",
+    "location": {
+      "city": "Eilat",
+      "address": "Gan Binyamin 12, Choffit Center",
+      "region": "South"
+    },
+    "kosher_status": "Kosher Mehadrin",
+    "source_url": "https://pizzakimat.co.il/",
+    "verified_date": "2026-02-11",
+    "notes": "Pizza Almost Free chain. 25 NIS per tray. Also available in Rishon LeZion. Vegan and gluten-free options."
+  },
+  {
+    "restaurant_name": "Pizza Kimat Chinam / פיצה כמעט חינם",
+    "dish_name": "Pizza Tray",
+    "price": 25,
+    "category": "Pizza",
+    "location": {
+      "city": "Rishon LeZion",
+      "address": "Rishon LeZion branch",
+      "region": "Center"
+    },
+    "kosher_status": "Kosher Mehadrin",
+    "source_url": "https://www.pizza-k-h.co.il/",
+    "verified_date": "2026-02-11",
+    "notes": "Branch of Pizza Almost Free chain"
+  },
+  {
+    "restaurant_name": "Falafel Musa / פלאפל מוסא",
+    "dish_name": "Falafel in Pita with Salads & Chips",
+    "price": 19,
+    "category": "Street Food",
+    "location": {
+      "city": "Netanya",
+      "address": "Netanya (coastal road area)",
+      "region": "Center"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://falafelnetanya.co.il/",
+    "verified_date": "2026-02-11",
+    "notes": "Includes falafel balls, salads, chips, hot sauce, tahini and cumin. 5 NIS soda."
+  },
+  {
+    "restaurant_name": "Falafel City / פלאפל סיטי",
+    "dish_name": "Falafel in Pita",
+    "price": 26,
+    "category": "Street Food",
+    "location": {
+      "city": "Petah Tikva",
+      "address": "Petah Tikva",
+      "region": "Center"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://petahtikva.mynet.co.il/business/article/rkxml3dmc",
+    "verified_date": "2026-02-11",
+    "notes": "Sabich/Shakshuka in pita: 28 NIS"
+  },
+  {
+    "restaurant_name": "Falafel City / פלאפל סיטי",
+    "dish_name": "Sabich in Pita",
+    "price": 28,
+    "category": "Street Food",
+    "location": {
+      "city": "Petah Tikva",
+      "address": "Petah Tikva",
+      "region": "Center"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://petahtikva.mynet.co.il/business/article/rkxml3dmc",
+    "verified_date": "2026-02-11",
+    "notes": null
+  },
+  {
+    "restaurant_name": "Sabich Stand (Petah Tikva) / סביח פתח תקווה",
+    "dish_name": "Sabich Half Portion",
+    "price": 14,
+    "category": "Street Food",
+    "location": {
+      "city": "Petah Tikva",
+      "address": "Petah Tikva",
+      "region": "Center"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://petahtikva.mynet.co.il/food_leisure/article/s1518wtcn",
+    "verified_date": "2026-02-11",
+    "notes": "Half portion 14 NIS, full portion 24 NIS"
+  },
+  {
+    "restaurant_name": "Shawarma Street / שווארמה סטריט",
+    "dish_name": "Shawarma in Pita",
+    "price": 25,
+    "category": "Street Food",
+    "location": {
+      "city": "Petah Tikva",
+      "address": "Haim Ozer St",
+      "region": "Center"
+    },
+    "kosher_status": "Kosher",
+    "source_url": "https://shawarmastreet.co.il/branches/",
+    "verified_date": "2026-02-11",
+    "notes": "Branch of Shawarma Street chain"
+  },
+  {
+    "restaurant_name": "Shawarma Street / שווארמה סטריט",
+    "dish_name": "Shawarma in Pita",
+    "price": 25,
+    "category": "Street Food",
+    "location": {
+      "city": "Rishon LeZion",
+      "address": "Rothschild St",
+      "region": "Center"
+    },
+    "kosher_status": "Kosher",
+    "source_url": "https://shawarmastreet.co.il/branches/",
+    "verified_date": "2026-02-11",
+    "notes": "Branch of Shawarma Street chain"
+  },
+  {
+    "restaurant_name": "Yaakov's Falafel / פלאפל יעקב",
+    "dish_name": "Falafel in Pita",
+    "price": 10,
+    "category": "Street Food",
+    "location": {
+      "city": "Bnei Brak",
+      "address": "Bnei Brak",
+      "region": "Center"
+    },
+    "kosher_status": "Kosher",
+    "source_url": "https://www.jpost.com/consumerism/article-838398",
+    "verified_date": "2026-02-11",
+    "notes": "One of the cheapest falafels in Israel at 10 NIS"
+  },
+  {
+    "restaurant_name": "Beer Sheva Falafel (avg) / פלאפל באר שבע",
+    "dish_name": "Falafel in Pita",
+    "price": 20,
+    "category": "Street Food",
+    "location": {
+      "city": "Beer Sheva",
+      "address": "Various locations",
+      "region": "South"
+    },
+    "kosher_status": "Kosher",
+    "source_url": "https://www.jpost.com/consumerism/article-838398",
+    "verified_date": "2026-02-11",
+    "notes": "Average falafel price in Beer Sheva is 19.6 NIS, lowest among major cities"
+  },
+  {
+    "restaurant_name": "Beer Sheva Sabich / סביח באר שבע",
+    "dish_name": "Sabich in Pita",
+    "price": 25,
+    "category": "Street Food",
+    "location": {
+      "city": "Beer Sheva",
+      "address": "Various locations",
+      "region": "South"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://www.t.co.il/2220-s141-%D7%A9%D7%95%D7%95%D7%90%D7%A8%D7%9E%D7%94-%D7%91%D7%90%D7%A8+%D7%A9%D7%91%D7%A2.html",
+    "verified_date": "2026-02-11",
+    "notes": "Typical sabich price in Beer Sheva"
+  },
+  {
+    "restaurant_name": "Beer Sheva Kuba / קובה באר שבע",
+    "dish_name": "Meat Kuba",
+    "price": 29,
+    "category": "Street Food",
+    "location": {
+      "city": "Beer Sheva",
+      "address": "Various locations",
+      "region": "South"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://beersheva.mynet.co.il/food_leisure/article/m_420136",
+    "verified_date": "2026-02-11",
+    "notes": null
+  },
+  {
+    "restaurant_name": "Penso / פנסו",
+    "dish_name": "Turkish Baked Goods / Burekas",
+    "price": 18,
+    "category": "Bakery",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "Near Carmel Market",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Kosher",
+    "source_url": "https://www.go-telaviv.com/burekas.html",
+    "verified_date": "2026-02-11",
+    "notes": "Burekas landmark operating 80+ years. Estimated price."
+  },
+  {
+    "restaurant_name": "Levinsky Burekas / בורקס לוינסקי",
+    "dish_name": "Burekas (Kashkaval/Bulgarian/Spinach/Potato)",
+    "price": 15,
+    "category": "Bakery",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "Levinsky St, near Flea Market",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://www.tripadvisor.com/Restaurant_Review-g293984-d12115154-Reviews-Levinsky_Burekas-Tel_Aviv_Tel_Aviv_District.html",
+    "verified_date": "2026-02-11",
+    "notes": "Oversized burekas with thin filo. Operating since 1948. Estimated price."
+  },
+  {
+    "restaurant_name": "Kafr Qasim Falafel / פלאפל כפר קאסם",
+    "dish_name": "Falafel in Pita",
+    "price": 13,
+    "category": "Street Food",
+    "location": {
+      "city": "Kafr Qasim",
+      "address": "Various stands",
+      "region": "Center"
+    },
+    "kosher_status": "Not Kosher",
+    "source_url": "https://www.jpost.com/consumerism/article-838398",
+    "verified_date": "2026-02-11",
+    "notes": "Cheapest falafel region in Israel. Average 13.3 NIS. Nearby Kafr Bara and Jaljulia also cheap."
+  },
+  {
+    "restaurant_name": "Steakiyat Chatzot / סטקיית חצות",
+    "dish_name": "Jerusalem Mixed Grill (Meorav Yerushalmi)",
+    "price": 35,
+    "category": "Grill",
+    "location": {
+      "city": "Jerusalem",
+      "address": "Agrippas 121, Mahane Yehuda",
+      "region": "Jerusalem"
+    },
+    "kosher_status": "Kosher",
+    "source_url": "https://www.ynet.co.il/food/foodnews/article/rkxkhkxdq",
+    "verified_date": "2026-02-11",
+    "notes": "Legendary late-night grill spot. Estimated starting price for half portion."
+  },
+  {
+    "restaurant_name": "Falafel Habib / פלאפל חביב",
+    "dish_name": "Falafel Kinder (giant falafel ball with egg inside)",
+    "price": 25,
+    "category": "Street Food",
+    "location": {
+      "city": "Jerusalem",
+      "address": "Mahane Yehuda Market area",
+      "region": "Jerusalem"
+    },
+    "kosher_status": "Kosher",
+    "source_url": "https://www.mako.co.il/food-restaurants/street-food/Article-71c61e723a84f81027.htm",
+    "verified_date": "2026-02-11",
+    "notes": "Viral dish - giant falafel ball stuffed with hard-boiled egg. Estimated price."
+  },
+  {
+    "restaurant_name": "Diana Restaurant / מסעדת דיאנא",
+    "dish_name": "Falafel Plate",
+    "price": 20,
+    "category": "Street Food",
+    "location": {
+      "city": "Nazareth",
+      "address": "Paulus HaShishi St (main street)",
+      "region": "North"
+    },
+    "kosher_status": "Not Kosher",
+    "source_url": "https://www.tripadvisor.com/Restaurant_Review-g297758-d2279900-Reviews-Diana_Restaurant-Nazareth_Galilee_Region_Northern_District.html",
+    "verified_date": "2026-02-11",
+    "notes": "Legendary Nazareth restaurant, 44+ years. Lamb shawarma, kebabs. Falafel is budget option. Estimated price."
+  },
+  {
+    "restaurant_name": "Shawarma Abu Hani / שווארמה אבו האני",
+    "dish_name": "Shawarma (lamb & beef)",
+    "price": 35,
+    "category": "Street Food",
+    "location": {
+      "city": "Nazareth",
+      "address": "Paulus HaShishi St",
+      "region": "North"
+    },
+    "kosher_status": "Not Kosher",
+    "source_url": "https://www.ynet.co.il/food/foodnews/article/BkKu97EDO",
+    "verified_date": "2026-02-11",
+    "notes": "Nazareth shawarma uses lamb & beef (not turkey like central Israel). Estimated starting price."
+  },
+  {
+    "restaurant_name": "Sabich Tsiyon (Carmel Market) / סביח ציון",
+    "dish_name": "Sabich in Pita",
+    "price": 20,
+    "category": "Street Food",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "Carmel Market (Shuk HaCarmel)",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://www.street-food.co.il/",
+    "verified_date": "2026-02-11",
+    "notes": "Popular stand in Carmel Market"
+  },
+  {
+    "restaurant_name": "Pitale / פיטלה",
+    "dish_name": "Cloud Pita Meal",
+    "price": 30,
+    "category": "Street Food",
+    "location": {
+      "city": "Eilat",
+      "address": "Eilat",
+      "region": "South"
+    },
+    "kosher_status": "Kosher",
+    "source_url": "https://misadotbeilat.co.il/",
+    "verified_date": "2026-02-11",
+    "notes": "Quick food stand with specially made cloud pita bread. Family friendly. Estimated price."
+  },
+  {
+    "restaurant_name": "Pizza Shemesh / פיצה שמש",
+    "dish_name": "Pizza",
+    "price": 20,
+    "category": "Pizza",
+    "location": {
+      "city": "Eilat",
+      "address": "Eilot 4, Eilat",
+      "region": "South"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://www.rest.co.il/restaurants/eilat/pizzerias/cheap/",
+    "verified_date": "2026-02-11",
+    "notes": "Very cheap pizza in Eilat. Estimated price."
+  },
+  {
+    "restaurant_name": "Shawarma Street / שווארמה סטריט",
+    "dish_name": "Shawarma in Pita",
+    "price": 25,
+    "category": "Street Food",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "Atzl branch, Tel Aviv",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Kosher",
+    "source_url": "https://shawarmastreet.co.il/branches/",
+    "verified_date": "2026-02-11",
+    "notes": "Second Tel Aviv branch of Shawarma Street chain"
+  },
+  {
+    "restaurant_name": "Hummus Yosef / חומוס יוסף",
+    "dish_name": "Hummus Plate",
+    "price": 25,
+    "category": "Hummus",
+    "location": {
+      "city": "Netanya",
+      "address": "Netanya",
+      "region": "Center"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://netanya.mynet.co.il/netanyaplus/article/skbrgbztjx",
+    "verified_date": "2026-02-11",
+    "notes": "New hummus spot in Netanya. Velvety hummus, rich sabich, shakshuka."
+  },
+  {
+    "restaurant_name": "Dumplings Stand / דאמפלינגס",
+    "dish_name": "Dumplings",
+    "price": 25,
+    "category": "Asian",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "Tel Aviv",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://www.timeout.com/israel/restaurants/tel-avivs-best-street-food",
+    "verified_date": "2026-02-11",
+    "notes": null
+  },
+  {
+    "restaurant_name": "Bao Stand / באו",
+    "dish_name": "Steamed Bao Bun (beef/veggie)",
+    "price": 10,
+    "category": "Asian",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "Tel Aviv",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://www.timeout.com/israel/restaurants/tel-avivs-best-street-food",
+    "verified_date": "2026-02-11",
+    "notes": "10 NIS per bao bun. Can get 3 for 30 NIS."
+  },
+  {
+    "restaurant_name": "Soup Stand / מרק",
+    "dish_name": "Soup Bowl",
+    "price": 15,
+    "category": "Street Food",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "Tel Aviv",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://www.timeout.com/israel/restaurants/tel-avivs-best-street-food",
+    "verified_date": "2026-02-11",
+    "notes": "Various soup stands around the city"
+  },
+  {
+    "restaurant_name": "Yaffa Knafeh / כנאפה יפו",
+    "dish_name": "Knafeh Portion",
+    "price": 25,
+    "category": "Dessert",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "Dizengoff area",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://www.timeout.com/israel/restaurants/tel-avivs-best-street-food",
+    "verified_date": "2026-02-11",
+    "notes": "Layers of spun pastry soaked in syrup with gooey cheese. Estimated price."
+  },
+  {
+    "restaurant_name": "Spinach Burekas + Coffee / בורקס תרד + קפה",
+    "dish_name": "Spinach Burekas with Coffee",
+    "price": 35,
+    "category": "Bakery",
+    "location": {
+      "city": "Tel Aviv",
+      "address": "Various bakeries",
+      "region": "Tel Aviv"
+    },
+    "kosher_status": "Unknown",
+    "source_url": "https://www.timeout.com/israel/restaurants/tel-avivs-best-street-food",
+    "verified_date": "2026-02-11",
+    "notes": "Burekas 25 NIS + coffee 10 NIS = 35 NIS combo at many bakeries"
+  }
+]

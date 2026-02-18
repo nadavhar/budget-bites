@@ -1,0 +1,5896 @@
+[
+  {
+    "id": "1",
+    "name": {
+      "he": "פלאפל רצון",
+      "en": "Falafel Ratzon"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 9,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "King George 17",
+        "en": "King George 17"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://easy.co.il/en/page/9390554",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Cheapest falafel in Tel Aviv. Generous portion with warm pita.",
+      "en": "Cheapest falafel in Tel Aviv. Generous portion with warm pita."
+    },
+    "coordinates": {
+      "lat": 32.0756,
+      "lng": 34.7756
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "2",
+    "name": {
+      "he": "ניו דלי",
+      "en": "New Deli"
+    },
+    "dish_name": {
+      "he": "מיני בורגר אנטריקוט",
+      "en": "Mini Rib Entrecote Burger"
+    },
+    "price": 20,
+    "category": {
+      "he": "המבורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "King George St (near Dizengoff Center)",
+        "en": "King George St (near Dizengoff Center)"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": null,
+    "coordinates": {
+      "lat": 32.0757,
+      "lng": 34.774
+    },
+    "accepted_cards": [
+      "10bis",
+      "cibus",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "3",
+    "name": {
+      "he": "פיצה שירוקו",
+      "en": "Pizza Shiroqo"
+    },
+    "dish_name": {
+      "he": "משולש פיצה גדול",
+      "en": "Large Pizza Slice"
+    },
+    "price": 15,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "King George 14",
+        "en": "King George 14"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": null,
+    "coordinates": {
+      "lat": 32.0754,
+      "lng": 34.7756
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "4",
+    "name": {
+      "he": "או מאמא",
+      "en": "Oh Mama"
+    },
+    "dish_name": {
+      "he": "פסטה (250 מ\"ל)",
+      "en": "Pasta (250ml)"
+    },
+    "price": 18,
+    "category": {
+      "he": "איטלקי",
+      "en": "Italian"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "King George 26",
+        "en": "King George 26"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": null,
+    "coordinates": {
+      "lat": 32.076,
+      "lng": 34.7754
+    },
+    "accepted_cards": [
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "5",
+    "name": {
+      "he": "פיצה עדי",
+      "en": "Adi's Pizza"
+    },
+    "dish_name": {
+      "he": "משולש פיצה (רגיל)",
+      "en": "Pizza Slice (plain)"
+    },
+    "price": 16,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "Dizengoff Center, Gate 1",
+        "en": "Dizengoff Center, Gate 1"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "18 NIS with topping",
+      "en": "18 NIS with topping"
+    },
+    "coordinates": {
+      "lat": 32.0762,
+      "lng": 34.7736
+    },
+    "accepted_cards": [
+      "10bis",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "6",
+    "name": {
+      "he": "פיצה עגבניה",
+      "en": "Tomato Pizza"
+    },
+    "dish_name": {
+      "he": "רבע מגש פיצה",
+      "en": "Quarter Pan Pizza"
+    },
+    "price": 19,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "Dizengoff Center, Floor 2",
+        "en": "Dizengoff Center, Floor 2"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": null,
+    "coordinates": {
+      "lat": 32.0762,
+      "lng": 34.7736
+    },
+    "accepted_cards": [
+      "10bis",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "7",
+    "name": {
+      "he": "לא רק בורקס",
+      "en": "Not Just Burekas"
+    },
+    "dish_name": {
+      "he": "בורקס טורקי",
+      "en": "Turkish Burekas"
+    },
+    "price": 20,
+    "category": {
+      "he": "מאפייה",
+      "en": "Bakery"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "Hatikva neighborhood (near market)",
+        "en": "Hatikva neighborhood (near market)"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": null,
+    "coordinates": {
+      "lat": 32.0525,
+      "lng": 34.7721
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "8",
+    "name": {
+      "he": "רוזיטה",
+      "en": "Rozita"
+    },
+    "dish_name": {
+      "he": "סביח",
+      "en": "Sabich"
+    },
+    "price": 17,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "Carmel Market (Shuk HaCarmel)",
+        "en": "Carmel Market (Shuk HaCarmel)"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": null,
+    "coordinates": {
+      "lat": 32.064,
+      "lng": 34.7714
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "9",
+    "name": {
+      "he": "סביח פרישמן",
+      "en": "Sabich Frishman"
+    },
+    "dish_name": {
+      "he": "סביח בפיתה",
+      "en": "Sabich in Pita"
+    },
+    "price": 29,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "Frishman / Dizengoff area",
+        "en": "Frishman / Dizengoff area"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://easy.co.il/en/page/8823311",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Considered among the best sabich in Israel",
+      "en": "Considered among the best sabich in Israel"
+    },
+    "coordinates": {
+      "lat": 32.0779,
+      "lng": 34.7761
+    },
+    "accepted_cards": [
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "10",
+    "name": {
+      "he": "סביח עובדיה",
+      "en": "Sabich Oved"
+    },
+    "dish_name": {
+      "he": "סביח",
+      "en": "Sabich"
+    },
+    "price": 13,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "Tel Aviv",
+        "en": "Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://humus101.com/?p=97",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "One of the cheapest sabich options",
+      "en": "One of the cheapest sabich options"
+    },
+    "coordinates": null,
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "11",
+    "name": {
+      "he": "דויד חביב",
+      "en": "David Habib"
+    },
+    "dish_name": {
+      "he": "סמבוסק מטוגן",
+      "en": "Fried Sambousak"
+    },
+    "price": 12,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "Carmel Market (Shuk HaCarmel)",
+        "en": "Carmel Market (Shuk HaCarmel)"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": null,
+    "coordinates": {
+      "lat": 32.064,
+      "lng": 34.7714
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "12",
+    "name": {
+      "he": "קובה על הדג'אג",
+      "en": "Kuba al-Dajaj"
+    },
+    "dish_name": {
+      "he": "קובה תפוח אדמה בפיתה",
+      "en": "Potato Kuba in Pita"
+    },
+    "price": 17,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "Hatikva 64",
+        "en": "Hatikva 64"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": null,
+    "coordinates": {
+      "lat": 32.0519,
+      "lng": 34.771
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "13",
+    "name": {
+      "he": "אסיה סנטר",
+      "en": "Asia Center"
+    },
+    "dish_name": {
+      "he": "מנות אסייתיות חמות",
+      "en": "Hot Prepared Dishes (Asian)"
+    },
+    "price": 20,
+    "category": {
+      "he": "אסייתי",
+      "en": "Asian"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "Messilat Yesharim 21",
+        "en": "Messilat Yesharim 21"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא כשר",
+      "en": "Not Kosher"
+    },
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": null,
+    "coordinates": {
+      "lat": 32.0654,
+      "lng": 34.7741
+    },
+    "accepted_cards": [
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "14",
+    "name": {
+      "he": "אל-אסלי מרכז חומוס",
+      "en": "Al-Asli Hummus Center"
+    },
+    "dish_name": {
+      "he": "חצי מנה חומוס",
+      "en": "Half Portion Hummus Plate"
+    },
+    "price": 20,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "יפו",
+        "en": "Jaffa (Tel Aviv-Yafo)"
+      },
+      "address": {
+        "he": "Yefet 73, Jaffa",
+        "en": "Yefet 73, Jaffa"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": null,
+    "coordinates": {
+      "lat": 32.0531,
+      "lng": 34.7541
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "15",
+    "name": {
+      "he": "פלאפל בן חור",
+      "en": "Ben Hur Falafel"
+    },
+    "dish_name": {
+      "he": "חצי מנה סביח",
+      "en": "Half Portion Sabich"
+    },
+    "price": 15,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "Washington Blvd 32",
+        "en": "Washington Blvd 32"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": null,
+    "coordinates": {
+      "lat": 32.0698,
+      "lng": 34.7816
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "16",
+    "name": {
+      "he": "גוגיס גריל בר",
+      "en": "Gogi's Grill Bar"
+    },
+    "dish_name": {
+      "he": "שיפוד (עוף/קבב/כבד/לבבות)",
+      "en": "Skewer (chicken/kebab/liver/hearts)"
+    },
+    "price": 28,
+    "category": {
+      "he": "גריל",
+      "en": "Grill"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "Allenby 47",
+        "en": "Allenby 47"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://timeout.co.il/%D7%9E%D7%A1%D7%A2%D7%93%D7%95%D7%AA-%D7%96%D7%95%D7%9C%D7%95%D7%AA-%D7%98%D7%95%D7%91%D7%95%D7%AA-%D7%91%D7%AA%D7%9C-%D7%90%D7%91%D7%99%D7%91/",
+    "verified_date": "2026-02-11",
+    "notes": null,
+    "coordinates": {
+      "lat": 32.0668,
+      "lng": 34.773
+    },
+    "accepted_cards": [
+      "10bis",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "17",
+    "name": {
+      "he": "פיצה באבא",
+      "en": "Pizza Baba"
+    },
+    "dish_name": {
+      "he": "מגש פיצה משפחתי",
+      "en": "Family Pizza Pan"
+    },
+    "price": 25,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "Ramat Aviv",
+        "en": "Ramat Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": null,
+    "coordinates": {
+      "lat": 32.1155,
+      "lng": 34.802
+    },
+    "accepted_cards": [
+      "10bis",
+      "cibus",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "18",
+    "name": {
+      "he": "בייגל חם",
+      "en": "Bagel Cham"
+    },
+    "dish_name": {
+      "he": "שני מאפים",
+      "en": "Two Pastries"
+    },
+    "price": 15,
+    "category": {
+      "he": "מאפייה",
+      "en": "Bakery"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "Ben Tzvi St 32",
+        "en": "Ben Tzvi St 32"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": null,
+    "coordinates": {
+      "lat": 32.0605,
+      "lng": 34.7649
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "19",
+    "name": {
+      "he": "אבו חסן",
+      "en": "Abu Hassan (Ali Karavan)"
+    },
+    "dish_name": {
+      "he": "מנת חומוס",
+      "en": "Hummus Plate"
+    },
+    "price": 28,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "יפו",
+        "en": "Jaffa (Tel Aviv-Yafo)"
+      },
+      "address": {
+        "he": "HaDolphin St, Jaffa",
+        "en": "HaDolphin St, Jaffa"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא כשר",
+      "en": "Not Kosher"
+    },
+    "source_url": "https://www.tripadvisor.com/Restaurant_Review-g293984-d803562-Reviews-Abu_Hasan_Ali_Karavan-Tel_Aviv_Tel_Aviv_District.html",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Considered the best hummus in Israel. Opens 8am, sells out by ~2:30pm.",
+      "en": "Considered the best hummus in Israel. Opens 8am, sells out by ~2:30pm."
+    },
+    "coordinates": {
+      "lat": 32.0527,
+      "lng": 34.7521
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "20",
+    "name": {
+      "he": "וואבי",
+      "en": "WABI"
+    },
+    "dish_name": {
+      "he": "כריך קאטסו",
+      "en": "Katsu Sandwich"
+    },
+    "price": 35,
+    "category": {
+      "he": "אסייתי",
+      "en": "Asian"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "De Pigueto 23",
+        "en": "De Pigueto 23"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://timeout.co.il/%D7%9E%D7%A1%D7%A2%D7%93%D7%95%D7%AA-%D7%96%D7%95%D7%9C%D7%95%D7%AA-%D7%98%D7%95%D7%91%D7%95%D7%AA-%D7%91%D7%AA%D7%9C-%D7%90%D7%91%D7%99%D7%91/",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Also serves seaweed salad at 23 NIS",
+      "en": "Also serves seaweed salad at 23 NIS"
+    },
+    "coordinates": {
+      "lat": 32.0535,
+      "lng": 34.753
+    },
+    "accepted_cards": [
+      "10bis",
+      "cibus",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "21",
+    "name": {
+      "he": "פורט 19",
+      "en": "Port 19"
+    },
+    "dish_name": {
+      "he": "נקניקייה עם קולסלו וחרדל",
+      "en": "Sausage with Coleslaw & Mustard"
+    },
+    "price": 33,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "Multiple locations",
+        "en": "Multiple locations"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://timeout.co.il/%D7%9E%D7%A1%D7%A2%D7%93%D7%95%D7%AA-%D7%96%D7%95%D7%9C%D7%95%D7%AA-%D7%98%D7%95%D7%91%D7%95%D7%AA-%D7%91%D7%AA%D7%9C-%D7%90%D7%91%D7%99%D7%91/",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Special seasoning, homemade coleslaw, crispy onion",
+      "en": "Special seasoning, homemade coleslaw, crispy onion"
+    },
+    "coordinates": null,
+    "accepted_cards": [
+      "10bis",
+      "cibus",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "22",
+    "name": {
+      "he": "דוכן שניצל בפיתה",
+      "en": "Schnitzel Pita Stand"
+    },
+    "dish_name": {
+      "he": "שניצל בפיתה",
+      "en": "Schnitzel in Pita"
+    },
+    "price": 20,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "Hatikva 2",
+        "en": "Hatikva 2"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": null,
+    "coordinates": {
+      "lat": 32.0521,
+      "lng": 34.7712
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "23",
+    "name": {
+      "he": "סביח דה לוקס",
+      "en": "Sabich De Luxe"
+    },
+    "dish_name": {
+      "he": "סביח",
+      "en": "Sabich"
+    },
+    "price": 20,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "HaRakevet 2",
+        "en": "HaRakevet 2"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://humus101.com/2928",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "One of the best sabich in the country",
+      "en": "One of the best sabich in the country"
+    },
+    "coordinates": {
+      "lat": 32.0641,
+      "lng": 34.7744
+    },
+    "accepted_cards": [
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "24",
+    "name": {
+      "he": "שווארמה סטריט",
+      "en": "Shawarma Street"
+    },
+    "dish_name": {
+      "he": "שווארמה בפיתה",
+      "en": "Shawarma in Pita"
+    },
+    "price": 25,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "Allenby 49",
+        "en": "Allenby 49"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://shawarmastreet.co.il/",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Chain with branches also in Ramat Gan (Bialik 77), Petah Tikva (Haim Ozer), Rishon LeZion (Rothschild), Eilat. Revolutionary low-price model at 25 NIS vs industry avg of 55 NIS.",
+      "en": "Chain with branches also in Ramat Gan (Bialik 77), Petah Tikva (Haim Ozer), Rishon LeZion (Rothschild), Eilat. Revolutionary low-price model at 25 NIS vs industry avg of 55 NIS."
+    },
+    "coordinates": {
+      "lat": 32.0667,
+      "lng": 34.7729
+    },
+    "accepted_cards": [
+      "10bis",
+      "cibus",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "25",
+    "name": {
+      "he": "שווארמה סטריט",
+      "en": "Shawarma Street"
+    },
+    "dish_name": {
+      "he": "שווארמה בפיתה",
+      "en": "Shawarma in Pita"
+    },
+    "price": 25,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "רמת גן",
+        "en": "Ramat Gan"
+      },
+      "address": {
+        "he": "Bialik 77",
+        "en": "Bialik 77"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://easy.co.il/en/page/26563430",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Branch of Shawarma Street chain",
+      "en": "Branch of Shawarma Street chain"
+    },
+    "coordinates": {
+      "lat": 32.0704,
+      "lng": 34.8128
+    },
+    "accepted_cards": [
+      "10bis",
+      "cibus",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "26",
+    "name": {
+      "he": "שווארמה סטריט",
+      "en": "Shawarma Street"
+    },
+    "dish_name": {
+      "he": "שווארמה בפיתה",
+      "en": "Shawarma in Pita"
+    },
+    "price": 25,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "אילת",
+        "en": "Eilat"
+      },
+      "address": {
+        "he": "Eilat branch",
+        "en": "Eilat branch"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://shawarmastreet.co.il/branches/",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Branch of Shawarma Street chain",
+      "en": "Branch of Shawarma Street chain"
+    },
+    "coordinates": {
+      "lat": 29.5569,
+      "lng": 34.9519
+    },
+    "accepted_cards": [
+      "10bis",
+      "cibus",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "27",
+    "name": {
+      "he": "קופיקס",
+      "en": "Cofix"
+    },
+    "dish_name": {
+      "he": "כריך / פוקצ'ה / חביתה",
+      "en": "Sandwich / Focaccia / Omelet"
+    },
+    "price": 6,
+    "category": {
+      "he": "בית קפה / ביס מהיר",
+      "en": "Cafe / Quick Bite"
+    },
+    "location": {
+      "city": {
+        "he": "ארצי",
+        "en": "National"
+      },
+      "address": {
+        "he": "100+ branches across Israel",
+        "en": "100+ branches across Israel"
+      },
+      "region": {
+        "he": "ארצי",
+        "en": "National"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://cofix.co.il/en/menu/",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Every item on menu is 6 NIS. Includes sandwiches, omelets, pastries, focaccias, bourekas. Can combine multiple items and still be under 35 NIS.",
+      "en": "Every item on menu is 6 NIS. Includes sandwiches, omelets, pastries, focaccias, bourekas. Can combine multiple items and still be under 35 NIS."
+    },
+    "coordinates": null,
+    "accepted_cards": [
+      "10bis",
+      "cibus",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "28",
+    "name": {
+      "he": "חומוס לינא",
+      "en": "Hummus Lina"
+    },
+    "dish_name": {
+      "he": "מנת חומוס",
+      "en": "Hummus Plate"
+    },
+    "price": 28,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      },
+      "address": {
+        "he": "Old City, Christian Quarter",
+        "en": "Old City, Christian Quarter"
+      },
+      "region": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      }
+    },
+    "kosher_status": {
+      "he": "לא כשר",
+      "en": "Not Kosher"
+    },
+    "source_url": "https://backpackisrael.com/my-favorite-budget-places-to-eat-in-jerusalem/",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Falafel balls 10 NIS. Extras (egg, mushrooms, fried onion) a few NIS more.",
+      "en": "Falafel balls 10 NIS. Extras (egg, mushrooms, fried onion) a few NIS more."
+    },
+    "coordinates": {
+      "lat": 31.7783,
+      "lng": 35.2292
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "29",
+    "name": {
+      "he": "חומוס לינא",
+      "en": "Hummus Lina"
+    },
+    "dish_name": {
+      "he": "צלחת כדורי פלאפל",
+      "en": "Falafel Balls Plate"
+    },
+    "price": 10,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      },
+      "address": {
+        "he": "Old City, Christian Quarter",
+        "en": "Old City, Christian Quarter"
+      },
+      "region": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      }
+    },
+    "kosher_status": {
+      "he": "לא כשר",
+      "en": "Not Kosher"
+    },
+    "source_url": "https://backpackisrael.com/my-favorite-budget-places-to-eat-in-jerusalem/",
+    "verified_date": "2026-02-11",
+    "notes": null,
+    "coordinates": {
+      "lat": 31.7783,
+      "lng": 35.2292
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "30",
+    "name": {
+      "he": "חומוס מגן דוד",
+      "en": "Hummus Magen David"
+    },
+    "dish_name": {
+      "he": "מנת חומוס / פול",
+      "en": "Hummus / Ful Plate"
+    },
+    "price": 15,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "Allenby 52",
+        "en": "Allenby 52"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "One of the cheapest hummus options in Tel Aviv",
+      "en": "One of the cheapest hummus options in Tel Aviv"
+    },
+    "coordinates": {
+      "lat": 32.0671,
+      "lng": 34.7728
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "31",
+    "name": {
+      "he": "פלאפל ג'ורג'",
+      "en": "Falafel George"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 20,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "חיפה",
+        "en": "Haifa"
+      },
+      "address": {
+        "he": "Wadi Nisnas neighborhood",
+        "en": "Wadi Nisnas neighborhood"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא כשר",
+      "en": "Not Kosher"
+    },
+    "source_url": "https://www.tripadvisor.com/Restaurants-g293982-c10686-Haifa_Haifa_District.html",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Popular spot with wide selection of sauces and fresh salad. Estimated price.",
+      "en": "Popular spot with wide selection of sauces and fresh salad. Estimated price."
+    },
+    "coordinates": {
+      "lat": 32.8166,
+      "lng": 35.0002
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "32",
+    "name": {
+      "he": "פלאפל הזקנים",
+      "en": "HaZkenim Falafel"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 20,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "חיפה",
+        "en": "Haifa"
+      },
+      "address": {
+        "he": "Wadi Nisnas neighborhood",
+        "en": "Wadi Nisnas neighborhood"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא כשר",
+      "en": "Not Kosher"
+    },
+    "source_url": "https://www.timeout.com/israel/restaurants/10-history-rich-haifa-street-food-establishments",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Historic establishment. Area also known for baklava and knafeh. Estimated price.",
+      "en": "Historic establishment. Area also known for baklava and knafeh. Estimated price."
+    },
+    "coordinates": {
+      "lat": 32.8166,
+      "lng": 35.0002
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "33",
+    "name": {
+      "he": "חומוס אבו שאקר",
+      "en": "Abu Shaker Hummus"
+    },
+    "dish_name": {
+      "he": "מנת חומוס",
+      "en": "Hummus Plate"
+    },
+    "price": 25,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "חיפה",
+        "en": "Haifa"
+      },
+      "address": {
+        "he": "Downtown Haifa",
+        "en": "Downtown Haifa"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא כשר",
+      "en": "Not Kosher"
+    },
+    "source_url": "https://wanderlog.com/list/geoCategory/21965/best-cheap-eats-in-haifa",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Considered the best hummus in the country by many. Estimated price.",
+      "en": "Considered the best hummus in the country by many. Estimated price."
+    },
+    "coordinates": {
+      "lat": 32.8157,
+      "lng": 34.9887
+    },
+    "accepted_cards": [
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "34",
+    "name": {
+      "he": "סינג לונג",
+      "en": "Sing Long"
+    },
+    "dish_name": {
+      "he": "נודלס ירקות",
+      "en": "Vegetable Noodles"
+    },
+    "price": 28,
+    "category": {
+      "he": "אסייתי",
+      "en": "Asian"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "Tel Aviv",
+        "en": "Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": null,
+    "coordinates": null,
+    "accepted_cards": [
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "35",
+    "name": {
+      "he": "בורגרס בר",
+      "en": "Burgers Bar"
+    },
+    "dish_name": {
+      "he": "זוג מיני בורגרס (בקר או כבש)",
+      "en": "Pair of Mini Burgers (beef or lamb)"
+    },
+    "price": 27,
+    "category": {
+      "he": "המבורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "Multiple locations",
+        "en": "Multiple locations"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-3786a64b44ec791026.htm",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "National chain with branches across Israel",
+      "en": "National chain with branches across Israel"
+    },
+    "coordinates": null,
+    "accepted_cards": [
+      "10bis",
+      "cibus",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "36",
+    "name": {
+      "he": "ארצ'נטו אמפנדס",
+      "en": "Archanto Empanadas"
+    },
+    "dish_name": {
+      "he": "אמפנדה בעבודת יד",
+      "en": "Hand-made Empanada"
+    },
+    "price": 15,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      },
+      "address": {
+        "he": "Iraqi Market, Mahane Yehuda",
+        "en": "Iraqi Market, Mahane Yehuda"
+      },
+      "region": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://www.ynet.co.il/food/foodnews/article/rkxkhkxdq",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "15-19 NIS per empanada",
+      "en": "15-19 NIS per empanada"
+    },
+    "coordinates": {
+      "lat": 31.782,
+      "lng": 35.212
+    },
+    "accepted_cards": [
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "37",
+    "name": {
+      "he": "טאקוס לואיס",
+      "en": "Tacos Louis"
+    },
+    "dish_name": {
+      "he": "טאקו",
+      "en": "Taco"
+    },
+    "price": 15,
+    "category": {
+      "he": "מקסיקני",
+      "en": "Mexican"
+    },
+    "location": {
+      "city": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      },
+      "address": {
+        "he": "Shlomo HaMelech 11",
+        "en": "Shlomo HaMelech 11"
+      },
+      "region": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.ynet.co.il/food/foodnews/article/rkxkhkxdq",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "14-15 NIS per taco",
+      "en": "14-15 NIS per taco"
+    },
+    "coordinates": {
+      "lat": 31.7741,
+      "lng": 35.2204
+    },
+    "accepted_cards": [
+      "10bis",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "38",
+    "name": {
+      "he": "ג'חנון בר",
+      "en": "Jachnun Bar"
+    },
+    "dish_name": {
+      "he": "ג'חנון עם עגבנייה ושחוג",
+      "en": "Jachnun with Tomato & Schug"
+    },
+    "price": 15,
+    "category": {
+      "he": "תימני",
+      "en": "Yemenite"
+    },
+    "location": {
+      "city": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      },
+      "address": {
+        "he": "Egoz 30, Mahane Yehuda",
+        "en": "Egoz 30, Mahane Yehuda"
+      },
+      "region": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://www.gojerusalem.com/items/593/Jachnun-Bar/",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Range 15-32 NIS. Also serves malawach and shakshuka. Operating since 2002.",
+      "en": "Range 15-32 NIS. Also serves malawach and shakshuka. Operating since 2002."
+    },
+    "coordinates": {
+      "lat": 31.7818,
+      "lng": 35.2108
+    },
+    "accepted_cards": [
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "39",
+    "name": {
+      "he": "אריכה סביח",
+      "en": "Arika Sabich"
+    },
+    "dish_name": {
+      "he": "סביח בלאפה",
+      "en": "Sabich Wrap"
+    },
+    "price": 23,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      },
+      "address": {
+        "he": "Agrippas 83, Mahane Yehuda",
+        "en": "Agrippas 83, Mahane Yehuda"
+      },
+      "region": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.ynet.co.il/food/foodnews/article/rkxkhkxdq",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "23-32 NIS range",
+      "en": "23-32 NIS range"
+    },
+    "coordinates": {
+      "lat": 31.7826,
+      "lng": 35.2125
+    },
+    "accepted_cards": [
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "40",
+    "name": {
+      "he": "קבב אל שעב",
+      "en": "Kebab Al Shaab"
+    },
+    "dish_name": {
+      "he": "שיפוד בשר על הגריל",
+      "en": "Grilled Meat Skewer"
+    },
+    "price": 12,
+    "category": {
+      "he": "גריל",
+      "en": "Grill"
+    },
+    "location": {
+      "city": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      },
+      "address": {
+        "he": "Spice Market, Old City",
+        "en": "Spice Market, Old City"
+      },
+      "region": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      }
+    },
+    "kosher_status": {
+      "he": "לא כשר",
+      "en": "Not Kosher"
+    },
+    "source_url": "https://www.ynet.co.il/food/foodnews/article/rkxkhkxdq",
+    "verified_date": "2026-02-11",
+    "notes": null,
+    "coordinates": {
+      "lat": 31.7762,
+      "lng": 35.2331
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "41",
+    "name": {
+      "he": "פלאפל תימני",
+      "en": "Yemenite Falafel"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 13,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      },
+      "address": {
+        "he": "HaNeviim 48",
+        "en": "HaNeviim 48"
+      },
+      "region": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://www.ynet.co.il/food/foodnews/article/rkxkhkxdq",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "13-25 NIS range",
+      "en": "13-25 NIS range"
+    },
+    "coordinates": {
+      "lat": 31.782,
+      "lng": 35.2233
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "42",
+    "name": {
+      "he": "פיצה קראפט",
+      "en": "Kraft Pizza"
+    },
+    "dish_name": {
+      "he": "משולש פיצה ניו יורקי",
+      "en": "NY-Style Pizza Slice"
+    },
+    "price": 20,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      },
+      "address": {
+        "he": "HaTapuach 12, Mahane Yehuda Market",
+        "en": "HaTapuach 12, Mahane Yehuda Market"
+      },
+      "region": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://www.ynet.co.il/food/foodnews/article/rkxkhkxdq",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Estimated price for a slice",
+      "en": "Estimated price for a slice"
+    },
+    "coordinates": {
+      "lat": 31.7824,
+      "lng": 35.2111
+    },
+    "accepted_cards": [
+      "10bis",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "43",
+    "name": {
+      "he": "טורקישוק",
+      "en": "Turkishuk"
+    },
+    "dish_name": {
+      "he": "מאפה טורקי",
+      "en": "Turkish Pastry"
+    },
+    "price": 32,
+    "category": {
+      "he": "מאפייה",
+      "en": "Bakery"
+    },
+    "location": {
+      "city": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      },
+      "address": {
+        "he": "Shzif 15, Mahane Yehuda",
+        "en": "Shzif 15, Mahane Yehuda"
+      },
+      "region": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://www.ynet.co.il/food/foodnews/article/rkxkhkxdq",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "32-48 NIS range",
+      "en": "32-48 NIS range"
+    },
+    "coordinates": {
+      "lat": 31.7825,
+      "lng": 35.2108
+    },
+    "accepted_cards": [
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "44",
+    "name": {
+      "he": "בורקס אמא",
+      "en": "Burekas Ima"
+    },
+    "dish_name": {
+      "he": "בורקס",
+      "en": "Burekas"
+    },
+    "price": 15,
+    "category": {
+      "he": "מאפייה",
+      "en": "Bakery"
+    },
+    "location": {
+      "city": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      },
+      "address": {
+        "he": "Baka neighborhood",
+        "en": "Baka neighborhood"
+      },
+      "region": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://restaurantguru.com/Burekas-Ima-Jerusalem",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Old institution in Baka. 1-20 NIS range.",
+      "en": "Old institution in Baka. 1-20 NIS range."
+    },
+    "coordinates": {
+      "lat": 31.7656,
+      "lng": 35.2199
+    },
+    "accepted_cards": [
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "45",
+    "name": {
+      "he": "חכמת הבורקס מחיפה",
+      "en": "Chochmat HaBurekas"
+    },
+    "dish_name": {
+      "he": "בורקס טורקי / ספרדי",
+      "en": "Turkish / Spanish Burekas"
+    },
+    "price": 18,
+    "category": {
+      "he": "מאפייה",
+      "en": "Bakery"
+    },
+    "location": {
+      "city": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      },
+      "address": {
+        "he": "Mahane Yehuda Market",
+        "en": "Mahane Yehuda Market"
+      },
+      "region": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://www.machne.co.il/category/%D7%97%D7%9B%D7%9E%D7%AA-%D7%94%D7%91%D7%95%D7%A8%D7%A7%D7%A1-%D7%9E%D7%97%D7%99%D7%A4%D7%94",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Made without margarine, with canola oil. Turkish, Spanish, and boyos varieties.",
+      "en": "Made without margarine, with canola oil. Turkish, Spanish, and boyos varieties."
+    },
+    "coordinates": {
+      "lat": 31.782,
+      "lng": 35.2115
+    },
+    "accepted_cards": [
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "46",
+    "name": {
+      "he": "מיאן נודלס",
+      "en": "Mian Noodles"
+    },
+    "dish_name": {
+      "he": "קערת ראמן",
+      "en": "Ramen Bowl"
+    },
+    "price": 35,
+    "category": {
+      "he": "אסייתי",
+      "en": "Asian"
+    },
+    "location": {
+      "city": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      },
+      "address": {
+        "he": "Shlomo HaMelech 22",
+        "en": "Shlomo HaMelech 22"
+      },
+      "region": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.ynet.co.il/food/foodnews/article/rkxkhkxdq",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "35-50 NIS range",
+      "en": "35-50 NIS range"
+    },
+    "coordinates": {
+      "lat": 31.7742,
+      "lng": 35.2202
+    },
+    "accepted_cards": [
+      "10bis",
+      "cibus",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "47",
+    "name": {
+      "he": "דיני'ס פיתה בר",
+      "en": "Dini's Pita Bar"
+    },
+    "dish_name": {
+      "he": "שווארמת דגים בלאפה",
+      "en": "Fish Shawarma Wrap"
+    },
+    "price": 35,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      },
+      "address": {
+        "he": "Beit Yaakov 6, Mahane Yehuda",
+        "en": "Beit Yaakov 6, Mahane Yehuda"
+      },
+      "region": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://www.ynet.co.il/food/foodnews/article/rkxkhkxdq",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "35-57 NIS range. Fish shawarma starting at 35.",
+      "en": "35-57 NIS range. Fish shawarma starting at 35."
+    },
+    "coordinates": {
+      "lat": 31.7822,
+      "lng": 35.211
+    },
+    "accepted_cards": [
+      "10bis",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "48",
+    "name": {
+      "he": "קרייב",
+      "en": "Crave"
+    },
+    "dish_name": {
+      "he": "סליידר / מיני בורגר",
+      "en": "Slider / Mini Burger"
+    },
+    "price": 25,
+    "category": {
+      "he": "המבורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      },
+      "address": {
+        "he": "Shita 1, Mahane Yehuda",
+        "en": "Shita 1, Mahane Yehuda"
+      },
+      "region": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://www.ynet.co.il/food/foodnews/article/rkxkhkxdq",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "25 NIS starting price for sliders",
+      "en": "25 NIS starting price for sliders"
+    },
+    "coordinates": {
+      "lat": 31.7821,
+      "lng": 35.2112
+    },
+    "accepted_cards": [
+      "10bis",
+      "cibus",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "49",
+    "name": {
+      "he": "חומוס סעיד",
+      "en": "Hummus Said"
+    },
+    "dish_name": {
+      "he": "מנת חומוס",
+      "en": "Hummus Plate"
+    },
+    "price": 15,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "עכו",
+        "en": "Acre (Akko)"
+      },
+      "address": {
+        "he": "Old City Market (Shuk)",
+        "en": "Old City Market (Shuk)"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא כשר",
+      "en": "Not Kosher"
+    },
+    "source_url": "https://easy.co.il/en/page/8839595",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Iconic hummus spot in Akko Old City. Operating ~40 years. Open 06:00-14:30 Sun-Fri. Tel: 04-9913945.",
+      "en": "Iconic hummus spot in Akko Old City. Operating ~40 years. Open 06:00-14:30 Sun-Fri. Tel: 04-9913945."
+    },
+    "coordinates": {
+      "lat": 32.9246,
+      "lng": 35.0713
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "50",
+    "name": {
+      "he": "חומוס פול שמסייה",
+      "en": "Hummus Ful Shamsia"
+    },
+    "dish_name": {
+      "he": "חומוס עם פול",
+      "en": "Hummus with Ful"
+    },
+    "price": 20,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "עכו",
+        "en": "Acre (Akko)"
+      },
+      "address": {
+        "he": "Weizmann St, Old City Market",
+        "en": "Weizmann St, Old City Market"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא כשר",
+      "en": "Not Kosher"
+    },
+    "source_url": "https://www.tripadvisor.com/Restaurants-g297736-Acre_Northern_District.html",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Estimated price",
+      "en": "Estimated price"
+    },
+    "coordinates": {
+      "lat": 32.924,
+      "lng": 35.0705
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "51",
+    "name": {
+      "he": "מאפיית עודה",
+      "en": "Maafiat Ouda Bakery"
+    },
+    "dish_name": {
+      "he": "פיתה טרייה / לחם זעתר",
+      "en": "Fresh Pita / Zaatar Bread"
+    },
+    "price": 10,
+    "category": {
+      "he": "מאפייה",
+      "en": "Bakery"
+    },
+    "location": {
+      "city": {
+        "he": "עכו",
+        "en": "Acre (Akko)"
+      },
+      "address": {
+        "he": "Old City",
+        "en": "Old City"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא כשר",
+      "en": "Not Kosher"
+    },
+    "source_url": "https://www.tripadvisor.com/Restaurants-g297736-Acre_Northern_District.html",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Freshly baked pitas and zaatar flatbread. Estimated price.",
+      "en": "Freshly baked pitas and zaatar flatbread. Estimated price."
+    },
+    "coordinates": {
+      "lat": 32.9249,
+      "lng": 35.0715
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "52",
+    "name": {
+      "he": "פיצה כמעט חינם",
+      "en": "Pizza Kimat Chinam"
+    },
+    "dish_name": {
+      "he": "מגש פיצה",
+      "en": "Pizza Tray"
+    },
+    "price": 25,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "אילת",
+        "en": "Eilat"
+      },
+      "address": {
+        "he": "Gan Binyamin 12, Choffit Center",
+        "en": "Gan Binyamin 12, Choffit Center"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר למהדרין",
+      "en": "Kosher Mehadrin"
+    },
+    "source_url": "https://pizzakimat.co.il/",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Pizza Almost Free chain. 25 NIS per tray. Also available in Rishon LeZion. Vegan and gluten-free options.",
+      "en": "Pizza Almost Free chain. 25 NIS per tray. Also available in Rishon LeZion. Vegan and gluten-free options."
+    },
+    "coordinates": {
+      "lat": 29.558,
+      "lng": 34.9519
+    },
+    "accepted_cards": [
+      "10bis",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "53",
+    "name": {
+      "he": "פיצה כמעט חינם",
+      "en": "Pizza Kimat Chinam"
+    },
+    "dish_name": {
+      "he": "מגש פיצה",
+      "en": "Pizza Tray"
+    },
+    "price": 25,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "Rishon LeZion branch",
+        "en": "Rishon LeZion branch"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר למהדרין",
+      "en": "Kosher Mehadrin"
+    },
+    "source_url": "https://www.pizza-k-h.co.il/",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Branch of Pizza Almost Free chain",
+      "en": "Branch of Pizza Almost Free chain"
+    },
+    "coordinates": {
+      "lat": 31.9731,
+      "lng": 34.7896
+    },
+    "accepted_cards": [
+      "10bis",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "54",
+    "name": {
+      "he": "פלאפל מוסא",
+      "en": "Falafel Musa"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה עם סלטים וצ'יפס",
+      "en": "Falafel in Pita with Salads & Chips"
+    },
+    "price": 19,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "נתניה",
+        "en": "Netanya"
+      },
+      "address": {
+        "he": "Netanya (coastal road area)",
+        "en": "Netanya (coastal road area)"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://falafelnetanya.co.il/",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Includes falafel balls, salads, chips, hot sauce, tahini and cumin. 5 NIS soda.",
+      "en": "Includes falafel balls, salads, chips, hot sauce, tahini and cumin. 5 NIS soda."
+    },
+    "coordinates": {
+      "lat": 32.3215,
+      "lng": 34.8537
+    },
+    "accepted_cards": [
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "55",
+    "name": {
+      "he": "פלאפל סיטי",
+      "en": "Falafel City"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 26,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "פתח תקווה",
+        "en": "Petah Tikva"
+      },
+      "address": {
+        "he": "Petah Tikva",
+        "en": "Petah Tikva"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://petahtikva.mynet.co.il/business/article/rkxml3dmc",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Sabich/Shakshuka in pita: 28 NIS",
+      "en": "Sabich/Shakshuka in pita: 28 NIS"
+    },
+    "coordinates": {
+      "lat": 32.086,
+      "lng": 34.8878
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "56",
+    "name": {
+      "he": "פלאפל סיטי",
+      "en": "Falafel City"
+    },
+    "dish_name": {
+      "he": "סביח בפיתה",
+      "en": "Sabich in Pita"
+    },
+    "price": 28,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "פתח תקווה",
+        "en": "Petah Tikva"
+      },
+      "address": {
+        "he": "Petah Tikva",
+        "en": "Petah Tikva"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://petahtikva.mynet.co.il/business/article/rkxml3dmc",
+    "verified_date": "2026-02-11",
+    "notes": null,
+    "coordinates": {
+      "lat": 32.086,
+      "lng": 34.8878
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "57",
+    "name": {
+      "he": "סביח פתח תקווה",
+      "en": "Sabich Stand (Petah Tikva)"
+    },
+    "dish_name": {
+      "he": "חצי מנה סביח",
+      "en": "Sabich Half Portion"
+    },
+    "price": 14,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "פתח תקווה",
+        "en": "Petah Tikva"
+      },
+      "address": {
+        "he": "Petah Tikva",
+        "en": "Petah Tikva"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://petahtikva.mynet.co.il/food_leisure/article/s1518wtcn",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Half portion 14 NIS, full portion 24 NIS",
+      "en": "Half portion 14 NIS, full portion 24 NIS"
+    },
+    "coordinates": {
+      "lat": 32.086,
+      "lng": 34.8878
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "58",
+    "name": {
+      "he": "שווארמה סטריט",
+      "en": "Shawarma Street"
+    },
+    "dish_name": {
+      "he": "שווארמה בפיתה",
+      "en": "Shawarma in Pita"
+    },
+    "price": 25,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "פתח תקווה",
+        "en": "Petah Tikva"
+      },
+      "address": {
+        "he": "Haim Ozer St",
+        "en": "Haim Ozer St"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://shawarmastreet.co.il/branches/",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Branch of Shawarma Street chain",
+      "en": "Branch of Shawarma Street chain"
+    },
+    "coordinates": {
+      "lat": 32.0847,
+      "lng": 34.8884
+    },
+    "accepted_cards": [
+      "10bis",
+      "cibus",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "59",
+    "name": {
+      "he": "שווארמה סטריט",
+      "en": "Shawarma Street"
+    },
+    "dish_name": {
+      "he": "שווארמה בפיתה",
+      "en": "Shawarma in Pita"
+    },
+    "price": 25,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "Rothschild St",
+        "en": "Rothschild St"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://shawarmastreet.co.il/branches/",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Branch of Shawarma Street chain",
+      "en": "Branch of Shawarma Street chain"
+    },
+    "coordinates": {
+      "lat": 31.9727,
+      "lng": 34.7893
+    },
+    "accepted_cards": [
+      "10bis",
+      "cibus",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "60",
+    "name": {
+      "he": "פלאפל יעקב",
+      "en": "Yaakov's Falafel"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 10,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "בני ברק",
+        "en": "Bnei Brak"
+      },
+      "address": {
+        "he": "Bnei Brak",
+        "en": "Bnei Brak"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://www.jpost.com/consumerism/article-838398",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "One of the cheapest falafels in Israel at 10 NIS",
+      "en": "One of the cheapest falafels in Israel at 10 NIS"
+    },
+    "coordinates": {
+      "lat": 32.0808,
+      "lng": 34.8338
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "61",
+    "name": {
+      "he": "פלאפל באר שבע",
+      "en": "Beer Sheva Falafel (avg)"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 20,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "Various locations",
+        "en": "Various locations"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://www.jpost.com/consumerism/article-838398",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Average falafel price in Beer Sheva is 19.6 NIS, lowest among major cities",
+      "en": "Average falafel price in Beer Sheva is 19.6 NIS, lowest among major cities"
+    },
+    "coordinates": {
+      "lat": 31.253,
+      "lng": 34.7915
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "62",
+    "name": {
+      "he": "סביח באר שבע",
+      "en": "Beer Sheva Sabich"
+    },
+    "dish_name": {
+      "he": "סביח בפיתה",
+      "en": "Sabich in Pita"
+    },
+    "price": 25,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "Various locations",
+        "en": "Various locations"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.t.co.il/2220-s141-%D7%A9%D7%95%D7%95%D7%90%D7%A8%D7%9E%D7%94-%D7%91%D7%90%D7%A8+%D7%A9%D7%91%D7%A2.html",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Typical sabich price in Beer Sheva",
+      "en": "Typical sabich price in Beer Sheva"
+    },
+    "coordinates": {
+      "lat": 31.253,
+      "lng": 34.7915
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "63",
+    "name": {
+      "he": "קובה באר שבע",
+      "en": "Beer Sheva Kuba"
+    },
+    "dish_name": {
+      "he": "קובה בשרית",
+      "en": "Meat Kuba"
+    },
+    "price": 29,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "Various locations",
+        "en": "Various locations"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://beersheva.mynet.co.il/food_leisure/article/m_420136",
+    "verified_date": "2026-02-11",
+    "notes": null,
+    "coordinates": {
+      "lat": 31.253,
+      "lng": 34.7915
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "64",
+    "name": {
+      "he": "פנסו",
+      "en": "Penso"
+    },
+    "dish_name": {
+      "he": "מאפים טורקיים / בורקס",
+      "en": "Turkish Baked Goods / Burekas"
+    },
+    "price": 18,
+    "category": {
+      "he": "מאפייה",
+      "en": "Bakery"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "Near Carmel Market",
+        "en": "Near Carmel Market"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://www.go-telaviv.com/burekas.html",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Burekas landmark operating 80+ years. Estimated price.",
+      "en": "Burekas landmark operating 80+ years. Estimated price."
+    },
+    "coordinates": {
+      "lat": 32.0639,
+      "lng": 34.7716
+    },
+    "accepted_cards": [
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "65",
+    "name": {
+      "he": "בורקס לוינסקי",
+      "en": "Levinsky Burekas"
+    },
+    "dish_name": {
+      "he": "בורקס (קשקבל/בולגרי/תרד/תפוח אדמה)",
+      "en": "Burekas (Kashkaval/Bulgarian/Spinach/Potato)"
+    },
+    "price": 15,
+    "category": {
+      "he": "מאפייה",
+      "en": "Bakery"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "Levinsky St, near Flea Market",
+        "en": "Levinsky St, near Flea Market"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.tripadvisor.com/Restaurant_Review-g293984-d12115154-Reviews-Levinsky_Burekas-Tel_Aviv_Tel_Aviv_District.html",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Oversized burekas with thin filo. Operating since 1948. Estimated price.",
+      "en": "Oversized burekas with thin filo. Operating since 1948. Estimated price."
+    },
+    "coordinates": {
+      "lat": 32.058,
+      "lng": 34.7701
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "66",
+    "name": {
+      "he": "פלאפל כפר קאסם",
+      "en": "Kafr Qasim Falafel"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 13,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "כפר קאסם",
+        "en": "Kafr Qasim"
+      },
+      "address": {
+        "he": "Various stands",
+        "en": "Various stands"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא כשר",
+      "en": "Not Kosher"
+    },
+    "source_url": "https://www.jpost.com/consumerism/article-838398",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Cheapest falafel region in Israel. Average 13.3 NIS. Nearby Kafr Bara and Jaljulia also cheap.",
+      "en": "Cheapest falafel region in Israel. Average 13.3 NIS. Nearby Kafr Bara and Jaljulia also cheap."
+    },
+    "coordinates": {
+      "lat": 32.1153,
+      "lng": 34.9714
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "67",
+    "name": {
+      "he": "סטקיית חצות",
+      "en": "Steakiyat Chatzot"
+    },
+    "dish_name": {
+      "he": "מעורב ירושלמי",
+      "en": "Jerusalem Mixed Grill (Meorav Yerushalmi)"
+    },
+    "price": 35,
+    "category": {
+      "he": "גריל",
+      "en": "Grill"
+    },
+    "location": {
+      "city": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      },
+      "address": {
+        "he": "Agrippas 121, Mahane Yehuda",
+        "en": "Agrippas 121, Mahane Yehuda"
+      },
+      "region": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://www.ynet.co.il/food/foodnews/article/rkxkhkxdq",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Legendary late-night grill spot. Estimated starting price for half portion.",
+      "en": "Legendary late-night grill spot. Estimated starting price for half portion."
+    },
+    "coordinates": {
+      "lat": 31.7814,
+      "lng": 35.2117
+    },
+    "accepted_cards": [
+      "10bis",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "68",
+    "name": {
+      "he": "פלאפל חביב",
+      "en": "Falafel Habib"
+    },
+    "dish_name": {
+      "he": "פלאפל קינדר (כדור ענק עם ביצה)",
+      "en": "Falafel Kinder (giant falafel ball with egg inside)"
+    },
+    "price": 25,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      },
+      "address": {
+        "he": "Mahane Yehuda Market area",
+        "en": "Mahane Yehuda Market area"
+      },
+      "region": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://www.mako.co.il/food-restaurants/street-food/Article-71c61e723a84f81027.htm",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Viral dish - giant falafel ball stuffed with hard-boiled egg. Estimated price.",
+      "en": "Viral dish - giant falafel ball stuffed with hard-boiled egg. Estimated price."
+    },
+    "coordinates": {
+      "lat": 31.782,
+      "lng": 35.2115
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "69",
+    "name": {
+      "he": "מסעדת דיאנא",
+      "en": "Diana Restaurant"
+    },
+    "dish_name": {
+      "he": "מנת פלאפל",
+      "en": "Falafel Plate"
+    },
+    "price": 20,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "נצרת",
+        "en": "Nazareth"
+      },
+      "address": {
+        "he": "Paulus HaShishi St (main street)",
+        "en": "Paulus HaShishi St (main street)"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא כשר",
+      "en": "Not Kosher"
+    },
+    "source_url": "https://www.tripadvisor.com/Restaurant_Review-g297758-d2279900-Reviews-Diana_Restaurant-Nazareth_Galilee_Region_Northern_District.html",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Legendary Nazareth restaurant, 44+ years. Lamb shawarma, kebabs. Falafel is budget option. Estimated price.",
+      "en": "Legendary Nazareth restaurant, 44+ years. Lamb shawarma, kebabs. Falafel is budget option. Estimated price."
+    },
+    "coordinates": {
+      "lat": 32.6993,
+      "lng": 35.3032
+    },
+    "accepted_cards": [
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "70",
+    "name": {
+      "he": "שווארמה אבו האני",
+      "en": "Shawarma Abu Hani"
+    },
+    "dish_name": {
+      "he": "שווארמה (כבש ובקר)",
+      "en": "Shawarma (lamb & beef)"
+    },
+    "price": 35,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "נצרת",
+        "en": "Nazareth"
+      },
+      "address": {
+        "he": "Paulus HaShishi St",
+        "en": "Paulus HaShishi St"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא כשר",
+      "en": "Not Kosher"
+    },
+    "source_url": "https://www.ynet.co.il/food/foodnews/article/BkKu97EDO",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Nazareth shawarma uses lamb & beef (not turkey like central Israel). Estimated starting price.",
+      "en": "Nazareth shawarma uses lamb & beef (not turkey like central Israel). Estimated starting price."
+    },
+    "coordinates": {
+      "lat": 32.6993,
+      "lng": 35.3032
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "71",
+    "name": {
+      "he": "סביח ציון",
+      "en": "Sabich Tsiyon (Carmel Market)"
+    },
+    "dish_name": {
+      "he": "סביח בפיתה",
+      "en": "Sabich in Pita"
+    },
+    "price": 20,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "Carmel Market (Shuk HaCarmel)",
+        "en": "Carmel Market (Shuk HaCarmel)"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.street-food.co.il/",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Popular stand in Carmel Market",
+      "en": "Popular stand in Carmel Market"
+    },
+    "coordinates": {
+      "lat": 32.064,
+      "lng": 34.7714
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "72",
+    "name": {
+      "he": "פיטלה",
+      "en": "Pitale"
+    },
+    "dish_name": {
+      "he": "ארוחת פיתה ענן",
+      "en": "Cloud Pita Meal"
+    },
+    "price": 30,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "אילת",
+        "en": "Eilat"
+      },
+      "address": {
+        "he": "Eilat",
+        "en": "Eilat"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://misadotbeilat.co.il/",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Quick food stand with specially made cloud pita bread. Family friendly. Estimated price.",
+      "en": "Quick food stand with specially made cloud pita bread. Family friendly. Estimated price."
+    },
+    "coordinates": {
+      "lat": 29.5577,
+      "lng": 34.9519
+    },
+    "accepted_cards": [
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "73",
+    "name": {
+      "he": "פיצה שמש",
+      "en": "Pizza Shemesh"
+    },
+    "dish_name": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "price": 20,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "אילת",
+        "en": "Eilat"
+      },
+      "address": {
+        "he": "Eilot 4, Eilat",
+        "en": "Eilot 4, Eilat"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.rest.co.il/restaurants/eilat/pizzerias/cheap/",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Very cheap pizza in Eilat. Estimated price.",
+      "en": "Very cheap pizza in Eilat. Estimated price."
+    },
+    "coordinates": {
+      "lat": 29.5574,
+      "lng": 34.9514
+    },
+    "accepted_cards": [
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "74",
+    "name": {
+      "he": "שווארמה סטריט",
+      "en": "Shawarma Street"
+    },
+    "dish_name": {
+      "he": "שווארמה בפיתה",
+      "en": "Shawarma in Pita"
+    },
+    "price": 25,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "Atzl branch, Tel Aviv",
+        "en": "Atzl branch, Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://shawarmastreet.co.il/branches/",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Second Tel Aviv branch of Shawarma Street chain",
+      "en": "Second Tel Aviv branch of Shawarma Street chain"
+    },
+    "coordinates": {
+      "lat": 32.074,
+      "lng": 34.772
+    },
+    "accepted_cards": [
+      "10bis",
+      "cibus",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "75",
+    "name": {
+      "he": "חומוס יוסף",
+      "en": "Hummus Yosef"
+    },
+    "dish_name": {
+      "he": "מנת חומוס",
+      "en": "Hummus Plate"
+    },
+    "price": 25,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "נתניה",
+        "en": "Netanya"
+      },
+      "address": {
+        "he": "Netanya",
+        "en": "Netanya"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://netanya.mynet.co.il/netanyaplus/article/skbrgbztjx",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "New hummus spot in Netanya. Velvety hummus, rich sabich, shakshuka.",
+      "en": "New hummus spot in Netanya. Velvety hummus, rich sabich, shakshuka."
+    },
+    "coordinates": {
+      "lat": 32.3215,
+      "lng": 34.8537
+    },
+    "accepted_cards": [
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "76",
+    "name": {
+      "he": "דאמפלינגס",
+      "en": "Dumplings Stand"
+    },
+    "dish_name": {
+      "he": "כיסוני בצק (דאמפלינגס)",
+      "en": "Dumplings"
+    },
+    "price": 25,
+    "category": {
+      "he": "אסייתי",
+      "en": "Asian"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "Tel Aviv",
+        "en": "Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.timeout.com/israel/restaurants/tel-avivs-best-street-food",
+    "verified_date": "2026-02-11",
+    "notes": null,
+    "coordinates": null,
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "77",
+    "name": {
+      "he": "באו",
+      "en": "Bao Stand"
+    },
+    "dish_name": {
+      "he": "באו מאודה (בקר/ירקות)",
+      "en": "Steamed Bao Bun (beef/veggie)"
+    },
+    "price": 10,
+    "category": {
+      "he": "אסייתי",
+      "en": "Asian"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "Tel Aviv",
+        "en": "Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.timeout.com/israel/restaurants/tel-avivs-best-street-food",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "10 NIS per bao bun. Can get 3 for 30 NIS.",
+      "en": "10 NIS per bao bun. Can get 3 for 30 NIS."
+    },
+    "coordinates": null,
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "78",
+    "name": {
+      "he": "מרק",
+      "en": "Soup Stand"
+    },
+    "dish_name": {
+      "he": "קערת מרק",
+      "en": "Soup Bowl"
+    },
+    "price": 15,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "Tel Aviv",
+        "en": "Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.timeout.com/israel/restaurants/tel-avivs-best-street-food",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Various soup stands around the city",
+      "en": "Various soup stands around the city"
+    },
+    "coordinates": null,
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "79",
+    "name": {
+      "he": "כנאפה יפו",
+      "en": "Yaffa Knafeh"
+    },
+    "dish_name": {
+      "he": "מנת כנאפה",
+      "en": "Knafeh Portion"
+    },
+    "price": 25,
+    "category": {
+      "he": "קינוח",
+      "en": "Dessert"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "Dizengoff area",
+        "en": "Dizengoff area"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.timeout.com/israel/restaurants/tel-avivs-best-street-food",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Layers of spun pastry soaked in syrup with gooey cheese. Estimated price.",
+      "en": "Layers of spun pastry soaked in syrup with gooey cheese. Estimated price."
+    },
+    "coordinates": {
+      "lat": 32.0762,
+      "lng": 34.7739
+    },
+    "accepted_cards": [
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "id": "80",
+    "name": {
+      "he": "בורקס תרד + קפה",
+      "en": "Spinach Burekas + Coffee"
+    },
+    "dish_name": {
+      "he": "בורקס תרד עם קפה",
+      "en": "Spinach Burekas with Coffee"
+    },
+    "price": 35,
+    "category": {
+      "he": "מאפייה",
+      "en": "Bakery"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "Various bakeries",
+        "en": "Various bakeries"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.timeout.com/israel/restaurants/tel-avivs-best-street-food",
+    "verified_date": "2026-02-11",
+    "notes": {
+      "he": "Burekas 25 NIS + coffee 10 NIS = 35 NIS combo at many bakeries",
+      "en": "Burekas 25 NIS + coffee 10 NIS = 35 NIS combo at many bakeries"
+    },
+    "coordinates": null,
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "שניצל וסביח כפר סבא",
+      "en": "Schnitzel & Sabich Kfar Saba"
+    },
+    "dish_name": {
+      "he": "סביח בפיתה",
+      "en": "Sabich in Pita"
+    },
+    "price": 15,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "כפר סבא",
+        "en": "Kfar Saba"
+      },
+      "address": {
+        "he": "כפר סבא",
+        "en": "Kfar Saba"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://kfarsaba.mynet.co.il/around_town/article/m_399115",
+    "notes": {
+      "he": "פלאפל 15 ש\"ח, שניצל בבאגט 30 ש\"ח, שקשוקה 18 ש\"ח",
+      "en": "Falafel 15 NIS, schnitzel baguette 30 NIS, shakshuka 18 NIS"
+    },
+    "id": "81",
+    "verified_date": "2026-02-11",
+    "coordinates": {
+      "lat": 32.1794,
+      "lng": 34.9075
+    },
+    "accepted_cards": [
+      "10bis",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "שניצל וסביח כפר סבא",
+      "en": "Schnitzel & Sabich Kfar Saba"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 15,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "כפר סבא",
+        "en": "Kfar Saba"
+      },
+      "address": {
+        "he": "כפר סבא",
+        "en": "Kfar Saba"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://kfarsaba.mynet.co.il/around_town/article/m_399115",
+    "notes": null,
+    "id": "82",
+    "verified_date": "2026-02-11",
+    "coordinates": {
+      "lat": 32.1794,
+      "lng": 34.9075
+    },
+    "accepted_cards": [
+      "10bis",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "שניצל וסביח כפר סבא",
+      "en": "Schnitzel & Sabich Kfar Saba"
+    },
+    "dish_name": {
+      "he": "שקשוקה בפיתה",
+      "en": "Shakshuka in Pita"
+    },
+    "price": 18,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "כפר סבא",
+        "en": "Kfar Saba"
+      },
+      "address": {
+        "he": "כפר סבא",
+        "en": "Kfar Saba"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://kfarsaba.mynet.co.il/around_town/article/m_399115",
+    "notes": null,
+    "id": "83",
+    "verified_date": "2026-02-11",
+    "coordinates": {
+      "lat": 32.1794,
+      "lng": 34.9075
+    },
+    "accepted_cards": [
+      "10bis",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "שניצל וסביח כפר סבא",
+      "en": "Schnitzel & Sabich Kfar Saba"
+    },
+    "dish_name": {
+      "he": "שניצל בפיתה",
+      "en": "Schnitzel in Pita"
+    },
+    "price": 28,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "כפר סבא",
+        "en": "Kfar Saba"
+      },
+      "address": {
+        "he": "כפר סבא",
+        "en": "Kfar Saba"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://kfarsaba.mynet.co.il/around_town/article/m_399115",
+    "notes": null,
+    "id": "84",
+    "verified_date": "2026-02-11",
+    "coordinates": {
+      "lat": 32.1794,
+      "lng": 34.9075
+    },
+    "accepted_cards": [
+      "10bis",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "פלאפל חיים",
+      "en": "Falafel Haim"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 20,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "הרצליה",
+        "en": "Herzliya"
+      },
+      "address": {
+        "he": "הרצליה",
+        "en": "Herzliya"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://sharonline.co.il/%D7%94%D7%A1%D7%A6%D7%A0%D7%94-%D7%94%D7%A7%D7%95%D7%9C%D7%99%D7%A0%D7%A8%D7%99%D7%AA/%D7%AA%D7%95%D7%A6%D7%90%D7%95%D7%AA-%D7%A1%D7%A7%D7%A8-%D7%94%D7%A4%D7%9C%D7%90%D7%A4%D7%9C/",
+    "notes": {
+      "he": "אימפריית הפלאפל של הרצליה. תיבול ייחודי. מחיר משוער.",
+      "en": "The falafel empire of Herzliya. Unique seasoning. Estimated price."
+    },
+    "id": "85",
+    "verified_date": "2026-02-11",
+    "coordinates": {
+      "lat": 32.167,
+      "lng": 34.8434
+    },
+    "accepted_cards": [
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "פלאפל הכיכר",
+      "en": "Falafel HaKikar"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 16,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "צפת",
+        "en": "Safed (Tzfat)"
+      },
+      "address": {
+        "he": "המגינים 40, העיר העתיקה",
+        "en": "HaMaginim 40, Old City"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר למהדרין",
+      "en": "Kosher Mehadrin"
+    },
+    "source_url": "https://www.tripadvisor.com/Restaurant_Review-g297763-d2161351-Reviews-Falafel_Hakikar-Safed_Galilee_Region_Northern_District.html",
+    "notes": {
+      "he": "פלאפל טרי ואיכותי בכיכר הצבעונית של העיר העתיקה. פרווה.",
+      "en": "Fresh quality falafel in the colorful square of the Old City. Pareve."
+    },
+    "id": "86",
+    "verified_date": "2026-02-11",
+    "coordinates": {
+      "lat": 32.924,
+      "lng": 35.0712
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "פלאפל יצחק",
+      "en": "Falafel Yitzhak"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 18,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "צפת",
+        "en": "Safed (Tzfat)"
+      },
+      "address": {
+        "he": "צפת",
+        "en": "Safed"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://www.tripadvisor.com/Restaurant_Review-g297763-d15042152-Reviews-Falafel_Ytzhak-Safed_Galilee_Region_Northern_District.html",
+    "notes": {
+      "he": "מחיר משוער",
+      "en": "Estimated price"
+    },
+    "id": "87",
+    "verified_date": "2026-02-11",
+    "coordinates": {
+      "lat": 32.9647,
+      "lng": 35.495
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "דוכן פלאפל טבריה",
+      "en": "Tiberias Falafel Stand"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 16,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "טבריה",
+        "en": "Tiberias"
+      },
+      "address": {
+        "he": "טבריה",
+        "en": "Tiberias"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://www.d.co.il/h-c30457-e0-p0-l0-city6700/",
+    "notes": {
+      "he": "סביח 17 ש\"ח, חצי מנה 10 ש\"ח",
+      "en": "Sabich 17 NIS, half portion 10 NIS"
+    },
+    "id": "88",
+    "verified_date": "2026-02-11",
+    "coordinates": {
+      "lat": 32.7957,
+      "lng": 35.5302
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "נפגש אצל אילן",
+      "en": "Meet at Ilan's"
+    },
+    "dish_name": {
+      "he": "חומוס",
+      "en": "Hummus Plate"
+    },
+    "price": 20,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "טבריה",
+        "en": "Tiberias"
+      },
+      "address": {
+        "he": "הירדן 12",
+        "en": "HaYarden 12"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.ynet.co.il/food/foodnews/article/Sy8O2enVr",
+    "notes": {
+      "he": "טלפון: 053-9365766. מחיר משוער.",
+      "en": "Phone: 053-9365766. Estimated price."
+    },
+    "id": "89",
+    "verified_date": "2026-02-11",
+    "coordinates": {
+      "lat": 32.796,
+      "lng": 35.5296
+    },
+    "accepted_cards": [
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "אצל חן",
+      "en": "Chen's Place"
+    },
+    "dish_name": {
+      "he": "שווארמה בפיתה",
+      "en": "Shawarma in Pita"
+    },
+    "price": 35,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "טבריה",
+        "en": "Tiberias"
+      },
+      "address": {
+        "he": "טבריה",
+        "en": "Tiberias"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.ynet.co.il/food/foodnews/article/Sy8O2enVr",
+    "notes": {
+      "he": "שווארמה עסיסית, בשרים על האש ופלאפל. מחיר משוער.",
+      "en": "Juicy shawarma, grilled meats and falafel. Estimated price."
+    },
+    "id": "90",
+    "verified_date": "2026-02-11",
+    "coordinates": {
+      "lat": 32.7957,
+      "lng": 35.5302
+    },
+    "accepted_cards": [
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "שלום התימני",
+      "en": "Shalom HaTeimani"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 18,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "address": {
+        "he": "מרכז מסחרי ישן",
+        "en": "Old Commercial Center"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://www.ynet.co.il/food/article/s1ss4kztke",
+    "notes": {
+      "he": "דור רביעי למטגני פלאפל. מחיר משוער.",
+      "en": "4th generation falafel makers. Estimated price."
+    },
+    "id": "91",
+    "verified_date": "2026-02-11",
+    "coordinates": null,
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "פלאפל הסולטן",
+      "en": "Falafel HaSultan"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 20,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "address": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר למהדרין",
+      "en": "Kosher Mehadrin"
+    },
+    "source_url": "https://www.ynet.co.il/articles/0,7340,L-5013018,00.html",
+    "notes": {
+      "he": "תפריט עשיר של פלאפל, חומוס ופול. מחיר משוער.",
+      "en": "Rich menu of falafel, hummus and ful. Estimated price."
+    },
+    "id": "92",
+    "verified_date": "2026-02-11",
+    "coordinates": {
+      "lat": 31.804,
+      "lng": 34.6554
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "פלאפל של הרצל",
+      "en": "Hertzel's Falafel"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 15,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "דימונה",
+        "en": "Dimona"
+      },
+      "address": {
+        "he": "מרכז מסחרי ישן, המעפילים 215",
+        "en": "Old Commercial Center, HaMaapilim 215"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://www.mako.co.il/food-restaurants/street-food/Article-b9e552968c74f81027.htm",
+    "notes": {
+      "he": "כמות נדיבה של כדורים חמים במחיר מצוין",
+      "en": "Generous amount of hot falafel balls at an excellent price"
+    },
+    "id": "93",
+    "verified_date": "2026-02-11",
+    "coordinates": null,
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "אבשי פלאפל",
+      "en": "Abshi Falafel"
+    },
+    "dish_name": {
+      "he": "פלאפל עם חציל מטוגן (בובי)",
+      "en": "Falafel with Fried Eggplant (Bubi)"
+    },
+    "price": 22,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "אילת",
+        "en": "Eilat"
+      },
+      "address": {
+        "he": "אילת",
+        "en": "Eilat"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.mako.co.il/food-restaurants/street-food/Article-b9e552968c74f81027.htm",
+    "notes": {
+      "he": "הפלאפלייה האהובה על האילתים. מנת הבובי כוללת פלאפל + חציל מטוגן + ביצה קשה. מחיר משוער.",
+      "en": "Eilat's favorite falafel. The Bubi includes falafel + fried eggplant + hard-boiled egg. Estimated price."
+    },
+    "id": "94",
+    "verified_date": "2026-02-11",
+    "coordinates": {
+      "lat": 29.558,
+      "lng": 34.9519
+    },
+    "accepted_cards": [
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "פלאפל רצון חולון",
+      "en": "Falafel Ratzon Holon"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 9,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "רחוב המלך ג'ורג' 17",
+        "en": "King George Street 17"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://food.walla.co.il/item/1882914",
+    "notes": {
+      "he": "המחיר עודכן לפברואר 2026 (מקור: מעריב)",
+      "en": "Price updated Feb 2026 (source: Maariv)"
+    },
+    "id": "95",
+    "verified_date": "2026-02-16",
+    "coordinates": {
+      "lat": 32.0097,
+      "lng": 34.7809
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "פלאפל בטעם של פעם",
+      "en": "Falafel Like the Old Days"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 15,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "חולון",
+        "en": "Holon"
+      },
+      "address": {
+        "he": "סוקולוב 98",
+        "en": "Sokolov 98"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://www.rest.co.il/restaurants/holon/",
+    "notes": {
+      "he": "גם סביח, שקשוקה בפיתה, קובה. גם סניף ברוטשילד 28 בת ים. מחיר משוער.",
+      "en": "Also sabich, shakshuka in pita, kuba. Also branch at Rothschild 28, Bat Yam. Estimated price."
+    },
+    "id": "96",
+    "verified_date": "2026-02-11",
+    "coordinates": {
+      "lat": 32.1452,
+      "lng": 34.8403
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "פלאפל רחמונס",
+      "en": "Falafel Rachmunus"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 18,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "בת ים",
+        "en": "Bat Yam"
+      },
+      "address": {
+        "he": "בלפור 67",
+        "en": "Balfour 67"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://www.rest.co.il/rest/80324043/",
+    "notes": {
+      "he": "מחיר משוער",
+      "en": "Estimated price"
+    },
+    "id": "97",
+    "verified_date": "2026-02-11",
+    "coordinates": null,
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "הסביח של עובד",
+      "en": "Oved's Sabich"
+    },
+    "dish_name": {
+      "he": "סביח",
+      "en": "Sabich"
+    },
+    "price": 20,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "גבעתיים",
+        "en": "Givatayim"
+      },
+      "address": {
+        "he": "גבעתיים",
+        "en": "Givatayim"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-5cf05d218e06691027.htm",
+    "notes": {
+      "he": "מחיר משוער",
+      "en": "Estimated price"
+    },
+    "id": "98",
+    "verified_date": "2026-02-11",
+    "coordinates": {
+      "lat": 32.0754,
+      "lng": 34.8121
+    },
+    "accepted_cards": [
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "פלאפל בריבוע",
+      "en": "Falafel BaRibua"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 25,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ארצי",
+        "en": "National"
+      },
+      "address": {
+        "he": "23 סניפים ברחבי הארץ",
+        "en": "23 branches nationwide"
+      },
+      "region": {
+        "he": "ארצי",
+        "en": "National"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://falafelbaribua.co.il/en/",
+    "notes": {
+      "he": "רשת הפלאפל הגדולה בארץ. סביח 25 ש\"ח, חצי מנה 17 ש\"ח, מלבי 15 ש\"ח.",
+      "en": "Israel's largest falafel chain. Sabich 25 NIS, half portion 17 NIS, malabi 15 NIS."
+    },
+    "id": "99",
+    "verified_date": "2026-02-11",
+    "coordinates": null,
+    "accepted_cards": [
+      "10bis",
+      "cibus",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "פלאפל בריבוע",
+      "en": "Falafel BaRibua"
+    },
+    "dish_name": {
+      "he": "סביח",
+      "en": "Sabich"
+    },
+    "price": 25,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ארצי",
+        "en": "National"
+      },
+      "address": {
+        "he": "23 סניפים ברחבי הארץ",
+        "en": "23 branches nationwide"
+      },
+      "region": {
+        "he": "ארצי",
+        "en": "National"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://www.ynet.co.il/economy/article/b1ep9s9jc",
+    "notes": null,
+    "id": "100",
+    "verified_date": "2026-02-11",
+    "coordinates": null,
+    "accepted_cards": [
+      "10bis",
+      "cibus",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "פלאפל בריבוע",
+      "en": "Falafel BaRibua"
+    },
+    "dish_name": {
+      "he": "חצי מנה פלאפל",
+      "en": "Half Portion Falafel"
+    },
+    "price": 17,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ארצי",
+        "en": "National"
+      },
+      "address": {
+        "he": "23 סניפים ברחבי הארץ",
+        "en": "23 branches nationwide"
+      },
+      "region": {
+        "he": "ארצי",
+        "en": "National"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://www.ynet.co.il/economy/article/b1ep9s9jc",
+    "notes": null,
+    "id": "101",
+    "verified_date": "2026-02-11",
+    "coordinates": null,
+    "accepted_cards": [
+      "10bis",
+      "cibus",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "פיצה שמש",
+      "en": "Pizza Shemesh"
+    },
+    "dish_name": {
+      "he": "פיצה משפחתית",
+      "en": "Family Pizza"
+    },
+    "price": 25,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "ארצי",
+        "en": "National"
+      },
+      "address": {
+        "he": "כ-100 סניפים ברחבי הארץ",
+        "en": "~100 branches nationwide"
+      },
+      "region": {
+        "he": "ארצי",
+        "en": "National"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר למהדרין",
+      "en": "Kosher Mehadrin"
+    },
+    "source_url": "https://pizza-shemesh.co.il/",
+    "notes": {
+      "he": "רשת פיצריות ארצית. 25 ש\"ח לפיצה, תוספת 8 ש\"ח. סניפים בת\"א, ירושלים, חיפה, ב\"ש, אשדוד, מודיעין ועוד.",
+      "en": "National pizza chain. 25 NIS for pizza, toppings 8 NIS. Branches in TLV, Jerusalem, Haifa, Beer Sheva, Ashdod, Modiin and more."
+    },
+    "id": "102",
+    "verified_date": "2026-02-11",
+    "coordinates": null,
+    "accepted_cards": [
+      "10bis",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "פיצה שמש מודיעין",
+      "en": "Pizza Shemesh Modiin"
+    },
+    "dish_name": {
+      "he": "פיצה משפחתית",
+      "en": "Family Pizza"
+    },
+    "price": 25,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "מודיעין",
+        "en": "Modiin"
+      },
+      "address": {
+        "he": "חיים ויצמן 18 (מורשת)",
+        "en": "Haim Weizmann 18 (Moreshet)"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר למהדרין",
+      "en": "Kosher Mehadrin"
+    },
+    "source_url": "https://pizza-shemesh.co.il/%D7%A1%D7%A0%D7%99%D7%A3-%D7%9E%D7%95%D7%93%D7%99%D7%A2%D7%99%D7%9F-%D7%9E%D7%95%D7%A8%D7%A9%D7%AA/",
+    "notes": null,
+    "id": "103",
+    "verified_date": "2026-02-11",
+    "coordinates": {
+      "lat": 31.8956,
+      "lng": 35.012
+    },
+    "accepted_cards": [
+      "10bis",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "פלאפל אהבה ואחווה",
+      "en": "Falafel Ahava V'Achva"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 18,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "בית שמש",
+        "en": "Beit Shemesh"
+      },
+      "address": {
+        "he": "בית שמש",
+        "en": "Beit Shemesh"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר למהדרין",
+      "en": "Kosher Mehadrin"
+    },
+    "source_url": "https://semerenkogroup.com/restaurants-in-beit-shemesh/",
+    "notes": {
+      "he": "פלאפל קלאסי ומהיר. מחיר משוער.",
+      "en": "Classic quick falafel. Estimated price."
+    },
+    "id": "104",
+    "verified_date": "2026-02-11",
+    "coordinates": {
+      "lat": 31.7446,
+      "lng": 34.9907
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "פריקסה של מוריס",
+      "en": "Moris's Fricassee"
+    },
+    "dish_name": {
+      "he": "פריקסה",
+      "en": "Fricassee"
+    },
+    "price": 20,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "address": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-5cf05d218e06691027.htm",
+    "notes": {
+      "he": "פריקסה - כריך טוניסאי עם טונה, תפוח אדמה, ביצה קשה והריסה. מחיר משוער.",
+      "en": "Fricassee - Tunisian sandwich with tuna, potato, hard-boiled egg and harissa. Estimated price."
+    },
+    "id": "105",
+    "verified_date": "2026-02-11",
+    "coordinates": {
+      "lat": 31.804,
+      "lng": 34.6554
+    },
+    "accepted_cards": [
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "הבוריק של הרצל",
+      "en": "Hertzel's Burekas"
+    },
+    "dish_name": {
+      "he": "בוריק (בורקס מרוקאי)",
+      "en": "Bourik (Moroccan Burekas)"
+    },
+    "price": 15,
+    "category": {
+      "he": "מאפייה",
+      "en": "Bakery"
+    },
+    "location": {
+      "city": {
+        "he": "נתניה",
+        "en": "Netanya"
+      },
+      "address": {
+        "he": "שוק נתניה",
+        "en": "Netanya Market"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-5cf05d218e06691027.htm",
+    "notes": {
+      "he": "בוריק מסורתי מהשוק. מחיר משוער.",
+      "en": "Traditional bourik from the market. Estimated price."
+    },
+    "id": "106",
+    "verified_date": "2026-02-11",
+    "coordinates": {
+      "lat": 32.324,
+      "lng": 34.8526
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "בורקס חזן",
+      "en": "Burekas Hazan"
+    },
+    "dish_name": {
+      "he": "בורקס",
+      "en": "Burekas"
+    },
+    "price": 15,
+    "category": {
+      "he": "מאפייה",
+      "en": "Bakery"
+    },
+    "location": {
+      "city": {
+        "he": "יהוד",
+        "en": "Yehud"
+      },
+      "address": {
+        "he": "יהוד",
+        "en": "Yehud"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-5cf05d218e06691027.htm",
+    "notes": {
+      "he": "מחיר משוער",
+      "en": "Estimated price"
+    },
+    "id": "107",
+    "verified_date": "2026-02-11",
+    "coordinates": {
+      "lat": 32.0019,
+      "lng": 34.8919
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "פריקסה של חיימיקו",
+      "en": "Haimiko's Fricassee"
+    },
+    "dish_name": {
+      "he": "פריקסה",
+      "en": "Fricassee"
+    },
+    "price": 20,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "הוד השרון",
+        "en": "Hod HaSharon"
+      },
+      "address": {
+        "he": "הוד השרון",
+        "en": "Hod HaSharon"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-5cf05d218e06691027.htm",
+    "notes": {
+      "he": "מחיר משוער",
+      "en": "Estimated price"
+    },
+    "id": "108",
+    "verified_date": "2026-02-11",
+    "coordinates": {
+      "lat": 32.1483,
+      "lng": 34.893
+    },
+    "accepted_cards": [
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "פלאפל דמתי",
+      "en": "Falafel Damati"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 18,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "גדרה",
+        "en": "Gedera"
+      },
+      "address": {
+        "he": "גדרה",
+        "en": "Gedera"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-5cf05d218e06691027.htm",
+    "notes": {
+      "he": "מחיר משוער",
+      "en": "Estimated price"
+    },
+    "id": "109",
+    "verified_date": "2026-02-11",
+    "coordinates": {
+      "lat": 31.8138,
+      "lng": 34.7769
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "שניצל של תמיר",
+      "en": "Tamir's Schnitzel"
+    },
+    "dish_name": {
+      "he": "שניצל בפיתה",
+      "en": "Schnitzel in Pita"
+    },
+    "price": 25,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "גבעתיים",
+        "en": "Givatayim"
+      },
+      "address": {
+        "he": "גבעתיים",
+        "en": "Givatayim"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-5cf05d218e06691027.htm",
+    "notes": {
+      "he": "מחיר משוער",
+      "en": "Estimated price"
+    },
+    "id": "110",
+    "verified_date": "2026-02-11",
+    "coordinates": {
+      "lat": 32.0754,
+      "lng": 34.8121
+    },
+    "accepted_cards": [
+      "10bis",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "שווארמה אשקלון",
+      "en": "Shawarma Ashkelon"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 20,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "אשקלון",
+        "en": "Ashkelon"
+      },
+      "address": {
+        "he": "הגבורה 5",
+        "en": "HaGvura 5"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.d.co.il/80070814/30457/",
+    "notes": {
+      "he": "מחיר משוער לפלאפל. שווארמה בפיתה מ-50 ש\"ח.",
+      "en": "Estimated price for falafel. Shawarma in pita from 50 NIS."
+    },
+    "id": "111",
+    "verified_date": "2026-02-11",
+    "coordinates": {
+      "lat": 31.6688,
+      "lng": 34.5742
+    },
+    "accepted_cards": [
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "חומוס אבו שוקרי",
+      "en": "Abu Shukri Hummus"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 20,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "אבו גוש",
+        "en": "Abu Ghosh"
+      },
+      "address": {
+        "he": "כביש השלום",
+        "en": "Peace Road"
+      },
+      "region": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      }
+    },
+    "kosher_status": {
+      "he": "לא כשר",
+      "en": "Not Kosher"
+    },
+    "source_url": "https://restaurantguru.com/Abu-Shukri-Abu-Ghosh",
+    "notes": {
+      "he": "שני בתי אבו שוקרי מתחרים זה מול זה. חומוס 36 ש\"ח. פלאפל זול יותר. מחיר משוער.",
+      "en": "Two competing Abu Shukri branches face each other. Hummus 36 NIS. Falafel cheaper. Estimated price."
+    },
+    "id": "149",
+    "verified_date": "2026-02-11",
+    "coordinates": {
+      "lat": 31.7795,
+      "lng": 35.2293
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "חומוס אבו סעיד",
+      "en": "Hummus Abu Saeed"
+    },
+    "dish_name": {
+      "he": "מנת חומוס",
+      "en": "Hummus Plate"
+    },
+    "price": 35,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "אבו גוש",
+        "en": "Abu Ghosh"
+      },
+      "address": {
+        "he": "מרכז הכפר 5",
+        "en": "Merkaz HaKfar 5"
+      },
+      "region": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      }
+    },
+    "kosher_status": {
+      "he": "לא כשר",
+      "en": "Not Kosher"
+    },
+    "source_url": "https://restaurantguru.com/hvmvs-abv-seid-Abu-Ghosh",
+    "notes": {
+      "he": "חומוס מפורסם באבו גוש. מחיר על הגבול.",
+      "en": "Famous hummus in Abu Ghosh. Price at the limit."
+    },
+    "id": "150",
+    "verified_date": "2026-02-11",
+    "coordinates": null,
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "פיתה דרוזית",
+      "en": "Druze Pita Stand"
+    },
+    "dish_name": {
+      "he": "פיתה דרוזית עם לבנה וזעתר",
+      "en": "Druze Pita with Labneh & Za'atar"
+    },
+    "price": 15,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "דאלית אל-כרמל",
+        "en": "Daliyat al-Karmel"
+      },
+      "address": {
+        "he": "רחוב 16, 8",
+        "en": "Street 16, 8"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא כשר",
+      "en": "Not Kosher"
+    },
+    "source_url": "https://www.d.co.il/80031726/44380/",
+    "notes": {
+      "he": "פיתה דרוזית טרייה עם לבנה וזעתר. טלפון: 072-3138181. מחיר משוער.",
+      "en": "Fresh Druze pita with labneh and za'atar. Phone: 072-3138181. Estimated price."
+    },
+    "id": "151",
+    "verified_date": "2026-02-11",
+    "coordinates": null,
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "שווארמה 11",
+      "en": "Shawarma 11"
+    },
+    "dish_name": {
+      "he": "פיתה מלאה בשר עגל",
+      "en": "Pita Stuffed with Veal"
+    },
+    "price": 30,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "דאלית אל-כרמל",
+        "en": "Daliyat al-Karmel"
+      },
+      "address": {
+        "he": "השוק",
+        "en": "The Market"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא כשר",
+      "en": "Not Kosher"
+    },
+    "source_url": "https://www.ynet.co.il/food/foodnews/article/ByKYVnlUH",
+    "notes": {
+      "he": "פיתה מלאה בבשר עגל. מחיר משוער.",
+      "en": "Pita stuffed with veal meat. Estimated price."
+    },
+    "id": "152",
+    "verified_date": "2026-02-11",
+    "coordinates": null,
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "טאבון ומסעדת עמאשה",
+      "en": "Taboon & Restaurant Amasha"
+    },
+    "dish_name": {
+      "he": "פיתה טאבון עם לבנה",
+      "en": "Taboon Pita with Labneh"
+    },
+    "price": 20,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "עוספיה",
+        "en": "Isfiya"
+      },
+      "address": {
+        "he": "עוספיה",
+        "en": "Isfiya"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא כשר",
+      "en": "Not Kosher"
+    },
+    "source_url": "https://easy.co.il/en/page/1717629",
+    "notes": {
+      "he": "אוכל דרוזי אותנטי. מחיר משוער.",
+      "en": "Authentic Druze food. Estimated price."
+    },
+    "id": "154",
+    "verified_date": "2026-02-11",
+    "coordinates": {
+      "lat": 32.726,
+      "lng": 35.072
+    },
+    "accepted_cards": [
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "חומוס אלסולטאן",
+      "en": "Hummus Al-Sultan"
+    },
+    "dish_name": {
+      "he": "חומוס",
+      "en": "Hummus Plate"
+    },
+    "price": 22,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "שפרעם",
+        "en": "Shfar'am"
+      },
+      "address": {
+        "he": "שפרעם",
+        "en": "Shfar'am"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא כשר",
+      "en": "Not Kosher"
+    },
+    "source_url": "https://www.d.co.il/80308124/30457/",
+    "notes": {
+      "he": "טלפון: 053-7101253. שעות: א'-ה' 7:30-19:30, ו' 9:00-13:00. מחיר משוער.",
+      "en": "Phone: 053-7101253. Hours: Sun-Thu 7:30-19:30, Fri 9:00-13:00. Estimated price."
+    },
+    "id": "155",
+    "verified_date": "2026-02-11",
+    "coordinates": {
+      "lat": 32.8058,
+      "lng": 35.1715
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "מלך הגריל",
+      "en": "Melekh HaGrill (Grill King)"
+    },
+    "dish_name": {
+      "he": "קבב בפיתה",
+      "en": "Kebab in Pita"
+    },
+    "price": 30,
+    "category": {
+      "he": "גריל",
+      "en": "Grill"
+    },
+    "location": {
+      "city": {
+        "he": "באקה אל-גרבייה",
+        "en": "Baqa al-Gharbiyye"
+      },
+      "address": {
+        "he": "כניסה צפונית",
+        "en": "Northern Entrance"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא כשר",
+      "en": "Not Kosher"
+    },
+    "source_url": "https://grillking.multiscreensite.com/",
+    "notes": {
+      "he": "קבב ביתי משובח על מתכון משפחתי. שיפודי כבש, פרגיות. מחיר משוער.",
+      "en": "Superb homemade kebab from family recipe. Lamb skewers, spring chicken. Estimated price."
+    },
+    "id": "158",
+    "verified_date": "2026-02-11",
+    "coordinates": null,
+    "accepted_cards": [
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "הג'חנון של שושנה",
+      "en": "Shoshana's Jachnun"
+    },
+    "dish_name": {
+      "he": "ג'חנון",
+      "en": "Jachnun"
+    },
+    "price": 22,
+    "category": {
+      "he": "תימני",
+      "en": "Yemenite"
+    },
+    "location": {
+      "city": {
+        "he": "רחובות",
+        "en": "Rehovot"
+      },
+      "address": {
+        "he": "רחובות",
+        "en": "Rehovot"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://www.shosh.co.il/",
+    "notes": {
+      "he": "ג'חנון עם רוטב, שחוג וביצה חומה. 5+1 באתר. משלוח חינם מעל 100 ש\"ח.",
+      "en": "Jachnun with sauce, schug and brown egg. 5+1 deal on website. Free delivery over 100 NIS."
+    },
+    "id": "162",
+    "verified_date": "2026-02-11",
+    "coordinates": {
+      "lat": 31.8983,
+      "lng": 34.8088
+    },
+    "accepted_cards": [
+      "10bis",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "מהמטבח התימני באהבה",
+      "en": "From the Yemenite Kitchen with Love"
+    },
+    "dish_name": {
+      "he": "מלאווח",
+      "en": "Malawach"
+    },
+    "price": 18,
+    "category": {
+      "he": "תימני",
+      "en": "Yemenite"
+    },
+    "location": {
+      "city": {
+        "he": "רחובות",
+        "en": "Rehovot"
+      },
+      "address": {
+        "he": "מרדכי בשישט 41",
+        "en": "Mordechai Beshisht 41"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://www.mishlohim.co.il/menu/10679/",
+    "notes": {
+      "he": "זלביה, מלאווח, ג'חנון חיטה מלאה, לחוח, קובנה, סלוף, מרק תימני. מחיר משוער.",
+      "en": "Zalabiya, malawach, whole wheat jachnun, lahoh, qubana, saluf, Yemenite soup. Estimated price."
+    },
+    "id": "163",
+    "verified_date": "2026-02-11",
+    "coordinates": null,
+    "accepted_cards": [
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "מהמטבח התימני באהבה",
+      "en": "From the Yemenite Kitchen with Love"
+    },
+    "dish_name": {
+      "he": "לחוח",
+      "en": "Lahoh (Yemenite Pancake)"
+    },
+    "price": 15,
+    "category": {
+      "he": "תימני",
+      "en": "Yemenite"
+    },
+    "location": {
+      "city": {
+        "he": "רחובות",
+        "en": "Rehovot"
+      },
+      "address": {
+        "he": "מרדכי בשישט 41",
+        "en": "Mordechai Beshisht 41"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://www.mishlohim.co.il/menu/10679/",
+    "notes": {
+      "he": "לחוח תימני מסורתי. מחיר משוער.",
+      "en": "Traditional Yemenite lahoh. Estimated price."
+    },
+    "id": "164",
+    "verified_date": "2026-02-11",
+    "coordinates": null,
+    "accepted_cards": [
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "פלאפל נונה",
+      "en": "Falafel Nona"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 10,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "רעננה",
+        "en": "Ra'anana"
+      },
+      "address": {
+        "he": "אחוזה",
+        "en": "Ahuza Street"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://humus101.com/9467",
+    "notes": {
+      "he": "פלאפל ב-10 ש\"ח בלבד! מעל 50 שנה ברעננה.",
+      "en": "Falafel for only 10 NIS! Over 50 years in Ra'anana."
+    },
+    "id": "165",
+    "verified_date": "2026-02-11",
+    "coordinates": {
+      "lat": 32.1851,
+      "lng": 34.8714
+    },
+    "accepted_cards": [
+      "10bis",
+      "credit_card",
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "שפידודית עבדאללה",
+      "en": "Shfidudit Abdullah"
+    },
+    "dish_name": {
+      "he": "סביח",
+      "en": "Sabich"
+    },
+    "price": 27,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "אור יהודה",
+        "en": "Or Yehuda"
+      },
+      "address": {
+        "he": "אור יהודה",
+        "en": "Or Yehuda"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://www.mako.co.il/food-restaurants/best/Article-a718c9d49f52791026.htm",
+    "notes": {
+      "he": "סביח 27 ש\"ח, אפשר לשדרג עם כדורי פלאפל בחינם!",
+      "en": "Sabich 27 NIS, can upgrade with falafel balls for free!"
+    },
+    "id": "167",
+    "verified_date": "2026-02-11",
+    "coordinates": {
+      "lat": 32.0284,
+      "lng": 34.8618
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "חומוס אור יהודה",
+      "en": "Hummus Or Yehuda"
+    },
+    "dish_name": {
+      "he": "חומוס עם פול",
+      "en": "Hummus with Ful"
+    },
+    "price": 34,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "אור יהודה",
+        "en": "Or Yehuda"
+      },
+      "address": {
+        "he": "הראשונים 2",
+        "en": "HaRishonim 2"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://easy.co.il/en/page/20762823",
+    "notes": {
+      "he": "חומוס פשוט ומצוין. כולל רוטב לימון, 2 פיתות, זיתים וחמוצים.",
+      "en": "Simple excellent hummus. Includes lemon sauce, 2 pitas, olives and pickles."
+    },
+    "id": "168",
+    "verified_date": "2026-02-11",
+    "coordinates": {
+      "lat": 32.0303,
+      "lng": 34.8592
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "פלאפל זכרון",
+      "en": "Falafel Zichron"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 20,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "זכרון יעקב",
+        "en": "Zichron Yaakov"
+      },
+      "address": {
+        "he": "המייסדים 60",
+        "en": "HaMeyasdim 60"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://www.rest.co.il/rest/80133818/",
+    "notes": {
+      "he": "ישיבה נחמדה עם נוף לרחוב המייסדים. מחיר משוער.",
+      "en": "Nice seating with view of HaMeyasdim street. Estimated price."
+    },
+    "id": "169",
+    "verified_date": "2026-02-11",
+    "coordinates": {
+      "lat": 32.575,
+      "lng": 34.9496
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "name": {
+      "he": "פלאפל המושבה חומוס",
+      "en": "Falafel HaMoshava Hummus"
+    },
+    "dish_name": {
+      "he": "חומוס",
+      "en": "Hummus Plate"
+    },
+    "price": 25,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "זכרון יעקב",
+        "en": "Zichron Yaakov"
+      },
+      "address": {
+        "he": "זכרון יעקב",
+        "en": "Zichron Yaakov"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://www.rest.co.il/rest/80285778/",
+    "notes": {
+      "he": "טלפון: 053-9379176. מחיר משוער.",
+      "en": "Phone: 053-9379176. Estimated price."
+    },
+    "id": "170",
+    "verified_date": "2026-02-11",
+    "coordinates": {
+      "lat": 32.575,
+      "lng": 34.9496
+    },
+    "accepted_cards": [
+      "credit_card",
+      "cash"
+    ]
+  }
+]

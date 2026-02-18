@@ -1,0 +1,1333 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Budget Bites | ביס בתקציב</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --bg: #f5f5f0;
+      --card-bg: #ffffff;
+      --accent: #2d6a4f;
+      --accent-light: #40916c;
+      --accent-hover: #1b4332;
+      --text: #1b1b1b;
+      --text-muted: #6b6b6b;
+      --border: #e0e0d8;
+      --tag-bg: #edf6f0;
+      --price-bg: #fef3c7;
+      --price-text: #92400e;
+    }
+
+    html[dir="rtl"] { font-family: 'Heebo', system-ui, sans-serif; }
+    html[dir="ltr"] { font-family: 'Inter', system-ui, sans-serif; }
+
+    body { background: var(--bg); color: var(--text); line-height: 1.6; min-height: 100vh; }
+
+    /* ── Header ──────────────────────────────────────────────── */
+    header {
+      background: linear-gradient(135deg, var(--accent) 0%, var(--accent-hover) 100%);
+      color: white;
+      padding-block: 0.55rem;
+      padding-inline: 1.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      min-height: 46px;
+      overflow: visible;  /* never clip the dropdown */
+      z-index: 100;       /* paint header stacking context above filter-bar (z:50) */
+    }
+    .header-content { text-align: center; }
+    .header-content h1 { font-size: 1.25rem; font-weight: 800; letter-spacing: -0.02em; }
+    .header-content p  { opacity: 0.8; font-size: 0.75rem; margin-block-start: 0.05rem; }
+
+    /* ── Language Menu ───────────────────────────────────────── */
+    .lang-menu {
+      position: absolute;
+      inset-inline-end: 1rem;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 1;          /* stacking context inside header */
+    }
+    .lang-menu-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      border: none;
+      border-radius: 50%;
+      background: transparent;
+      color: white;
+      cursor: pointer;
+      padding: 0.5rem;
+      transition: background 0.2s;
+    }
+    .lang-menu-btn:hover { background: rgba(255,255,255,0.2); }
+    .lang-menu-btn svg   { display: block; }
+    .lang-dropdown {
+      position: absolute;
+      inset-inline-end: 0;
+      top: calc(100% + 8px);
+      background: white;
+      border-radius: 8px;
+      border: 1px solid #e5e7eb;
+      box-shadow: 0 12px 32px rgba(0,0,0,0.18), 0 2px 8px rgba(0,0,0,0.08);
+      z-index: 100;        /* beats filter-bar (z:50) and ms-popover (z:200 fixed) */
+      min-width: 150px;
+      overflow: hidden;
+      display: none;
+    }
+    .lang-dropdown.open { display: block; }
+    .lang-option {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      width: 100%;
+      padding: 0.5rem 1rem;
+      border: none;
+      background: none;
+      font-family: inherit;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: #1f2937;
+      cursor: pointer;
+      text-align: start;
+      transition: background 0.12s;
+      min-height: 44px;
+    }
+    .lang-option:hover { background: #f3f4f6; }
+    .lang-check { margin-inline-start: auto; color: var(--accent); opacity: 0; }
+    .lang-option.selected .lang-check { opacity: 1; }
+
+    /* ── Sticky Glass Filter Bar ─────────────────────────────── */
+    .filter-bar {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(255,255,255,0.92);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid #e5e7eb;
+      box-shadow: 0 1px 8px rgba(0,0,0,0.06);
+    }
+    .filter-inner {
+      max-width: 1200px;
+      margin-inline: auto;
+      padding: 0.75rem 1.5rem 0.65rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+
+    /* ── Search Pill ─────────────────────────────────────────── */
+    .search-pill-wrap { position: relative; display: flex; align-items: center; }
+    .search-icon-left {
+      position: absolute;
+      inset-inline-start: 0.9rem;
+      color: var(--text-muted);
+      pointer-events: none;
+      display: flex;
+      align-items: center;
+    }
+    .search-icon-left svg { width: 17px; height: 17px; }
+    .search-pill {
+      width: 100%;
+      padding: 0.65rem 2.5rem;
+      font-size: 0.95rem;
+      font-family: inherit;
+      border: 1.5px solid #d1d5db;
+      border-radius: 9999px;
+      background: #f3f4f6;
+      outline: none;
+      transition: all 0.2s;
+      color: var(--text);
+    }
+    .search-pill:focus {
+      background: white;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(45,106,79,0.1);
+    }
+    .search-pill::placeholder { color: #9ca3af; }
+    .search-clear {
+      position: absolute;
+      inset-inline-end: 0.75rem;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border: none;
+      background: #9ca3af;
+      color: white;
+      cursor: pointer;
+      font-size: 0.75rem;
+      font-weight: 700;
+      line-height: 1;
+      padding: 0;
+    }
+    .search-clear.visible { display: flex; }
+    .search-clear:hover   { background: #6b7280; }
+
+    /* ── Multi-select trigger pills ─────────────────────────── */
+    .filter-pills-row {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+    .filter-pills-row::-webkit-scrollbar { display: none; }
+    .ms-trigger {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.42rem 0.85rem;
+      border: 1.5px solid #d1d5db;
+      border-radius: 9999px;
+      background: white;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #374151;
+      cursor: pointer;
+      font-family: inherit;
+      transition: all 0.18s;
+      white-space: nowrap;
+      user-select: none;
+    }
+    .ms-trigger:hover               { border-color: var(--accent); color: var(--accent); background: var(--tag-bg); }
+    .ms-trigger[data-active="true"] { border-color: var(--accent); color: var(--accent); background: var(--tag-bg); }
+    .ms-trigger svg.chevron         { width: 13px; height: 13px; flex-shrink: 0; transition: transform 0.2s; }
+    .ms-trigger[data-open="true"] svg.chevron { transform: rotate(180deg); }
+    .ms-count {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--accent);
+      color: white;
+      border-radius: 9999px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      min-width: 18px;
+      height: 18px;
+      padding: 0 4px;
+    }
+
+    /* ── Price row ───────────────────────────────────────────── */
+    .price-row { display: flex; align-items: center; }
+    .price-filter {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex: 1;
+    }
+    .price-filter label  { font-size: 0.82rem; font-weight: 600; color: var(--text-muted); white-space: nowrap; }
+    .price-filter input[type="range"] { flex: 1; accent-color: var(--accent); cursor: pointer; direction: ltr; }
+    .price-val { font-weight: 700; color: var(--accent); font-size: 0.85rem; min-width: 48px; }
+
+    /* ── Pills divider ───────────────────────────────────────── */
+    .pills-divider {
+      width: 1px; height: 20px;
+      background: #e5e7eb;
+      flex-shrink: 0;
+      align-self: center;
+      margin-inline: 0.25rem;
+    }
+
+    /* ── Quick filter chips ──────────────────────────────────── */
+    .chips-row {
+      display: flex;
+      gap: 0.45rem;
+      overflow-x: auto;
+      scrollbar-width: none;
+      padding-block-end: 2px;
+    }
+    .chips-row::-webkit-scrollbar { display: none; }
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.38rem 0.85rem;
+      border-radius: 9999px;
+      border: 1.5px solid #d1d5db;
+      background: white;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: #4b5563;
+      cursor: pointer;
+      font-family: inherit;
+      transition: all 0.18s;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .chip:hover { border-color: #9ca3af; }
+    .chip-10bis:hover, .chip-10bis.active { border-color: #f97316; background: #fff7ed; color: #c2410c; }
+    .chip-10bis.active { background: #ffedd5; }
+    .chip-cibus:hover,  .chip-cibus.active  { border-color: #3b82f6; background: #eff6ff; color: #1d4ed8; }
+    .chip-cibus.active  { background: #dbeafe; }
+    .chip-geo:hover, .chip-geo.active { border-color: var(--accent); background: var(--tag-bg); color: var(--accent-hover); }
+    .chip-geo.active { background: var(--accent); color: white; border-color: var(--accent); }
+    .chip-geo.active:hover { background: var(--accent-hover); }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .chip .spinner {
+      width: 13px; height: 13px;
+      border: 2px solid currentColor;
+      border-top-color: transparent;
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+      flex-shrink: 0;
+    }
+
+    /* ── Multi-select Popover (desktop) ──────────────────────── */
+    .ms-popover {
+      position: fixed;
+      z-index: 200;
+      background: white;
+      border: 1.5px solid #e5e7eb;
+      border-radius: 14px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.12), 0 2px 8px rgba(0,0,0,0.06);
+      min-width: 220px;
+      max-height: 340px;
+      display: none;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .ms-popover.open { display: flex; }
+    .ms-popover-header {
+      padding: 0.65rem 1rem 0.4rem;
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      border-bottom: 1px solid #f3f4f6;
+      flex-shrink: 0;
+    }
+    .ms-popover-list { overflow-y: auto; padding: 0.35rem 0; }
+    .ms-option {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      padding: 0.55rem 1rem;
+      cursor: pointer;
+      font-size: 0.88rem;
+      font-weight: 500;
+      color: var(--text);
+      transition: background 0.12s;
+      user-select: none;
+    }
+    .ms-option:hover    { background: #f9fafb; }
+    .ms-option.selected { color: var(--accent); background: var(--tag-bg); }
+    .ms-checkbox {
+      width: 16px; height: 16px;
+      border: 1.5px solid #d1d5db;
+      border-radius: 4px;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: white;
+      transition: all 0.15s;
+    }
+    .ms-option.selected .ms-checkbox { background: var(--accent); border-color: var(--accent); }
+    .ms-checkbox svg    { width: 10px; height: 10px; display: none; }
+    .ms-option.selected .ms-checkbox svg { display: block; }
+
+    /* ── Bottom Sheet (mobile) ───────────────────────────────── */
+    .sheet-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.4);
+      z-index: 300;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.25s;
+    }
+    .sheet-backdrop.open { opacity: 1; pointer-events: all; }
+    .bottom-sheet {
+      position: fixed;
+      inset-inline: 0;
+      bottom: 0;
+      z-index: 301;
+      background: white;
+      border-radius: 20px 20px 0 0;
+      max-height: 60vh;
+      display: flex;
+      flex-direction: column;
+      transform: translateY(100%);
+      transition: transform 0.3s cubic-bezier(0.32, 0.72, 0, 1);
+    }
+    .bottom-sheet.open { transform: translateY(0); }
+    .sheet-handle {
+      width: 40px; height: 4px;
+      background: #d1d5db;
+      border-radius: 2px;
+      margin: 0.65rem auto 0;
+      flex-shrink: 0;
+    }
+    .sheet-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.75rem 1.25rem 0.5rem;
+      border-bottom: 1px solid #f3f4f6;
+      flex-shrink: 0;
+    }
+    .sheet-title { font-size: 1rem; font-weight: 700; color: var(--text); }
+    .sheet-done {
+      padding: 0.35rem 0.9rem;
+      border-radius: 8px;
+      border: none;
+      background: var(--accent);
+      color: white;
+      font-size: 0.85rem;
+      font-weight: 700;
+      cursor: pointer;
+      font-family: inherit;
+    }
+    .sheet-list { overflow-y: auto; flex: 1; padding: 0.4rem 0; }
+    .sheet-option {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.85rem 1.25rem;
+      cursor: pointer;
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: var(--text);
+      border-bottom: 1px solid #f9fafb;
+      user-select: none;
+      min-height: 44px;
+    }
+    .sheet-option:hover    { background: #f9fafb; }
+    .sheet-option.selected { color: var(--accent); }
+    .sheet-checkbox {
+      width: 22px; height: 22px;
+      border: 2px solid #d1d5db;
+      border-radius: 6px;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: white;
+      transition: all 0.15s;
+    }
+    .sheet-option.selected .sheet-checkbox { background: var(--accent); border-color: var(--accent); }
+    .sheet-checkbox svg { width: 13px; height: 13px; display: none; }
+    .sheet-option.selected .sheet-checkbox svg { display: block; }
+
+    /* ── Stats bar ───────────────────────────────────────────── */
+    .stats {
+      max-width: 1200px;
+      margin-inline: auto;
+      padding: 0.6rem 1.5rem;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .sort-btn {
+      background: none;
+      border: 1.5px solid var(--border);
+      border-radius: 8px;
+      padding: 0.3rem 0.65rem;
+      font-size: 0.82rem;
+      font-family: inherit;
+      cursor: pointer;
+      color: var(--text-muted);
+      transition: all 0.2s;
+    }
+    .sort-btn:hover { border-color: var(--accent); color: var(--accent); background: var(--tag-bg); }
+
+    /* ── Grid ────────────────────────────────────────────────── */
+    .grid {
+      max-width: 1200px;
+      margin-inline: auto;
+      padding: 0.5rem 1.5rem 3rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1rem;
+    }
+
+    /* ── Cards ───────────────────────────────────────────────── */
+    .card {
+      background: var(--card-bg);
+      border-radius: 16px;
+      border: 1.5px solid var(--border);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06), 0 1px 3px rgba(0,0,0,0.08);
+      transition: box-shadow 0.25s, transform 0.25s;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .card:hover { box-shadow: 0 8px 24px rgba(0,0,0,0.12), 0 2px 8px rgba(0,0,0,0.08); transform: translateY(-3px); }
+    .card-icon-section { position: relative; height: 120px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+    .card-icon-section img.category-photo { width: 100%; height: 100%; object-fit: cover; }
+    .price-badge {
+      position: absolute;
+      top: 10px;
+      inset-inline-end: 10px;
+      background: var(--price-bg);
+      color: var(--price-text);
+      font-weight: 700;
+      font-size: 1rem;
+      padding: 0.3rem 0.7rem;
+      border-radius: 10px;
+      white-space: nowrap;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      z-index: 1;
+    }
+    .cat-bg-street-food { background: linear-gradient(135deg,#fef3c7,#fde68a); }
+    .cat-bg-hummus      { background: linear-gradient(135deg,#fef3c7,#fcd34d); }
+    .cat-bg-bakery      { background: linear-gradient(135deg,#fed7aa,#fdba74); }
+    .cat-bg-pizza       { background: linear-gradient(135deg,#fecaca,#fca5a5); }
+    .cat-bg-grill       { background: linear-gradient(135deg,#fecdd3,#fda4af); }
+    .cat-bg-asian       { background: linear-gradient(135deg,#d9f99d,#bef264); }
+    .cat-bg-yemenite    { background: linear-gradient(135deg,#e9d5ff,#d8b4fe); }
+    .cat-bg-dessert     { background: linear-gradient(135deg,#fbcfe8,#f9a8d4); }
+    .cat-bg-burger      { background: linear-gradient(135deg,#fed7aa,#fb923c); }
+    .cat-bg-cafe        { background: linear-gradient(135deg,#d1d5db,#a8a29e); }
+    .cat-bg-mexican     { background: linear-gradient(135deg,#bbf7d0,#86efac); }
+    .cat-bg-italian     { background: linear-gradient(135deg,#bfdbfe,#93c5fd); }
+    .cat-bg-default     { background: linear-gradient(135deg,#e2e8f0,#cbd5e1); }
+    .card-body { padding: 1rem 1.15rem; display: flex; flex-direction: column; gap: 0.5rem; flex: 1; }
+    .card-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 0.5rem; }
+    .card-header h3 { font-size: 1.05rem; font-weight: 700; line-height: 1.35; }
+    .dish-name  { font-size: 0.93rem; color: var(--text-muted); font-weight: 500; }
+    .card-meta  { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .tag        { font-size: 0.78rem; padding: 0.2rem 0.55rem; border-radius: 6px; font-weight: 500; }
+    .tag-category  { background: var(--tag-bg); color: var(--accent); }
+    .tag-region    { background: #ede9fe; color: #6d28d9; }
+    .tag-kosher    { background: #dbeafe; color: #1e40af; }
+    .tag-not-kosher{ background: #fee2e2; color: #991b1b; }
+    .tag-unknown   { background: #f3f4f6; color: #6b7280; }
+    .card-location { font-size: 0.85rem; color: var(--text-muted); }
+    .card-location .city { font-weight: 600; color: var(--text); }
+    .card-notes  { font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-block-start: auto; }
+    .card-source { font-size: 0.75rem; }
+    .card-source a { color: var(--accent-light); text-decoration: none; }
+    .card-source a:hover { text-decoration: underline; }
+    .card-actions { display: flex; border-block-start: 1px solid var(--border); }
+    .card-actions a {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.35rem;
+      padding: 0.65rem 0.5rem;
+      text-decoration: none;
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      transition: background 0.15s, color 0.15s;
+      border-inline-end: 1px solid var(--border);
+    }
+    .card-actions a:last-child { border-inline-end: none; }
+    .card-actions a:hover { background: var(--tag-bg); color: var(--accent); }
+    .card-actions a svg  { width: 16px; height: 16px; flex-shrink: 0; }
+    .action-waze:hover     { color: #33ccff; }
+    .action-gmaps:hover    { color: #ea4335; }
+    .action-whatsapp:hover { color: #25d366; }
+
+    /* ── Payment badges ──────────────────────────────────────── */
+    .payment-badges { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-block-start: 0.1rem; }
+    .pay-badge      { font-size: 0.72rem; font-weight: 700; padding: 0.15rem 0.45rem; border-radius: 5px; }
+    .pay-badge-10bis { background: #ffedd5; color: #c2410c; }
+    .pay-badge-cibus { background: #dbeafe; color: #1d4ed8; }
+
+    /* ── Distance badge ──────────────────────────────────────── */
+    .distance-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.2rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #166534;
+      background: #dcfce7;
+      border-radius: 6px;
+      padding: 0.15rem 0.45rem;
+    }
+
+    /* ── Toast ───────────────────────────────────────────────── */
+    .toast {
+      position: fixed;
+      bottom: 1.5rem;
+      inset-inline-start: 50%;
+      transform: translateX(-50%);
+      background: #1b1b1b;
+      color: white;
+      padding: 0.75rem 1.25rem;
+      border-radius: 10px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+      z-index: 1000;
+      opacity: 0;
+      transition: opacity 0.25s;
+      pointer-events: none;
+      max-width: calc(100vw - 2rem);
+      text-align: center;
+    }
+    .toast.show { opacity: 1; }
+
+    /* ── Empty state ─────────────────────────────────────────── */
+    .empty-state { grid-column: 1/-1; text-align: center; padding: 4rem 1rem; color: var(--text-muted); }
+    .empty-state .emoji { font-size: 3rem; margin-block-end: 1rem; }
+    .empty-state p { font-size: 1.1rem; }
+
+    /* ── Footer ──────────────────────────────────────────────── */
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      border-block-start: 1px solid var(--border);
+      max-width: 1200px;
+      margin-inline: auto;
+    }
+
+    /* ── Mobile ──────────────────────────────────────────────── */
+    @media (max-width: 700px) {
+      .grid         { grid-template-columns: 1fr; padding: 0.5rem 1rem 3rem; }
+      .filter-inner { padding: 0.65rem 1rem 0.5rem; }
+      .stats        { padding: 0.6rem 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <h1 id="site-title"></h1>
+      <p id="site-subtitle"></p>
+    </div>
+    <div class="lang-menu" id="lang-menu">
+      <button class="lang-menu-btn" id="lang-menu-btn"
+              aria-label="Change Language" aria-haspopup="true" aria-expanded="false">
+        <!-- Globe icon (lucide-style) -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+             fill="none" stroke="currentColor" stroke-width="2"
+             stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"/>
+          <line x1="2" y1="12" x2="22" y2="12"/>
+          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+        </svg>
+      </button>
+      <div class="lang-dropdown" id="lang-dropdown" role="menu">
+        <button class="lang-option" id="btn-he" role="menuitem">
+          <span>🇮🇱</span>
+          <span>עברית</span>
+          <span class="lang-check">✓</span>
+        </button>
+        <button class="lang-option" id="btn-en" role="menuitem">
+          <span>🇺🇸</span>
+          <span>English</span>
+          <span class="lang-check">✓</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ── Sticky filter bar ──────────────────────────────────── -->
+  <div class="filter-bar">
+    <div class="filter-inner">
+
+      <!-- Search pill -->
+      <div class="search-pill-wrap">
+        <span class="search-icon-left">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+        </span>
+        <input class="search-pill" type="text" id="search" autocomplete="off">
+        <button class="search-clear" id="search-clear" aria-label="Clear">✕</button>
+      </div>
+
+      <!-- Price row -->
+      <div class="price-row">
+        <div class="price-filter">
+          <label id="lbl-price"></label>
+          <input type="range" id="filter-price" min="5" max="35" value="35" step="1">
+          <span class="price-val" id="price-display"></span>
+        </div>
+      </div>
+
+      <!-- Filter pills + quick chips (single scrollable row) -->
+      <div class="filter-pills-row">
+        <button class="ms-trigger" id="ms-region"   data-key="regions"     data-active="false" data-open="false">
+          <span id="ms-region-label"></span>
+          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <button class="ms-trigger" id="ms-category" data-key="categories"  data-active="false" data-open="false">
+          <span id="ms-category-label"></span>
+          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <button class="ms-trigger" id="ms-kosher"   data-key="kashrut"     data-active="false" data-open="false">
+          <span id="ms-kosher-label"></span>
+          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <span class="pills-divider"></span>
+        <button class="chip chip-10bis" id="toggle-10bis"></button>
+        <button class="chip chip-cibus"  id="toggle-cibus"></button>
+        <button class="chip chip-geo"    id="geo-btn"></button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Multi-select Popover (desktop) -->
+  <div class="ms-popover" id="ms-popover">
+    <div class="ms-popover-header" id="ms-popover-header"></div>
+    <div class="ms-popover-list"   id="ms-popover-list"></div>
+  </div>
+
+  <!-- Bottom Sheet (mobile) -->
+  <div class="sheet-backdrop" id="sheet-backdrop"></div>
+  <div class="bottom-sheet"   id="bottom-sheet">
+    <div class="sheet-handle"></div>
+    <div class="sheet-header">
+      <span class="sheet-title" id="sheet-title"></span>
+      <button class="sheet-done" id="sheet-done"></button>
+    </div>
+    <div class="sheet-list" id="sheet-list"></div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <div class="stats">
+    <span id="result-count"></span>
+    <button class="sort-btn" id="sort-btn"></button>
+  </div>
+
+  <div class="grid" id="grid"></div>
+
+  <footer id="footer-text"></footer>
+
+  <script>
+    // ============================================================
+    // i18n
+    // ============================================================
+    const UI = {
+      he: {
+        title: "ביס בתקציב",
+        subtitle: "ארוחת צהריים עד 35 \u20AA בכל הארץ",
+        searchPlaceholder: "חיפוש מסעדה, מנה, עיר...",
+        maxPrice: "מחיר:",
+        kosherOptions: {
+          "Kosher": "כשר",
+          "Kosher Mehadrin": "כשר למהדרין",
+          "Not Kosher": "לא כשר",
+          "Unknown": "לא ידוע"
+        },
+        sortAsc:  "מחיר: מהזול ליקר",
+        sortDesc: "מחיר: מהיקר לזול",
+        results: (n, total) => `${n} תוצאות מתוך ${total}`,
+        noResults:    "לא נמצאו תוצאות. נסו לשנות את הסינון.",
+        noResultsGeo: "לא מצאנו ארוחות ב-35₪ ברדיוס של 1.5 ק״מ. נסה להרחיב את החיפוש.",
+        source: "מקור",
+        footer: "הנתונים נאספו ממקורות ציבוריים ועשויים להשתנות. מחירים נכונים לתאריך הסריקה.",
+        ms: {
+          regions:    { placeholder: "📍 כל האזורים",    title: "אזורים" },
+          categories: { placeholder: "🍽️ קטגוריות",     title: "קטגוריות" },
+          kashrut:    { placeholder: "✡️ כשרות",          title: "כשרות" },
+          nSelected: n => `${n} נבחרו`,
+          done: "סגור",
+        },
+        geoBtn:              "📍 קרוב אליי",
+        geoLocating:         "מאתר...",
+        geoPermissionDenied: "נדרש אישור מיקום כדי לראות מסעדות קרובות.",
+        geoError:            "שגיאה באיתור מיקום. נסה שוב.",
+        toggle10bis: "🟠 תן ביס",
+        toggleCibus: "🔵 סיבוס",
+      },
+      en: {
+        title: "Budget Bites",
+        subtitle: "Lunch up to 35 \u20AA across Israel",
+        searchPlaceholder: "Search restaurant, dish, city...",
+        maxPrice: "Price:",
+        kosherOptions: {
+          "Kosher": "Kosher",
+          "Kosher Mehadrin": "Mehadrin",
+          "Not Kosher": "Not Kosher",
+          "Unknown": "Unknown"
+        },
+        sortAsc:  "Price: Low to High",
+        sortDesc: "Price: High to Low",
+        results: (n, total) => `${n} results out of ${total}`,
+        noResults:    "No results found. Try adjusting your filters.",
+        noResultsGeo: "No meals under 35\u20AA found within 1.5 km. Try broadening your search.",
+        source: "Source",
+        footer: "Data collected from public sources and may change. Prices valid as of scan date.",
+        ms: {
+          regions:    { placeholder: "📍 All Regions",    title: "Regions" },
+          categories: { placeholder: "🍽️ Categories",    title: "Categories" },
+          kashrut:    { placeholder: "✡️ Kashrut",        title: "Kashrut" },
+          nSelected: n => `${n} selected`,
+          done: "Done",
+        },
+        geoBtn:              "📍 Near Me",
+        geoLocating:         "Locating...",
+        geoPermissionDenied: "Location permission required to show nearby restaurants.",
+        geoError:            "Location error. Please try again.",
+        toggle10bis: "🟠 10bis",
+        toggleCibus: "🔵 Cibus",
+      }
+    };
+
+    // ============================================================
+    // State
+    // ============================================================
+    let data = [];
+    let lang = localStorage.getItem("bb_lang") || "he";
+    let sortAsc = true;
+
+    // Filter state — all arrays for multi-select
+    const filterState = { search: "", regions: [], categories: [], kashrut: [], cards: [] };
+
+    // Geo state
+    let userLocation = null;
+    let isLocating   = false;
+    let geoActive    = false;
+
+    // Multi-select UI state
+    let openKey = null;
+    let msOptions = { regions: [], categories: [], kashrut: [] };
+
+    // ============================================================
+    // Helpers
+    // ============================================================
+    const $ = id => document.getElementById(id);
+    const t = () => UI[lang];
+
+    function esc(str) {
+      if (!str) return '';
+      const el = document.createElement('span');
+      el.textContent = str;
+      return el.innerHTML;
+    }
+
+    function l(field) {
+      if (!field) return '';
+      if (typeof field === 'string') return field;
+      return field[lang] || field.he || field.en || '';
+    }
+
+    function isMobile() { return window.innerWidth < 768; }
+
+    // ============================================================
+    // Build option lists from data
+    // ============================================================
+    function buildOptions() {
+      const regionKeys = [...new Set(data.map(r => r.location.region.en))].sort();
+      msOptions.regions = regionKeys.map(en => {
+        const entry = data.find(d => d.location.region.en === en);
+        return { value: en, label: () => l(entry.location.region) };
+      });
+
+      const catKeys = [...new Set(data.map(r => r.category.en))].sort();
+      msOptions.categories = catKeys.map(en => {
+        const entry = data.find(d => d.category.en === en);
+        return { value: en, label: () => l(entry.category) };
+      });
+
+      rebuildKashrutOptions();
+    }
+
+    function rebuildKashrutOptions() {
+      msOptions.kashrut = Object.keys(t().kosherOptions).map(key => ({
+        value: key,
+        label: () => t().kosherOptions[key],
+      }));
+    }
+
+    // ============================================================
+    // Trigger button labels
+    // ============================================================
+    const TRIGGER_IDS = {
+      regions:    { btn: 'ms-region',   label: 'ms-region-label' },
+      categories: { btn: 'ms-category', label: 'ms-category-label' },
+      kashrut:    { btn: 'ms-kosher',   label: 'ms-kosher-label' },
+    };
+
+    function getTriggerLabel(key) {
+      const sel = filterState[key];
+      const ms  = t().ms[key];
+      if (sel.length === 0) return ms.placeholder;
+      if (sel.length === 1) {
+        const opt = msOptions[key].find(o => o.value === sel[0]);
+        return opt ? opt.label() : sel[0];
+      }
+      return ms.nSelected(sel.length);
+    }
+
+    function updateTrigger(key) {
+      const ids = TRIGGER_IDS[key];
+      const btn = $(ids.btn);
+      const lbl = $(ids.label);
+      if (!btn || !lbl) return;
+      lbl.textContent   = getTriggerLabel(key);
+      btn.dataset.active = filterState[key].length > 0 ? "true" : "false";
+      btn.dataset.open   = openKey === key ? "true" : "false";
+    }
+
+    function updateAllTriggers() {
+      Object.keys(TRIGGER_IDS).forEach(updateTrigger);
+    }
+
+    // ============================================================
+    // Checkmark SVG (shared)
+    // ============================================================
+    const CHECK_SVG = `<svg viewBox="0 0 12 12" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="1.5 6 4.5 9 10.5 3"/></svg>`;
+
+    function buildOptionItems(key, container, itemCls, checkCls) {
+      const sel = filterState[key];
+      container.innerHTML = msOptions[key].map(opt => `
+        <div class="${itemCls}${sel.includes(opt.value) ? ' selected' : ''}" data-value="${esc(opt.value)}">
+          <span class="${checkCls}">${CHECK_SVG}</span>
+          <span>${esc(opt.label())}</span>
+        </div>`).join('');
+
+      container.querySelectorAll(`.${itemCls}`).forEach(el =>
+        el.addEventListener('click', () => toggleOption(key, el.dataset.value))
+      );
+    }
+
+    // ============================================================
+    // Multi-select open / close
+    // ============================================================
+    function openMultiSelect(key, triggerEl) {
+      closeMultiSelect();
+      openKey = key;
+      updateTrigger(key);
+      isMobile() ? openBottomSheet(key) : openPopover(key, triggerEl);
+    }
+
+    function closeMultiSelect() {
+      if (!openKey) return;
+      const prev = openKey;
+      openKey = null;
+      updateTrigger(prev);
+      $("ms-popover").classList.remove("open");
+      $("sheet-backdrop").classList.remove("open");
+      $("bottom-sheet").classList.remove("open");
+    }
+
+    function openPopover(key, triggerEl) {
+      const popover = $("ms-popover");
+      $("ms-popover-header").textContent = t().ms[key].title;
+      buildOptionItems(key, $("ms-popover-list"), 'ms-option', 'ms-checkbox');
+
+      const rect  = triggerEl.getBoundingClientRect();
+      const isRtl = document.documentElement.dir === 'rtl';
+      popover.style.top = (rect.bottom + window.scrollY + 6) + 'px';
+      if (isRtl) {
+        popover.style.right = (window.innerWidth - rect.right) + 'px';
+        popover.style.left  = 'auto';
+      } else {
+        popover.style.left  = rect.left + 'px';
+        popover.style.right = 'auto';
+      }
+      popover.classList.add("open");
+    }
+
+    function openBottomSheet(key) {
+      $("sheet-title").textContent = t().ms[key].title;
+      $("sheet-done").textContent  = t().ms.done;
+      buildOptionItems(key, $("sheet-list"), 'sheet-option', 'sheet-checkbox');
+      $("sheet-backdrop").classList.add("open");
+      $("bottom-sheet").classList.add("open");
+    }
+
+    function toggleOption(key, value) {
+      const arr = filterState[key];
+      filterState[key] = arr.includes(value) ? arr.filter(v => v !== value) : [...arr, value];
+      updateTrigger(key);
+      // Refresh visible list
+      if (openKey === key) {
+        isMobile()
+          ? buildOptionItems(key, $("sheet-list"),        'sheet-option', 'sheet-checkbox')
+          : buildOptionItems(key, $("ms-popover-list"),   'ms-option',    'ms-checkbox');
+      }
+      render();
+    }
+
+    // ============================================================
+    // Toast
+    // ============================================================
+    let toastTimer;
+    function showToast(msg) {
+      const el = $("toast");
+      el.textContent = msg;
+      el.classList.add("show");
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => el.classList.remove("show"), 3500);
+    }
+
+    // ============================================================
+    // Geolocation & Haversine
+    // ============================================================
+    function haversineKm(lat1, lng1, lat2, lng2) {
+      const R    = 6371;
+      const dLat = (lat2 - lat1) * Math.PI / 180;
+      const dLng = (lng2 - lng1) * Math.PI / 180;
+      const a    = Math.sin(dLat / 2) ** 2
+                 + Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180)
+                 * Math.sin(dLng / 2) ** 2;
+      return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    }
+
+    function updateGeoChip() {
+      const btn = $("geo-btn");
+      if (isLocating) {
+        btn.innerHTML = `<span class="spinner"></span>${t().geoLocating}`;
+        btn.disabled  = true;
+        btn.classList.remove("active");
+      } else {
+        btn.textContent = t().geoBtn;
+        btn.disabled    = false;
+        btn.classList.toggle("active", geoActive);
+      }
+    }
+
+    function handleGeoBtn() {
+      if (geoActive) {
+        geoActive = false; userLocation = null;
+        updateGeoChip(); render(); return;
+      }
+      if (!navigator.geolocation) { showToast(t().geoError); return; }
+      isLocating = true;
+      updateGeoChip();
+      navigator.geolocation.getCurrentPosition(
+        pos => {
+          userLocation = { lat: pos.coords.latitude, lng: pos.coords.longitude };
+          isLocating = false; geoActive = true;
+          updateGeoChip(); render();
+        },
+        err => {
+          isLocating = false;
+          updateGeoChip();
+          showToast(err.code === 1 ? t().geoPermissionDenied : t().geoError);
+        },
+        { timeout: 10000, enableHighAccuracy: true }
+      );
+    }
+
+    // ============================================================
+    // Card chips (10bis / Cibus)
+    // ============================================================
+    function updateCardChips() {
+      $("toggle-10bis").textContent = t().toggle10bis;
+      $("toggle-cibus").textContent = t().toggleCibus;
+      $("toggle-10bis").classList.toggle("active", filterState.cards.includes("10bis"));
+      $("toggle-cibus").classList.toggle("active",  filterState.cards.includes("cibus"));
+    }
+
+    function handleCardToggle(card) {
+      const arr = filterState.cards;
+      filterState.cards = arr.includes(card) ? arr.filter(c => c !== card) : [...arr, card];
+      updateCardChips();
+      render();
+    }
+
+    // ============================================================
+    // Language switching
+    // ============================================================
+    function setLang(newLang) {
+      lang = newLang;
+      localStorage.setItem("bb_lang", lang);
+      document.documentElement.setAttribute("dir",  lang === "he" ? "rtl" : "ltr");
+      document.documentElement.setAttribute("lang", lang === "he" ? "he"  : "en");
+
+      $("btn-he").classList.toggle("selected", lang === "he");
+      $("btn-en").classList.toggle("selected", lang === "en");
+      $("lang-dropdown").classList.remove("open");
+      $("lang-menu-btn").setAttribute("aria-expanded", "false");
+
+      $("site-title").textContent    = t().title;
+      $("site-subtitle").textContent = t().subtitle;
+      $("search").placeholder        = t().searchPlaceholder;
+      $("lbl-price").textContent     = t().maxPrice;
+      $("sort-btn").textContent      = sortAsc ? t().sortAsc : t().sortDesc;
+      $("footer-text").textContent   = t().footer;
+      $("price-display").textContent = $("filter-price").value + " \u20AA";
+
+      rebuildKashrutOptions();
+      updateAllTriggers();
+      updateCardChips();
+      updateGeoChip();
+      render();
+    }
+
+    // ============================================================
+    // Filtering — OR within dimension, AND across dimensions
+    // ============================================================
+    function getFiltered() {
+      const q     = filterState.search.toLowerCase();
+      const price = parseInt($("filter-price").value);
+
+      let filtered = data.filter(r => {
+        if (r.price > price) return false;
+
+        // Regions: OR
+        if (filterState.regions.length > 0 &&
+            !filterState.regions.includes(r.location.region.en)) return false;
+
+        // Categories: OR
+        if (filterState.categories.length > 0 &&
+            !filterState.categories.includes(r.category.en)) return false;
+
+        // Kashrut: OR
+        if (filterState.kashrut.length > 0 &&
+            !filterState.kashrut.includes(r.kosher_status.en)) return false;
+
+        // Payment cards: OR
+        if (filterState.cards.length > 0) {
+          const cards = r.accepted_cards || [];
+          if (!filterState.cards.some(c => cards.includes(c))) return false;
+        }
+
+        // Full-text search
+        if (q) {
+          const hay = [
+            r.name.he, r.name.en,
+            r.dish_name.he, r.dish_name.en,
+            r.category.he, r.category.en,
+            r.location.city.he, r.location.city.en,
+            r.location.address.he, r.location.address.en,
+            r.location.region.he, r.location.region.en,
+            r.notes ? r.notes.he : '', r.notes ? r.notes.en : ''
+          ].join(' ').toLowerCase();
+          if (!hay.includes(q)) return false;
+        }
+        return true;
+      });
+
+      // Geo: filter to 1.5 km, sort by distance
+      if (geoActive && userLocation) {
+        filtered = filtered
+          .map(r => {
+            if (!r.coordinates) return null;
+            const dist = haversineKm(userLocation.lat, userLocation.lng, r.coordinates.lat, r.coordinates.lng);
+            return dist <= 1.5 ? { ...r, _distance: dist } : null;
+          })
+          .filter(Boolean)
+          .sort((a, b) => a._distance - b._distance);
+      } else {
+        filtered.sort((a, b) => sortAsc ? a.price - b.price : b.price - a.price);
+        filtered = filtered.map(({ _distance, ...rest }) => rest);
+      }
+
+      return filtered;
+    }
+
+    // ============================================================
+    // Render
+    // ============================================================
+    function kosherClass(en) {
+      if (en === 'Kosher' || en === 'Kosher Mehadrin') return 'tag-kosher';
+      if (en === 'Not Kosher') return 'tag-not-kosher';
+      return 'tag-unknown';
+    }
+
+    const CATEGORY_PHOTO = {
+      'Street Food': 'images/categories/street_food.jpg',
+      'Hummus':      'images/categories/hummus.jpg',
+      'Bakery':      'images/categories/bakery.jpg',
+      'Pizza':       'images/categories/pizza.jpg',
+      'Grill':       'images/categories/grill.jpg',
+      'Asian':       'images/categories/asian.jpg',
+      'Yemenite':    'images/categories/yemenite.jpg',
+      'Dessert':     'images/categories/dessert.jpg',
+      'Burger':      'images/categories/burger.jpg',
+      'Cafe':        'images/categories/cafe.jpg',
+      'Cafe/Quick Bite': 'images/categories/cafe.jpg',
+      'Quick Bite':  'images/categories/cafe.jpg',
+      'Mexican':     'images/categories/mexican.jpg',
+      'Italian':     'images/categories/italian.jpg',
+    };
+    const getCategoryPhoto = en => CATEGORY_PHOTO[en] || 'images/categories/street_food.jpg';
+
+    const ICON_WAZE     = `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 2.39.84 4.58 2.24 6.3L3 22l3.7-1.24A9.93 9.93 0 0012 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm-1 14.5c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm4 0c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm2.5-5.5c0 1.38-.75 2.58-1.88 3.22l-.12.07V15h-2v-.71l-.13-.07A3.497 3.497 0 0112 7.5c1.93 0 3.5 1.57 3.5 3.5h2z"/></svg>`;
+    const ICON_GMAPS    = `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 010-5 2.5 2.5 0 010 5z"/></svg>`;
+    const ICON_WHATSAPP = `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.75 13.96c-.26-.13-1.52-.75-1.76-.83-.24-.08-.41-.13-.58.13-.17.25-.67.83-.82 1-.15.18-.3.2-.56.07-.26-.13-1.1-.41-2.09-1.3-.77-.69-1.29-1.54-1.44-1.8-.15-.26-.02-.4.11-.53.12-.12.26-.3.39-.45.13-.15.17-.26.26-.43.09-.17.04-.32-.02-.45-.07-.13-.58-1.4-.8-1.92-.21-.5-.43-.43-.58-.44h-.5c-.17 0-.45.07-.69.32-.24.26-.9.88-.9 2.14 0 1.26.93 2.48 1.06 2.65.13.17 1.83 2.8 4.43 3.92.62.27 1.1.43 1.48.55.62.2 1.18.17 1.63.1.5-.07 1.52-.62 1.73-1.22.22-.6.22-1.1.15-1.22-.07-.1-.24-.17-.5-.3zM12.04 2C6.52 2 2.04 6.48 2.04 12c0 1.77.46 3.44 1.28 4.88L2 22l5.25-1.38A9.93 9.93 0 0012.04 22c5.52 0 10-4.48 10-10s-4.48-10-10-10z"/></svg>`;
+
+    function buildMapQuery(r) {
+      const city  = l(r.location.city);
+      const addr  = l(r.location.address);
+      const name  = l(r.name);
+      const parts = [name, addr !== city ? addr : '', city, 'Israel'].filter(Boolean);
+      return encodeURIComponent(parts.join(', '));
+    }
+
+    function render() {
+      const filtered = getFiltered();
+      const grid     = $("grid");
+      $("result-count").textContent = t().results(filtered.length, data.length);
+
+      if (filtered.length === 0) {
+        const msg = geoActive ? t().noResultsGeo : t().noResults;
+        grid.innerHTML = `<div class="empty-state"><div class="emoji">${geoActive ? '📍' : '🍽️'}</div><p>${esc(msg)}</p></div>`;
+        return;
+      }
+
+      const mapsLabel  = lang === 'he' ? 'מפה'   : 'Map';
+      const shareLabel = lang === 'he' ? 'שיתוף' : 'Share';
+
+      grid.innerHTML = filtered.map(r => {
+        const name   = esc(l(r.name));
+        const dish   = esc(l(r.dish_name));
+        const cat    = esc(l(r.category));
+        const region = esc(l(r.location.region));
+        const kosher = esc(l(r.kosher_status));
+        const city   = esc(l(r.location.city));
+        const addr   = esc(l(r.location.address));
+        const notes  = r.notes ? esc(l(r.notes)) : '';
+        const showAddr = addr && addr !== city;
+
+        const distBadge = (geoActive && r._distance != null)
+          ? `<span class="distance-badge">📍 ${r._distance.toFixed(1)} km</span>` : '';
+
+        const cards = r.accepted_cards || [];
+        const payBadges = [
+          cards.includes('10bis') ? `<span class="pay-badge pay-badge-10bis">🟠 תן ביס</span>` : '',
+          cards.includes('cibus') ? `<span class="pay-badge pay-badge-cibus">🔵 סיבוס</span>` : '',
+        ].filter(Boolean).join('');
+        const payBadgesHtml = payBadges ? `<div class="payment-badges">${payBadges}</div>` : '';
+
+        const q           = buildMapQuery(r);
+        const wazeUrl     = `https://waze.com/ul?q=${q}&navigate=yes`;
+        const gmapsUrl    = `https://www.google.com/maps/search/?api=1&query=${q}`;
+        const shareText   = encodeURIComponent(
+          lang === 'he'
+            ? `${l(r.name)} - ${l(r.dish_name)} ב-${r.price}\u20AA | ${l(r.location.city)}`
+            : `${l(r.name)} - ${l(r.dish_name)} for ${r.price}\u20AA | ${l(r.location.city)}`
+        );
+        const whatsappUrl = `https://wa.me/?text=${shareText}`;
+
+        return `
+        <div class="card">
+          <div class="card-icon-section">
+            <img class="category-photo" src="${getCategoryPhoto(r.category.en)}" alt="${esc(cat)}" loading="lazy">
+            <span class="price-badge">${r.price} \u20AA</span>
+          </div>
+          <div class="card-body">
+            <div class="card-header"><h3>${name}</h3></div>
+            <div class="dish-name">${dish}</div>
+            <div class="card-meta">
+              <span class="tag tag-category">${cat}</span>
+              <span class="tag tag-region">${region}</span>
+              <span class="tag ${kosherClass(r.kosher_status.en)}">${kosher}</span>
+              ${distBadge}
+            </div>
+            ${payBadgesHtml}
+            <div class="card-location">
+              <span class="city">${city}</span>${showAddr ? ' &mdash; ' + addr : ''}
+            </div>
+            ${notes ? `<div class="card-notes">${notes}</div>` : ''}
+            ${r.source_url ? `<div class="card-source"><a href="${esc(r.source_url)}" target="_blank" rel="noopener">${esc(t().source)}</a></div>` : ''}
+          </div>
+          <div class="card-actions">
+            <a href="${wazeUrl}"     target="_blank" rel="noopener" class="action-waze">${ICON_WAZE}<span>Waze</span></a>
+            <a href="${gmapsUrl}"    target="_blank" rel="noopener" class="action-gmaps">${ICON_GMAPS}<span>${mapsLabel}</span></a>
+            <a href="${whatsappUrl}" target="_blank" rel="noopener" class="action-whatsapp">${ICON_WHATSAPP}<span>${shareLabel}</span></a>
+          </div>
+        </div>`;
+      }).join('');
+    }
+
+    // ============================================================
+    // Event listeners
+    // ============================================================
+    $("search").addEventListener("input", e => {
+      filterState.search = e.target.value;
+      $("search-clear").classList.toggle("visible", e.target.value.length > 0);
+      render();
+    });
+
+    $("search-clear").addEventListener("click", () => {
+      $("search").value  = "";
+      filterState.search = "";
+      $("search-clear").classList.remove("visible");
+      $("search").focus();
+      render();
+    });
+
+    $("filter-price").addEventListener("input", () => {
+      $("price-display").textContent = $("filter-price").value + " \u20AA";
+      render();
+    });
+
+    $("sort-btn").addEventListener("click", () => {
+      sortAsc = !sortAsc;
+      $("sort-btn").textContent = sortAsc ? t().sortAsc : t().sortDesc;
+      render();
+    });
+
+    // Globe button — toggle the dropdown
+    $("lang-menu-btn").addEventListener("click", e => {
+      e.stopPropagation();
+      const isOpen = $("lang-dropdown").classList.toggle("open");
+      $("lang-menu-btn").setAttribute("aria-expanded", isOpen ? "true" : "false");
+    });
+
+    $("btn-he").addEventListener("click", () => setLang("he"));
+    $("btn-en").addEventListener("click", () => setLang("en"));
+
+    // Multi-select triggers
+    Object.entries(TRIGGER_IDS).forEach(([key, ids]) => {
+      $(ids.btn).addEventListener("click", e => {
+        e.stopPropagation();
+        openKey === key ? closeMultiSelect() : openMultiSelect(key, $(ids.btn));
+      });
+    });
+
+    // Close lang dropdown on outside click
+    document.addEventListener("click", e => {
+      if ($("lang-dropdown").classList.contains("open") &&
+          !$("lang-menu").contains(e.target)) {
+        $("lang-dropdown").classList.remove("open");
+        $("lang-menu-btn").setAttribute("aria-expanded", "false");
+      }
+    });
+
+    // Close filter popover on outside click
+    document.addEventListener("click", e => {
+      if (!openKey || isMobile()) return;
+      const popover  = $("ms-popover");
+      const triggers = Object.values(TRIGGER_IDS).map(ids => $(ids.btn));
+      if (!popover.contains(e.target) && !triggers.some(el => el.contains(e.target))) {
+        closeMultiSelect();
+      }
+    });
+
+    $("sheet-backdrop").addEventListener("click", closeMultiSelect);
+    $("sheet-done").addEventListener("click",     closeMultiSelect);
+
+    $("geo-btn").addEventListener("click", handleGeoBtn);
+    $("toggle-10bis").addEventListener("click", () => handleCardToggle("10bis"));
+    $("toggle-cibus").addEventListener("click",  () => handleCardToggle("cibus"));
+
+    // ============================================================
+    // Init
+    // ============================================================
+    async function init() {
+      const res = await fetch("data/restaurants_i18n.json");
+      data = await res.json();
+      buildOptions();
+      setLang(lang);
+    }
+
+    init();
+  </script>
+</body>
+</html>
