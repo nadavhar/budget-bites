@@ -1,0 +1,20 @@
+{
+  "name": "ביס בתקציב – ארוחות צהריים עד 35 ₪",
+  "short_name": "ביס בתקציב",
+  "description": "מצא ארוחות צהריים עד 35 ₪ בכל הארץ",
+  "start_url": "/budget-bites/",
+  "scope": "/budget-bites/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f5f0",
+  "theme_color": "#2d6a4f",
+  "lang": "he",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍽️</text></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
