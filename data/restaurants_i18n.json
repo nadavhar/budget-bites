@@ -6065,5 +6065,225 @@
     },
     "id": "175",
     "verified_date": "2026-02-19"
+  },
+  {
+    "name": {
+      "he": "חומוס סעיד",
+      "en": "Hummus Said"
+    },
+    "dish_name": {
+      "he": "חומוס עם פיתה",
+      "en": "Hummus with Pita"
+    },
+    "price": 15,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "עכו",
+        "en": "Acre"
+      },
+      "address": {
+        "he": "שוק העיר העתיקה, עכו",
+        "en": "Old City Market, Acre"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא כשר",
+      "en": "Not Kosher"
+    },
+    "source_url": "https://www.rest.co.il/rest/80020248/",
+    "notes": {
+      "he": "חומוסייה אייקונית בשוק העיר העתיקה. פתוח א'-ו' 6:00-14:30.",
+      "en": "Iconic hummus spot in the Old City market. Open Sun-Fri 6:00-14:30."
+    },
+    "coordinates": {
+      "lat": 32.9241,
+      "lng": 35.0683
+    },
+    "id": "176",
+    "verified_date": "2026-02-19"
+  },
+  {
+    "name": {
+      "he": "חומוס פול שמסיה",
+      "en": "Hummus Shamsiyyah"
+    },
+    "dish_name": {
+      "he": "חומוס עם פול",
+      "en": "Hummus with Fava Beans"
+    },
+    "price": 20,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "עכו",
+        "en": "Acre"
+      },
+      "address": {
+        "he": "שוק העיר העתיקה, עכו",
+        "en": "Old City Market, Acre"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא כשר",
+      "en": "Not Kosher"
+    },
+    "source_url": "https://easy.co.il/page/8839594",
+    "notes": {
+      "he": "חומוס, משוושה ופול. פתוח כל השבוע 7:00-18:00.",
+      "en": "Hummus, mashwasha and fava beans. Open daily 7:00-18:00."
+    },
+    "coordinates": {
+      "lat": 32.9243,
+      "lng": 35.0681
+    },
+    "id": "177",
+    "verified_date": "2026-02-19"
+  },
+  {
+    "name": {
+      "he": "סוהילה",
+      "en": "Sohilah"
+    },
+    "dish_name": {
+      "he": "חומוס פול",
+      "en": "Hummus with Fava Beans"
+    },
+    "price": 20,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "עכו",
+        "en": "Acre"
+      },
+      "address": {
+        "he": "סלאח א-דין 14, עכו",
+        "en": "Salah a-Din 14, Acre"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא כשר",
+      "en": "Not Kosher"
+    },
+    "source_url": "https://easy.co.il/en/page/26351622",
+    "notes": {
+      "he": "חומוס פול, משוושה וסלט חצילים עם טחינה. פתוח 8:00-17:00.",
+      "en": "Hummus with fava beans, mashwasha and eggplant-tahini salad. Open 8:00-17:00."
+    },
+    "coordinates": {
+      "lat": 32.9238,
+      "lng": 35.0679
+    },
+    "id": "178",
+    "verified_date": "2026-02-19"
+  },
+  {
+    "name": {
+      "he": "פלאפל הטורקי",
+      "en": "Turkish Falafel"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 20,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "עכו",
+        "en": "Acre"
+      },
+      "address": {
+        "he": "יהושפט 24, עכו",
+        "en": "Jehoshaphat 24, Acre"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://easy.co.il/page/10019065",
+    "notes": {
+      "he": "פלאפל כשר בעיר העתיקה. מנה גדולה ב-20 ש\"ח, חצי מנה ב-8 ש\"ח.",
+      "en": "Kosher falafel in the Old City. Large portion 20 NIS, half portion 8 NIS."
+    },
+    "coordinates": {
+      "lat": 32.9235,
+      "lng": 35.0677
+    },
+    "id": "179",
+    "verified_date": "2026-02-19"
+  },
+  {
+    "name": {
+      "he": "מזליקה",
+      "en": "Mazalika"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 16,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "עכו",
+        "en": "Acre"
+      },
+      "address": {
+        "he": "יהושפט 28, עכו",
+        "en": "Jehoshaphat 28, Acre"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר למהדרין",
+      "en": "Kosher Mehadrin"
+    },
+    "source_url": "https://www.mishlohim.co.il/menu/7689/",
+    "notes": {
+      "he": "פלאפל כשר למהדרין. חצי מנה ב-8 ש\"ח, מנה שלמה ב-16 ש\"ח.",
+      "en": "Kosher Mehadrin falafel. Half portion 8 NIS, full portion 16 NIS."
+    },
+    "coordinates": {
+      "lat": 32.9236,
+      "lng": 35.0676
+    },
+    "id": "180",
+    "verified_date": "2026-02-19"
   }
 ]
