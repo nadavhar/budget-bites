@@ -7336,5 +7336,1589 @@
       "cash",
       "credit"
     ]
+  },
+  {
+    "id": "203",
+    "name": {
+      "he": "Hummus Bahadunas | Ra'anana ",
+      "en": "Hummus Bahadunas | Ra'anana "
+    },
+    "dish_name": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "price": 30,
+    "category": {
+      "he": "חומוסייה",
+      "en": "Hummus Place"
+    },
+    "location": {
+      "city": {
+        "he": "רעננה",
+        "en": "Ra'anana"
+      },
+      "address": {
+        "he": "העמל 2, רעננה ",
+        "en": "העמל 2, רעננה "
+      },
+      "region": {
+        "he": "שרון",
+        "en": "Sharon"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/kfar-saba/restaurant/hummusbahadunasraanana",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 9.6/10 (80 ביקורות) בוולט. Hummus joint",
+      "en": "Rating 9.6/10 (80 reviews) on Wolt. Hummus joint"
+    },
+    "coordinates": {
+      "lat": 32.196664,
+      "lng": 34.880661
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "204",
+    "name": {
+      "he": "Abulafia | Allenby",
+      "en": "Abulafia | Allenby"
+    },
+    "dish_name": {
+      "he": "מנה עיקרית",
+      "en": "Main Dish"
+    },
+    "price": 33,
+    "category": {
+      "he": "מזון מהיר",
+      "en": "Fast Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "אלנבי 45, תל אביב",
+        "en": "אלנבי 45, תל אביב"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/tel-aviv/restaurant/abulafia-allenby",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 9.4/10 (2,779 ביקורות) בוולט. The TLV branch of the Jaffa mythologic bakery",
+      "en": "Rating 9.4/10 (2,779 reviews) on Wolt. The TLV branch of the Jaffa mythologic bakery"
+    },
+    "coordinates": {
+      "lat": 32.070362,
+      "lng": 34.770355
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "205",
+    "name": {
+      "he": "Ha'Yerushalmi | Haifa",
+      "en": "Ha'Yerushalmi | Haifa"
+    },
+    "dish_name": {
+      "he": "מנה עיקרית",
+      "en": "Main Dish"
+    },
+    "price": 33,
+    "category": {
+      "he": "מזון מהיר",
+      "en": "Fast Food"
+    },
+    "location": {
+      "city": {
+        "he": "חיפה",
+        "en": "Haifa"
+      },
+      "address": {
+        "he": "דרך הים 3, חיפה",
+        "en": "דרך הים 3, חיפה"
+      },
+      "region": {
+        "he": "חיפה",
+        "en": "Haifa"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/haifa/restaurant/hayerushalmi-haifa",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 9.4/10 (466 ביקורות) בוולט. Homemade Food",
+      "en": "Rating 9.4/10 (466 reviews) on Wolt. Homemade Food"
+    },
+    "coordinates": {
+      "lat": 32.803891,
+      "lng": 34.986605
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "206",
+    "name": {
+      "he": "Retro Biss",
+      "en": "Retro Biss"
+    },
+    "dish_name": {
+      "he": "מנה עיקרית",
+      "en": "Main Dish"
+    },
+    "price": 33,
+    "category": {
+      "he": "מזון מהיר",
+      "en": "Fast Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "הרצל 24, תל אביב",
+        "en": "הרצל 24, תל אביב"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/tel-aviv/restaurant/retro-biss",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 9.4/10 (295 ביקורות) בוולט. The Nostalgic Sandwich | KOSHER",
+      "en": "Rating 9.4/10 (295 reviews) on Wolt. The Nostalgic Sandwich | KOSHER"
+    },
+    "coordinates": {
+      "lat": 32.060754,
+      "lng": 34.770353
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "207",
+    "name": {
+      "he": "I Love Sandwich",
+      "en": "I Love Sandwich"
+    },
+    "dish_name": {
+      "he": "כריך",
+      "en": "Sandwich"
+    },
+    "price": 35,
+    "category": {
+      "he": "סנדוויצ'ייה",
+      "en": "Sandwich Bar"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "ברנר 2, תל אביב",
+        "en": "ברנר 2, תל אביב"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/tel-aviv/restaurant/i-love-sandwich",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 9.4/10 (289 ביקורות) בוולט. a Delicious French sandwich in Tel Aviv",
+      "en": "Rating 9.4/10 (289 reviews) on Wolt. a Delicious French sandwich in Tel Aviv"
+    },
+    "coordinates": {
+      "lat": 32.069176,
+      "lng": 34.771143
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "208",
+    "name": {
+      "he": "Jachnun Ruha",
+      "en": "Jachnun Ruha"
+    },
+    "dish_name": {
+      "he": "ג'חנון",
+      "en": "Jachnun"
+    },
+    "price": 28,
+    "category": {
+      "he": "ג'חנון",
+      "en": "Jachnun"
+    },
+    "location": {
+      "city": {
+        "he": "הוד השרון",
+        "en": "Hod HaSharon"
+      },
+      "address": {
+        "he": "דרך רמתיים 77, הוד השרון",
+        "en": "דרך רמתיים 77, הוד השרון"
+      },
+      "region": {
+        "he": "שרון",
+        "en": "Sharon"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/kfar-saba/restaurant/jachnun-ruha",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 9.4/10 (177 ביקורות) בוולט. Homemade Jachnun without margarine",
+      "en": "Rating 9.4/10 (177 reviews) on Wolt. Homemade Jachnun without margarine"
+    },
+    "coordinates": {
+      "lat": 32.15424,
+      "lng": 34.894848
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "209",
+    "name": {
+      "he": "Hummus Hertzl",
+      "en": "Hummus Hertzl"
+    },
+    "dish_name": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "price": 30,
+    "category": {
+      "he": "חומוסייה",
+      "en": "Hummus Place"
+    },
+    "location": {
+      "city": {
+        "he": "הרצליה",
+        "en": "Herzliya"
+      },
+      "address": {
+        "he": "הסדנאות 2, הרצליה",
+        "en": "הסדנאות 2, הרצליה"
+      },
+      "region": {
+        "he": "גוש דן",
+        "en": "Gush Dan"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/herzliya/restaurant/hummus-hertzl",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 9.4/10 (122 ביקורות) בוולט. Fresh Hummus made with love\nKosher",
+      "en": "Rating 9.4/10 (122 reviews) on Wolt. Fresh Hummus made with love\nKosher"
+    },
+    "coordinates": {
+      "lat": 32.162545,
+      "lng": 34.807063
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "210",
+    "name": {
+      "he": "Sabich & Falafel Eyal",
+      "en": "Sabich & Falafel Eyal"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 23,
+    "category": {
+      "he": "פלאפל",
+      "en": "Falafel"
+    },
+    "location": {
+      "city": {
+        "he": "חיפה",
+        "en": "Haifa"
+      },
+      "address": {
+        "he": "מוריה 58, חיפה",
+        "en": "מוריה 58, חיפה"
+      },
+      "region": {
+        "he": "חיפה",
+        "en": "Haifa"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/haifa/restaurant/sabich-falafel-eyal",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 9.4/10 (109 ביקורות) בוולט. Authentic Israeli Street Food Since 2005",
+      "en": "Rating 9.4/10 (109 reviews) on Wolt. Authentic Israeli Street Food Since 2005"
+    },
+    "coordinates": {
+      "lat": 32.796473,
+      "lng": 34.984288
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "211",
+    "name": {
+      "he": "Just Tasty",
+      "en": "Just Tasty"
+    },
+    "dish_name": {
+      "he": "מנה עיקרית",
+      "en": "Main Dish"
+    },
+    "price": 33,
+    "category": {
+      "he": "מזון מהיר",
+      "en": "Fast Food"
+    },
+    "location": {
+      "city": {
+        "he": "בת ים",
+        "en": "Bat Yam"
+      },
+      "address": {
+        "he": "הרב יצחק ניסנבוים 29, בת ים",
+        "en": "הרב יצחק ניסנבוים 29, בת ים"
+      },
+      "region": {
+        "he": "גוש דן",
+        "en": "Gush Dan"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/rishon-lezion/restaurant/just-tasty",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 9.4/10 (66 ביקורות) בוולט. Sandwich Bar",
+      "en": "Rating 9.4/10 (66 reviews) on Wolt. Sandwich Bar"
+    },
+    "coordinates": {
+      "lat": 32.012157,
+      "lng": 34.751913
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "212",
+    "name": {
+      "he": "Mr. Pretzels | Petah Tikva",
+      "en": "Mr. Pretzels | Petah Tikva"
+    },
+    "dish_name": {
+      "he": "פרטצל",
+      "en": "Pretzel"
+    },
+    "price": 20,
+    "category": {
+      "he": "מאפייה",
+      "en": "Bakery"
+    },
+    "location": {
+      "city": {
+        "he": "פתח תקווה",
+        "en": "Petah Tikva"
+      },
+      "address": {
+        "he": "מתחם בסר , פתח תקווה",
+        "en": "מתחם בסר , פתח תקווה"
+      },
+      "region": {
+        "he": "גוש דן",
+        "en": "Gush Dan"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/petah-tikva/restaurant/mr-pretzels-petah-tikva",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 9.2/10 (298 ביקורות) בוולט. Fresh hot pretzels with fun toppings | Kosher Le'mehadrin",
+      "en": "Rating 9.2/10 (298 reviews) on Wolt. Fresh hot pretzels with fun toppings | Kosher Le'mehadrin"
+    },
+    "coordinates": {
+      "lat": 32.090892,
+      "lng": 34.860607
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "213",
+    "name": {
+      "he": "HaTarnegol",
+      "en": "HaTarnegol"
+    },
+    "dish_name": {
+      "he": "מנה עיקרית",
+      "en": "Main Dish"
+    },
+    "price": 33,
+    "category": {
+      "he": "מזון מהיר",
+      "en": "Fast Food"
+    },
+    "location": {
+      "city": {
+        "he": "הרצליה",
+        "en": "Herzliya"
+      },
+      "address": {
+        "he": "בן גוריון 14 הרצליה",
+        "en": "בן גוריון 14 הרצליה"
+      },
+      "region": {
+        "he": "גוש דן",
+        "en": "Gush Dan"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/herzliya/restaurant/hatarnegol",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 9.2/10 (162 ביקורות) בוולט. Schnitzel, Grill, lunch and homemade stews",
+      "en": "Rating 9.2/10 (162 reviews) on Wolt. Schnitzel, Grill, lunch and homemade stews"
+    },
+    "coordinates": {
+      "lat": 32.164776,
+      "lng": 34.842507
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "214",
+    "name": {
+      "he": "Sabich Hasharon | Petah Tikva",
+      "en": "Sabich Hasharon | Petah Tikva"
+    },
+    "dish_name": {
+      "he": "סביח",
+      "en": "Sabich"
+    },
+    "price": 28,
+    "category": {
+      "he": "סביח",
+      "en": "Sabich"
+    },
+    "location": {
+      "city": {
+        "he": "פתח תקווה",
+        "en": "Petah Tikva"
+      },
+      "address": {
+        "he": "ההסתדרות 18, פתח תקווה",
+        "en": "ההסתדרות 18, פתח תקווה"
+      },
+      "region": {
+        "he": "גוש דן",
+        "en": "Gush Dan"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/petah-tikva/restaurant/sabich-hasharon-petah-tikva",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 9.2/10 (151 ביקורות) בוולט. Original Sabich",
+      "en": "Rating 9.2/10 (151 reviews) on Wolt. Original Sabich"
+    },
+    "coordinates": {
+      "lat": 32.08592,
+      "lng": 34.885739
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "215",
+    "name": {
+      "he": "Falafel Armon",
+      "en": "Falafel Armon"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 23,
+    "category": {
+      "he": "פלאפל",
+      "en": "Falafel"
+    },
+    "location": {
+      "city": {
+        "he": "חיפה",
+        "en": "Haifa"
+      },
+      "address": {
+        "he": "הנביאים 13, חיפה",
+        "en": "הנביאים 13, חיפה"
+      },
+      "region": {
+        "he": "חיפה",
+        "en": "Haifa"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/haifa/restaurant/falafel-armon",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 9.2/10 (125 ביקורות) בוולט. The Legendary Haifa Falafel Since 1950",
+      "en": "Rating 9.2/10 (125 reviews) on Wolt. The Legendary Haifa Falafel Since 1950"
+    },
+    "coordinates": {
+      "lat": 32.813488,
+      "lng": 34.996027
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "216",
+    "name": {
+      "he": "Hummus Hasuri",
+      "en": "Hummus Hasuri"
+    },
+    "dish_name": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "price": 30,
+    "category": {
+      "he": "חומוסייה",
+      "en": "Hummus Place"
+    },
+    "location": {
+      "city": {
+        "he": "בת ים",
+        "en": "Bat Yam"
+      },
+      "address": {
+        "he": "קינמון אהוד 12, בת ים",
+        "en": "קינמון אהוד 12, בת ים"
+      },
+      "region": {
+        "he": "גוש דן",
+        "en": "Gush Dan"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/rishon-lezion/restaurant/hummus-hasuri",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 9.2/10 (113 ביקורות) בוולט. Kosher Mehadrin Hummus Restaurant\nBy Chief Rabbinate of Bat Yam",
+      "en": "Rating 9.2/10 (113 reviews) on Wolt. Kosher Mehadrin Hummus Restaurant\nBy Chief Rabbinate of Bat Yam"
+    },
+    "coordinates": {
+      "lat": 32.011325,
+      "lng": 34.750274
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "217",
+    "name": {
+      "he": "Falafel Ofer",
+      "en": "Falafel Ofer"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 23,
+    "category": {
+      "he": "פלאפל",
+      "en": "Falafel"
+    },
+    "location": {
+      "city": {
+        "he": "מודיעין",
+        "en": "Modiin"
+      },
+      "address": {
+        "he": "שמואל הנביא 6, מודיעין מכבים רעות",
+        "en": "שמואל הנביא 6, מודיעין מכבים רעות"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Central"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/modiin/restaurant/falafel-ofer",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 9.2/10 (112 ביקורות) בוולט. Hot Falafel in a Pita",
+      "en": "Rating 9.2/10 (112 reviews) on Wolt. Hot Falafel in a Pita"
+    },
+    "coordinates": {
+      "lat": 31.911967,
+      "lng": 35.005361
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "218",
+    "name": {
+      "he": "Hummus Bahadunas | Herzliya",
+      "en": "Hummus Bahadunas | Herzliya"
+    },
+    "dish_name": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "price": 30,
+    "category": {
+      "he": "חומוסייה",
+      "en": "Hummus Place"
+    },
+    "location": {
+      "city": {
+        "he": "הרצליה",
+        "en": "Herzliya"
+      },
+      "address": {
+        "he": "המנופים 9, הרצליה",
+        "en": "המנופים 9, הרצליה"
+      },
+      "region": {
+        "he": "גוש דן",
+        "en": "Gush Dan"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/herzliya/restaurant/hummus-bahadunas-herzliya",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 9.2/10 (69 ביקורות) בוולט. Hummus joint",
+      "en": "Rating 9.2/10 (69 reviews) on Wolt. Hummus joint"
+    },
+    "coordinates": {
+      "lat": 32.161038,
+      "lng": 34.807968
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "219",
+    "name": {
+      "he": "Falafel Gingi | Holon",
+      "en": "Falafel Gingi | Holon"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 23,
+    "category": {
+      "he": "פלאפל",
+      "en": "Falafel"
+    },
+    "location": {
+      "city": {
+        "he": "חולון",
+        "en": "Holon"
+      },
+      "address": {
+        "he": "הנשיאים 3, חולון",
+        "en": "הנשיאים 3, חולון"
+      },
+      "region": {
+        "he": "גוש דן",
+        "en": "Gush Dan"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/rishon-lezion/restaurant/falafel-gingi-holon",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 9.0/10 (202 ביקורות) בוולט. Falafel Gingi 👨🏻‍🦰",
+      "en": "Rating 9.0/10 (202 reviews) on Wolt. Falafel Gingi 👨🏻‍🦰"
+    },
+    "coordinates": {
+      "lat": 32.022025,
+      "lng": 34.774234
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "220",
+    "name": {
+      "he": "Tan'ami Hummus Bar",
+      "en": "Tan'ami Hummus Bar"
+    },
+    "dish_name": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "price": 30,
+    "category": {
+      "he": "חומוסייה",
+      "en": "Hummus Place"
+    },
+    "location": {
+      "city": {
+        "he": "רעננה",
+        "en": "Ra'anana"
+      },
+      "address": {
+        "he": "אחוזה 133 רעננה",
+        "en": "אחוזה 133 רעננה"
+      },
+      "region": {
+        "he": "שרון",
+        "en": "Sharon"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/kfar-saba/restaurant/tanami-hummus-bar",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 9.0/10 (194 ביקורות) בוולט. Hummus Bar",
+      "en": "Rating 9.0/10 (194 reviews) on Wolt. Hummus Bar"
+    },
+    "coordinates": {
+      "lat": 32.180508,
+      "lng": 34.873256
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "221",
+    "name": {
+      "he": "Pizza Keshet",
+      "en": "Pizza Keshet"
+    },
+    "dish_name": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "price": 38,
+    "category": {
+      "he": "פיצרייה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "בת ים",
+        "en": "Bat Yam"
+      },
+      "address": {
+        "he": "בר שאול 3, בת ים",
+        "en": "בר שאול 3, בת ים"
+      },
+      "region": {
+        "he": "גוש דן",
+        "en": "Gush Dan"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/holon/restaurant/pizza-keshet",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 9.0/10 (185 ביקורות) בוולט. Bat Yam's local pizzaria 🍕 | Kosher",
+      "en": "Rating 9.0/10 (185 reviews) on Wolt. Bat Yam's local pizzaria 🍕 | Kosher"
+    },
+    "coordinates": {
+      "lat": 32.02753,
+      "lng": 34.74652
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "222",
+    "name": {
+      "he": "Burekas Baba | Herzliya",
+      "en": "Burekas Baba | Herzliya"
+    },
+    "dish_name": {
+      "he": "בורקס",
+      "en": "Burekas"
+    },
+    "price": 20,
+    "category": {
+      "he": "בורקס",
+      "en": "Burekas"
+    },
+    "location": {
+      "city": {
+        "he": "הרצליה",
+        "en": "Herzliya"
+      },
+      "address": {
+        "he": " בן גוריון 14, הרצליה",
+        "en": " בן גוריון 14, הרצליה"
+      },
+      "region": {
+        "he": "גוש דן",
+        "en": "Gush Dan"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/herzliya/restaurant/turkish-bourekas",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 9.0/10 (151 ביקורות) בוולט. Original Turkish Bourekas",
+      "en": "Rating 9.0/10 (151 reviews) on Wolt. Original Turkish Bourekas"
+    },
+    "coordinates": {
+      "lat": 32.164274,
+      "lng": 34.842451
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "223",
+    "name": {
+      "he": "Hummus Or Yehuda",
+      "en": "Hummus Or Yehuda"
+    },
+    "dish_name": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "price": 30,
+    "category": {
+      "he": "חומוסייה",
+      "en": "Hummus Place"
+    },
+    "location": {
+      "city": {
+        "he": "אור יהודה",
+        "en": "Or Yehuda"
+      },
+      "address": {
+        "he": "הראשונים 5, אור יהודה",
+        "en": "הראשונים 5, אור יהודה"
+      },
+      "region": {
+        "he": "גוש דן",
+        "en": "Gush Dan"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/petah-tikva/restaurant/hummus-or-yahuda",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 9.0/10 (144 ביקורות) בוולט. Homemade Hummus",
+      "en": "Rating 9.0/10 (144 reviews) on Wolt. Homemade Hummus"
+    },
+    "coordinates": {
+      "lat": 32.031742,
+      "lng": 34.847412
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "224",
+    "name": {
+      "he": "Falafel Kadoori | The Blue Kiosk",
+      "en": "Falafel Kadoori | The Blue Kiosk"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 23,
+    "category": {
+      "he": "פלאפל",
+      "en": "Falafel"
+    },
+    "location": {
+      "city": {
+        "he": "הוד השרון",
+        "en": "Hod HaSharon"
+      },
+      "address": {
+        "he": "דרך רמתיים 59, הוד השרון",
+        "en": "דרך רמתיים 59, הוד השרון"
+      },
+      "region": {
+        "he": "שרון",
+        "en": "Sharon"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/kfar-saba/restaurant/falafel-kadoori-the-blue-kiosk",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 9.0/10 (115 ביקורות) בוולט. The Nostalgic Falafel | Since 1960",
+      "en": "Rating 9.0/10 (115 reviews) on Wolt. The Nostalgic Falafel | Since 1960"
+    },
+    "coordinates": {
+      "lat": 32.156775,
+      "lng": 34.894649
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "225",
+    "name": {
+      "he": "Hummus Badusa - Dr. Ful Shakshuka | Poleg",
+      "en": "Hummus Badusa - Dr. Ful Shakshuka | Poleg"
+    },
+    "dish_name": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "price": 30,
+    "category": {
+      "he": "חומוסייה",
+      "en": "Hummus Place"
+    },
+    "location": {
+      "city": {
+        "he": "נתניה",
+        "en": "Netanya"
+      },
+      "address": {
+        "he": "אריה רגב 11, נתניה",
+        "en": "אריה רגב 11, נתניה"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Central"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/netanya/restaurant/badosa-poleg",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 9.0/10 (105 ביקורות) בוולט. Hummus・Broad bean・Shakshuka | Kosher",
+      "en": "Rating 9.0/10 (105 reviews) on Wolt. Hummus・Broad bean・Shakshuka | Kosher"
+    },
+    "coordinates": {
+      "lat": 32.28167,
+      "lng": 34.863168
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "226",
+    "name": {
+      "he": "Hummus Atiya",
+      "en": "Hummus Atiya"
+    },
+    "dish_name": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "price": 30,
+    "category": {
+      "he": "חומוסייה",
+      "en": "Hummus Place"
+    },
+    "location": {
+      "city": {
+        "he": "מודיעין",
+        "en": "Modiin"
+      },
+      "address": {
+        "he": "דם המכבים 53 מודיעין",
+        "en": "דם המכבים 53 מודיעין"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Central"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/modiin/restaurant/hummus-atiya",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 9.0/10 (99 ביקורות) בוולט. Local Homemade Hummus",
+      "en": "Rating 9.0/10 (99 reviews) on Wolt. Local Homemade Hummus"
+    },
+    "coordinates": {
+      "lat": 31.904705,
+      "lng": 35.006531
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "227",
+    "name": {
+      "he": "Uzi Hummus Ful | Sha'ar Haemek",
+      "en": "Uzi Hummus Ful | Sha'ar Haemek"
+    },
+    "dish_name": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "price": 30,
+    "category": {
+      "he": "חומוסייה",
+      "en": "Hummus Place"
+    },
+    "location": {
+      "city": {
+        "he": "נתניה",
+        "en": "Netanya"
+      },
+      "address": {
+        "he": "שער העמק 2, נתניה",
+        "en": "שער העמק 2, נתניה"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Central"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/netanya/restaurant/uzi-hummus-ful-shaar-haemek",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 9.0/10 (95 ביקורות) בוולט. Fresh Hummus, made on the spot",
+      "en": "Rating 9.0/10 (95 reviews) on Wolt. Fresh Hummus, made on the spot"
+    },
+    "coordinates": {
+      "lat": 32.328963,
+      "lng": 34.857285
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "228",
+    "name": {
+      "he": "Toast Ha'osher | Rehovot",
+      "en": "Toast Ha'osher | Rehovot"
+    },
+    "dish_name": {
+      "he": "כריך",
+      "en": "Sandwich"
+    },
+    "price": 32,
+    "category": {
+      "he": "סנדוויצ'ייה",
+      "en": "Sandwich Bar"
+    },
+    "location": {
+      "city": {
+        "he": "רחובות",
+        "en": "Rehovot"
+      },
+      "address": {
+        "he": "הרצל 81, רחובות",
+        "en": "הרצל 81, רחובות"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Central"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/rishon-lezion/restaurant/toast-haosher",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 9.0/10 (82 ביקורות) בוולט. Sausage Toast - Kosher Mahfood",
+      "en": "Rating 9.0/10 (82 reviews) on Wolt. Sausage Toast - Kosher Mahfood"
+    },
+    "coordinates": {
+      "lat": 31.888905,
+      "lng": 34.813222
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "229",
+    "name": {
+      "he": "Hummus Achdut | Modi'in",
+      "en": "Hummus Achdut | Modi'in"
+    },
+    "dish_name": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "price": 30,
+    "category": {
+      "he": "חומוסייה",
+      "en": "Hummus Place"
+    },
+    "location": {
+      "city": {
+        "he": "מודיעין",
+        "en": "Modiin"
+      },
+      "address": {
+        "he": "חסידה 21, מודיעין-מכבים-רעות",
+        "en": "חסידה 21, מודיעין-מכבים-רעות"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Central"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/modiin/restaurant/hummus-achdut-modiin",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 9.0/10 (50 ביקורות) בוולט. Local Homemade Hummus",
+      "en": "Rating 9.0/10 (50 reviews) on Wolt. Local Homemade Hummus"
+    },
+    "coordinates": {
+      "lat": 31.895941,
+      "lng": 34.996514
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "230",
+    "name": {
+      "he": "Schnitzel Haim Boya | Netanya",
+      "en": "Schnitzel Haim Boya | Netanya"
+    },
+    "dish_name": {
+      "he": "שניצל",
+      "en": "Schnitzel"
+    },
+    "price": 35,
+    "category": {
+      "he": "שניצל",
+      "en": "Schnitzel"
+    },
+    "location": {
+      "city": {
+        "he": "נתניה",
+        "en": "Netanya"
+      },
+      "address": {
+        "he": "ישראל זנגוויל 12, נתניה",
+        "en": "ישראל זנגוויל 12, נתניה"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Central"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/netanya/restaurant/schnitzel-haim-boya-netanya",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 8.8/10 (188 ביקורות) בוולט. Schnitzels from Netanya's market",
+      "en": "Rating 8.8/10 (188 reviews) on Wolt. Schnitzels from Netanya's market"
+    },
+    "coordinates": {
+      "lat": 32.330034,
+      "lng": 34.861044
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "231",
+    "name": {
+      "he": "Hummus Mori ",
+      "en": "Hummus Mori "
+    },
+    "dish_name": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "price": 30,
+    "category": {
+      "he": "חומוסייה",
+      "en": "Hummus Place"
+    },
+    "location": {
+      "city": {
+        "he": "נתניה",
+        "en": "Netanya"
+      },
+      "address": {
+        "he": "הרצל 19, נתניה",
+        "en": "הרצל 19, נתניה"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Central"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/netanya/restaurant/hummus-mori",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 8.8/10 (118 ביקורות) בוולט. Local Homemade Hummus",
+      "en": "Rating 8.8/10 (118 reviews) on Wolt. Local Homemade Hummus"
+    },
+    "coordinates": {
+      "lat": 32.329163,
+      "lng": 34.855895
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "232",
+    "name": {
+      "he": "Falafel Ezra",
+      "en": "Falafel Ezra"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 23,
+    "category": {
+      "he": "פלאפל",
+      "en": "Falafel"
+    },
+    "location": {
+      "city": {
+        "he": "בני ברק",
+        "en": "Bnei Brak"
+      },
+      "address": {
+        "he": "אהרונוביץ 59, בני ברק",
+        "en": "אהרונוביץ 59, בני ברק"
+      },
+      "region": {
+        "he": "גוש דן",
+        "en": "Gush Dan"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/ramat-gan/restaurant/falafel-ezra",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 8.8/10 (109 ביקורות) בוולט. Same flavour since 1958",
+      "en": "Rating 8.8/10 (109 reviews) on Wolt. Same flavour since 1958"
+    },
+    "coordinates": {
+      "lat": 32.086073,
+      "lng": 34.839817
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "233",
+    "name": {
+      "he": "Hummus Badusa | The old industrial area",
+      "en": "Hummus Badusa | The old industrial area"
+    },
+    "dish_name": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "price": 30,
+    "category": {
+      "he": "חומוסייה",
+      "en": "Hummus Place"
+    },
+    "location": {
+      "city": {
+        "he": "נתניה",
+        "en": "Netanya"
+      },
+      "address": {
+        "he": "הקדר 4 נתניה",
+        "en": "הקדר 4 נתניה"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Central"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/netanya/restaurant/hummus-badusa-shechterman",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 8.8/10 (92 ביקורות) בוולט. Hummus・Broad bean・Shakshuka",
+      "en": "Rating 8.8/10 (92 reviews) on Wolt. Hummus・Broad bean・Shakshuka"
+    },
+    "coordinates": {
+      "lat": 32.322733,
+      "lng": 34.875001
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "234",
+    "name": {
+      "he": "New Deli | Ramat Gan",
+      "en": "New Deli | Ramat Gan"
+    },
+    "dish_name": {
+      "he": "מנה עיקרית",
+      "en": "Main Dish"
+    },
+    "price": 33,
+    "category": {
+      "he": "מזון מהיר",
+      "en": "Fast Food"
+    },
+    "location": {
+      "city": {
+        "he": "רמת גן",
+        "en": "Ramat Gan"
+      },
+      "address": {
+        "he": "ביאליק 76, רמת גן",
+        "en": "ביאליק 76, רמת גן"
+      },
+      "region": {
+        "he": "גוש דן",
+        "en": "Gush Dan"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/ramat-gan/restaurant/new-deli-ramat-gan",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 8.6/10 (197 ביקורות) בוולט. Fine Grilled Sandwiches",
+      "en": "Rating 8.6/10 (197 reviews) on Wolt. Fine Grilled Sandwiches"
+    },
+    "coordinates": {
+      "lat": 32.085738,
+      "lng": 34.81161
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "235",
+    "name": {
+      "he": "Bourekas Baba | Modi'in",
+      "en": "Bourekas Baba | Modi'in"
+    },
+    "dish_name": {
+      "he": "בורקס",
+      "en": "Burekas"
+    },
+    "price": 20,
+    "category": {
+      "he": "בורקס",
+      "en": "Burekas"
+    },
+    "location": {
+      "city": {
+        "he": "מודיעין",
+        "en": "Modiin"
+      },
+      "address": {
+        "he": "פז מודיעין הראל, המכונאי 2, מודיעין מכבים רעות",
+        "en": "פז מודיעין הראל, המכונאי 2, מודיעין מכבים רעות"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Central"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/modiin/restaurant/bourekas-baba-modiin",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "דירוג 8.6/10 (54 ביקורות) בוולט. Traditional Turkish Burekas | Kosher L’mehadrin Baddatz",
+      "en": "Rating 8.6/10 (54 reviews) on Wolt. Traditional Turkish Burekas | Kosher L’mehadrin Baddatz"
+    },
+    "coordinates": {
+      "lat": 31.889307,
+      "lng": 34.960029
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
   }
 ]
