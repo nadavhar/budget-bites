@@ -6285,5 +6285,1056 @@
     },
     "id": "180",
     "verified_date": "2026-02-19"
+  },
+  {
+    "id": "181",
+    "name": {
+      "he": "סביח פלאפל בכיכר",
+      "en": "Sabich Falafel BaKikar"
+    },
+    "dish_name": {
+      "he": "סביח / פלאפל בפיתה",
+      "en": "Sabich / Falafel in Pita"
+    },
+    "price": 20,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "רמת גן",
+        "en": "Ramat Gan"
+      },
+      "address": {
+        "he": "כיכר רמב\"ם 3, רמת גן",
+        "en": "Kikar Rambam 3, Ramat Gan"
+      },
+      "region": {
+        "he": "גוש דן",
+        "en": "Gush Dan"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://easy.co.il/en/page/10023164",
+    "verified_date": "2026-02-19",
+    "notes": {
+      "he": "סביח ופלאפל טריים ב-20 ש\"ח. מיקום מרכזי בכיכר רמב\"ם.",
+      "en": "Fresh sabich and falafel for 20 NIS. Central location at Rambam Square."
+    },
+    "coordinates": {
+      "lat": 32.0704,
+      "lng": 34.8237
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "182",
+    "name": {
+      "he": "שווארמה ברחוב",
+      "en": "Shawarma BaRechov"
+    },
+    "dish_name": {
+      "he": "שווארמה בפיתה",
+      "en": "Shawarma in Pita"
+    },
+    "price": 32,
+    "category": {
+      "he": "שווארמה",
+      "en": "Shawarma"
+    },
+    "location": {
+      "city": {
+        "he": "רמת גן",
+        "en": "Ramat Gan"
+      },
+      "address": {
+        "he": "ביאליק 77, רמת גן",
+        "en": "Bialik 77, Ramat Gan"
+      },
+      "region": {
+        "he": "גוש דן",
+        "en": "Gush Dan"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://easy.co.il/en/page/26563430",
+    "verified_date": "2026-02-19",
+    "notes": {
+      "he": "שווארמה טרייה ושמנה, מנות גדולות. א-ה 09:30-23:00, ו' 09:00-16:00.",
+      "en": "Fresh generous shawarma. Sun-Thu 09:30-23:00, Fri 09:00-16:00."
+    },
+    "coordinates": {
+      "lat": 32.0684,
+      "lng": 34.8211
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "183",
+    "name": {
+      "he": "סולטן",
+      "en": "Sultan"
+    },
+    "dish_name": {
+      "he": "שווארמה / פלאפל / שניצל",
+      "en": "Shawarma / Falafel / Schnitzel"
+    },
+    "price": 30,
+    "category": {
+      "he": "שווארמה",
+      "en": "Shawarma"
+    },
+    "location": {
+      "city": {
+        "he": "רמת גן",
+        "en": "Ramat Gan"
+      },
+      "address": {
+        "he": "הירדן 94, רמת גן",
+        "en": "HaYarden 94, Ramat Gan"
+      },
+      "region": {
+        "he": "גוש דן",
+        "en": "Gush Dan"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר למהדרין",
+      "en": "Kosher LeMehadrin"
+    },
+    "source_url": "https://easy.co.il/en/page/3373395",
+    "verified_date": "2026-02-19",
+    "notes": {
+      "he": "שווארמה, פלאפל ושניצל. כשרות מהדרין. א-ה 10:00-23:00, ו' 10:00-15:00.",
+      "en": "Shawarma, falafel and schnitzel. Mehadrin kosher. Sun-Thu 10:00-23:00, Fri 10:00-15:00."
+    },
+    "coordinates": {
+      "lat": 32.0669,
+      "lng": 34.8254
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "184",
+    "name": {
+      "he": "פלאפל בטעם של עוד",
+      "en": "Falafel Beta'am Shel Od"
+    },
+    "dish_name": {
+      "he": "פלאפל / סביח בפיתה",
+      "en": "Falafel / Sabich in Pita"
+    },
+    "price": 20,
+    "category": {
+      "he": "פלאפל",
+      "en": "Falafel"
+    },
+    "location": {
+      "city": {
+        "he": "חולון",
+        "en": "Holon"
+      },
+      "address": {
+        "he": "שדרות ירושלים 85, חולון",
+        "en": "Sderot Yerushalayim 85, Holon"
+      },
+      "region": {
+        "he": "גוש דן",
+        "en": "Gush Dan"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר – הרבנות הראשית חולון",
+      "en": "Kosher – Chief Rabbinate of Holon"
+    },
+    "source_url": "https://easy.co.il/en/page/3583143",
+    "verified_date": "2026-02-19",
+    "notes": {
+      "he": "פלאפל וסביח ב-20 ש\"ח, שניצל בבגט 34 ש\"ח. מריחות מגוונות.",
+      "en": "Falafel and sabich 20 NIS, schnitzel in baguette 34 NIS. Variety of spreads."
+    },
+    "coordinates": {
+      "lat": 32.0156,
+      "lng": 34.774
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "185",
+    "name": {
+      "he": "שווארמה האורגים",
+      "en": "Shawarma HaOrgim"
+    },
+    "dish_name": {
+      "he": "שווארמה בפיתה",
+      "en": "Shawarma in Pita"
+    },
+    "price": 30,
+    "category": {
+      "he": "שווארמה",
+      "en": "Shawarma"
+    },
+    "location": {
+      "city": {
+        "he": "חולון",
+        "en": "Holon"
+      },
+      "address": {
+        "he": "האורגים 1, חולון",
+        "en": "HaOrgim 1, Holon"
+      },
+      "region": {
+        "he": "גוש דן",
+        "en": "Gush Dan"
+      }
+    },
+    "kosher_status": {
+      "he": "לא צוין",
+      "en": "Not specified"
+    },
+    "source_url": "https://easy.co.il/en/page/27052692",
+    "verified_date": "2026-02-19",
+    "notes": {
+      "he": "שווארמה שמנה מלאה בבשר ובסלטים. א-ה 08:00-20:00, ו' סגור.",
+      "en": "Generous shawarma full of meat and salads. Sun-Thu 08:00-20:00, Fri closed."
+    },
+    "coordinates": {
+      "lat": 32.01,
+      "lng": 34.7782
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "186",
+    "name": {
+      "he": "רחמונס פלאפל",
+      "en": "Rahmunes Falafel"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 15,
+    "category": {
+      "he": "פלאפל",
+      "en": "Falafel"
+    },
+    "location": {
+      "city": {
+        "he": "בת ים",
+        "en": "Bat Yam"
+      },
+      "address": {
+        "he": "בלפור 67, בת ים",
+        "en": "Balfour 67, Bat Yam"
+      },
+      "region": {
+        "he": "גוש דן",
+        "en": "Gush Dan"
+      }
+    },
+    "kosher_status": {
+      "he": "לא צוין",
+      "en": "Not specified"
+    },
+    "source_url": "https://easy.co.il/en/page/10068568",
+    "verified_date": "2026-02-19",
+    "notes": {
+      "he": "פלאפל ברחוב במחיר נמוך במיוחד. דירוג 4.6/5 (55 ביקורות). א' 09:30-24:00.",
+      "en": "Very affordable street falafel. Rating 4.6/5 (55 reviews). Sun 09:30-24:00."
+    },
+    "coordinates": {
+      "lat": 32.0187,
+      "lng": 34.7518
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "187",
+    "name": {
+      "he": "פלאפל חתוכה",
+      "en": "Falafel Hatuka"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 25,
+    "category": {
+      "he": "פלאפל",
+      "en": "Falafel"
+    },
+    "location": {
+      "city": {
+        "he": "בת ים",
+        "en": "Bat Yam"
+      },
+      "address": {
+        "he": "בלפור 122, בת ים",
+        "en": "Balfour 122, Bat Yam"
+      },
+      "region": {
+        "he": "גוש דן",
+        "en": "Gush Dan"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://wolt.com/en/isr/rishon-lezion-hashfela-area/restaurant/falafel-hatuka-bat-yam",
+    "verified_date": "2026-02-19",
+    "notes": {
+      "he": "פלאפל טרי וטעים בבת ים. זמין גם בדיליברי דרך וולט.",
+      "en": "Fresh tasty falafel in Bat Yam. Also available via Wolt delivery."
+    },
+    "coordinates": {
+      "lat": 32.0205,
+      "lng": 34.7509
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "188",
+    "name": {
+      "he": "פלאפל נועם",
+      "en": "Falafel Noam"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 15,
+    "category": {
+      "he": "פלאפל",
+      "en": "Falafel"
+    },
+    "location": {
+      "city": {
+        "he": "בת ים",
+        "en": "Bat Yam"
+      },
+      "address": {
+        "he": "בלפור 111, בת ים",
+        "en": "Balfour 111, Bat Yam"
+      },
+      "region": {
+        "he": "גוש דן",
+        "en": "Gush Dan"
+      }
+    },
+    "kosher_status": {
+      "he": "לא צוין",
+      "en": "Not specified"
+    },
+    "source_url": "https://israelbusinessguide.com/catalog/bat-yam/falafel_noam/",
+    "verified_date": "2026-02-19",
+    "notes": {
+      "he": "פלאפל ב-12 ש\"ח. ממוקם ברחוב בלפור, מחיר נמוך מאוד.",
+      "en": "Falafel from 12 NIS. Located on Balfour Street, very affordable."
+    },
+    "coordinates": {
+      "lat": 32.0199,
+      "lng": 34.7513
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "189",
+    "name": {
+      "he": "פלאפל חיים",
+      "en": "Haim's Falafel"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה עם שתייה",
+      "en": "Falafel in Pita with Drink"
+    },
+    "price": 25,
+    "category": {
+      "he": "פלאפל",
+      "en": "Falafel"
+    },
+    "location": {
+      "city": {
+        "he": "הרצליה",
+        "en": "Herzliya"
+      },
+      "address": {
+        "he": "סוקולוב 66, הרצליה",
+        "en": "Sokolov 66, Herzliya"
+      },
+      "region": {
+        "he": "גוש דן",
+        "en": "Gush Dan"
+      }
+    },
+    "kosher_status": {
+      "he": "לא צוין",
+      "en": "Not specified"
+    },
+    "source_url": "https://www.tripadvisor.com/Restaurant_Review-g297747-d7214771-Reviews-Haim_s_Falafel-Herzliya_Tel_Aviv_District.html",
+    "verified_date": "2026-02-19",
+    "notes": {
+      "he": "פלאפל טרי כולל שתייה ב-25 ש\"ח. מרכז הרצליה, מקום ידוע ומוכר.",
+      "en": "Fresh falafel including drink for 25 NIS. Central Herzliya, well-known spot."
+    },
+    "coordinates": {
+      "lat": 32.1657,
+      "lng": 34.8434
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "190",
+    "name": {
+      "he": "חומוס כספי הרצליה",
+      "en": "Hummus Kaspi Herzliya"
+    },
+    "dish_name": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "price": 27,
+    "category": {
+      "he": "חומוסייה",
+      "en": "Hummus Place"
+    },
+    "location": {
+      "city": {
+        "he": "הרצליה",
+        "en": "Herzliya"
+      },
+      "address": {
+        "he": "הרצליה (כתובת מדויקת דרך וולט)",
+        "en": "Herzliya (exact address via Wolt)"
+      },
+      "region": {
+        "he": "גוש דן",
+        "en": "Gush Dan"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://wolt.com/en/isr/tel-aviv/restaurant/kaspi-herzliya",
+    "verified_date": "2026-02-19",
+    "notes": {
+      "he": "חומוס כספי ב-24 ש\"ח. גם כדורי פלאפל ב-6 ש\"ח. זמין בוולט.",
+      "en": "Hummus Kaspi for 24 NIS. Falafel balls 6 NIS. Available on Wolt."
+    },
+    "coordinates": {
+      "lat": 32.164,
+      "lng": 34.845
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "191",
+    "name": {
+      "he": "חומוס אליהו הרצליה",
+      "en": "Hummus Eliyahu Herzliya"
+    },
+    "dish_name": {
+      "he": "חומוס עם פיתה",
+      "en": "Hummus with Pita"
+    },
+    "price": 28,
+    "category": {
+      "he": "חומוסייה",
+      "en": "Hummus Place"
+    },
+    "location": {
+      "city": {
+        "he": "הרצליה",
+        "en": "Herzliya"
+      },
+      "address": {
+        "he": "בן גוריון 22, הרצליה",
+        "en": "Ben Gurion 22, Herzliya"
+      },
+      "region": {
+        "he": "גוש דן",
+        "en": "Gush Dan"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר למהדרין",
+      "en": "Kosher LeMehadrin"
+    },
+    "source_url": "https://www.koshernear.me/listings/35402/hummus-eliyahu-herzliya",
+    "verified_date": "2026-02-19",
+    "notes": {
+      "he": "חומוס ישראלי אותנטי עם פיתה. כשרות מהדרין.",
+      "en": "Authentic Israeli hummus with pita. Mehadrin kosher."
+    },
+    "coordinates": {
+      "lat": 32.1638,
+      "lng": 34.8422
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "192",
+    "name": {
+      "he": "חומוס בר תנעמי",
+      "en": "Tanami Humus Bar"
+    },
+    "dish_name": {
+      "he": "חומוס עם תוספות",
+      "en": "Hummus with Toppings"
+    },
+    "price": 29,
+    "category": {
+      "he": "חומוסייה",
+      "en": "Hummus Place"
+    },
+    "location": {
+      "city": {
+        "he": "רעננה",
+        "en": "Ra'anana"
+      },
+      "address": {
+        "he": "רחוב אחוזה, רעננה",
+        "en": "Ahuza Street, Ra'anana"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Central"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר, צמחוני",
+      "en": "Kosher, Vegetarian"
+    },
+    "source_url": "https://www.tripadvisor.com/Restaurant_Review-g1891686-d3196514-Reviews-Tanami_Humus_Bar-Ra_anana_Central_District.html",
+    "verified_date": "2026-02-19",
+    "notes": {
+      "he": "חומוס עם חומוס חם, פטריות, חציל מטוגן. גם שקשוקה ופלאפל. כ-29 ש\"ח למנה.",
+      "en": "Hummus with hot chickpeas, mushrooms, fried eggplant. Also shakshuka and falafel. ~29 NIS per portion."
+    },
+    "coordinates": {
+      "lat": 32.1868,
+      "lng": 34.8697
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "193",
+    "name": {
+      "he": "פלאפל בר שלום",
+      "en": "Falafel Bar Shalom"
+    },
+    "dish_name": {
+      "he": "פלאפל / חומוס",
+      "en": "Falafel / Hummus"
+    },
+    "price": 25,
+    "category": {
+      "he": "פלאפל",
+      "en": "Falafel"
+    },
+    "location": {
+      "city": {
+        "he": "בית שמש",
+        "en": "Beit Shemesh"
+      },
+      "address": {
+        "he": "יגאל אלון 6, בית שמש",
+        "en": "Yigal Alon 6, Beit Shemesh"
+      },
+      "region": {
+        "he": "שפלה",
+        "en": "Shephelah"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://easy.co.il/en/page/26431753",
+    "verified_date": "2026-02-19",
+    "notes": {
+      "he": "פלאפל וחומוס קריספי ועשיר. מרכיבים טריים, אווירה משפחתית.",
+      "en": "Crispy falafel and rich hummus. Fresh ingredients, family-friendly atmosphere."
+    },
+    "coordinates": {
+      "lat": 31.749,
+      "lng": 34.9894
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "194",
+    "name": {
+      "he": "שניצל שמש",
+      "en": "Shnitzel Shemesh"
+    },
+    "dish_name": {
+      "he": "שניצל בפיתה",
+      "en": "Schnitzel in Pita"
+    },
+    "price": 30,
+    "category": {
+      "he": "מזון מהיר",
+      "en": "Fast Food"
+    },
+    "location": {
+      "city": {
+        "he": "בית שמש",
+        "en": "Beit Shemesh"
+      },
+      "address": {
+        "he": "שדרות הדקל 12, בית שמש",
+        "en": "Sderot HaDekel 12, Beit Shemesh"
+      },
+      "region": {
+        "he": "שפלה",
+        "en": "Shephelah"
+      }
+    },
+    "kosher_status": {
+      "he": "לא צוין",
+      "en": "Not specified"
+    },
+    "source_url": "https://easy.co.il/en/page/10079492",
+    "verified_date": "2026-02-19",
+    "notes": {
+      "he": "שניצל בפיתה במחירים טובים. א-ה 10:00-21:00.",
+      "en": "Schnitzel in pita at good prices. Sun-Thu 10:00-21:00."
+    },
+    "coordinates": {
+      "lat": 31.7456,
+      "lng": 34.9874
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "195",
+    "name": {
+      "he": "ניו דלי",
+      "en": "New Deli"
+    },
+    "dish_name": {
+      "he": "כריך שניצל / בגט",
+      "en": "Schnitzel Sandwich / Baguette"
+    },
+    "price": 30,
+    "category": {
+      "he": "דלי / סנדוויצ'ייה",
+      "en": "Deli / Sandwich Bar"
+    },
+    "location": {
+      "city": {
+        "he": "בית שמש",
+        "en": "Beit Shemesh"
+      },
+      "address": {
+        "he": "שדרות נחל צאלים 2, בית שמש",
+        "en": "Sderot Nachal Tze'elim 2, Beit Shemesh"
+      },
+      "region": {
+        "he": "שפלה",
+        "en": "Shephelah"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר למהדרין",
+      "en": "Kosher LeMehadrin"
+    },
+    "source_url": "https://easy.co.il/en/page/10078248",
+    "verified_date": "2026-02-19",
+    "notes": {
+      "he": "כריכי שניצל ומגוון סנדוויצ'ים. כשרות מהדרין. מחיר טיפוסי 25-35 ש\"ח.",
+      "en": "Schnitzel sandwiches and variety of options. Mehadrin kosher. Typical price 25-35 NIS."
+    },
+    "coordinates": {
+      "lat": 31.7475,
+      "lng": 34.9904
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "196",
+    "name": {
+      "he": "מיטבר בית שמש",
+      "en": "MeatBar Beit Shemesh"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 28,
+    "category": {
+      "he": "מזון מהיר",
+      "en": "Fast Food"
+    },
+    "location": {
+      "city": {
+        "he": "בית שמש",
+        "en": "Beit Shemesh"
+      },
+      "address": {
+        "he": "נחל מאור 10, בית שמש",
+        "en": "Nahal Maor 10, Beit Shemesh"
+      },
+      "region": {
+        "he": "שפלה",
+        "en": "Shephelah"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר – מחפוד",
+      "en": "Kosher – Machpud"
+    },
+    "source_url": "https://easy.co.il/en/page/26537853",
+    "verified_date": "2026-02-19",
+    "notes": {
+      "he": "פלאפל 28 ש\"ח. א-ה 10:30-22:00. כשרות מחפוד.",
+      "en": "Falafel 28 NIS. Sun-Thu 10:30-22:00. Machpud kosher certification."
+    },
+    "coordinates": {
+      "lat": 31.751,
+      "lng": 34.9921
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "197",
+    "name": {
+      "he": "אופר פלאפל",
+      "en": "Offer Falafel"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 25,
+    "category": {
+      "he": "פלאפל",
+      "en": "Falafel"
+    },
+    "location": {
+      "city": {
+        "he": "מודיעין",
+        "en": "Modiin"
+      },
+      "address": {
+        "he": "שמואל הנביא 6, מודיעין",
+        "en": "Shmuel HaNavi 6, Modiin"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Central"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://easy.co.il/en/page/4935764",
+    "verified_date": "2026-02-19",
+    "notes": {
+      "he": "דירוג 9.2/10 עם 2,074 ביקורות! שירות עצמי – אתה מרכיב את הפלאפל שלך. א-ה 10:00-21:00.",
+      "en": "Rating 9.2/10 with 2,074 reviews! Self-service – you assemble your own falafel pita. Sun-Thu 10:00-21:00."
+    },
+    "coordinates": {
+      "lat": 31.9008,
+      "lng": 34.9999
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "198",
+    "name": {
+      "he": "שווארמה רפאל",
+      "en": "Shawarma Rephael"
+    },
+    "dish_name": {
+      "he": "שווארמה / פלאפל",
+      "en": "Shawarma / Falafel"
+    },
+    "price": 30,
+    "category": {
+      "he": "שווארמה",
+      "en": "Shawarma"
+    },
+    "location": {
+      "city": {
+        "he": "מודיעין",
+        "en": "Modiin"
+      },
+      "address": {
+        "he": "מודיעין (ראו אתר)",
+        "en": "Modiin (see website)"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Central"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://modiinapp.com/en/page/5918/shawarma-rephael-shawarma-falafel-meat",
+    "verified_date": "2026-02-19",
+    "notes": {
+      "he": "שווארמה, פלאפל ובשרים. א-ה 11:00-23:45, ו' 11:00-15:30, מוצ\"ש עד 23:30.",
+      "en": "Shawarma, falafel and meats. Sun-Thu 11:00-23:45, Fri 11:00-15:30, Sat night till 23:30."
+    },
+    "coordinates": {
+      "lat": 31.8992,
+      "lng": 34.9968
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "199",
+    "name": {
+      "he": "שלום פלאפל מודיעין",
+      "en": "Shalom Falafel Modiin"
+    },
+    "dish_name": {
+      "he": "פלאפל / שניצל / שווארמה בפיתה",
+      "en": "Falafel / Schnitzel / Shawarma in Pita"
+    },
+    "price": 25,
+    "category": {
+      "he": "פלאפל",
+      "en": "Falafel"
+    },
+    "location": {
+      "city": {
+        "he": "מודיעין",
+        "en": "Modiin"
+      },
+      "address": {
+        "he": "ליד רמי לוי ישפרו, מודיעין",
+        "en": "Near Rami Levy Yishpro, Modiin"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Central"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://modiinapp.com/en/page/2379/shalom-falafel",
+    "verified_date": "2026-02-19",
+    "notes": {
+      "he": "סניף של רשת שלום פלאפל הוותיקה (נוסד 1945). פלאפל, שקשוקה, חומוס ועוד.",
+      "en": "Branch of veteran Shalom Falafel chain (est. 1945). Falafel, shakshuka, hummus and more."
+    },
+    "coordinates": {
+      "lat": 31.8974,
+      "lng": 35.0014
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "200",
+    "name": {
+      "he": "חומוס מדמס",
+      "en": "Hummus Meddamas"
+    },
+    "dish_name": {
+      "he": "חומוס עם פיתה",
+      "en": "Hummus with Pita"
+    },
+    "price": 25,
+    "category": {
+      "he": "חומוסייה",
+      "en": "Hummus Place"
+    },
+    "location": {
+      "city": {
+        "he": "בני ברק",
+        "en": "Bnei Brak"
+      },
+      "address": {
+        "he": "הירקון 3, בני ברק",
+        "en": "Ha-Yarkon 3, Bnei Brak"
+      },
+      "region": {
+        "he": "גוש דן",
+        "en": "Gush Dan"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://easy.co.il/en/page/27126819",
+    "verified_date": "2026-02-19",
+    "notes": {
+      "he": "חומוס ישראלי אותנטי. א-ה 09:00-17:00, ו' סגור.",
+      "en": "Authentic Israeli hummus. Sun-Thu 09:00-17:00, Fri closed."
+    },
+    "coordinates": {
+      "lat": 32.0808,
+      "lng": 34.8341
+    },
+    "accepted_cards": [
+      "cash"
+    ]
+  },
+  {
+    "id": "201",
+    "name": {
+      "he": "חומוס נרי",
+      "en": "Hummus Neri"
+    },
+    "dish_name": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "price": 27,
+    "category": {
+      "he": "חומוסייה",
+      "en": "Hummus Place"
+    },
+    "location": {
+      "city": {
+        "he": "בני ברק",
+        "en": "Bnei Brak"
+      },
+      "address": {
+        "he": "מצדה 9, בני ברק",
+        "en": "Matzada 9, Bnei Brak"
+      },
+      "region": {
+        "he": "גוש דן",
+        "en": "Gush Dan"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר למהדרין – מחפוד",
+      "en": "Kosher LeMehadrin – Machpud"
+    },
+    "source_url": "https://wolt.com/en/isr/tel-aviv/restaurant/hummus-neri-bnei-brak",
+    "verified_date": "2026-02-19",
+    "notes": {
+      "he": "חומוס עם וריאציות שונות. כשרות מהדרין מחפוד. זמין בוולט.",
+      "en": "Hummus with various toppings. Mehadrin Machpud kosher. Available on Wolt."
+    },
+    "coordinates": {
+      "lat": 32.0819,
+      "lng": 34.8337
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
+  },
+  {
+    "id": "202",
+    "name": {
+      "he": "זלמן'ס",
+      "en": "Zalman's"
+    },
+    "dish_name": {
+      "he": "נקניקיה אמריקאית / הוט דוג",
+      "en": "American Sausage / Hot Dog"
+    },
+    "price": 25,
+    "category": {
+      "he": "מזון מהיר",
+      "en": "Fast Food"
+    },
+    "location": {
+      "city": {
+        "he": "בני ברק",
+        "en": "Bnei Brak"
+      },
+      "address": {
+        "he": "מצדה 9, בני ברק",
+        "en": "Matzada 9, Bnei Brak"
+      },
+      "region": {
+        "he": "גוש דן",
+        "en": "Gush Dan"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר למהדרין – בד\"ץ",
+      "en": "Kosher LeMehadrin – Badatz"
+    },
+    "source_url": "https://wolt.com/en/isr/tel-aviv/restaurant/zalmans-bnei-brak",
+    "verified_date": "2026-02-19",
+    "notes": {
+      "he": "הוט דוג אמריקאי סגנון כשרות מהדרין. בד\"ץ אמריקה. זמין בוולט.",
+      "en": "American-style hot dogs with Mehadrin kosher. Badatz America certification. Available on Wolt."
+    },
+    "coordinates": {
+      "lat": 32.0818,
+      "lng": 34.8338
+    },
+    "accepted_cards": [
+      "cash",
+      "credit"
+    ]
   }
 ]

@@ -1,7 +1,7 @@
 {
-  "name": "ביס בתקציב – ארוחות צהריים עד 35 ₪",
+  "name": "ביס בתקציב – ארוחות צהריים עד 45 ₪",
   "short_name": "ביס בתקציב",
-  "description": "מצא ארוחות צהריים עד 35 ₪ בכל הארץ",
+  "description": "מצא ארוחות צהריים עד 45 ₪ בכל הארץ",
   "start_url": "/budget-bites/",
   "scope": "/budget-bites/",
   "display": "standalone",
