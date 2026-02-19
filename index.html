@@ -326,6 +326,8 @@
     .chip-10bis.active { background: #ffedd5; }
     .chip-cibus:hover,  .chip-cibus.active  { border-color: #3b82f6; background: #eff6ff; color: #1d4ed8; }
     .chip-cibus.active  { background: #dbeafe; }
+    .chip-wolt:hover,   .chip-wolt.active   { border-color: #009de0; background: #e6f7fd; color: #0077a8; }
+    .chip-wolt.active   { background: #cceefa; }
     .chip-geo:hover, .chip-geo.active { border-color: var(--accent); background: var(--tag-bg); color: var(--accent-hover); }
     .chip-geo.active { background: var(--accent); color: white; border-color: var(--accent); }
     .chip-geo.active:hover { background: var(--accent-hover); }
@@ -597,6 +599,7 @@
     .pay-badge      { font-size: 0.72rem; font-weight: 700; padding: 0.15rem 0.45rem; border-radius: 5px; }
     .pay-badge-10bis { background: #ffedd5; color: #c2410c; }
     .pay-badge-cibus { background: #dbeafe; color: #1d4ed8; }
+    .pay-badge-wolt  { background: #cceefa; color: #0077a8; }
 
     /* ── Distance badge ──────────────────────────────────────── */
     .distance-badge {
@@ -732,6 +735,7 @@
         <span class="pills-divider"></span>
         <button class="chip chip-10bis" id="toggle-10bis"></button>
         <button class="chip chip-cibus"  id="toggle-cibus"></button>
+        <button class="chip chip-wolt"   id="toggle-wolt"></button>
         <button class="chip chip-geo"    id="geo-btn"></button>
       </div>
 
@@ -802,6 +806,7 @@
         geoError:            "שגיאה באיתור מיקום. נסה שוב.",
         toggle10bis: "🟠 תן ביס",
         toggleCibus: "🔵 סיבוס",
+        toggleWolt:  "🔵 וולט",
       },
       en: {
         title: "Budget Bites",
@@ -834,6 +839,7 @@
         geoError:            "Location error. Please try again.",
         toggle10bis: "🟠 10bis",
         toggleCibus: "🔵 Cibus",
+        toggleWolt:  "🔵 Wolt",
       }
     };
 
@@ -1081,8 +1087,10 @@
     function updateCardChips() {
       $("toggle-10bis").textContent = t().toggle10bis;
       $("toggle-cibus").textContent = t().toggleCibus;
+      $("toggle-wolt").textContent  = t().toggleWolt;
       $("toggle-10bis").classList.toggle("active", filterState.cards.includes("10bis"));
       $("toggle-cibus").classList.toggle("active",  filterState.cards.includes("cibus"));
+      $("toggle-wolt").classList.toggle("active",   filterState.cards.includes("wolt"));
     }
 
     function handleCardToggle(card) {
@@ -1254,6 +1262,7 @@
         const payBadges = [
           cards.includes('10bis') ? `<span class="pay-badge pay-badge-10bis">🟠 תן ביס</span>` : '',
           cards.includes('cibus') ? `<span class="pay-badge pay-badge-cibus">🔵 סיבוס</span>` : '',
+          cards.includes('wolt')  ? `<span class="pay-badge pay-badge-wolt">🔵 Wolt</span>` : '',
         ].filter(Boolean).join('');
         const payBadgesHtml = payBadges ? `<div class="payment-badges">${payBadges}</div>` : '';
 
@@ -1369,6 +1378,7 @@
     $("geo-btn").addEventListener("click", handleGeoBtn);
     $("toggle-10bis").addEventListener("click", () => handleCardToggle("10bis"));
     $("toggle-cibus").addEventListener("click",  () => handleCardToggle("cibus"));
+    $("toggle-wolt").addEventListener("click",   () => handleCardToggle("wolt"));
 
     // ============================================================
     // Init
