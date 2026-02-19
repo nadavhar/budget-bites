@@ -5845,5 +5845,225 @@
       "credit_card",
       "cash"
     ]
+  },
+  {
+    "name": {
+      "he": "חומוס סעיד",
+      "en": "Hummus Said"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 15,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "קרן יסוד 9, באר שבע",
+        "en": "Keren Yesod 9, Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא כשר",
+      "en": "Not Kosher"
+    },
+    "source_url": "https://www.rest.co.il/rest/80350371/",
+    "notes": {
+      "he": "חומוסייה ותיקה עם מתכון אותנטי מעכו. משרתת כ-600 לקוחות ביום.",
+      "en": "Veteran hummus spot with authentic Acre recipe. Serves around 600 customers daily."
+    },
+    "coordinates": {
+      "lat": 31.2461,
+      "lng": 34.7892
+    },
+    "id": "171",
+    "verified_date": "2026-02-19"
+  },
+  {
+    "name": {
+      "he": "פלאפל הכרם",
+      "en": "Falafel HaKerem"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 18,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "שמוני 2, באר שבע",
+        "en": "Shemoni 2, Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://www.rest.co.il/rest/80071665/",
+    "notes": {
+      "he": "פיתה עם חומוס, רטבים ועד 5 סלטים. אחד הפלאפלים המובילים בעיר.",
+      "en": "Pita with hummus, sauces and up to 5 salads. One of the leading falafels in the city."
+    },
+    "coordinates": {
+      "lat": 31.2518,
+      "lng": 34.7921
+    },
+    "id": "172",
+    "verified_date": "2026-02-19"
+  },
+  {
+    "name": {
+      "he": "הפלאפל הירוק",
+      "en": "HaFalafel HaYarok"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 20,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "דרך השלום 48, באר שבע",
+        "en": "Derech Hashalom 48, Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר למהדרין",
+      "en": "Kosher Mehadrin"
+    },
+    "source_url": "https://easy.co.il/page/27051679",
+    "notes": {
+      "he": "פלאפל כשר למהדרין בבאר שבע מאז 1960. מוניטין של 60 שנה.",
+      "en": "Kosher Mehadrin falafel in Beer Sheva since 1960. 60 years of reputation."
+    },
+    "coordinates": {
+      "lat": 31.2489,
+      "lng": 34.7878
+    },
+    "id": "173",
+    "verified_date": "2026-02-19"
+  },
+  {
+    "name": {
+      "he": "חומוס אליהו",
+      "en": "Hummus Eliyahu"
+    },
+    "dish_name": {
+      "he": "חומוס עם פיתה",
+      "en": "Hummus with Pita"
+    },
+    "price": 28,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "דרך מצדה 6, באר שבע",
+        "en": "Derech Matzada 6, Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://www.humus-eli-yahoo.com/menu/",
+    "notes": {
+      "he": "חומוסייה פופולרית בנגב עם מגוון תוספות. פלאפל, פטריות, ביצה.",
+      "en": "Popular hummus spot in the Negev with variety of toppings. Falafel, mushroom, egg variations."
+    },
+    "coordinates": {
+      "lat": 31.2534,
+      "lng": 34.7956
+    },
+    "id": "174",
+    "verified_date": "2026-02-19"
+  },
+  {
+    "name": {
+      "he": "פלאפל השלום",
+      "en": "Falafel Hashalom"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "Falafel in Pita"
+    },
+    "price": 24,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "דרך השלום 123, באר שבע",
+        "en": "Derech Hashalom 123, Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://easy.co.il/en/page/26490639",
+    "notes": {
+      "he": "פלאפל עם צ'יפס וסלטים ב-30 ש\"ח. אחד הפלאפלים הוותיקים בעיר.",
+      "en": "Falafel with chips and salads for 30 NIS. One of the veteran falafels in the city."
+    },
+    "coordinates": {
+      "lat": 31.2502,
+      "lng": 34.7901
+    },
+    "id": "175",
+    "verified_date": "2026-02-19"
   }
 ]
