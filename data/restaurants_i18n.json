@@ -15228,5 +15228,3729 @@
       "credit",
       "wolt"
     ]
+  },
+  {
+    "id": 364,
+    "name": {
+      "he": "Vita Food",
+      "en": "Vita Food"
+    },
+    "dish_name": {
+      "he": "המבורגר בקר | 180 גרם",
+      "en": "המבורגר בקר | 180 גרם"
+    },
+    "price": 50,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "עפולה",
+        "en": "Afula"
+      },
+      "address": {
+        "he": "הבנים 36 עפולה",
+        "en": "הבנים 36 עפולה"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/afula/restaurant/vita-food",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Premium ingredients, unbeatable taste\nKosher L'mehadrin",
+      "en": "Premium ingredients, unbeatable taste\nKosher L'mehadrin"
+    },
+    "coordinates": {
+      "lat": 32.599906,
+      "lng": 35.261151
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 365,
+    "name": {
+      "he": "Pokido | Afula",
+      "en": "Pokido | Afula"
+    },
+    "dish_name": {
+      "he": "כנפיים סטייל פוקידו 8 יחידות",
+      "en": "כנפיים סטייל פוקידו 8 יחידות"
+    },
+    "price": 44,
+    "category": {
+      "he": "מסעדה",
+      "en": "Restaurant"
+    },
+    "location": {
+      "city": {
+        "he": "עפולה",
+        "en": "Afula"
+      },
+      "address": {
+        "he": "הנשיא ויצמן 25, עפולה",
+        "en": "הנשיא ויצמן 25, עפולה"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/afula/restaurant/pokido-afula",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Asia, tropics, health, and style come together in one bowl",
+      "en": "Asia, tropics, health, and style come together in one bowl"
+    },
+    "coordinates": {
+      "lat": 32.6108252,
+      "lng": 35.2881513
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 366,
+    "name": {
+      "he": "Liraz Swisa Bakery | Afula",
+      "en": "Liraz Swisa Bakery | Afula"
+    },
+    "dish_name": {
+      "he": "מארז פנקייקאק",
+      "en": "מארז פנקייקאק"
+    },
+    "price": 44,
+    "category": {
+      "he": "מסעדה",
+      "en": "Restaurant"
+    },
+    "location": {
+      "city": {
+        "he": "עפולה",
+        "en": "Afula"
+      },
+      "address": {
+        "he": "שפרינצק 7, עפולה",
+        "en": "שפרינצק 7, עפולה"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/afula/restaurant/liraz-swisa-bakery-afula",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Handmade desserts from Liraz Suissa |  Kosher Lemehadrin",
+      "en": "Handmade desserts from Liraz Suissa |  Kosher Lemehadrin"
+    },
+    "coordinates": {
+      "lat": 32.60915699,
+      "lng": 35.29187168
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 367,
+    "name": {
+      "he": "Stella Vaknin",
+      "en": "Stella Vaknin"
+    },
+    "dish_name": {
+      "he": "פיצה כמו באיטליה",
+      "en": "פיצה כמו באיטליה"
+    },
+    "price": 46,
+    "category": {
+      "he": "מסעדה",
+      "en": "Restaurant"
+    },
+    "location": {
+      "city": {
+        "he": "עפולה",
+        "en": "Afula"
+      },
+      "address": {
+        "he": "השוק 34, עפולה",
+        "en": "השוק 34, עפולה"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/afula/restaurant/stella-vaknin",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Italian Restaurant | Kosher",
+      "en": "Italian Restaurant | Kosher"
+    },
+    "coordinates": {
+      "lat": 32.6066955,
+      "lng": 35.293289
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 368,
+    "name": {
+      "he": "Baguette Nir | Afula",
+      "en": "Baguette Nir | Afula"
+    },
+    "dish_name": {
+      "he": "עסקית שווארמה בפיתה",
+      "en": "עסקית שווארמה בפיתה"
+    },
+    "price": 48,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "עפולה",
+        "en": "Afula"
+      },
+      "address": {
+        "he": "Ha-Nasi Weizman St 6, Afula",
+        "en": "Ha-Nasi Weizman St 6, Afula"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/afula/restaurant/baguette-nir-afula",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Shawarma & More | Kosher",
+      "en": "Shawarma & More | Kosher"
+    },
+    "coordinates": {
+      "lat": 32.609192,
+      "lng": 35.289972
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 369,
+    "name": {
+      "he": "New Deli | Ashdod",
+      "en": "New Deli | Ashdod"
+    },
+    "dish_name": {
+      "he": "חזה עוף במרינדה",
+      "en": "חזה עוף במרינדה"
+    },
+    "price": 45,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "address": {
+        "he": "דרך מנחם בגין 1, סיטי מול",
+        "en": "דרך מנחם בגין 1, סיטי מול"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://wolt.com/en/isr/ashdod/restaurant/new-deli-ashdod",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Fine Grilled Sandwiches",
+      "en": "Fine Grilled Sandwiches"
+    },
+    "coordinates": {
+      "lat": 31.790831,
+      "lng": 34.639327
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 370,
+    "name": {
+      "he": "Delicatesse | Ashdod",
+      "en": "Delicatesse | Ashdod"
+    },
+    "dish_name": {
+      "he": "כריך גורמה",
+      "en": "כריך גורמה"
+    },
+    "price": 45,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "address": {
+        "he": "תל חי 55, אשדוד",
+        "en": "תל חי 55, אשדוד"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://wolt.com/en/isr/ashdod/restaurant/delicatesse-ashdod",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Boutique sausages and sandwiches",
+      "en": "Boutique sausages and sandwiches"
+    },
+    "coordinates": {
+      "lat": 31.767772,
+      "lng": 34.630341
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 371,
+    "name": {
+      "he": "Pizza Story | Ashdod",
+      "en": "Pizza Story | Ashdod"
+    },
+    "dish_name": {
+      "he": "פסטה שמנת",
+      "en": "פסטה שמנת"
+    },
+    "price": 45,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "address": {
+        "he": "רחוב רוגוזין 13",
+        "en": "רחוב רוגוזין 13"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/ashdod/restaurant/pizza-story-ashdod",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Fresh Pizza",
+      "en": "Fresh Pizza"
+    },
+    "coordinates": {
+      "lat": 31.8058753,
+      "lng": 34.6437926
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 372,
+    "name": {
+      "he": "Dizzy Bar",
+      "en": "Dizzy Bar"
+    },
+    "dish_name": {
+      "he": "קרפצ'יו בקר",
+      "en": "קרפצ'יו בקר"
+    },
+    "price": 46,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "address": {
+        "he": "הציונות 43, אשדוד ",
+        "en": "הציונות 43, אשדוד "
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/ashdod/restaurant/dizzy-bar",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Munch Bar",
+      "en": "Munch Bar"
+    },
+    "coordinates": {
+      "lat": 31.786665,
+      "lng": 34.6452868
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 373,
+    "name": {
+      "he": "Shawarma HaMifgash",
+      "en": "Shawarma HaMifgash"
+    },
+    "dish_name": {
+      "he": "שניצלונים",
+      "en": "שניצלונים"
+    },
+    "price": 45,
+    "category": {
+      "he": "שווארמה",
+      "en": "Shawarma"
+    },
+    "location": {
+      "city": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "address": {
+        "he": "רוגוזין 9 אשדוד ",
+        "en": "רוגוזין 9 אשדוד "
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/ashdod/restaurant/shwarma-hmifgash",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Shawarma & More",
+      "en": "Shawarma & More"
+    },
+    "coordinates": {
+      "lat": 31.8068081,
+      "lng": 34.6441598
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 374,
+    "name": {
+      "he": "Buza | Ashkelon",
+      "en": "Buza | Ashkelon"
+    },
+    "dish_name": {
+      "he": "מיני פנקייקים L",
+      "en": "מיני פנקייקים L"
+    },
+    "price": 48,
+    "category": {
+      "he": "מסעדה",
+      "en": "Restaurant"
+    },
+    "location": {
+      "city": {
+        "he": "אשקלון",
+        "en": "Ashkelon"
+      },
+      "address": {
+        "he": "יפה נוף 42, אשקלון",
+        "en": "יפה נוף 42, אשקלון"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/ashkelon/restaurant/buza-ashkelon",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Dreamy Ice Cream",
+      "en": "Dreamy Ice Cream"
+    },
+    "coordinates": {
+      "lat": 31.6835957,
+      "lng": 34.561393
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 375,
+    "name": {
+      "he": "Brunchos | Ashkelon",
+      "en": "Brunchos | Ashkelon"
+    },
+    "dish_name": {
+      "he": "אלפרדו",
+      "en": "אלפרדו"
+    },
+    "price": 49,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "אשקלון",
+        "en": "Ashkelon"
+      },
+      "address": {
+        "he": "הנמל 9, אשקלון",
+        "en": "הנמל 9, אשקלון"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://wolt.com/en/isr/ashkelon/restaurant/brunchos-ashkelon",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Dairy and Sweets Cuisine | Kosher L׳mehadrin Badatz \"Beit Yosef\"",
+      "en": "Dairy and Sweets Cuisine | Kosher L׳mehadrin Badatz \"Beit Yosef\""
+    },
+    "coordinates": {
+      "lat": 31.68261972,
+      "lng": 34.55760097
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 376,
+    "name": {
+      "he": "Pro Bar",
+      "en": "Pro Bar"
+    },
+    "dish_name": {
+      "he": "כריך חביתת ירק",
+      "en": "כריך חביתת ירק"
+    },
+    "price": 46,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "אשקלון",
+        "en": "Ashkelon"
+      },
+      "address": {
+        "he": "תענך 2, אשקלון",
+        "en": "תענך 2, אשקלון"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://wolt.com/en/isr/ashkelon/restaurant/pro-bar-ash",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "A health bar offering a healthy menu, with added protein for athletes and those who work out | Kosher",
+      "en": "A health bar offering a healthy menu, with added protein for athletes and those who work out | Kosher"
+    },
+    "coordinates": {
+      "lat": 31.6697682,
+      "lng": 34.5558958
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 377,
+    "name": {
+      "he": "Buchari Express",
+      "en": "Buchari Express"
+    },
+    "dish_name": {
+      "he": "דושפרה",
+      "en": "דושפרה"
+    },
+    "price": 45,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "אשקלון",
+        "en": "Ashkelon"
+      },
+      "address": {
+        "he": "הכרם 2, אשקלון",
+        "en": "הכרם 2, אשקלון"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://wolt.com/en/isr/ashkelon/restaurant/buchari-express",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Bucharian Cuisine | kosher",
+      "en": "Bucharian Cuisine | kosher"
+    },
+    "coordinates": {
+      "lat": 31.6676558,
+      "lng": 34.5850565
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 378,
+    "name": {
+      "he": "Pizza Story | Eli Cohen Ashkelon",
+      "en": "Pizza Story | Eli Cohen Ashkelon"
+    },
+    "dish_name": {
+      "he": "סטורי יוונית",
+      "en": "סטורי יוונית"
+    },
+    "price": 47,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "אשקלון",
+        "en": "Ashkelon"
+      },
+      "address": {
+        "he": "אלי כהן 37, אשקלון",
+        "en": "אלי כהן 37, אשקלון"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/ashkelon/restaurant/pizza-story-ashkelon-eli-cohen",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "High quality • Delicious • Affordable",
+      "en": "High quality • Delicious • Affordable"
+    },
+    "coordinates": {
+      "lat": 31.6698219,
+      "lng": 34.5790582
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 379,
+    "name": {
+      "he": "Moses Shop Kosher | Bat Yam",
+      "en": "Moses Shop Kosher | Bat Yam"
+    },
+    "dish_name": {
+      "he": "OLD SCHOOL & FRIES",
+      "en": "OLD SCHOOL & FRIES"
+    },
+    "price": 44,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "בת ים",
+        "en": "Bat Yam"
+      },
+      "address": {
+        "he": "אריק איינשטיין 1 בת ים",
+        "en": "אריק איינשטיין 1 בת ים"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://wolt.com/en/isr/bat-yam/restaurant/moses-shop-kosher-bat-yam",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Local burger shop | Kosher Halak Beit Yossef",
+      "en": "Local burger shop | Kosher Halak Beit Yossef"
+    },
+    "coordinates": {
+      "lat": 32.00619282,
+      "lng": 34.74066096
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 380,
+    "name": {
+      "he": "Burger Station 23",
+      "en": "Burger Station 23"
+    },
+    "dish_name": {
+      "he": "Crispy Chicken Nuggets",
+      "en": "Crispy Chicken Nuggets"
+    },
+    "price": 46,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "בת ים",
+        "en": "Bat Yam"
+      },
+      "address": {
+        "he": "שארית ישראל 23",
+        "en": "שארית ישראל 23"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/bat-yam/restaurant/burger-station-23",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "100% Fresh selected Meat By Burger Station 23 Tel Aviv",
+      "en": "100% Fresh selected Meat By Burger Station 23 Tel Aviv"
+    },
+    "coordinates": {
+      "lat": 32.0523968,
+      "lng": 34.7626177
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 381,
+    "name": {
+      "he": "Burger Station | Bat Yam",
+      "en": "Burger Station | Bat Yam"
+    },
+    "dish_name": {
+      "he": "Entrecote Tortilla",
+      "en": "Entrecote Tortilla"
+    },
+    "price": 44,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "בת ים",
+        "en": "Bat Yam"
+      },
+      "address": {
+        "he": "דרך בן גוריון 134, בת ים",
+        "en": "דרך בן גוריון 134, בת ים"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/bat-yam/restaurant/burger-station-bat-yam",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Premium Burger - Kosher",
+      "en": "Premium Burger - Kosher"
+    },
+    "coordinates": {
+      "lat": 32.01330268,
+      "lng": 34.73790199
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 382,
+    "name": {
+      "he": "The Italian Magician Pizza",
+      "en": "The Italian Magician Pizza"
+    },
+    "dish_name": {
+      "he": "זיווה יוונית",
+      "en": "זיווה יוונית"
+    },
+    "price": 46,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "בת ים",
+        "en": "Bat Yam"
+      },
+      "address": {
+        "he": "דרך בן גוריון 79 בת ים",
+        "en": "דרך בן גוריון 79 בת ים"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/bat-yam/restaurant/the-italian-magician-pizza",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Italian Cuisine | Kosher L'mehadrin - Chief Rabbinate of Bat Yam",
+      "en": "Italian Cuisine | Kosher L'mehadrin - Chief Rabbinate of Bat Yam"
+    },
+    "coordinates": {
+      "lat": 32.01978601,
+      "lng": 34.73922993
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 383,
+    "name": {
+      "he": "DINNER 96",
+      "en": "DINNER 96"
+    },
+    "dish_name": {
+      "he": "פסטה קרם רוזה",
+      "en": "פסטה קרם רוזה"
+    },
+    "price": 48,
+    "category": {
+      "he": "מסעדה",
+      "en": "Restaurant"
+    },
+    "location": {
+      "city": {
+        "he": "בת ים",
+        "en": "Bat Yam"
+      },
+      "address": {
+        "he": "חיים לנדאו 16 חולון",
+        "en": "חיים לנדאו 16 חולון"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/bat-yam/restaurant/dinner-96",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Taste and Tradition Meet | Kosher L'mehadrin",
+      "en": "Taste and Tradition Meet | Kosher L'mehadrin"
+    },
+    "coordinates": {
+      "lat": 31.999143,
+      "lng": 34.765747
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 384,
+    "name": {
+      "he": "Jin Fis | Pizza on Charcoal",
+      "en": "Jin Fis | Pizza on Charcoal"
+    },
+    "dish_name": {
+      "he": "Personal Pizza Tray + Topping",
+      "en": "Personal Pizza Tray + Topping"
+    },
+    "price": 44,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "קק״ל 44, באר שבע",
+        "en": "קק״ל 44, באר שבע"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://wolt.com/en/isr/beer-sheva/restaurant/pizza-al-gechaleem",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Pizza With Style",
+      "en": "Pizza With Style"
+    },
+    "coordinates": {
+      "lat": 31.2380804,
+      "lng": 34.7917497
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 385,
+    "name": {
+      "he": "New Deli | Beer Sheva",
+      "en": "New Deli | Beer Sheva"
+    },
+    "dish_name": {
+      "he": "חזה עוף במרינדה",
+      "en": "חזה עוף במרינדה"
+    },
+    "price": 45,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "יצחק בן צבי 4",
+        "en": "יצחק בן צבי 4"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://wolt.com/en/isr/beer-sheva/restaurant/new-deli-beer-sheva",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Fine Grilled Sandwiches | Kosher",
+      "en": "Fine Grilled Sandwiches | Kosher"
+    },
+    "coordinates": {
+      "lat": 31.243355,
+      "lng": 34.797625
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 386,
+    "name": {
+      "he": "Shiri's Burger Bar | Beer Sheva",
+      "en": "Shiri's Burger Bar | Beer Sheva"
+    },
+    "dish_name": {
+      "he": "המבורגר בקר",
+      "en": "המבורגר בקר"
+    },
+    "price": 47,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "קק״ל 79, באר שבע",
+        "en": "קק״ל 79, באר שבע"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://wolt.com/en/isr/beer-sheva/restaurant/shiris-beer-sheva",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Add Some Flavor To Your Day",
+      "en": "Add Some Flavor To Your Day"
+    },
+    "coordinates": {
+      "lat": 31.2385105,
+      "lng": 34.7906793
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 387,
+    "name": {
+      "he": "Revi's Burger",
+      "en": "Revi's Burger"
+    },
+    "dish_name": {
+      "he": "המבורגר | 160 גרם",
+      "en": "המבורגר | 160 גרם"
+    },
+    "price": 49,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "דקל 1, באר שבע",
+        "en": "דקל 1, באר שבע"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/beer-sheva/restaurant/revis-burger",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Hamburgers for professionals | Kosher",
+      "en": "Hamburgers for professionals | Kosher"
+    },
+    "coordinates": {
+      "lat": 31.24034879,
+      "lng": 34.80230028
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 388,
+    "name": {
+      "he": "BT Burger Tortilla",
+      "en": "BT Burger Tortilla"
+    },
+    "dish_name": {
+      "he": "ארוחת רונאלדו",
+      "en": "ארוחת רונאלדו"
+    },
+    "price": 46,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "אילת",
+        "en": "Eilat"
+      },
+      "address": {
+        "he": "אילות 27, אילת",
+        "en": "אילות 27, אילת"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/eilat/restaurant/bt-burger-tortilla",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Burger And Tortilla Meals",
+      "en": "Burger And Tortilla Meals"
+    },
+    "coordinates": {
+      "lat": 29.55941317,
+      "lng": 34.94942543
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 389,
+    "name": {
+      "he": "Zohar's Knafeh",
+      "en": "Zohar's Knafeh"
+    },
+    "dish_name": {
+      "he": "כנאפה בינוני",
+      "en": "כנאפה בינוני"
+    },
+    "price": 45,
+    "category": {
+      "he": "מסעדה",
+      "en": "Restaurant"
+    },
+    "location": {
+      "city": {
+        "he": "אילת",
+        "en": "Eilat"
+      },
+      "address": {
+        "he": "שדרות התמרים 34, אילת",
+        "en": "שדרות התמרים 34, אילת"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/eilat/restaurant/zohars-knafeh",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Local Knafeh",
+      "en": "Local Knafeh"
+    },
+    "coordinates": {
+      "lat": 29.559201,
+      "lng": 34.9513017
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 390,
+    "name": {
+      "he": "Chupapi",
+      "en": "Chupapi"
+    },
+    "dish_name": {
+      "he": "פרוזן יוגורט | גדול",
+      "en": "פרוזן יוגורט | גדול"
+    },
+    "price": 46,
+    "category": {
+      "he": "מסעדה",
+      "en": "Restaurant"
+    },
+    "location": {
+      "city": {
+        "he": "אילת",
+        "en": "Eilat"
+      },
+      "address": {
+        "he": "אילות 35, אילת",
+        "en": "אילות 35, אילת"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/eilat/restaurant/chupapi",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "House of desserts",
+      "en": "House of desserts"
+    },
+    "coordinates": {
+      "lat": 29.5591421,
+      "lng": 34.9488421
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 391,
+    "name": {
+      "he": "Togarashi",
+      "en": "Togarashi"
+    },
+    "dish_name": {
+      "he": "‫רול סלמון בטמפורה",
+      "en": "‫רול סלמון בטמפורה"
+    },
+    "price": 45,
+    "category": {
+      "he": "מסעדה",
+      "en": "Restaurant"
+    },
+    "location": {
+      "city": {
+        "he": "אילת",
+        "en": "Eilat"
+      },
+      "address": {
+        "he": "Ha-Satat St 20, Eilat",
+        "en": "Ha-Satat St 20, Eilat"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/eilat/restaurant/togarashiei",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Sushi & Wok",
+      "en": "Sushi & Wok"
+    },
+    "coordinates": {
+      "lat": 29.566714,
+      "lng": 34.959297
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 392,
+    "name": {
+      "he": "Burgers Bar Kosher Mahfud | Pninat Eilat",
+      "en": "Burgers Bar Kosher Mahfud | Pninat Eilat"
+    },
+    "dish_name": {
+      "he": "קלאסי 150 גר'",
+      "en": "קלאסי 150 גר'"
+    },
+    "price": 49,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "אילת",
+        "en": "Eilat"
+      },
+      "address": {
+        "he": "דורבן 4 אילת",
+        "en": "דורבן 4 אילת"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://wolt.com/en/isr/eilat/restaurant/burgers-bar-pninat-eilat",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Much More Than Hamburger | Kosher LeMeHadrin Mahfud",
+      "en": "Much More Than Hamburger | Kosher LeMeHadrin Mahfud"
+    },
+    "coordinates": {
+      "lat": 29.55053468,
+      "lng": 34.95556209
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 393,
+    "name": {
+      "he": "CookieMe",
+      "en": "CookieMe"
+    },
+    "dish_name": {
+      "he": "Hot Six",
+      "en": "Hot Six"
+    },
+    "price": 45,
+    "category": {
+      "he": "מסעדה",
+      "en": "Restaurant"
+    },
+    "location": {
+      "city": {
+        "he": "חדרה",
+        "en": "Hadera"
+      },
+      "address": {
+        "he": "החרובים 4, פרדס חנה",
+        "en": "החרובים 4, פרדס חנה"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/hadera/restaurant/cookieme",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Large chocolate chip cookies melt inside",
+      "en": "Large chocolate chip cookies melt inside"
+    },
+    "coordinates": {
+      "lat": 32.476616,
+      "lng": 34.970317
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 394,
+    "name": {
+      "he": "Atza Sushi Bar | Hadera",
+      "en": "Atza Sushi Bar | Hadera"
+    },
+    "dish_name": {
+      "he": "Special Tempura ",
+      "en": "Special Tempura "
+    },
+    "price": 48,
+    "category": {
+      "he": "סושי",
+      "en": "Sushi"
+    },
+    "location": {
+      "city": {
+        "he": "חדרה",
+        "en": "Hadera"
+      },
+      "address": {
+        "he": "צה״ל 35, חדרה",
+        "en": "צה״ל 35, חדרה"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/hadera/restaurant/atza-sushi-bar-hadera",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Asian Restaurant | Kosher",
+      "en": "Asian Restaurant | Kosher"
+    },
+    "coordinates": {
+      "lat": 32.440516,
+      "lng": 34.930934
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 395,
+    "name": {
+      "he": "Mimi Gelato Art | Hadera Village",
+      "en": "Mimi Gelato Art | Hadera Village"
+    },
+    "dish_name": {
+      "he": "כדורי פנקייק",
+      "en": "כדורי פנקייק"
+    },
+    "price": 45,
+    "category": {
+      "he": "מסעדה",
+      "en": "Restaurant"
+    },
+    "location": {
+      "city": {
+        "he": "חדרה",
+        "en": "Hadera"
+      },
+      "address": {
+        "he": "דן שכטמן 10, חדרה",
+        "en": "דן שכטמן 10, חדרה"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/hadera/restaurant/mimi-gelato-art-hadera-village",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Never Settle For Just One Scoop",
+      "en": "Never Settle For Just One Scoop"
+    },
+    "coordinates": {
+      "lat": 32.44168,
+      "lng": 34.89466
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 396,
+    "name": {
+      "he": "Moses Shop Kosher | Hadera",
+      "en": "Moses Shop Kosher | Hadera"
+    },
+    "dish_name": {
+      "he": "OLD SCHOOL",
+      "en": "OLD SCHOOL"
+    },
+    "price": 44,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "חדרה",
+        "en": "Hadera"
+      },
+      "address": {
+        "he": "גמלא 3, חדרה סנטר פארק",
+        "en": "גמלא 3, חדרה סנטר פארק"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/hadera/restaurant/moses-shop-hadera",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Local burger shop | Kosher",
+      "en": "Local burger shop | Kosher"
+    },
+    "coordinates": {
+      "lat": 32.4275593,
+      "lng": 34.9328599
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 397,
+    "name": {
+      "he": "American Pizza | Hadera",
+      "en": "American Pizza | Hadera"
+    },
+    "dish_name": {
+      "he": "משפחתית אמריקן",
+      "en": "משפחתית אמריקן"
+    },
+    "price": 50,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "חדרה",
+        "en": "Hadera"
+      },
+      "address": {
+        "he": "רוטשילד 38, חדרה",
+        "en": "רוטשילד 38, חדרה"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/hadera/restaurant/american-pizza-hadera",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Real Italian Pizza - Kosher Le'Mehadrin",
+      "en": "Real Italian Pizza - Kosher Le'Mehadrin"
+    },
+    "coordinates": {
+      "lat": 32.43719116,
+      "lng": 34.92115123
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 398,
+    "name": {
+      "he": "Pizza Munch | Nesher",
+      "en": "Pizza Munch | Nesher"
+    },
+    "dish_name": {
+      "he": "רביולי גבינה",
+      "en": "רביולי גבינה"
+    },
+    "price": 45,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "חיפה",
+        "en": "Haifa"
+      },
+      "address": {
+        "he": "המרגנית 1 נשר",
+        "en": "המרגנית 1 נשר"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/haifa/restaurant/pizza-munch-nesher",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Pizza Party | kosher",
+      "en": "Pizza Party | kosher"
+    },
+    "coordinates": {
+      "lat": 32.77378459,
+      "lng": 35.03021885
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 399,
+    "name": {
+      "he": "Pizza Ria",
+      "en": "Pizza Ria"
+    },
+    "dish_name": {
+      "he": "זיווה",
+      "en": "זיווה"
+    },
+    "price": 45,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "חיפה",
+        "en": "Haifa"
+      },
+      "address": {
+        "he": "שד ההסתדרות 84, חיפה",
+        "en": "שד ההסתדרות 84, חיפה"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/haifa/restaurant/pizzariahaifa",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Pizza - Pasta - Salad",
+      "en": "Pizza - Pasta - Salad"
+    },
+    "coordinates": {
+      "lat": 32.794208,
+      "lng": 35.040924
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 400,
+    "name": {
+      "he": "Dr. Bis",
+      "en": "Dr. Bis"
+    },
+    "dish_name": {
+      "he": "רצועות עוף | 200 גר׳",
+      "en": "רצועות עוף | 200 גר׳"
+    },
+    "price": 48,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "חיפה",
+        "en": "Haifa"
+      },
+      "address": {
+        "he": "Jabotinski St 8, Tirat Carmel",
+        "en": "Jabotinski St 8, Tirat Carmel"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/haifa/restaurant/dr-bis",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "A Specialist in Hunger Problems",
+      "en": "A Specialist in Hunger Problems"
+    },
+    "coordinates": {
+      "lat": 32.7602746,
+      "lng": 34.9718049
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 401,
+    "name": {
+      "he": "Zesty | Carmel",
+      "en": "Zesty | Carmel"
+    },
+    "dish_name": {
+      "he": "‫טורטיה אנטריקוט",
+      "en": "‫טורטיה אנטריקוט"
+    },
+    "price": 45,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "חיפה",
+        "en": "Haifa"
+      },
+      "address": {
+        "he": "שד׳ הנשיא 129, חיפה",
+        "en": "שד׳ הנשיא 129, חיפה"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/haifa/restaurant/zesty-carmel",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Burgers - Tortillas - Sandwiches | KOSHER",
+      "en": "Burgers - Tortillas - Sandwiches | KOSHER"
+    },
+    "coordinates": {
+      "lat": 32.8034364,
+      "lng": 34.9870109
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 402,
+    "name": {
+      "he": "Pizza Munch | Haifa",
+      "en": "Pizza Munch | Haifa"
+    },
+    "dish_name": {
+      "he": "מרגריטה",
+      "en": "מרגריטה"
+    },
+    "price": 47,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "חיפה",
+        "en": "Haifa"
+      },
+      "address": {
+        "he": "דרך הים 3, חיפה",
+        "en": "דרך הים 3, חיפה"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/haifa/restaurant/pizza-manch-haifa",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Pizza Party",
+      "en": "Pizza Party"
+    },
+    "coordinates": {
+      "lat": 32.803891,
+      "lng": 34.9866048
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 403,
+    "name": {
+      "he": "FIBO Toast Naknik",
+      "en": "FIBO Toast Naknik"
+    },
+    "dish_name": {
+      "he": "טוסט סטנדרט",
+      "en": "טוסט סטנדרט"
+    },
+    "price": 49,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "הרצליה",
+        "en": "Herzliya"
+      },
+      "address": {
+        "he": "סוקולוב 16, הרצליה",
+        "en": "סוקולוב 16, הרצליה"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://wolt.com/en/isr/herzliya/restaurant/fibo-toast",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Meat Toast Sandwiches\nKosher",
+      "en": "Meat Toast Sandwiches\nKosher"
+    },
+    "coordinates": {
+      "lat": 32.167171,
+      "lng": 34.841146
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 404,
+    "name": {
+      "he": "Gelateria Siciliana | Herzliya",
+      "en": "Gelateria Siciliana | Herzliya"
+    },
+    "dish_name": {
+      "he": "Tiramisu",
+      "en": "Tiramisu"
+    },
+    "price": 45,
+    "category": {
+      "he": "מסעדה",
+      "en": "Restaurant"
+    },
+    "location": {
+      "city": {
+        "he": "הרצליה",
+        "en": "Herzliya"
+      },
+      "address": {
+        "he": "שנקר 14 הרצליה",
+        "en": "שנקר 14 הרצליה"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/herzliya/restaurant/siciliana-1",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Original Ice Cream",
+      "en": "Original Ice Cream"
+    },
+    "coordinates": {
+      "lat": 32.158836,
+      "lng": 34.808635
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 405,
+    "name": {
+      "he": "Burgers Bar Kosher | Herzliya",
+      "en": "Burgers Bar Kosher | Herzliya"
+    },
+    "dish_name": {
+      "he": "קלאסי 150 גר'",
+      "en": "קלאסי 150 גר'"
+    },
+    "price": 49,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "הרצליה",
+        "en": "Herzliya"
+      },
+      "address": {
+        "he": "בלינסון 1 הרצליה",
+        "en": "בלינסון 1 הרצליה"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://wolt.com/en/isr/herzliya/restaurant/burgers-bar-kosher-herzliya",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Much More Than Hamburger | Kosher",
+      "en": "Much More Than Hamburger | Kosher"
+    },
+    "coordinates": {
+      "lat": 32.168611,
+      "lng": 34.8423466
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 406,
+    "name": {
+      "he": "Silly Kid | Neot Afeka",
+      "en": "Silly Kid | Neot Afeka"
+    },
+    "dish_name": {
+      "he": "Holy Honey",
+      "en": "Holy Honey"
+    },
+    "price": 48,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "הרצליה",
+        "en": "Herzliya"
+      },
+      "address": {
+        "he": "פנחס רוזן 67, תל אביב",
+        "en": "פנחס רוזן 67, תל אביב"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/herzliya/restaurant/silly-kid-neot-afeka",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Crispy Street Food",
+      "en": "Crispy Street Food"
+    },
+    "coordinates": {
+      "lat": 32.114961,
+      "lng": 34.825344
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 407,
+    "name": {
+      "he": "Hamsa Smash Burger | Kosher",
+      "en": "Hamsa Smash Burger | Kosher"
+    },
+    "dish_name": {
+      "he": "The New York Hustle",
+      "en": "The New York Hustle"
+    },
+    "price": 50,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "חולון",
+        "en": "Holon"
+      },
+      "address": {
+        "he": "הרצל 84 ראשון לציון ",
+        "en": "הרצל 84 ראשון לציון "
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/holon/restaurant/hamsa-smash-burger",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Blessed & Smashed | Hamburger | Kosher",
+      "en": "Blessed & Smashed | Hamburger | Kosher"
+    },
+    "coordinates": {
+      "lat": 31.9634063,
+      "lng": 34.8028061
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 408,
+    "name": {
+      "he": "Moses Shop Kosher | Bat Yam",
+      "en": "Moses Shop Kosher | Bat Yam"
+    },
+    "dish_name": {
+      "he": "OLD SCHOOL & FRIES",
+      "en": "OLD SCHOOL & FRIES"
+    },
+    "price": 44,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "חולון",
+        "en": "Holon"
+      },
+      "address": {
+        "he": "אריק איינשטיין 1 בת ים",
+        "en": "אריק איינשטיין 1 בת ים"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://wolt.com/en/isr/holon/restaurant/moses-shop-kosher-bat-yam",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Local burger shop | Kosher Halak Beit Yossef",
+      "en": "Local burger shop | Kosher Halak Beit Yossef"
+    },
+    "coordinates": {
+      "lat": 32.00619282,
+      "lng": 34.74066096
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 409,
+    "name": {
+      "he": "HaMalabiya | Kfar Saba",
+      "en": "HaMalabiya | Kfar Saba"
+    },
+    "dish_name": {
+      "he": "The pink panther ",
+      "en": "The pink panther "
+    },
+    "price": 50,
+    "category": {
+      "he": "מסעדה",
+      "en": "Restaurant"
+    },
+    "location": {
+      "city": {
+        "he": "כפר סבא",
+        "en": "Kfar Saba"
+      },
+      "address": {
+        "he": "ויצמן 125 כפר סבא מחוץ למתחם חצר השוק",
+        "en": "ויצמן 125 כפר סבא מחוץ למתחם חצר השוק"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/kfar-saba/restaurant/hamalabiya-kfar-saba",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Happy Hour Malabi",
+      "en": "Happy Hour Malabi"
+    },
+    "coordinates": {
+      "lat": 32.175298,
+      "lng": 34.91005
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 410,
+    "name": {
+      "he": "Pancake House | Kfar Saba",
+      "en": "Pancake House | Kfar Saba"
+    },
+    "dish_name": {
+      "he": "אצבעות גבינה חלומי",
+      "en": "אצבעות גבינה חלומי"
+    },
+    "price": 46,
+    "category": {
+      "he": "מסעדה",
+      "en": "Restaurant"
+    },
+    "location": {
+      "city": {
+        "he": "כפר סבא",
+        "en": "Kfar Saba"
+      },
+      "address": {
+        "he": "כצנלסון 14, כפר סבא",
+        "en": "כצנלסון 14, כפר סבא"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/kfar-saba/restaurant/pancake-house-kfar-saba",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "The Original House Of Pancakes",
+      "en": "The Original House Of Pancakes"
+    },
+    "coordinates": {
+      "lat": 32.178991,
+      "lng": 34.903628
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 411,
+    "name": {
+      "he": "Dr. Gonzo",
+      "en": "Dr. Gonzo"
+    },
+    "dish_name": {
+      "he": "גונזל'ך",
+      "en": "גונזל'ך"
+    },
+    "price": 49,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "כפר סבא",
+        "en": "Kfar Saba"
+      },
+      "address": {
+        "he": "התעש 24, כפר סבא",
+        "en": "התעש 24, כפר סבא"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/kfar-saba/restaurant/dr-gonzo",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Food & Drinks",
+      "en": "Food & Drinks"
+    },
+    "coordinates": {
+      "lat": 32.177076,
+      "lng": 34.9276436
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 412,
+    "name": {
+      "he": "Paris Texas Burger | Hod Hasharon",
+      "en": "Paris Texas Burger | Hod Hasharon"
+    },
+    "dish_name": {
+      "he": "ארוחת ביפבורגר קצבים | 200 גרם",
+      "en": "ארוחת ביפבורגר קצבים | 200 גרם"
+    },
+    "price": 44,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "כפר סבא",
+        "en": "Kfar Saba"
+      },
+      "address": {
+        "he": "Ha-Nesi'im St 1, Hod HaSharon",
+        "en": "Ha-Nesi'im St 1, Hod HaSharon"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/kfar-saba/restaurant/paris-texas-burger-hod-hasharon",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Burgers and Steaks, made from dry-aged beef",
+      "en": "Burgers and Steaks, made from dry-aged beef"
+    },
+    "coordinates": {
+      "lat": 32.162743,
+      "lng": 34.909164
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 413,
+    "name": {
+      "he": "Pizza Munch | Nesher",
+      "en": "Pizza Munch | Nesher"
+    },
+    "dish_name": {
+      "he": "רביולי גבינה",
+      "en": "רביולי גבינה"
+    },
+    "price": 45,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "קריית אתא",
+        "en": "Kiryat Ata"
+      },
+      "address": {
+        "he": "המרגנית 1 נשר",
+        "en": "המרגנית 1 נשר"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/kiryat-ata/restaurant/pizza-munch-nesher",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Pizza Party | kosher",
+      "en": "Pizza Party | kosher"
+    },
+    "coordinates": {
+      "lat": 32.77378459,
+      "lng": 35.03021885
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 414,
+    "name": {
+      "he": "Vesava'ata",
+      "en": "Vesava'ata"
+    },
+    "dish_name": {
+      "he": "פופקרס",
+      "en": "פופקרס"
+    },
+    "price": 46,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "קריית אתא",
+        "en": "Kiryat Ata"
+      },
+      "address": {
+        "he": "אחי אילת 55 קרית חיים",
+        "en": "אחי אילת 55 קרית חיים"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/kiryat-ata/restaurant/vesavaata",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Meat pastry",
+      "en": "Meat pastry"
+    },
+    "coordinates": {
+      "lat": 32.8186551,
+      "lng": 35.0748107
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 415,
+    "name": {
+      "he": "Pizza Ria",
+      "en": "Pizza Ria"
+    },
+    "dish_name": {
+      "he": "זיווה",
+      "en": "זיווה"
+    },
+    "price": 45,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "קריית אתא",
+        "en": "Kiryat Ata"
+      },
+      "address": {
+        "he": "שד ההסתדרות 84, חיפה",
+        "en": "שד ההסתדרות 84, חיפה"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/kiryat-ata/restaurant/pizzariahaifa",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Pizza - Pasta - Salad",
+      "en": "Pizza - Pasta - Salad"
+    },
+    "coordinates": {
+      "lat": 32.794208,
+      "lng": 35.040924
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 416,
+    "name": {
+      "he": "Golda Kosher | Kiryat Ata",
+      "en": "Golda Kosher | Kiryat Ata"
+    },
+    "dish_name": {
+      "he": "Golda Ice Cream  0,5 Kg",
+      "en": "Golda Ice Cream  0,5 Kg"
+    },
+    "price": 47,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "קריית אתא",
+        "en": "Kiryat Ata"
+      },
+      "address": {
+        "he": "הדוכיפת 3, קרית אתא",
+        "en": "הדוכיפת 3, קרית אתא"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://wolt.com/en/isr/kiryat-ata/restaurant/golda-kiryat-ata",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Golda Ice Cream - Flavor Boutique",
+      "en": "Golda Ice Cream - Flavor Boutique"
+    },
+    "coordinates": {
+      "lat": 32.8157482,
+      "lng": 35.1375547
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 417,
+    "name": {
+      "he": "Pasta Basta | Modi'in",
+      "en": "Pasta Basta | Modi'in"
+    },
+    "dish_name": {
+      "he": "פסטה רוזה",
+      "en": "פסטה רוזה"
+    },
+    "price": 46,
+    "category": {
+      "he": "פסטה",
+      "en": "Pasta"
+    },
+    "location": {
+      "city": {
+        "he": "מודיעין",
+        "en": "Modiin"
+      },
+      "address": {
+        "he": "דם המכבים 63, מודיעין ",
+        "en": "דם המכבים 63, מודיעין "
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://wolt.com/en/isr/modiin/restaurant/pasta-basta-modiin",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "We're from the shuk...",
+      "en": "We're from the shuk..."
+    },
+    "coordinates": {
+      "lat": 31.90299222,
+      "lng": 35.00791878
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 418,
+    "name": {
+      "he": "Twosome",
+      "en": "Twosome"
+    },
+    "dish_name": {
+      "he": "צ'יזבורגר",
+      "en": "צ'יזבורגר"
+    },
+    "price": 49,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "מודיעין",
+        "en": "Modiin"
+      },
+      "address": {
+        "he": "המעיין 2, מודיעין",
+        "en": "המעיין 2, מודיעין"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/modiin/restaurant/twosome",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Know & Understand",
+      "en": "Know & Understand"
+    },
+    "coordinates": {
+      "lat": 31.9220192,
+      "lng": 34.968954
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 419,
+    "name": {
+      "he": "Faza | Food Bar",
+      "en": "Faza | Food Bar"
+    },
+    "dish_name": {
+      "he": "קריספי צ׳יקן",
+      "en": "קריספי צ׳יקן"
+    },
+    "price": 47,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "מודיעין",
+        "en": "Modiin"
+      },
+      "address": {
+        "he": "עמק זבולון 1, מודיעין-מכבים-רעות",
+        "en": "עמק זבולון 1, מודיעין-מכבים-רעות"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/modiin/restaurant/faza-food-bar",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Changing the Phase in Modi'in",
+      "en": "Changing the Phase in Modi'in"
+    },
+    "coordinates": {
+      "lat": 31.90039427,
+      "lng": 35.00258978
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 420,
+    "name": {
+      "he": "Pizza Pazaz | Modi'in",
+      "en": "Pizza Pazaz | Modi'in"
+    },
+    "dish_name": {
+      "he": "מגש פיצה M",
+      "en": "מגש פיצה M"
+    },
+    "price": 45,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "מודיעין",
+        "en": "Modiin"
+      },
+      "address": {
+        "he": "אודם 23 מודיעין",
+        "en": "אודם 23 מודיעין"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://wolt.com/en/isr/modiin/restaurant/pizza-pazaz-modiin",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Pizza | Pasta | Salads",
+      "en": "Pizza | Pasta | Salads"
+    },
+    "coordinates": {
+      "lat": 31.9042345,
+      "lng": 34.9951471
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 421,
+    "name": {
+      "he": "American Pizza | Nahariya",
+      "en": "American Pizza | Nahariya"
+    },
+    "dish_name": {
+      "he": " Pasta Penne Cream",
+      "en": " Pasta Penne Cream"
+    },
+    "price": 49,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "נהריה",
+        "en": "Nahariya"
+      },
+      "address": {
+        "he": "הגעתון 16, נהריה",
+        "en": "הגעתון 16, נהריה"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://wolt.com/en/isr/nahariya/restaurant/american-pizza-nahariya",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Real Italian Pizza",
+      "en": "Real Italian Pizza"
+    },
+    "coordinates": {
+      "lat": 33.0064625,
+      "lng": 35.0968135
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 422,
+    "name": {
+      "he": "Pizza Buena",
+      "en": "Pizza Buena"
+    },
+    "dish_name": {
+      "he": "פיצה משפחתית",
+      "en": "פיצה משפחתית"
+    },
+    "price": 45,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "נהריה",
+        "en": "Nahariya"
+      },
+      "address": {
+        "he": "הרצל  1  נהריה",
+        "en": "הרצל  1  נהריה"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/nahariya/restaurant/pizza-buena",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Local Pizza in Nahariya\nKosher",
+      "en": "Local Pizza in Nahariya\nKosher"
+    },
+    "coordinates": {
+      "lat": 33.0157433,
+      "lng": 35.0965616
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 423,
+    "name": {
+      "he": "Burgerim | Nahariya",
+      "en": "Burgerim | Nahariya"
+    },
+    "dish_name": {
+      "he": "זוג בורגרים",
+      "en": "זוג בורגרים"
+    },
+    "price": 47,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "נהריה",
+        "en": "Nahariya"
+      },
+      "address": {
+        "he": "ויצמן 63, נהריה",
+        "en": "ויצמן 63, נהריה"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "כשר",
+      "en": "Kosher"
+    },
+    "source_url": "https://wolt.com/en/isr/nahariya/restaurant/burgerim-nahariya",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Come Together",
+      "en": "Come Together"
+    },
+    "coordinates": {
+      "lat": 33.0063429,
+      "lng": 35.0928377
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 424,
+    "name": {
+      "he": "Baguette Budi",
+      "en": "Baguette Budi"
+    },
+    "dish_name": {
+      "he": "שניצל בבגט",
+      "en": "שניצל בבגט"
+    },
+    "price": 47,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "נהריה",
+        "en": "Nahariya"
+      },
+      "address": {
+        "he": "ליד פיצוחי ראזי מזרעה",
+        "en": "ליד פיצוחי ראזי מזרעה"
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/nahariya/restaurant/baguette-budi",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Baguettes Sandwiches",
+      "en": "Baguettes Sandwiches"
+    },
+    "coordinates": {
+      "lat": 32.9872023,
+      "lng": 35.0975833
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 425,
+    "name": {
+      "he": "Bulls | Nahariya",
+      "en": "Bulls | Nahariya"
+    },
+    "dish_name": {
+      "he": "קלאסיק",
+      "en": "קלאסיק"
+    },
+    "price": 49,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "נהריה",
+        "en": "Nahariya"
+      },
+      "address": {
+        "he": "ההגנה 29, נהריה ",
+        "en": "ההגנה 29, נהריה "
+      },
+      "region": {
+        "he": "צפון",
+        "en": "North"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/nahariya/restaurant/bulls-nahariyya",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Chef Burger",
+      "en": "Chef Burger"
+    },
+    "coordinates": {
+      "lat": 33.02092741,
+      "lng": 35.09652046
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 426,
+    "name": {
+      "he": "Pancakes House | Netanya",
+      "en": "Pancakes House | Netanya"
+    },
+    "dish_name": {
+      "he": "אצבעות גבינה חלומי",
+      "en": "אצבעות גבינה חלומי"
+    },
+    "price": 46,
+    "category": {
+      "he": "מסעדה",
+      "en": "Restaurant"
+    },
+    "location": {
+      "city": {
+        "he": "נתניה",
+        "en": "Netanya"
+      },
+      "address": {
+        "he": "Highway 2, Netanya",
+        "en": "Highway 2, Netanya"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/netanya/restaurant/original-house-of-pancakes-netanya",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "The Original House Of Pancakes",
+      "en": "The Original House Of Pancakes"
+    },
+    "coordinates": {
+      "lat": 32.320397,
+      "lng": 34.865908
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 427,
+    "name": {
+      "he": "Lucky Chicken | Bitan Aharon",
+      "en": "Lucky Chicken | Bitan Aharon"
+    },
+    "dish_name": {
+      "he": "טנדרס",
+      "en": "טנדרס"
+    },
+    "price": 49,
+    "category": {
+      "he": "עוף",
+      "en": "Chicken"
+    },
+    "location": {
+      "city": {
+        "he": "נתניה",
+        "en": "Netanya"
+      },
+      "address": {
+        "he": "מתחם ביתן אהרון",
+        "en": "מתחם ביתן אהרון"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/netanya/restaurant/lucky-chicken-bitan-aharon",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "You Just Got Lucky!",
+      "en": "You Just Got Lucky!"
+    },
+    "coordinates": {
+      "lat": 32.36162,
+      "lng": 34.868354
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 428,
+    "name": {
+      "he": "Burger Station | Poleg",
+      "en": "Burger Station | Poleg"
+    },
+    "dish_name": {
+      "he": "Entrecote Tortilla",
+      "en": "Entrecote Tortilla"
+    },
+    "price": 44,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "נתניה",
+        "en": "Netanya"
+      },
+      "address": {
+        "he": "גיבורי ישראל 40, נתניה",
+        "en": "גיבורי ישראל 40, נתניה"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/netanya/restaurant/burger-station-poleg",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Premium Burger | Kosher",
+      "en": "Premium Burger | Kosher"
+    },
+    "coordinates": {
+      "lat": 32.2833526,
+      "lng": 34.8616146
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 429,
+    "name": {
+      "he": "Bariloche | Netanya",
+      "en": "Bariloche | Netanya"
+    },
+    "dish_name": {
+      "he": "ראפ טורטיה",
+      "en": "ראפ טורטיה"
+    },
+    "price": 44,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "נתניה",
+        "en": "Netanya"
+      },
+      "address": {
+        "he": "נתן יונתן 10, נתניה",
+        "en": "נתן יונתן 10, נתניה"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/netanya/restaurant/bariloche-netanya",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "South American Butcher Sandwich",
+      "en": "South American Butcher Sandwich"
+    },
+    "coordinates": {
+      "lat": 32.2790295,
+      "lng": 34.8405887
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 430,
+    "name": {
+      "he": "Hamsa Smash Burger | Kosher",
+      "en": "Hamsa Smash Burger | Kosher"
+    },
+    "dish_name": {
+      "he": "The New York Hustle",
+      "en": "The New York Hustle"
+    },
+    "price": 50,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "רמלה",
+        "en": "Ramla"
+      },
+      "address": {
+        "he": "הרצל 84 ראשון לציון ",
+        "en": "הרצל 84 ראשון לציון "
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/ramla/restaurant/hamsa-smash-burger",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Blessed & Smashed | Hamburger | Kosher",
+      "en": "Blessed & Smashed | Hamburger | Kosher"
+    },
+    "coordinates": {
+      "lat": 31.9634063,
+      "lng": 34.8028061
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 431,
+    "name": {
+      "he": "HaMalabiya | Rishon LeZion",
+      "en": "HaMalabiya | Rishon LeZion"
+    },
+    "dish_name": {
+      "he": "The pink panther ",
+      "en": "The pink panther "
+    },
+    "price": 50,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "רמלה",
+        "en": "Ramla"
+      },
+      "address": {
+        "he": "רוטישלד 63, ראשון לציון",
+        "en": "רוטישלד 63, ראשון לציון"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/ramla/restaurant/hamalabiya-rishon-lezion",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Happy Hour Malabi",
+      "en": "Happy Hour Malabi"
+    },
+    "coordinates": {
+      "lat": 31.9637536,
+      "lng": 34.7987895
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 432,
+    "name": {
+      "he": "Chen Hatunisai",
+      "en": "Chen Hatunisai"
+    },
+    "dish_name": {
+      "he": "שניצל",
+      "en": "שניצל"
+    },
+    "price": 45,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "רמלה",
+        "en": "Ramla"
+      },
+      "address": {
+        "he": "משה בקר 35",
+        "en": "משה בקר 35"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/ramla/restaurant/chen-hatunisai",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Chen Hatunisay - Ramle Market | Sandwiches and Hot dishes | Kosher- Cheif Rabbinate Of Rishon Lezion",
+      "en": "Chen Hatunisay - Ramle Market | Sandwiches and Hot dishes | Kosher- Cheif Rabbinate Of Rishon Lezion"
+    },
+    "coordinates": {
+      "lat": 31.979233,
+      "lng": 34.810267
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 433,
+    "name": {
+      "he": "Smishmash | Rishon LeZion",
+      "en": "Smishmash | Rishon LeZion"
+    },
+    "dish_name": {
+      "he": "סמישמאש | 110 גר׳",
+      "en": "סמישמאש | 110 גר׳"
+    },
+    "price": 46,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "רמלה",
+        "en": "Ramla"
+      },
+      "address": {
+        "he": "רוטשילד 34, ראשון לציון",
+        "en": "רוטשילד 34, ראשון לציון"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/ramla/restaurant/smishmash-rishon-lezion",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Smash Burgers",
+      "en": "Smash Burgers"
+    },
+    "coordinates": {
+      "lat": 31.964612,
+      "lng": 34.803434
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 434,
+    "name": {
+      "he": "Hamsa Smash Burger | Kosher",
+      "en": "Hamsa Smash Burger | Kosher"
+    },
+    "dish_name": {
+      "he": "The New York Hustle",
+      "en": "The New York Hustle"
+    },
+    "price": 50,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "רחובות",
+        "en": "Rehovot"
+      },
+      "address": {
+        "he": "הרצל 84 ראשון לציון ",
+        "en": "הרצל 84 ראשון לציון "
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/rehovot/restaurant/hamsa-smash-burger",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Blessed & Smashed | Hamburger | Kosher",
+      "en": "Blessed & Smashed | Hamburger | Kosher"
+    },
+    "coordinates": {
+      "lat": 31.9634063,
+      "lng": 34.8028061
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 435,
+    "name": {
+      "he": "HaMalabiya | Rishon LeZion",
+      "en": "HaMalabiya | Rishon LeZion"
+    },
+    "dish_name": {
+      "he": "The pink panther ",
+      "en": "The pink panther "
+    },
+    "price": 50,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "רחובות",
+        "en": "Rehovot"
+      },
+      "address": {
+        "he": "רוטישלד 63, ראשון לציון",
+        "en": "רוטישלד 63, ראשון לציון"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/rehovot/restaurant/hamalabiya-rishon-lezion",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Happy Hour Malabi",
+      "en": "Happy Hour Malabi"
+    },
+    "coordinates": {
+      "lat": 31.9637536,
+      "lng": 34.7987895
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 436,
+    "name": {
+      "he": "Hamsa Smash Burger | Kosher",
+      "en": "Hamsa Smash Burger | Kosher"
+    },
+    "dish_name": {
+      "he": "The New York Hustle",
+      "en": "The New York Hustle"
+    },
+    "price": 50,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "הרצל 84 ראשון לציון ",
+        "en": "הרצל 84 ראשון לציון "
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/rishon-lezion/restaurant/hamsa-smash-burger",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Blessed & Smashed | Hamburger | Kosher",
+      "en": "Blessed & Smashed | Hamburger | Kosher"
+    },
+    "coordinates": {
+      "lat": 31.9634063,
+      "lng": 34.8028061
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 437,
+    "name": {
+      "he": "HaMalabiya | Rishon LeZion",
+      "en": "HaMalabiya | Rishon LeZion"
+    },
+    "dish_name": {
+      "he": "The pink panther ",
+      "en": "The pink panther "
+    },
+    "price": 50,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "רוטישלד 63, ראשון לציון",
+        "en": "רוטישלד 63, ראשון לציון"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/rishon-lezion/restaurant/hamalabiya-rishon-lezion",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Happy Hour Malabi",
+      "en": "Happy Hour Malabi"
+    },
+    "coordinates": {
+      "lat": 31.9637536,
+      "lng": 34.7987895
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 438,
+    "name": {
+      "he": "Smishmash | Rishon LeZion",
+      "en": "Smishmash | Rishon LeZion"
+    },
+    "dish_name": {
+      "he": "סמישמאש | 110 גר׳",
+      "en": "סמישמאש | 110 גר׳"
+    },
+    "price": 46,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "רוטשילד 34, ראשון לציון",
+        "en": "רוטשילד 34, ראשון לציון"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/rishon-lezion/restaurant/smishmash-rishon-lezion",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Smash Burgers",
+      "en": "Smash Burgers"
+    },
+    "coordinates": {
+      "lat": 31.964612,
+      "lng": 34.803434
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
+  },
+  {
+    "id": 439,
+    "name": {
+      "he": "Chen Hatunisai",
+      "en": "Chen Hatunisai"
+    },
+    "dish_name": {
+      "he": "שניצל",
+      "en": "שניצל"
+    },
+    "price": 45,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "משה בקר 35",
+        "en": "משה בקר 35"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/en/isr/rishon-lezion/restaurant/chen-hatunisai",
+    "verified_date": "2026-02-20",
+    "notes": {
+      "he": "Chen Hatunisay - Ramle Market | Sandwiches and Hot dishes | Kosher- Cheif Rabbinate Of Rishon Lezion",
+      "en": "Chen Hatunisay - Ramle Market | Sandwiches and Hot dishes | Kosher- Cheif Rabbinate Of Rishon Lezion"
+    },
+    "coordinates": {
+      "lat": 31.979233,
+      "lng": 34.810267
+    },
+    "accepted_cards": [
+      "cash",
+      "credit",
+      "wolt"
+    ]
   }
 ]
