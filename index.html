@@ -852,6 +852,8 @@
 
       <!-- Filter pills + quick chips (single scrollable row) -->
       <div class="filter-pills-row">
+        <button class="chip chip-geo"    id="geo-btn"></button>
+        <span class="pills-divider"></span>
         <button class="ms-trigger" id="ms-region"   data-key="regions"     data-active="false" data-open="false">
           <span id="ms-region-label"></span>
           <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
@@ -868,7 +870,6 @@
         <button class="chip chip-10bis" id="toggle-10bis"></button>
         <button class="chip chip-cibus"  id="toggle-cibus"></button>
         <button class="chip chip-wolt"   id="toggle-wolt"></button>
-        <button class="chip chip-geo"    id="geo-btn"></button>
       </div>
 
     </div>
@@ -954,7 +955,7 @@
           nSelected: n => `${n} נבחרו`,
           done: "סגור",
         },
-        geoBtn:              "📍 קרוב אליי",
+        geoBtn:              "קרוב אליי",
         geoLocating:         "מאתר...",
         geoPermissionDenied: "נדרש אישור מיקום כדי לראות מסעדות קרובות.",
         geoError:            "שגיאה באיתור מיקום. נסה שוב.",
@@ -990,7 +991,7 @@
           nSelected: n => `${n} selected`,
           done: "Done",
         },
-        geoBtn:              "📍 Near Me",
+        geoBtn:              "Near Me",
         geoLocating:         "Locating...",
         geoPermissionDenied: "Location permission required to show nearby restaurants.",
         geoError:            "Location error. Please try again.",
@@ -1216,13 +1217,14 @@
 
     function updateGeoChip() {
       const btn = $("geo-btn");
+      const locateIcon = `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>`;
       if (isLocating) {
         btn.innerHTML = `<span class="spinner"></span>${t().geoLocating}`;
         btn.disabled  = true;
         btn.classList.remove("active");
       } else {
-        btn.textContent = t().geoBtn;
-        btn.disabled    = false;
+        btn.innerHTML = `${locateIcon}${t().geoBtn}`;
+        btn.disabled  = false;
         btn.classList.toggle("active", geoActive);
       }
     }
