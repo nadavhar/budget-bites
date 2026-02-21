@@ -652,13 +652,93 @@
       margin-inline: auto;
     }
 
+    /* ── Map ─────────────────────────────────────────────────── */
+    #map-wrap {
+      display: none;
+      position: relative;
+      max-width: 1200px;
+      margin: 0 auto 0.5rem;
+      padding: 0 1.5rem;
+    }
+    #map {
+      height: 420px;
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.12);
+    }
+    .radius-control {
+      position: absolute;
+      top: 12px;
+      inset-inline-end: calc(1.5rem + 10px);
+      z-index: 1000;
+      display: none;
+      align-items: center;
+      gap: 4px;
+      background: rgba(255,255,255,0.93);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      padding: 6px 10px;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+    }
+    .radius-label {
+      font-size: 0.72rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      white-space: nowrap;
+      margin-inline-end: 2px;
+    }
+    .r-chip {
+      border: none;
+      border-radius: 8px;
+      padding: 4px 8px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      cursor: pointer;
+      background: #e8e8e4;
+      color: var(--text-muted);
+      transition: background 0.15s, color 0.15s;
+    }
+    .r-chip.active { background: var(--accent); color: #fff; }
+    .r-chip:hover:not(.active) { background: var(--tag-bg); color: var(--accent); }
+    .user-dot {
+      width: 16px; height: 16px;
+      background: #2563eb;
+      border: 3px solid #fff;
+      border-radius: 50%;
+      box-shadow: 0 0 0 4px rgba(37,99,235,0.25);
+      animation: pulse-dot 2s infinite;
+    }
+    @keyframes pulse-dot {
+      0%, 100% { box-shadow: 0 0 0 4px rgba(37,99,235,0.25); }
+      50%       { box-shadow: 0 0 0 9px rgba(37,99,235,0.07); }
+    }
+    .map-toggle-btn {
+      border: 1.5px solid var(--border);
+      border-radius: 8px;
+      background: var(--card-bg);
+      color: var(--text-muted);
+      padding: 4px 10px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background 0.15s, border-color 0.15s, color 0.15s;
+    }
+    .map-toggle-btn:hover { border-color: var(--accent); color: var(--accent); background: var(--tag-bg); }
+    .map-toggle-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+    .stats-right { display: flex; gap: 0.5rem; align-items: center; }
+
     /* ── Mobile ──────────────────────────────────────────────── */
     @media (max-width: 700px) {
       .grid         { grid-template-columns: 1fr; padding: 0.5rem 1rem 3rem; }
       .filter-inner { padding: 0.65rem 1rem 0.5rem; }
       .stats        { padding: 0.6rem 1rem; }
+      #map-wrap     { padding: 0 0.75rem; }
+      #map          { height: 320px; }
     }
   </style>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 </head>
 <body>
 
@@ -763,13 +843,28 @@
 
   <div class="stats">
     <span id="result-count"></span>
-    <button class="sort-btn" id="sort-btn"></button>
+    <div class="stats-right">
+      <button class="map-toggle-btn" id="map-toggle-btn"></button>
+      <button class="sort-btn" id="sort-btn"></button>
+    </div>
+  </div>
+
+  <div id="map-wrap">
+    <div id="map"></div>
+    <div class="radius-control" id="radius-control">
+      <span class="radius-label" id="radius-label"></span>
+      <button class="r-chip active" data-r="1">1 km</button>
+      <button class="r-chip" data-r="3">3 km</button>
+      <button class="r-chip" data-r="5">5 km</button>
+      <button class="r-chip" data-r="10">10 km</button>
+    </div>
   </div>
 
   <div class="grid" id="grid"></div>
 
   <footer id="footer-text"></footer>
 
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV/XN/WPeE=" crossorigin=""></script>
   <script>
     // ============================================================
     // i18n
@@ -790,7 +885,7 @@
         sortDesc: "מחיר: מהיקר לזול",
         results: (n, total) => `${n} תוצאות מתוך ${total}`,
         noResults:    "לא נמצאו תוצאות. נסו לשנות את הסינון.",
-        noResultsGeo: "לא מצאנו ארוחות ב-50₪ ברדיוס של 1.5 ק״מ. נסה להרחיב את החיפוש.",
+        noResultsGeo: km => `לא מצאנו ארוחות ב-50₪ ברדיוס של ${km} ק״מ. נסה להגדיל את הרדיוס.`,
         source: "מקור",
         footer: "הנתונים נאספו ממקורות ציבוריים ועשויים להשתנות. מחירים נכונים לתאריך הסריקה.",
         ms: {
@@ -807,6 +902,9 @@
         toggle10bis: "🟠 תן ביס",
         toggleCibus: "🔵 סיבוס",
         toggleWolt:  "🔵 וולט",
+        mapBtn:      "🗺️ מפה",
+        mapBtnClose: "✕ סגור",
+        radiusLabel: "רדיוס:",
       },
       en: {
         title: "Budget Bites",
@@ -823,7 +921,7 @@
         sortDesc: "Price: High to Low",
         results: (n, total) => `${n} results out of ${total}`,
         noResults:    "No results found. Try adjusting your filters.",
-        noResultsGeo: "No meals under 50\u20AA found within 1.5 km. Try broadening your search.",
+        noResultsGeo: km => `No meals under 50\u20AA found within ${km} km. Try increasing the radius.`,
         source: "Source",
         footer: "Data collected from public sources and may change. Prices valid as of scan date.",
         ms: {
@@ -840,6 +938,9 @@
         toggle10bis: "🟠 10bis",
         toggleCibus: "🔵 Cibus",
         toggleWolt:  "🔵 Wolt",
+        mapBtn:      "🗺️ Map",
+        mapBtnClose: "✕ Close",
+        radiusLabel: "Radius:",
       }
     };
 
@@ -857,6 +958,14 @@
     let userLocation = null;
     let isLocating   = false;
     let geoActive    = false;
+
+    // Map state
+    let mapRadius         = 1.5;
+    let mapVisible        = false;
+    let leafletMap        = null;
+    let userMarker        = null;
+    let radiusCircle      = null;
+    let restaurantMarkers = [];
 
     // Multi-select UI state
     let openKey = null;
@@ -1071,6 +1180,8 @@
           userLocation = { lat: pos.coords.latitude, lng: pos.coords.longitude };
           isLocating = false; geoActive = true;
           updateGeoChip(); render();
+          // Auto-open map when geo activates
+          if (!mapVisible) toggleMapView();
         },
         err => {
           isLocating = false;
@@ -1101,6 +1212,112 @@
     }
 
     // ============================================================
+    // Map
+    // ============================================================
+    function initMap() {
+      leafletMap = L.map("map", { zoomControl: true });
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        maxZoom: 18,
+      }).addTo(leafletMap);
+      leafletMap.setView([31.5, 34.8], 8);
+    }
+
+    function updateMap() {
+      if (!leafletMap || !mapVisible) return;
+      leafletMap.invalidateSize();
+
+      // Clear existing restaurant markers
+      restaurantMarkers.forEach(m => leafletMap.removeLayer(m));
+      restaurantMarkers = [];
+
+      const filtered = getFiltered();
+      const bounds   = [];
+
+      filtered.forEach(r => {
+        if (!r.coordinates) return;
+        const { lat, lng } = r.coordinates;
+        bounds.push([lat, lng]);
+
+        const marker = L.circleMarker([lat, lng], {
+          radius: 8, fillColor: "#2d6a4f", color: "#1b4332",
+          weight: 2, opacity: 1, fillOpacity: 0.85,
+        }).addTo(leafletMap);
+
+        const name  = esc(l(r.name));
+        const dish  = esc(l(r.dish_name));
+        const city  = esc(l(r.location.city));
+        const dist  = r._distance != null ? ` · ${r._distance.toFixed(1)} km` : '';
+        const link  = r.source_url
+          ? `<br><a href="${r.source_url}" target="_blank" rel="noopener" style="font-size:0.75rem;color:#009de0">Wolt ↗</a>`
+          : '';
+        marker.bindPopup(
+          `<b style="font-size:0.9rem">${name}</b><br>${dish}<br><b>${r.price} ₪</b> · ${city}${dist}${link}`,
+          { maxWidth: 210 }
+        );
+        restaurantMarkers.push(marker);
+      });
+
+      // Remove old user marker + circle
+      if (userMarker)   { leafletMap.removeLayer(userMarker);   userMarker   = null; }
+      if (radiusCircle) { leafletMap.removeLayer(radiusCircle); radiusCircle = null; }
+
+      const ctrl = $("radius-control");
+      if (geoActive && userLocation) {
+        const { lat, lng } = userLocation;
+
+        // Pulsing blue user dot
+        const pulseIcon = L.divIcon({
+          className: '', html: '<div class="user-dot"></div>',
+          iconSize: [16, 16], iconAnchor: [8, 8],
+        });
+        userMarker = L.marker([lat, lng], { icon: pulseIcon }).addTo(leafletMap);
+
+        // Dashed radius circle
+        radiusCircle = L.circle([lat, lng], {
+          radius:      mapRadius * 1000,
+          color:       '#16a34a', weight: 2, dashArray: '6, 5',
+          fillColor:   '#22c55e', fillOpacity: 0.1,
+        }).addTo(leafletMap);
+
+        leafletMap.fitBounds(radiusCircle.getBounds(), { padding: [24, 24] });
+
+        // Show floating radius control
+        ctrl.style.display = 'flex';
+        $("radius-label").textContent = t().radiusLabel;
+        document.querySelectorAll('.r-chip').forEach(btn => {
+          btn.classList.toggle('active', parseFloat(btn.dataset.r) === mapRadius);
+        });
+      } else {
+        ctrl.style.display = 'none';
+        if (bounds.length > 0)
+          leafletMap.fitBounds(bounds, { padding: [40, 40], maxZoom: 14 });
+        else
+          leafletMap.setView([31.5, 34.8], 8);
+      }
+    }
+
+    function setMapRadius(km) {
+      mapRadius = km;
+      document.querySelectorAll('.r-chip').forEach(btn => {
+        btn.classList.toggle('active', parseFloat(btn.dataset.r) === km);
+      });
+      render();      // re-filter cards + update result count
+      updateMap();   // re-draw circle + markers
+    }
+
+    function toggleMapView() {
+      mapVisible = !mapVisible;
+      $("map-wrap").style.display = mapVisible ? "block" : "none";
+      $("map-toggle-btn").classList.toggle("active", mapVisible);
+      $("map-toggle-btn").textContent = mapVisible ? t().mapBtnClose : t().mapBtn;
+      if (mapVisible) {
+        if (!leafletMap) initMap();
+        updateMap();
+      }
+    }
+
+    // ============================================================
     // Language switching
     // ============================================================
     function setLang(newLang) {
@@ -1126,6 +1343,8 @@
       updateAllTriggers();
       updateCardChips();
       updateGeoChip();
+      $("map-toggle-btn").textContent = mapVisible ? t().mapBtnClose : t().mapBtn;
+      if ($("radius-label")) $("radius-label").textContent = t().radiusLabel;
       render();
     }
 
@@ -1179,7 +1398,7 @@
           .map(r => {
             if (!r.coordinates) return null;
             const dist = haversineKm(userLocation.lat, userLocation.lng, r.coordinates.lat, r.coordinates.lng);
-            return dist <= 1.5 ? { ...r, _distance: dist } : null;
+            return dist <= mapRadius ? { ...r, _distance: dist } : null;
           })
           .filter(Boolean)
           .sort((a, b) => a._distance - b._distance);
@@ -1236,7 +1455,7 @@
       $("result-count").textContent = t().results(filtered.length, data.length);
 
       if (filtered.length === 0) {
-        const msg = geoActive ? t().noResultsGeo : t().noResults;
+        const msg = geoActive ? t().noResultsGeo(mapRadius) : t().noResults;
         grid.innerHTML = `<div class="empty-state"><div class="emoji">${geoActive ? '📍' : '🍽️'}</div><p>${esc(msg)}</p></div>`;
         return;
       }
@@ -1305,6 +1524,8 @@
           </div>
         </div>`;
       }).join('');
+
+      if (mapVisible) updateMap();
     }
 
     // ============================================================
@@ -1379,6 +1600,10 @@
     $("toggle-10bis").addEventListener("click", () => handleCardToggle("10bis"));
     $("toggle-cibus").addEventListener("click",  () => handleCardToggle("cibus"));
     $("toggle-wolt").addEventListener("click",   () => handleCardToggle("wolt"));
+    $("map-toggle-btn").addEventListener("click", toggleMapView);
+    document.querySelectorAll(".r-chip").forEach(btn => {
+      btn.addEventListener("click", () => setMapRadius(parseFloat(btn.dataset.r)));
+    });
 
     // ============================================================
     // Init
