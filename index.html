@@ -1495,7 +1495,6 @@
           .sort((a, b) => a._distance - b._distance);
       } else {
         filtered.sort((a, b) => sortAsc ? a.price - b.price : b.price - a.price);
-        filtered = filtered.map(({ _distance, ...rest }) => rest);
       }
 
       return filtered;
@@ -1707,10 +1706,16 @@
     // Init
     // ============================================================
     async function init() {
-      const res = await fetch("data/restaurants_i18n.json");
-      data = await res.json();
-      buildOptions();
-      setLang(lang);
+      try {
+        const res = await fetch("data/restaurants_i18n.json");
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        data = await res.json();
+        buildOptions();
+        setLang(lang);
+      } catch (err) {
+        console.error("Failed to load restaurant data:", err);
+        showToast("שגיאה בטעינת הנתונים. נסה לרענן את הדף.");
+      }
     }
 
     init();
