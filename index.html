@@ -713,6 +713,58 @@
       0%, 100% { box-shadow: 0 0 0 4px rgba(37,99,235,0.25); }
       50%       { box-shadow: 0 0 0 9px rgba(37,99,235,0.07); }
     }
+    /* ── Map bottom sheet ──────────────────────────────────── */
+    #map-card-sheet {
+      display: none;
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      z-index: 1001;
+      padding: 0 0.75rem 0.85rem;
+      pointer-events: none;
+    }
+    #map-card-sheet.visible {
+      display: block;
+      animation: slideUpSheet 0.24s cubic-bezier(0.34, 1.2, 0.64, 1);
+    }
+    @keyframes slideUpSheet {
+      from { transform: translateY(50px); opacity: 0; }
+      to   { transform: translateY(0);    opacity: 1; }
+    }
+    .map-sheet-inner {
+      max-width: 480px;
+      margin: 0 auto;
+      position: relative;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 -4px 40px rgba(0,0,0,0.22), 0 6px 24px rgba(0,0,0,0.14);
+      pointer-events: all;
+    }
+    /* Card inside sheet: no hover lift, flatten bottom radius */
+    #map-sheet-card .card {
+      border-radius: 0;
+      box-shadow: none;
+      transform: none !important;
+      transition: none;
+    }
+    .map-sheet-close {
+      position: absolute;
+      top: 8px;
+      inset-inline-end: 8px;
+      z-index: 10;
+      width: 26px; height: 26px;
+      border-radius: 50%;
+      border: none;
+      background: rgba(255,255,255,0.9);
+      backdrop-filter: blur(6px);
+      cursor: pointer;
+      font-size: 0.9rem;
+      color: var(--text);
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.2);
+      transition: background 0.15s, transform 0.15s;
+    }
+    .map-sheet-close:hover { background: #fff; transform: scale(1.1); }
+
     .map-toggle-btn {
       border: 1.5px solid var(--border);
       border-radius: 8px;
@@ -858,6 +910,13 @@
       <button class="r-chip" data-r="5">5 km</button>
       <button class="r-chip" data-r="10">10 km</button>
     </div>
+    <!-- Map bottom sheet — shown when a marker is tapped -->
+    <div id="map-card-sheet">
+      <div class="map-sheet-inner">
+        <button class="map-sheet-close" id="map-sheet-close" aria-label="סגור">✕</button>
+        <div id="map-sheet-card"></div>
+      </div>
+    </div>
   </div>
 
   <div class="grid" id="grid"></div>
@@ -966,6 +1025,7 @@
     let userMarker        = null;
     let radiusCircle      = null;
     let restaurantMarkers = [];
+    let selectedRestaurant = null;
 
     // Multi-select UI state
     let openKey = null;
@@ -1221,6 +1281,35 @@
         maxZoom: 18,
       }).addTo(leafletMap);
       leafletMap.setView([31.5, 34.8], 8);
+      // Tap empty map area → dismiss card
+      leafletMap.on('click', () => closeMapCard());
+    }
+
+    function showMapCard(r, lat, lng) {
+      selectedRestaurant = r;
+
+      // Pan so marker sits above the bottom sheet (shift centre downward ~100px)
+      const pt        = leafletMap.latLngToContainerPoint([lat, lng]);
+      const newCenter = leafletMap.containerPointToLatLng(L.point(pt.x, pt.y - 100));
+      leafletMap.panTo(newCenter, { animate: true, duration: 0.25 });
+
+      // Render full card into sheet
+      $("map-sheet-card").innerHTML = buildCardHTML(r);
+
+      // Show with slide-up animation (force reflow to retrigger)
+      const sheet = $("map-card-sheet");
+      sheet.classList.remove("visible");
+      void sheet.offsetWidth;
+      sheet.classList.add("visible");
+
+      // Re-draw markers so selected one turns amber
+      updateMap();
+    }
+
+    function closeMapCard() {
+      selectedRestaurant = null;
+      $("map-card-sheet").classList.remove("visible");
+      updateMap(); // revert amber marker back to green
     }
 
     function updateMap() {
@@ -1239,22 +1328,18 @@
         const { lat, lng } = r.coordinates;
         bounds.push([lat, lng]);
 
+        const isSelected = selectedRestaurant && selectedRestaurant.id === r.id;
         const marker = L.circleMarker([lat, lng], {
-          radius: 8, fillColor: "#2d6a4f", color: "#1b4332",
-          weight: 2, opacity: 1, fillOpacity: 0.85,
+          radius:      isSelected ? 11 : 8,
+          fillColor:   isSelected ? '#f59e0b' : '#2d6a4f',
+          color:       isSelected ? '#92400e' : '#1b4332',
+          weight: 2, opacity: 1, fillOpacity: 0.9,
         }).addTo(leafletMap);
 
-        const name  = esc(l(r.name));
-        const dish  = esc(l(r.dish_name));
-        const city  = esc(l(r.location.city));
-        const dist  = r._distance != null ? ` · ${r._distance.toFixed(1)} km` : '';
-        const link  = r.source_url
-          ? `<br><a href="${r.source_url}" target="_blank" rel="noopener" style="font-size:0.75rem;color:#009de0">Wolt ↗</a>`
-          : '';
-        marker.bindPopup(
-          `<b style="font-size:0.9rem">${name}</b><br>${dish}<br><b>${r.price} ₪</b> · ${city}${dist}${link}`,
-          { maxWidth: 210 }
-        );
+        marker.on('click', e => {
+          L.DomEvent.stopPropagation(e);
+          showMapCard(r, lat, lng);
+        });
         restaurantMarkers.push(marker);
       });
 
@@ -1314,6 +1399,8 @@
       if (mapVisible) {
         if (!leafletMap) initMap();
         updateMap();
+      } else {
+        closeMapCard();
       }
     }
 
@@ -1449,6 +1536,74 @@
       return encodeURIComponent(parts.join(', '));
     }
 
+    // ============================================================
+    // Card HTML builder — shared by grid and map bottom sheet
+    // ============================================================
+    function buildCardHTML(r) {
+      const mapsLabel  = lang === 'he' ? 'מפה'   : 'Map';
+      const shareLabel = lang === 'he' ? 'שיתוף' : 'Share';
+
+      const name   = esc(l(r.name));
+      const dish   = esc(l(r.dish_name));
+      const cat    = esc(l(r.category));
+      const region = esc(l(r.location.region));
+      const kosher = esc(l(r.kosher_status));
+      const city   = esc(l(r.location.city));
+      const addr   = esc(l(r.location.address));
+      const notes  = r.notes ? esc(l(r.notes)) : '';
+      const showAddr = addr && addr !== city;
+
+      const distBadge = (geoActive && r._distance != null)
+        ? `<span class="distance-badge">📍 ${r._distance.toFixed(1)} km</span>` : '';
+
+      const cards = r.accepted_cards || [];
+      const payBadges = [
+        cards.includes('10bis') ? `<span class="pay-badge pay-badge-10bis">🟠 תן ביס</span>` : '',
+        cards.includes('cibus') ? `<span class="pay-badge pay-badge-cibus">🔵 סיבוס</span>` : '',
+        cards.includes('wolt')  ? `<span class="pay-badge pay-badge-wolt">🔵 Wolt</span>` : '',
+      ].filter(Boolean).join('');
+      const payBadgesHtml = payBadges ? `<div class="payment-badges">${payBadges}</div>` : '';
+
+      const q           = buildMapQuery(r);
+      const wazeUrl     = `https://waze.com/ul?q=${q}&navigate=yes`;
+      const gmapsUrl    = `https://www.google.com/maps/search/?api=1&query=${q}`;
+      const shareText   = encodeURIComponent(
+        lang === 'he'
+          ? `${l(r.name)} - ${l(r.dish_name)} ב-${r.price}\u20AA | ${l(r.location.city)}`
+          : `${l(r.name)} - ${l(r.dish_name)} for ${r.price}\u20AA | ${l(r.location.city)}`
+      );
+      const whatsappUrl = `https://wa.me/?text=${shareText}`;
+
+      return `
+      <div class="card">
+        <div class="card-icon-section">
+          <img class="category-photo" src="${getCategoryPhoto(r.category.en)}" alt="${esc(cat)}" loading="lazy">
+          <span class="price-badge">${r.price} \u20AA</span>
+        </div>
+        <div class="card-body">
+          <div class="card-header"><h3>${name}</h3></div>
+          <div class="dish-name">${dish}</div>
+          <div class="card-meta">
+            <span class="tag tag-category">${cat}</span>
+            <span class="tag tag-region">${region}</span>
+            <span class="tag ${kosherClass(r.kosher_status.en)}">${kosher}</span>
+            ${distBadge}
+          </div>
+          ${payBadgesHtml}
+          <div class="card-location">
+            <span class="city">${city}</span>${showAddr ? ' &mdash; ' + addr : ''}
+          </div>
+          ${notes ? `<div class="card-notes">${notes}</div>` : ''}
+          ${r.source_url ? `<div class="card-source"><a href="${esc(r.source_url)}" target="_blank" rel="noopener">${esc(t().source)}</a></div>` : ''}
+        </div>
+        <div class="card-actions">
+          <a href="${wazeUrl}"     target="_blank" rel="noopener" class="action-waze">${ICON_WAZE}<span>Waze</span></a>
+          <a href="${gmapsUrl}"    target="_blank" rel="noopener" class="action-gmaps">${ICON_GMAPS}<span>${mapsLabel}</span></a>
+          <a href="${whatsappUrl}" target="_blank" rel="noopener" class="action-whatsapp">${ICON_WHATSAPP}<span>${shareLabel}</span></a>
+        </div>
+      </div>`;
+    }
+
     function render() {
       const filtered = getFiltered();
       const grid     = $("grid");
@@ -1457,73 +1612,11 @@
       if (filtered.length === 0) {
         const msg = geoActive ? t().noResultsGeo(mapRadius) : t().noResults;
         grid.innerHTML = `<div class="empty-state"><div class="emoji">${geoActive ? '📍' : '🍽️'}</div><p>${esc(msg)}</p></div>`;
+        if (mapVisible) updateMap();
         return;
       }
 
-      const mapsLabel  = lang === 'he' ? 'מפה'   : 'Map';
-      const shareLabel = lang === 'he' ? 'שיתוף' : 'Share';
-
-      grid.innerHTML = filtered.map(r => {
-        const name   = esc(l(r.name));
-        const dish   = esc(l(r.dish_name));
-        const cat    = esc(l(r.category));
-        const region = esc(l(r.location.region));
-        const kosher = esc(l(r.kosher_status));
-        const city   = esc(l(r.location.city));
-        const addr   = esc(l(r.location.address));
-        const notes  = r.notes ? esc(l(r.notes)) : '';
-        const showAddr = addr && addr !== city;
-
-        const distBadge = (geoActive && r._distance != null)
-          ? `<span class="distance-badge">📍 ${r._distance.toFixed(1)} km</span>` : '';
-
-        const cards = r.accepted_cards || [];
-        const payBadges = [
-          cards.includes('10bis') ? `<span class="pay-badge pay-badge-10bis">🟠 תן ביס</span>` : '',
-          cards.includes('cibus') ? `<span class="pay-badge pay-badge-cibus">🔵 סיבוס</span>` : '',
-          cards.includes('wolt')  ? `<span class="pay-badge pay-badge-wolt">🔵 Wolt</span>` : '',
-        ].filter(Boolean).join('');
-        const payBadgesHtml = payBadges ? `<div class="payment-badges">${payBadges}</div>` : '';
-
-        const q           = buildMapQuery(r);
-        const wazeUrl     = `https://waze.com/ul?q=${q}&navigate=yes`;
-        const gmapsUrl    = `https://www.google.com/maps/search/?api=1&query=${q}`;
-        const shareText   = encodeURIComponent(
-          lang === 'he'
-            ? `${l(r.name)} - ${l(r.dish_name)} ב-${r.price}\u20AA | ${l(r.location.city)}`
-            : `${l(r.name)} - ${l(r.dish_name)} for ${r.price}\u20AA | ${l(r.location.city)}`
-        );
-        const whatsappUrl = `https://wa.me/?text=${shareText}`;
-
-        return `
-        <div class="card">
-          <div class="card-icon-section">
-            <img class="category-photo" src="${getCategoryPhoto(r.category.en)}" alt="${esc(cat)}" loading="lazy">
-            <span class="price-badge">${r.price} \u20AA</span>
-          </div>
-          <div class="card-body">
-            <div class="card-header"><h3>${name}</h3></div>
-            <div class="dish-name">${dish}</div>
-            <div class="card-meta">
-              <span class="tag tag-category">${cat}</span>
-              <span class="tag tag-region">${region}</span>
-              <span class="tag ${kosherClass(r.kosher_status.en)}">${kosher}</span>
-              ${distBadge}
-            </div>
-            ${payBadgesHtml}
-            <div class="card-location">
-              <span class="city">${city}</span>${showAddr ? ' &mdash; ' + addr : ''}
-            </div>
-            ${notes ? `<div class="card-notes">${notes}</div>` : ''}
-            ${r.source_url ? `<div class="card-source"><a href="${esc(r.source_url)}" target="_blank" rel="noopener">${esc(t().source)}</a></div>` : ''}
-          </div>
-          <div class="card-actions">
-            <a href="${wazeUrl}"     target="_blank" rel="noopener" class="action-waze">${ICON_WAZE}<span>Waze</span></a>
-            <a href="${gmapsUrl}"    target="_blank" rel="noopener" class="action-gmaps">${ICON_GMAPS}<span>${mapsLabel}</span></a>
-            <a href="${whatsappUrl}" target="_blank" rel="noopener" class="action-whatsapp">${ICON_WHATSAPP}<span>${shareLabel}</span></a>
-          </div>
-        </div>`;
-      }).join('');
+      grid.innerHTML = filtered.map(r => buildCardHTML(r)).join('');
 
       if (mapVisible) updateMap();
     }
@@ -1601,6 +1694,7 @@
     $("toggle-cibus").addEventListener("click",  () => handleCardToggle("cibus"));
     $("toggle-wolt").addEventListener("click",   () => handleCardToggle("wolt"));
     $("map-toggle-btn").addEventListener("click", toggleMapView);
+    $("map-sheet-close").addEventListener("click", e => { e.stopPropagation(); closeMapCard(); });
     document.querySelectorAll(".r-chip").forEach(btn => {
       btn.addEventListener("click", () => setMapRadius(parseFloat(btn.dataset.r)));
     });
