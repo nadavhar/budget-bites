@@ -1356,16 +1356,20 @@
           className: '', html: '<div class="user-dot"></div>',
           iconSize: [16, 16], iconAnchor: [8, 8],
         });
-        userMarker = L.marker([lat, lng], { icon: pulseIcon }).addTo(leafletMap);
+        userMarker = L.marker([lat, lng], { icon: pulseIcon, interactive: false }).addTo(leafletMap);
 
-        // Dashed radius circle
+        // Dashed radius circle — interactive:false so it never blocks marker clicks
         radiusCircle = L.circle([lat, lng], {
           radius:      mapRadius * 1000,
           color:       '#16a34a', weight: 2, dashArray: '6, 5',
           fillColor:   '#22c55e', fillOpacity: 0.1,
+          interactive: false,
         }).addTo(leafletMap);
 
-        leafletMap.fitBounds(radiusCircle.getBounds(), { padding: [24, 24] });
+        // Only auto-zoom when no card is open; otherwise keep the pan from showMapCard
+        if (!selectedRestaurant) {
+          leafletMap.fitBounds(radiusCircle.getBounds(), { padding: [24, 24] });
+        }
 
         // Show floating radius control
         ctrl.style.display = 'flex';
