@@ -283,7 +283,42 @@
       flex: 1;
     }
     .price-filter label  { font-size: 0.82rem; font-weight: 600; color: var(--text-muted); white-space: nowrap; }
-    .price-filter input[type="range"] { flex: 1; accent-color: var(--accent); cursor: pointer; direction: ltr; }
+    .price-filter input[type="range"] {
+      flex: 1;
+      cursor: pointer;
+      direction: ltr;
+      -webkit-appearance: none;
+      appearance: none;
+      height: 4px;
+      border-radius: 2px;
+      background: #d1d5db;
+      outline: none;
+    }
+    .price-filter input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: var(--accent);
+      cursor: pointer;
+      border: 2px solid #fff;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    }
+    .price-filter input[type="range"]::-moz-range-thumb {
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: var(--accent);
+      cursor: pointer;
+      border: 2px solid #fff;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    }
+    .price-filter input[type="range"]::-moz-range-track {
+      height: 4px;
+      border-radius: 2px;
+      background: #d1d5db;
+    }
     .price-val { font-weight: 700; color: var(--accent); font-size: 0.85rem; min-width: 48px; }
 
     /* ── Pills divider ───────────────────────────────────────── */
