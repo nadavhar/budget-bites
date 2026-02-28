@@ -2596,6 +2596,7 @@
       supabaseClient.auth.getSession().then(({ data: { session } }) => {
         currentUser = session?.user ?? null;
         updateAuthBtn();
+        loadReviewsForVisible();
       });
     }
 
