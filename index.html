@@ -1135,30 +1135,39 @@
       font-size: 0.85rem;
     }
     .feed-card-stars { color: #f59e0b; letter-spacing: 1px; }
-    .feed-card-footer {
+    .feed-card-actions {
       display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      margin-top: 0.75rem;
-      padding-top: 0.55rem;
       border-top: 1px solid var(--border);
+      margin-top: 0.75rem;
     }
-    .feed-chat-btn {
-      background: none;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 0.3rem 0.7rem;
-      font-size: 0.8rem;
-      cursor: pointer;
-      color: var(--text-muted);
-      font-weight: 600;
-      font-family: inherit;
+    .feed-card-actions a,
+    .feed-card-actions button {
+      flex: 1;
       display: flex;
       align-items: center;
-      gap: 0.35rem;
+      justify-content: center;
+      gap: 0.3rem;
+      padding: 0.55rem 0.25rem;
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-decoration: none;
+      background: none;
+      border: none;
+      border-inline-end: 1px solid var(--border);
+      cursor: pointer;
+      font-family: inherit;
       transition: background 0.12s, color 0.12s;
     }
-    .feed-chat-btn:hover { background: var(--tag-bg); color: var(--accent); }
+    .feed-card-actions a:last-child,
+    .feed-card-actions button:last-child { border-inline-end: none; }
+    .feed-card-actions a svg { width: 15px; height: 15px; flex-shrink: 0; }
+    .feed-card-actions a:hover,
+    .feed-card-actions button:hover { background: var(--tag-bg); }
+    .feed-card-actions .action-waze:hover     { color: #33ccff; }
+    .feed-card-actions .action-gmaps:hover    { color: #ea4335; }
+    .feed-card-actions .action-whatsapp:hover { color: #25d366; }
+    .feed-card-actions button:hover           { color: var(--accent); }
     .feed-empty {
       text-align: center;
       padding: 4rem 1rem;
@@ -2910,7 +2919,17 @@
       const ratingHtml  = post.rating
         ? `<div class="feed-card-rating"><span class="feed-card-stars">${'★'.repeat(post.rating)}${'☆'.repeat(5 - post.rating)}</span></div>`
         : '';
-      const chatLabel   = t().feedChatBtn;
+      const q           = buildMapQuery(restaurant);
+      const wazeUrl     = `https://waze.com/ul?q=${q}&navigate=yes`;
+      const gmapsUrl    = `https://www.google.com/maps/search/?api=1&query=${q}`;
+      const shareText   = encodeURIComponent(
+        lang === 'he'
+          ? `${l(restaurant.name)} - ${l(restaurant.dish_name)} ב-${restaurant.price}\u20AA | ${l(restaurant.location.city)}`
+          : `${l(restaurant.name)} - ${l(restaurant.dish_name)} for ${restaurant.price}\u20AA | ${l(restaurant.location.city)}`
+      );
+      const whatsappUrl = `https://wa.me/?text=${shareText}`;
+      const mapsLabel   = lang === 'he' ? 'מפה' : 'Map';
+      const shareLabel  = lang === 'he' ? 'שיתוף' : 'Share';
       return `<div class="feed-card${isNew ? ' new' : ''}">
         <div class="feed-card-author">${authorText} · ${esc(timeStr)}</div>
         <div class="feed-card-restaurant">
@@ -2923,8 +2942,11 @@
         </div>
         ${ratingHtml}
         ${tipHtml}
-        <div class="feed-card-footer">
-          <button class="feed-chat-btn" onclick="openChatSheet('${esc(post.id)}', '${name}')">${chatLabel}</button>
+        <div class="feed-card-actions">
+          <a href="${wazeUrl}"     target="_blank" rel="noopener" class="action-waze">${ICON_WAZE}<span>Waze</span></a>
+          <a href="${gmapsUrl}"    target="_blank" rel="noopener" class="action-gmaps">${ICON_GMAPS}<span>${mapsLabel}</span></a>
+          <a href="${whatsappUrl}" target="_blank" rel="noopener" class="action-whatsapp">${ICON_WHATSAPP}<span>${shareLabel}</span></a>
+          <button class="feed-chat-btn" onclick="openChatSheet('${esc(post.id)}', '${name}')">${t().feedChatBtn}</button>
         </div>
       </div>`;
     }
