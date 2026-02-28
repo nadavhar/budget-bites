@@ -2426,7 +2426,10 @@
           const username = $('auth-username').value.trim();
           result = await supabaseClient.auth.signUp({
             email, password,
-            options: { data: { username } }
+            options: {
+              data: { username },
+              emailRedirectTo: 'https://nadavhar.github.io/budget-bites/',
+            }
           });
         }
         if (result.error) throw result.error;
