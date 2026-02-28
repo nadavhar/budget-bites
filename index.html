@@ -3191,10 +3191,6 @@
         showToast(lang === 'he' ? 'יש להגדיר Supabase תחילה' : 'Supabase not configured');
         return;
       }
-      if (!currentUser) {
-        openAuthModal('login');
-        return;
-      }
       postRestaurantId   = null;
       selectedPostRating = 0;
       $('post-compose-title').textContent   = t().feedComposeTitle;
@@ -3283,9 +3279,11 @@
       try {
         const { data: { session } } = await supabaseClient.auth.getSession();
         const token = session?.access_token;
+        const headers = { 'Content-Type': 'application/json' };
+        if (token) headers['Authorization'] = `Bearer ${token}`;
         const res = await fetch(EDGE_POST_URL, {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${token}` },
+          headers,
           body: JSON.stringify({
             restaurant_id: postRestaurantId,
             tip: $('post-tip').value.trim() || null,
