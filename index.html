@@ -1127,6 +1127,38 @@
       margin-top: 0.5rem;
       line-height: 1.45;
     }
+    .feed-card-rating {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+      margin-top: 0.6rem;
+      font-size: 0.85rem;
+    }
+    .feed-card-stars { color: #f59e0b; letter-spacing: 1px; }
+    .feed-card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      margin-top: 0.75rem;
+      padding-top: 0.55rem;
+      border-top: 1px solid var(--border);
+    }
+    .feed-chat-btn {
+      background: none;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.3rem 0.7rem;
+      font-size: 0.8rem;
+      cursor: pointer;
+      color: var(--text-muted);
+      font-weight: 600;
+      font-family: inherit;
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+      transition: background 0.12s, color 0.12s;
+    }
+    .feed-chat-btn:hover { background: var(--tag-bg); color: var(--accent); }
     .feed-empty {
       text-align: center;
       padding: 4rem 1rem;
@@ -1139,6 +1171,165 @@
       to   { transform: translateY(0);     opacity: 1; }
     }
     .feed-card.new { animation: feedSlideIn 0.3s ease; }
+
+    /* ── Feed post star selector ─────────────────────────────── */
+    .post-rating-row {
+      margin-bottom: 1rem;
+    }
+    .post-rating-label {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      font-weight: 600;
+      margin-bottom: 0.35rem;
+    }
+    .post-star-selector { display: flex; gap: 0.3rem; direction: ltr; }
+    .post-star-selector button {
+      background: none;
+      border: none;
+      font-size: 1.9rem;
+      cursor: pointer;
+      padding: 0;
+      line-height: 1;
+      color: #d1d5db;
+      transition: color 0.1s, transform 0.1s;
+    }
+    .post-star-selector button.active { color: #f59e0b; }
+    .post-star-selector button:hover { transform: scale(1.15); }
+
+    /* ── Chat sheet ──────────────────────────────────────────── */
+    .chat-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.45);
+      z-index: 500;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.25s;
+    }
+    .chat-overlay.open { opacity: 1; pointer-events: auto; }
+    .chat-sheet {
+      position: fixed;
+      inset-inline: 0;
+      bottom: 0;
+      max-height: 85vh;
+      background: var(--card-bg);
+      border-radius: 20px 20px 0 0;
+      z-index: 510;
+      transform: translateY(100%);
+      transition: transform 0.3s cubic-bezier(0.32,0.72,0,1);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .chat-sheet.open { transform: translateY(0); }
+    .chat-sheet-header {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 1rem 1.15rem 0.65rem;
+      border-bottom: 1px solid var(--border);
+      flex-shrink: 0;
+    }
+    .chat-sheet-handle {
+      width: 36px; height: 4px;
+      background: #e0e0d8;
+      border-radius: 2px;
+      margin: 0.55rem auto 0;
+      flex-shrink: 0;
+    }
+    .chat-sheet-title {
+      font-weight: 700;
+      font-size: 0.95rem;
+      flex: 1;
+    }
+    .chat-sheet-close {
+      background: none;
+      border: none;
+      font-size: 1.1rem;
+      cursor: pointer;
+      color: var(--text-muted);
+      padding: 0.2rem;
+      line-height: 1;
+    }
+    .chat-list {
+      flex: 1;
+      overflow-y: auto;
+      padding: 0.65rem 1.15rem;
+    }
+    .chat-empty {
+      text-align: center;
+      padding: 2.5rem 1rem;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+    .chat-item {
+      padding: 0.6rem 0;
+      border-bottom: 1px solid #f3f4f6;
+      font-size: 0.88rem;
+    }
+    .chat-item:last-child { border-bottom: none; }
+    .chat-item-header {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.2rem;
+    }
+    .chat-item-author {
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--accent);
+    }
+    .chat-item-time {
+      font-size: 0.72rem;
+      color: #aaa;
+      margin-inline-start: auto;
+    }
+    .chat-item-msg { color: var(--text); line-height: 1.45; }
+    @keyframes chatSlideIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .chat-item.new { animation: chatSlideIn 0.25s ease; }
+    .chat-input-row {
+      display: flex;
+      gap: 0.5rem;
+      align-items: flex-end;
+      padding: 0.75rem 1rem;
+      border-top: 1px solid var(--border);
+      flex-shrink: 0;
+    }
+    .chat-input {
+      flex: 1;
+      border: 1.5px solid var(--border);
+      border-radius: 10px;
+      padding: 0.55rem 0.85rem;
+      font-size: 0.9rem;
+      font-family: inherit;
+      resize: none;
+      height: 42px;
+      max-height: 100px;
+      outline: none;
+      transition: border-color 0.15s;
+      line-height: 1.4;
+      overflow-y: auto;
+    }
+    .chat-input:focus { border-color: var(--accent); }
+    .chat-send-btn {
+      background: var(--accent);
+      color: white;
+      border: none;
+      border-radius: 10px;
+      padding: 0.5rem 1rem;
+      font-size: 0.88rem;
+      font-weight: 700;
+      cursor: pointer;
+      font-family: inherit;
+      height: 42px;
+      flex-shrink: 0;
+      transition: background 0.15s;
+    }
+    .chat-send-btn:hover { background: var(--accent-hover); }
+    .chat-send-btn:disabled { opacity: 0.55; cursor: not-allowed; }
 
     /* ── Compose FAB ─────────────────────────────────────────── */
     .feed-compose-fab {
@@ -1388,6 +1579,16 @@
       <span id="post-rest-selected-name"></span>
       <button class="post-rest-clear-btn" id="post-rest-clear" aria-label="Clear">✕</button>
     </div>
+    <div class="post-rating-row">
+      <div class="post-rating-label" id="post-rating-label"></div>
+      <div class="post-star-selector" id="post-star-selector">
+        <button data-star="1">★</button>
+        <button data-star="2">★</button>
+        <button data-star="3">★</button>
+        <button data-star="4">★</button>
+        <button data-star="5">★</button>
+      </div>
+    </div>
     <textarea class="review-textarea" id="post-tip" maxlength="150"></textarea>
     <span class="review-char-count" id="post-char-count">0 / 150</span>
     <div class="anon-toggle-row">
@@ -1401,6 +1602,21 @@
       </label>
     </div>
     <button class="review-submit-btn" id="post-submit-btn"></button>
+  </div>
+
+  <!-- Chat Sheet -->
+  <div class="chat-overlay" id="chat-overlay"></div>
+  <div class="chat-sheet" id="chat-sheet">
+    <div class="chat-sheet-handle"></div>
+    <div class="chat-sheet-header">
+      <span class="chat-sheet-title" id="chat-sheet-title"></span>
+      <button class="chat-sheet-close" id="chat-sheet-close" aria-label="Close">✕</button>
+    </div>
+    <div class="chat-list" id="chat-list"></div>
+    <div class="chat-input-row">
+      <textarea class="chat-input" id="chat-input" maxlength="300" rows="1"></textarea>
+      <button class="chat-send-btn" id="chat-send-btn"></button>
+    </div>
   </div>
 
   <!-- Auth Modal -->
@@ -1532,6 +1748,15 @@
         feedRateLimit:        "מקסימום 5 פוסטים בשעה",
         feedNoRestaurant:     "יש לבחור מסעדה",
         feedAnonymousAuthor:  "🕵️ אנונימי",
+        feedRatingLabel:      "דירוג (לא חובה)",
+        feedChatBtn:          "💬 תגובות",
+        feedChatTitle:        "תגובות",
+        feedChatEmpty:        "אין תגובות עדיין. היה הראשון!",
+        feedChatPlaceholder:  "כתוב תגובה...",
+        feedChatSend:         "שלח",
+        feedChatPosted:       "✅ תגובה נשלחה!",
+        feedChatRateLimit:    "מקסימום 10 תגובות בשעה",
+        feedChatAnonPrefix:   "גורמה",
       },
       en: {
         title: "Budget Bites",
@@ -1602,6 +1827,15 @@
         feedRateLimit:        "Max 5 posts per hour",
         feedNoRestaurant:     "Please select a restaurant",
         feedAnonymousAuthor:  "🕵️ Anonymous",
+        feedRatingLabel:      "Rating (optional)",
+        feedChatBtn:          "💬 Comments",
+        feedChatTitle:        "Comments",
+        feedChatEmpty:        "No comments yet. Be the first!",
+        feedChatPlaceholder:  "Write a comment...",
+        feedChatSend:         "Send",
+        feedChatPosted:       "✅ Comment sent!",
+        feedChatRateLimit:    "Max 10 comments per hour",
+        feedChatAnonPrefix:   "Foodie",
       }
     };
 
@@ -1636,8 +1870,9 @@
     // ── Supabase / Auth / Reviews state ──────────────────────
     const SUPABASE_URL  = 'https://kmgkkcrxtxggzpgdsbwd.supabase.co';
     const SUPABASE_ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImttZ2trY3J4dHhnZ3pwZ2RzYndkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzIyNjAxMDIsImV4cCI6MjA4NzgzNjEwMn0.5P3D18M1C8yyQu6vqT3AUZGEzzHB20iw9_bHfqfILmc';
-    const EDGE_FN_URL   = SUPABASE_URL + '/functions/v1/submit-review';
-    const EDGE_POST_URL = SUPABASE_URL + '/functions/v1/submit-post';
+    const EDGE_FN_URL      = SUPABASE_URL + '/functions/v1/submit-review';
+    const EDGE_POST_URL    = SUPABASE_URL + '/functions/v1/submit-post';
+    const EDGE_COMMENT_URL = SUPABASE_URL + '/functions/v1/submit-comment';
 
     let supabaseClient         = null;
     let currentUser            = null;
@@ -1648,10 +1883,16 @@
     let pendingReviewId        = null;
 
     // Feed state
-    let feedVisible      = false;
-    let feedPosts        = [];
-    let feedChannel      = null;
-    let postRestaurantId = null;  // selected restaurant for post composer
+    let feedVisible        = false;
+    let feedPosts          = [];
+    let feedChannel        = null;
+    let postRestaurantId   = null;  // selected restaurant for post composer
+    let selectedPostRating = 0;     // rating selected in post composer
+
+    // Chat state
+    let activeChatPostId = null;
+    let chatComments     = [];
+    let chatChannel      = null;
 
     // ============================================================
     // Helpers
@@ -2659,13 +2900,17 @@
     function buildFeedCard(post, isNew) {
       const restaurant = data.find(r => r.id === post.restaurant_id);
       if (!restaurant) return '';
-      const authorText = t().feedAnonymousAuthor;
-      const timeStr    = timeAgo(post.created_at);
-      const name       = esc(l(restaurant.name));
-      const cat        = esc(l(restaurant.category));
-      const city       = esc(l(restaurant.location.city));
-      const photo      = getCategoryPhoto(restaurant.category.en);
-      const tipHtml    = post.tip ? `<div class="feed-card-tip">"${esc(post.tip)}"</div>` : '';
+      const authorText  = t().feedAnonymousAuthor;
+      const timeStr     = timeAgo(post.created_at);
+      const name        = esc(l(restaurant.name));
+      const cat         = esc(l(restaurant.category));
+      const city        = esc(l(restaurant.location.city));
+      const photo       = getCategoryPhoto(restaurant.category.en);
+      const tipHtml     = post.tip ? `<div class="feed-card-tip">"${esc(post.tip)}"</div>` : '';
+      const ratingHtml  = post.rating
+        ? `<div class="feed-card-rating"><span class="feed-card-stars">${'★'.repeat(post.rating)}${'☆'.repeat(5 - post.rating)}</span></div>`
+        : '';
+      const chatLabel   = t().feedChatBtn;
       return `<div class="feed-card${isNew ? ' new' : ''}">
         <div class="feed-card-author">${authorText} · ${esc(timeStr)}</div>
         <div class="feed-card-restaurant">
@@ -2676,7 +2921,11 @@
           </div>
           <span class="price-badge">${restaurant.price} \u20AA</span>
         </div>
+        ${ratingHtml}
         ${tipHtml}
+        <div class="feed-card-footer">
+          <button class="feed-chat-btn" onclick="openChatSheet('${esc(post.id)}', '${name}')">${chatLabel}</button>
+        </div>
       </div>`;
     }
 
@@ -2709,8 +2958,15 @@
     }
 
     // ── Post composer ─────────────────────────────────────────
+    function updatePostStarSelector(rating) {
+      $('post-star-selector').querySelectorAll('button').forEach(btn => {
+        btn.classList.toggle('active', parseInt(btn.dataset.star) <= rating);
+      });
+    }
+
     function openPostSheet() {
-      postRestaurantId = null;
+      postRestaurantId   = null;
+      selectedPostRating = 0;
       $('post-rest-input').value = '';
       $('post-rest-results').classList.remove('open');
       $('post-rest-selected').classList.remove('visible');
@@ -2718,12 +2974,14 @@
       $('post-char-count').textContent = '0 / 150';
       $('post-anon-toggle').checked = true;
       $('post-submit-btn').disabled = false;
+      updatePostStarSelector(0);
       $('post-sheet-title').textContent   = t().feedComposeTitle;
       $('post-rest-input').placeholder    = t().feedRestaurantSearch;
       $('post-tip').placeholder           = t().feedTipPlaceholder;
       $('post-anon-label').textContent    = t().feedAnonLabel;
       $('post-anon-desc').textContent     = t().feedAnonDesc;
       $('post-submit-btn').textContent    = t().feedSubmit;
+      $('post-rating-label').textContent  = t().feedRatingLabel;
       // Guests are always anonymous — hide the toggle
       document.querySelector('#post-sheet .anon-toggle-row').style.display = currentUser ? '' : 'none';
       $('post-overlay').classList.add('open');
@@ -2791,6 +3049,7 @@
           body: JSON.stringify({
             restaurant_id: postRestaurantId,
             tip:           $('post-tip').value.trim() || null,
+            rating:        selectedPostRating || null,
             is_anonymous:  $('post-anon-toggle').checked,
           })
         });
@@ -2810,6 +3069,144 @@
         showToast(msg);
         btn.disabled = false;
         btn.textContent = t().feedSubmit;
+      }
+    }
+
+    // ============================================================
+    // Chat
+    // ============================================================
+    function commentAuthor(commentId) {
+      // Derive a short stable number from the comment UUID (last 4 hex chars → decimal)
+      const hex = commentId.replace(/-/g, '').slice(-4);
+      const num = parseInt(hex, 16) % 9000 + 1000;
+      return `${t().feedChatAnonPrefix} #${num}`;
+    }
+
+    function buildCommentItem(comment, isNew) {
+      return `<div class="chat-item${isNew ? ' new' : ''}">
+        <div class="chat-item-header">
+          <span class="chat-item-author">${esc(commentAuthor(comment.id))}</span>
+          <span class="chat-item-time">${esc(timeAgo(comment.created_at))}</span>
+        </div>
+        <div class="chat-item-msg">${esc(comment.message)}</div>
+      </div>`;
+    }
+
+    function renderComments() {
+      const listEl = $('chat-list');
+      if (!chatComments.length) {
+        listEl.innerHTML = `<div class="chat-empty">${esc(t().feedChatEmpty)}</div>`;
+        return;
+      }
+      listEl.innerHTML = chatComments.map(c => buildCommentItem(c, false)).join('');
+    }
+
+    async function loadComments(postId) {
+      if (!supabaseClient) return;
+      const { data: rows } = await supabaseClient
+        .from('public_feed_comments')
+        .select('*')
+        .eq('post_id', postId)
+        .order('created_at', { ascending: true })
+        .limit(100);
+      chatComments = rows || [];
+      renderComments();
+      // Scroll to bottom
+      const listEl = $('chat-list');
+      listEl.scrollTop = listEl.scrollHeight;
+    }
+
+    function handleNewComment(payload) {
+      if (!activeChatPostId) return;
+      const comment = payload.new;
+      if (!comment || !comment.id || comment.post_id !== activeChatPostId) return;
+      chatComments.push(comment);
+      const listEl = $('chat-list');
+      // Remove empty state if present
+      const empty = listEl.querySelector('.chat-empty');
+      if (empty) empty.remove();
+      listEl.insertAdjacentHTML('beforeend', buildCommentItem(comment, true));
+      listEl.scrollTop = listEl.scrollHeight;
+    }
+
+    function subscribeChatChannel(postId) {
+      if (!supabaseClient) return;
+      chatChannel = supabaseClient
+        .channel(`chat-${postId}`)
+        .on('postgres_changes', {
+          event: 'INSERT',
+          schema: 'public',
+          table: 'feed_comments',
+          filter: `post_id=eq.${postId}`,
+        }, handleNewComment)
+        .subscribe();
+    }
+
+    function unsubscribeChatChannel() {
+      if (chatChannel && supabaseClient) {
+        supabaseClient.removeChannel(chatChannel);
+        chatChannel = null;
+      }
+    }
+
+    function openChatSheet(postId, restaurantName) {
+      activeChatPostId = postId;
+      chatComments     = [];
+      $('chat-sheet-title').textContent = `${t().feedChatTitle} · ${restaurantName}`;
+      $('chat-send-btn').textContent    = t().feedChatSend;
+      $('chat-input').placeholder       = t().feedChatPlaceholder;
+      $('chat-input').value             = '';
+      $('chat-list').innerHTML          = `<div class="chat-empty">${esc(t().feedChatEmpty)}</div>`;
+      $('chat-overlay').classList.add('open');
+      $('chat-sheet').classList.add('open');
+      loadComments(postId);
+      subscribeChatChannel(postId);
+      setTimeout(() => $('chat-input').focus(), 350);
+    }
+
+    function closeChatSheet() {
+      $('chat-overlay').classList.remove('open');
+      $('chat-sheet').classList.remove('open');
+      unsubscribeChatChannel();
+      activeChatPostId = null;
+    }
+
+    async function submitComment() {
+      const input = $('chat-input');
+      const msg   = input.value.trim();
+      if (!msg) return;
+      const btn = $('chat-send-btn');
+      btn.disabled = true;
+      const controller = new AbortController();
+      const timeoutId  = setTimeout(() => controller.abort(), 12000);
+      try {
+        const { data: { session } } = await supabaseClient.auth.getSession();
+        const token = session?.access_token;
+        const headers = { 'Content-Type': 'application/json' };
+        if (token) headers['Authorization'] = `Bearer ${token}`;
+        const res = await fetch(EDGE_COMMENT_URL, {
+          method: 'POST',
+          headers,
+          signal: controller.signal,
+          body: JSON.stringify({ post_id: activeChatPostId, message: msg }),
+        });
+        clearTimeout(timeoutId);
+        const result = await res.json();
+        if (!res.ok) {
+          const errMsg = result.error === 'rate_limit'
+            ? t().feedChatRateLimit
+            : (result.error || (lang === 'he' ? 'שגיאה' : 'Error'));
+          throw new Error(errMsg);
+        }
+        input.value = '';
+      } catch (err) {
+        clearTimeout(timeoutId);
+        const errMsg = err.name === 'AbortError'
+          ? (lang === 'he' ? 'פג זמן הבקשה' : 'Request timed out')
+          : (err.message || err.toString());
+        showToast(errMsg);
+      } finally {
+        btn.disabled = false;
       }
     }
 
@@ -2862,6 +3259,25 @@
     });
     $('post-tip').addEventListener('input', e => {
       $('post-char-count').textContent = `${e.target.value.length} / 150`;
+    });
+
+    // Post star selector
+    $('post-star-selector').addEventListener('click', e => {
+      const btn = e.target.closest('button[data-star]');
+      if (!btn) return;
+      selectedPostRating = parseInt(btn.dataset.star);
+      updatePostStarSelector(selectedPostRating);
+    });
+
+    // Chat sheet
+    $('chat-overlay').addEventListener('click', closeChatSheet);
+    $('chat-sheet-close').addEventListener('click', closeChatSheet);
+    $('chat-send-btn').addEventListener('click', submitComment);
+    $('chat-input').addEventListener('keydown', e => {
+      if (e.key === 'Enter' && !e.shiftKey) {
+        e.preventDefault();
+        submitComment();
+      }
     });
 
     // Review sheet

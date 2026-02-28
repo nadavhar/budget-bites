@@ -17,7 +17,7 @@ serve(async (req) => {
       Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!,
     )
 
-    // Auth is optional — guests can post too
+    // Auth is optional — guests can comment too
     let userId: string | null = null
     const authHeader = req.headers.get('Authorization')
     if (authHeader) {
@@ -26,49 +26,55 @@ serve(async (req) => {
       if (user) userId = user.id
     }
 
-    const { restaurant_id, tip, is_anonymous, rating } = await req.json()
+    const { post_id, message } = await req.json()
 
-    if (!restaurant_id) {
-      return json({ error: 'Invalid input: restaurant_id is required' }, 400)
+    if (!post_id) {
+      return json({ error: 'Invalid input: post_id is required' }, 400)
+    }
+    if (!message || typeof message !== 'string' || message.trim().length === 0) {
+      return json({ error: 'Invalid input: message is required' }, 400)
+    }
+    if (message.length > 300) {
+      return json({ error: 'Message too long (max 300 chars)' }, 400)
     }
 
-    // Validate optional rating
-    if (rating !== undefined && rating !== null) {
-      if (typeof rating !== 'number' || !Number.isInteger(rating) || rating < 1 || rating > 5) {
-        return json({ error: 'Invalid input: rating must be an integer between 1 and 5' }, 400)
-      }
+    // Verify the post exists
+    const { count: postCount } = await supabaseAdmin
+      .from('feed_posts')
+      .select('id', { count: 'exact', head: true })
+      .eq('id', post_id)
+
+    if (!postCount || postCount === 0) {
+      return json({ error: 'Post not found' }, 404)
     }
 
-    // Rate limit: max 5 posts per hour (authenticated users only — by user_id)
+    // Rate limit: max 10 comments per hour (authenticated users only)
     if (userId) {
       const oneHourAgo = new Date(Date.now() - 60 * 60 * 1000).toISOString()
       const { count } = await supabaseAdmin
-        .from('feed_posts')
+        .from('feed_comments')
         .select('id', { count: 'exact', head: true })
         .eq('user_id', userId)
         .gte('created_at', oneHourAgo)
 
-      if (count && count >= 5) {
+      if (count && count >= 10) {
         return json({ error: 'rate_limit' }, 429)
       }
     }
 
-    const { data: post, error: insertError } = await supabaseAdmin
-      .from('feed_posts')
+    const { data: comment, error: insertError } = await supabaseAdmin
+      .from('feed_comments')
       .insert({
-        restaurant_id,
+        post_id,
         user_id: userId,
-        tip: tip ? String(tip).slice(0, 150) : null,
-        rating: (rating && Number.isInteger(rating) && rating >= 1 && rating <= 5) ? rating : null,
-        // Guests are always anonymous; authenticated users can choose
-        is_anonymous: userId ? (is_anonymous ?? true) : true,
+        message: message.trim().slice(0, 300),
       })
       .select()
       .single()
 
     if (insertError) throw insertError
 
-    return json({ post }, 201)
+    return json({ comment }, 201)
 
   } catch (err) {
     return json({ error: err.message }, 500)
