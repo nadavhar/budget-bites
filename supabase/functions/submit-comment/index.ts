@@ -26,10 +26,10 @@ serve(async (req) => {
       if (user) userId = user.id
     }
 
-    const { post_id, message } = await req.json()
+    const { restaurant_id, message } = await req.json()
 
-    if (!post_id) {
-      return json({ error: 'Invalid input: post_id is required' }, 400)
+    if (!restaurant_id || typeof restaurant_id !== 'string') {
+      return json({ error: 'Invalid input: restaurant_id is required' }, 400)
     }
     if (!message || typeof message !== 'string' || message.trim().length === 0) {
       return json({ error: 'Invalid input: message is required' }, 400)
@@ -38,21 +38,11 @@ serve(async (req) => {
       return json({ error: 'Message too long (max 300 chars)' }, 400)
     }
 
-    // Verify the post exists
-    const { count: postCount } = await supabaseAdmin
-      .from('feed_posts')
-      .select('id', { count: 'exact', head: true })
-      .eq('id', post_id)
-
-    if (!postCount || postCount === 0) {
-      return json({ error: 'Post not found' }, 404)
-    }
-
     // Rate limit: max 10 comments per hour (authenticated users only)
     if (userId) {
       const oneHourAgo = new Date(Date.now() - 60 * 60 * 1000).toISOString()
       const { count } = await supabaseAdmin
-        .from('feed_comments')
+        .from('restaurant_comments')
         .select('id', { count: 'exact', head: true })
         .eq('user_id', userId)
         .gte('created_at', oneHourAgo)
@@ -63,9 +53,9 @@ serve(async (req) => {
     }
 
     const { data: comment, error: insertError } = await supabaseAdmin
-      .from('feed_comments')
+      .from('restaurant_comments')
       .insert({
-        post_id,
+        restaurant_id,
         user_id: userId,
         message: message.trim().slice(0, 300),
       })
