@@ -2792,21 +2792,34 @@
       const ids   = [...new Set([...cards].map(c => c.dataset.rid))];
       if (!ids.length) return;
 
-      const { data: rows } = await supabaseClient
-        .from('public_reviews')
-        .select('restaurant_id, rating, text, is_anonymous, created_at')
-        .in('restaurant_id', ids);
-      if (!rows) return;
+      // Fetch formal reviews + community feed ratings in parallel
+      const [{ data: reviewRows }, { data: feedRows }] = await Promise.all([
+        supabaseClient
+          .from('public_reviews')
+          .select('restaurant_id, rating, text, is_anonymous, created_at')
+          .in('restaurant_id', ids),
+        supabaseClient
+          .from('public_feed_posts')
+          .select('restaurant_id, rating')
+          .in('restaurant_id', ids)
+          .not('rating', 'is', null),
+      ]);
 
       const byId = {};
-      for (const row of rows) {
-        (byId[row.restaurant_id] = byId[row.restaurant_id] || []).push(row);
+      for (const row of (reviewRows || [])) {
+        if (!byId[row.restaurant_id]) byId[row.restaurant_id] = { reviews: [], feedRatings: [] };
+        byId[row.restaurant_id].reviews.push(row);
+      }
+      for (const row of (feedRows || [])) {
+        if (!byId[row.restaurant_id]) byId[row.restaurant_id] = { reviews: [], feedRatings: [] };
+        byId[row.restaurant_id].feedRatings.push(row.rating);
       }
 
       for (const id of ids) {
-        const rRows = byId[id] || [];
-        const avg   = rRows.length ? rRows.reduce((s, r) => s + r.rating, 0) / rRows.length : 0;
-        reviewsCache[id] = { avg, count: rRows.length, reviews: rRows.slice(0, 5) };
+        const entry      = byId[id] || { reviews: [], feedRatings: [] };
+        const allRatings = [...entry.reviews.map(r => r.rating), ...entry.feedRatings];
+        const avg        = allRatings.length ? allRatings.reduce((s, r) => s + r, 0) / allRatings.length : 0;
+        reviewsCache[id] = { avg, count: allRatings.length, reviews: entry.reviews.slice(0, 5) };
         updateCardRating(id);
       }
     }
