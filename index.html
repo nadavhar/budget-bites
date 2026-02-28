@@ -2776,6 +2776,9 @@
       }
       const btn = $('post-submit-btn');
       btn.disabled = true;
+      btn.textContent = '⏳';
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 12000);
       try {
         const { data: { session } } = await supabaseClient.auth.getSession();
         const token = session?.access_token;
@@ -2784,12 +2787,14 @@
         const res = await fetch(EDGE_POST_URL, {
           method: 'POST',
           headers,
+          signal: controller.signal,
           body: JSON.stringify({
             restaurant_id: postRestaurantId,
             tip:           $('post-tip').value.trim() || null,
             is_anonymous:  $('post-anon-toggle').checked,
           })
         });
+        clearTimeout(timeoutId);
         const result = await res.json();
         if (!res.ok) {
           const msg = result.error === 'rate_limit' ? t().feedRateLimit : result.error;
@@ -2798,8 +2803,13 @@
         closePostSheet();
         showToast(t().feedPosted);
       } catch (err) {
-        showToast(err.message);
+        clearTimeout(timeoutId);
+        const msg = err.name === 'AbortError'
+          ? (lang === 'he' ? 'פג זמן הבקשה, נסה שוב' : 'Request timed out, try again')
+          : (err.message || err.toString() || (lang === 'he' ? 'שגיאה, נסה שוב' : 'Error, try again'));
+        showToast(msg);
         btn.disabled = false;
+        btn.textContent = t().feedSubmit;
       }
     }
 
