@@ -2367,7 +2367,7 @@
     function updateFeedFab() {
       const fab = $('feed-compose-btn');
       if (!fab) return;
-      fab.style.display = (feedVisible && currentUser) ? 'flex' : 'none';
+      fab.style.display = feedVisible ? 'flex' : 'none';
     }
 
     function handleAuthBtnClick() {
@@ -2710,10 +2710,6 @@
 
     // ── Post composer ─────────────────────────────────────────
     function openPostSheet() {
-      if (!currentUser) {
-        openAuthModal('login');
-        return;
-      }
       postRestaurantId = null;
       $('post-rest-input').value = '';
       $('post-rest-results').classList.remove('open');
@@ -2728,6 +2724,8 @@
       $('post-anon-label').textContent    = t().feedAnonLabel;
       $('post-anon-desc').textContent     = t().feedAnonDesc;
       $('post-submit-btn').textContent    = t().feedSubmit;
+      // Guests are always anonymous — hide the toggle
+      document.querySelector('#post-sheet .anon-toggle-row').style.display = currentUser ? '' : 'none';
       $('post-overlay').classList.add('open');
       $('post-sheet').classList.add('open');
       setTimeout(() => $('post-rest-input').focus(), 350);
@@ -2781,9 +2779,11 @@
       try {
         const { data: { session } } = await supabaseClient.auth.getSession();
         const token = session?.access_token;
+        const headers = { 'Content-Type': 'application/json' };
+        if (token) headers['Authorization'] = `Bearer ${token}`;
         const res = await fetch(EDGE_POST_URL, {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${token}` },
+          headers,
           body: JSON.stringify({
             restaurant_id: postRestaurantId,
             tip:           $('post-tip').value.trim() || null,
