@@ -3241,7 +3241,7 @@
     }
 
     function subscribeFeed() {
-      if (!supabaseClient) return;
+      if (!supabaseClient || feedChannel) return;
       feedChannel = supabaseClient
         .channel('feed-posts')
         .on('postgres_changes', {
@@ -3389,7 +3389,7 @@
         setLang(lang);
       } catch (err) {
         console.error("Failed to load restaurant data:", err);
-        showToast("שגיאה בטעינת הנתונים. נסה לרענן את הדף.");
+        showToast(lang === 'he' ? "שגיאה בטעינת הנתונים. נסה לרענן את הדף." : "Failed to load data. Please refresh.");
       }
       initSupabase();
       updateAuthBtn();
