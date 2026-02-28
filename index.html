@@ -3107,11 +3107,14 @@
         return;
       }
       emptyEl.style.display = 'none';
-      listEl.innerHTML = feedPosts.map(p => buildFeedCard(p, false)).join('');
+      const matched = feedPosts.filter(p => data.some(r => String(r.id) === String(p.restaurant_id)));
+      listEl.innerHTML = matched.length
+        ? matched.map(p => buildFeedCard(p, false)).join('')
+        : (() => { $('feed-empty-text').textContent = t().feedEmpty; emptyEl.style.display = 'block'; return ''; })();
     }
 
     function buildFeedCard(post, isNew) {
-      const rest   = data.find(r => r.id === post.restaurant_id);
+      const rest   = data.find(r => String(r.id) === String(post.restaurant_id));
       const name   = rest ? esc(l(rest.name)) : esc(post.restaurant_id);
       const cat    = rest ? rest.category.en : '';
       const photo  = getCategoryPhoto(cat);
