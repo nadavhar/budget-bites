@@ -2206,11 +2206,16 @@
         }
         if (result.error) throw result.error;
         closeAuthModal();
-        showToast(t().authWelcome);
-        if (pendingReviewId) {
-          const rid = pendingReviewId;
-          pendingReviewId = null;
-          openReviewSheet(rid);
+        // signUp returns a user but no session until email is confirmed
+        if (authMode === 'signup' && !result.data.session) {
+          showToast(lang === 'he' ? '📧 שלחנו לך אימייל אישור — בדוק את תיבת הדואר' : '📧 Check your email to confirm your account');
+        } else {
+          showToast(t().authWelcome);
+          if (pendingReviewId) {
+            const rid = pendingReviewId;
+            pendingReviewId = null;
+            openReviewSheet(rid);
+          }
         }
       } catch (err) {
         errEl.textContent = err.message || (lang === 'he' ? 'שגיאה, נסה שוב' : 'Error, please try again');
