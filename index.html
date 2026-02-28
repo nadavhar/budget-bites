@@ -811,12 +811,284 @@
       #map-wrap     { padding: 0 0.75rem; }
       #map          { height: 320px; }
     }
+
+    /* ── Auth button ─────────────────────────────────────────── */
+    .auth-btn {
+      position: absolute;
+      inset-inline-start: 1rem;
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: rgba(255,255,255,0.15);
+      border: 1px solid rgba(255,255,255,0.3);
+      color: white;
+      border-radius: 20px;
+      padding: 0.3rem 0.75rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      font-family: inherit;
+      transition: background 0.2s;
+      white-space: nowrap;
+    }
+    .auth-btn:hover { background: rgba(255,255,255,0.25); }
+    .auth-avatar {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.35);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    /* ── Auth Modal ──────────────────────────────────────────── */
+    .auth-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.5);
+      z-index: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s;
+    }
+    .auth-overlay.open { opacity: 1; pointer-events: all; }
+    .auth-modal {
+      background: white;
+      border-radius: 16px;
+      padding: 1.75rem;
+      width: 100%;
+      max-width: 360px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+      position: relative;
+    }
+    .auth-modal h2 { font-size: 1.1rem; font-weight: 800; margin-bottom: 1.25rem; color: var(--text); }
+    .auth-close {
+      position: absolute;
+      top: 1rem;
+      inset-inline-end: 1rem;
+      background: none;
+      border: none;
+      font-size: 1.1rem;
+      cursor: pointer;
+      color: var(--text-muted);
+      line-height: 1;
+    }
+    .auth-error {
+      background: #fef2f2;
+      color: #dc2626;
+      border-radius: 8px;
+      padding: 0.5rem 0.75rem;
+      font-size: 0.82rem;
+      margin-bottom: 0.75rem;
+      display: none;
+    }
+    .auth-error.visible { display: block; }
+    .auth-field { margin-bottom: 0.85rem; }
+    .auth-field label { display: block; font-size: 0.8rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem; }
+    .auth-field input {
+      width: 100%;
+      padding: 0.6rem 0.85rem;
+      border: 1.5px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-family: inherit;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    .auth-field input:focus { border-color: var(--accent); }
+    .auth-submit {
+      width: 100%;
+      padding: 0.7rem;
+      background: var(--accent);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 700;
+      cursor: pointer;
+      font-family: inherit;
+      margin-top: 0.25rem;
+      transition: background 0.15s;
+    }
+    .auth-submit:hover { background: var(--accent-hover); }
+    .auth-submit:disabled { opacity: 0.6; cursor: not-allowed; }
+    .auth-toggle { text-align: center; margin-top: 1rem; font-size: 0.85rem; color: var(--text-muted); }
+    .auth-toggle button {
+      background: none;
+      border: none;
+      color: var(--accent);
+      font-weight: 600;
+      cursor: pointer;
+      font-family: inherit;
+      font-size: inherit;
+    }
+
+    /* ── Review Bottom Sheet ─────────────────────────────────── */
+    .review-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.4);
+      z-index: 500;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.25s;
+    }
+    .review-overlay.open { opacity: 1; pointer-events: all; }
+    .review-sheet {
+      position: fixed;
+      bottom: 0;
+      inset-inline: 0;
+      background: white;
+      border-radius: 20px 20px 0 0;
+      padding: 1.25rem 1.5rem 2.5rem;
+      z-index: 501;
+      transform: translateY(100%);
+      transition: transform 0.3s cubic-bezier(0.32, 0.72, 0, 1);
+      max-height: 90vh;
+      overflow-y: auto;
+    }
+    .review-sheet.open { transform: translateY(0); }
+    .review-sheet-handle {
+      width: 36px;
+      height: 4px;
+      background: #e0e0d8;
+      border-radius: 2px;
+      margin: 0 auto 1.1rem;
+    }
+    .review-sheet h3 { font-size: 1rem; font-weight: 800; margin-bottom: 0.2rem; }
+    .review-rest-name { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.25rem; }
+    .star-selector { display: flex; gap: 0.35rem; margin-bottom: 1.1rem; direction: ltr; }
+    .star-selector button {
+      background: none;
+      border: none;
+      font-size: 2.2rem;
+      cursor: pointer;
+      padding: 0;
+      line-height: 1;
+      color: #d1d5db;
+      transition: color 0.1s, transform 0.1s;
+    }
+    .star-selector button.active { color: #f59e0b; }
+    .star-selector button:hover { transform: scale(1.15); }
+    .review-textarea {
+      width: 100%;
+      border: 1.5px solid var(--border);
+      border-radius: 10px;
+      padding: 0.65rem 0.85rem;
+      font-size: 0.9rem;
+      font-family: inherit;
+      resize: none;
+      height: 90px;
+      outline: none;
+      transition: border-color 0.15s;
+      margin-bottom: 0.35rem;
+    }
+    .review-textarea:focus { border-color: var(--accent); }
+    .review-char-count { font-size: 0.75rem; color: var(--text-muted); display: block; margin-bottom: 1rem; }
+    .anon-toggle-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.25rem;
+      padding: 0.75rem;
+      background: var(--tag-bg);
+      border-radius: 10px;
+      gap: 0.5rem;
+    }
+    .anon-toggle-label { font-size: 0.85rem; font-weight: 600; }
+    .anon-toggle-desc  { font-size: 0.75rem; color: var(--text-muted); }
+    .toggle-switch { position: relative; width: 44px; height: 24px; flex-shrink: 0; }
+    .toggle-switch input { opacity: 0; width: 0; height: 0; position: absolute; }
+    .toggle-slider {
+      position: absolute;
+      inset: 0;
+      background: #cbd5e1;
+      border-radius: 24px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .toggle-slider::before {
+      content: '';
+      position: absolute;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: white;
+      top: 3px;
+      left: 3px;
+      transition: transform 0.2s;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    }
+    .toggle-switch input:checked + .toggle-slider { background: var(--accent); }
+    .toggle-switch input:checked + .toggle-slider::before { transform: translateX(20px); }
+    .review-submit-btn {
+      width: 100%;
+      padding: 0.8rem;
+      background: var(--accent);
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      font-family: inherit;
+      transition: background 0.15s;
+    }
+    .review-submit-btn:hover { background: var(--accent-hover); }
+    .review-submit-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+
+    /* ── Rating display on card ──────────────────────────────── */
+    .card-rating {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+      margin-bottom: 0.4rem;
+      min-height: 24px;
+    }
+    .card-rating-stars { color: #f59e0b; font-size: 0.85rem; letter-spacing: 0.5px; }
+    .card-rating-score { font-weight: 700; font-size: 0.82rem; }
+    .card-rating-count { font-size: 0.78rem; color: var(--text-muted); }
+    .card-rating-btn {
+      background: none;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.18rem 0.5rem;
+      font-size: 0.75rem;
+      cursor: pointer;
+      color: var(--accent);
+      font-weight: 600;
+      font-family: inherit;
+      transition: background 0.15s;
+    }
+    .card-rating-btn:hover { background: var(--tag-bg); }
+    .card-reviews { margin-top: 0.6rem; border-top: 1px solid var(--border); padding-top: 0.6rem; display: none; }
+    .card-reviews.open { display: block; }
+    .review-item { padding: 0.5rem 0; border-bottom: 1px solid #f0f0ea; font-size: 0.83rem; }
+    .review-item:last-child { border-bottom: none; }
+    .review-item-header { display: flex; align-items: center; gap: 0.4rem; margin-bottom: 0.2rem; flex-wrap: wrap; }
+    .review-item-stars { color: #f59e0b; font-size: 0.8rem; }
+    .review-item-author { font-size: 0.78rem; color: var(--text-muted); font-weight: 600; }
+    .review-item-date   { font-size: 0.72rem; color: #aaa; margin-inline-start: auto; }
+    .review-item-text   { color: var(--text); line-height: 1.4; }
   </style>
   <link rel="stylesheet" href="vendor/leaflet.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 </head>
 <body>
 
   <header>
+    <button class="auth-btn" id="auth-btn"></button>
     <div class="header-content">
       <h1 id="site-title"></h1>
       <p id="site-subtitle"></p>
@@ -946,6 +1218,60 @@
 
   <footer id="footer-text"></footer>
 
+  <!-- Auth Modal -->
+  <div class="auth-overlay" id="auth-overlay">
+    <div class="auth-modal">
+      <button class="auth-close" id="auth-close">✕</button>
+      <h2 id="auth-modal-title"></h2>
+      <div class="auth-error" id="auth-error"></div>
+      <div class="auth-field" id="auth-username-field">
+        <label id="auth-username-label"></label>
+        <input type="text" id="auth-username" autocomplete="username">
+      </div>
+      <div class="auth-field">
+        <label id="auth-email-label"></label>
+        <input type="email" id="auth-email" autocomplete="email">
+      </div>
+      <div class="auth-field">
+        <label id="auth-password-label"></label>
+        <input type="password" id="auth-password" autocomplete="current-password">
+      </div>
+      <button class="auth-submit" id="auth-submit"></button>
+      <div class="auth-toggle">
+        <span id="auth-toggle-text"></span>
+        <button id="auth-toggle-btn"></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Review Bottom Sheet -->
+  <div class="review-overlay" id="review-overlay"></div>
+  <div class="review-sheet" id="review-sheet">
+    <div class="review-sheet-handle"></div>
+    <h3 id="review-sheet-title"></h3>
+    <div class="review-rest-name" id="review-rest-name"></div>
+    <div class="star-selector" id="star-selector">
+      <button data-star="1">★</button>
+      <button data-star="2">★</button>
+      <button data-star="3">★</button>
+      <button data-star="4">★</button>
+      <button data-star="5">★</button>
+    </div>
+    <textarea class="review-textarea" id="review-text" maxlength="150"></textarea>
+    <span class="review-char-count" id="review-char-count">0 / 150</span>
+    <div class="anon-toggle-row">
+      <div>
+        <div class="anon-toggle-label" id="anon-label"></div>
+        <div class="anon-toggle-desc"  id="anon-desc"></div>
+      </div>
+      <label class="toggle-switch">
+        <input type="checkbox" id="anon-toggle" checked>
+        <span class="toggle-slider"></span>
+      </label>
+    </div>
+    <button class="review-submit-btn" id="review-submit-btn"></button>
+  </div>
+
   <script src="vendor/leaflet.js"></script>
   <script>
     // ============================================================
@@ -987,6 +1313,28 @@
         mapBtn:      "🗺️ מפה",
         mapBtnClose: "✕ סגור",
         radiusLabel: "רדיוס:",
+        authSignIn:       "כניסה",
+        authSignUp:       "הרשמה",
+        authSignOut:      "יציאה",
+        authEmail:        "אימייל",
+        authPassword:     "סיסמה",
+        authUsername:     "שם משתמש",
+        authNoAccount:    "אין לך חשבון?",
+        authHasAccount:   "כבר יש לך חשבון?",
+        authWelcome:      "👋 ברוך הבא!",
+        reviewTitle:      "דרג מקום זה",
+        reviewPlaceholder:"ספר לנו על הביקור שלך...",
+        reviewAnonLabel:  "פרסם באנונימיות",
+        reviewAnonDesc:   "שמור על הפרטיות שלך",
+        reviewSubmit:     "פרסם ביקורת",
+        reviewThanks:     "✅ תודה על הביקורת!",
+        reviewAlready:    "כבר דירגת מקום זה",
+        reviewRateLimit:  "מקסימום 3 ביקורות בשעה",
+        reviewSelectStar: "בחר דירוג בין 1 ל-5 כוכבים",
+        reviewRateBtn:    "⭐ דרג",
+        reviewAddBtn:     "+ דרג",
+        reviewsBtn:       "ביקורות",
+        reviewAnonymous:  "🕵️ אנונימי",
       },
       en: {
         title: "Budget Bites",
@@ -1023,6 +1371,28 @@
         mapBtn:      "🗺️ Map",
         mapBtnClose: "✕ Close",
         radiusLabel: "Radius:",
+        authSignIn:       "Sign in",
+        authSignUp:       "Sign up",
+        authSignOut:      "Sign out",
+        authEmail:        "Email",
+        authPassword:     "Password",
+        authUsername:     "Username",
+        authNoAccount:    "Don't have an account?",
+        authHasAccount:   "Already have an account?",
+        authWelcome:      "👋 Welcome!",
+        reviewTitle:      "Rate this place",
+        reviewPlaceholder:"Tell us about your visit...",
+        reviewAnonLabel:  "Post anonymously",
+        reviewAnonDesc:   "Keep your identity private",
+        reviewSubmit:     "Post Review",
+        reviewThanks:     "✅ Thanks for your review!",
+        reviewAlready:    "You already reviewed this place",
+        reviewRateLimit:  "Max 3 reviews per hour",
+        reviewSelectStar: "Please select a star rating",
+        reviewRateBtn:    "⭐ Rate",
+        reviewAddBtn:     "+ Rate",
+        reviewsBtn:       "Reviews",
+        reviewAnonymous:  "🕵️ Anonymous",
       }
     };
 
@@ -1053,6 +1423,19 @@
     // Multi-select UI state
     let openKey = null;
     let msOptions = { regions: [], categories: [], kashrut: [] };
+
+    // ── Supabase / Auth / Reviews state ──────────────────────
+    const SUPABASE_URL  = 'YOUR_SUPABASE_URL';
+    const SUPABASE_ANON = 'YOUR_SUPABASE_ANON_KEY';
+    const EDGE_FN_URL   = SUPABASE_URL + '/functions/v1/submit-review';
+
+    let supabaseClient         = null;
+    let currentUser            = null;
+    let reviewsCache           = {};   // { restaurantId: { avg, count, reviews[] } }
+    let reviewRestaurantId     = null;
+    let selectedRating         = 0;
+    let authMode               = 'login'; // 'login' | 'signup'
+    let pendingReviewId        = null;
 
     // ============================================================
     // Helpers
@@ -1460,6 +1843,7 @@
       updateGeoChip();
       $("map-toggle-btn").textContent = mapVisible ? t().mapBtnClose : t().mapBtn;
       if ($("radius-label")) $("radius-label").textContent = t().radiusLabel;
+      updateAuthBtn();
       render();
     }
 
@@ -1609,6 +1993,9 @@
         </div>
         <div class="card-body">
           <div class="card-header"><h3>${name}</h3></div>
+          <div class="card-rating" data-rid="${esc(r.id)}">
+            <button class="card-rating-btn" onclick="openReviewSheet('${esc(r.id)}')">${esc(t().reviewRateBtn)}</button>
+          </div>
           <div class="dish-name">${dish}</div>
           <div class="card-meta">
             <span class="tag tag-category">${cat}</span>
@@ -1646,6 +2033,7 @@
       grid.innerHTML = filtered.map(r => buildCardHTML(r)).join('');
 
       if (mapVisible) updateMap();
+      loadReviewsForVisible();
     }
 
     // ============================================================
@@ -1727,6 +2115,263 @@
     });
 
     // ============================================================
+    // ============================================================
+    // Supabase — init
+    // ============================================================
+    function initSupabase() {
+      if (SUPABASE_URL === 'YOUR_SUPABASE_URL') return;
+      supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON);
+      supabaseClient.auth.onAuthStateChange((_event, session) => {
+        currentUser = session?.user ?? null;
+        updateAuthBtn();
+      });
+      supabaseClient.auth.getSession().then(({ data: { session } }) => {
+        currentUser = session?.user ?? null;
+        updateAuthBtn();
+      });
+    }
+
+    // ============================================================
+    // Auth
+    // ============================================================
+    function updateAuthBtn() {
+      const btn = $('auth-btn');
+      if (!btn) return;
+      if (currentUser) {
+        const initial = (currentUser.email || '?')[0].toUpperCase();
+        btn.innerHTML = `<span class="auth-avatar">${initial}</span><span>${esc(t().authSignOut)}</span>`;
+      } else {
+        btn.textContent = t().authSignIn;
+      }
+    }
+
+    function handleAuthBtnClick() {
+      if (currentUser) {
+        supabaseClient.auth.signOut();
+        showToast(lang === 'he' ? 'להתראות 👋' : 'Signed out 👋');
+      } else {
+        openAuthModal('login');
+      }
+    }
+
+    function openAuthModal(mode) {
+      authMode = mode || 'login';
+      renderAuthModal();
+      $('auth-error').classList.remove('visible');
+      $('auth-email').value = '';
+      $('auth-password').value = '';
+      $('auth-username').value = '';
+      $('auth-overlay').classList.add('open');
+    }
+
+    function closeAuthModal() {
+      $('auth-overlay').classList.remove('open');
+    }
+
+    function renderAuthModal() {
+      const isLogin = authMode === 'login';
+      $('auth-modal-title').textContent  = isLogin ? t().authSignIn : t().authSignUp;
+      $('auth-submit').textContent       = isLogin ? t().authSignIn : t().authSignUp;
+      $('auth-email-label').textContent  = t().authEmail;
+      $('auth-password-label').textContent = t().authPassword;
+      $('auth-username-label').textContent = t().authUsername;
+      $('auth-username-field').style.display = isLogin ? 'none' : '';
+      $('auth-toggle-text').textContent  = isLogin ? t().authNoAccount : t().authHasAccount;
+      $('auth-toggle-btn').textContent   = isLogin ? t().authSignUp : t().authSignIn;
+    }
+
+    async function handleAuthSubmit() {
+      const email    = $('auth-email').value.trim();
+      const password = $('auth-password').value;
+      const errEl    = $('auth-error');
+      errEl.classList.remove('visible');
+
+      if (!email || !password) {
+        errEl.textContent = lang === 'he' ? 'יש למלא אימייל וסיסמה' : 'Please enter email and password';
+        errEl.classList.add('visible');
+        return;
+      }
+
+      $('auth-submit').disabled = true;
+      try {
+        let result;
+        if (authMode === 'login') {
+          result = await supabaseClient.auth.signInWithPassword({ email, password });
+        } else {
+          const username = $('auth-username').value.trim();
+          result = await supabaseClient.auth.signUp({
+            email, password,
+            options: { data: { username } }
+          });
+        }
+        if (result.error) throw result.error;
+        closeAuthModal();
+        showToast(t().authWelcome);
+        if (pendingReviewId) {
+          const rid = pendingReviewId;
+          pendingReviewId = null;
+          openReviewSheet(rid);
+        }
+      } catch (err) {
+        errEl.textContent = err.message || (lang === 'he' ? 'שגיאה, נסה שוב' : 'Error, please try again');
+        errEl.classList.add('visible');
+      } finally {
+        $('auth-submit').disabled = false;
+      }
+    }
+
+    // ============================================================
+    // Reviews
+    // ============================================================
+    function openReviewSheet(restaurantId) {
+      if (!supabaseClient) {
+        showToast(lang === 'he' ? 'יש להגדיר Supabase תחילה' : 'Supabase not configured');
+        return;
+      }
+      if (!currentUser) {
+        pendingReviewId = restaurantId;
+        openAuthModal('login');
+        return;
+      }
+      reviewRestaurantId = restaurantId;
+      selectedRating     = 0;
+
+      const restaurant = data.find(r => r.id === restaurantId);
+      $('review-rest-name').textContent    = restaurant ? l(restaurant.name) : '';
+      $('review-sheet-title').textContent  = t().reviewTitle;
+      $('review-text').value               = '';
+      $('review-text').placeholder         = t().reviewPlaceholder;
+      $('review-char-count').textContent   = '0 / 150';
+      $('anon-toggle').checked             = true;
+      $('anon-label').textContent          = t().reviewAnonLabel;
+      $('anon-desc').textContent           = t().reviewAnonDesc;
+      $('review-submit-btn').textContent   = t().reviewSubmit;
+      $('review-submit-btn').disabled      = false;
+      updateStarSelector(0);
+
+      $('review-overlay').classList.add('open');
+      $('review-sheet').classList.add('open');
+    }
+
+    function closeReviewSheet() {
+      $('review-overlay').classList.remove('open');
+      $('review-sheet').classList.remove('open');
+      reviewRestaurantId = null;
+      selectedRating     = 0;
+    }
+
+    function updateStarSelector(rating) {
+      $('star-selector').querySelectorAll('button').forEach(btn => {
+        btn.classList.toggle('active', parseInt(btn.dataset.star) <= rating);
+      });
+    }
+
+    async function submitReview() {
+      if (!selectedRating) {
+        showToast(t().reviewSelectStar);
+        return;
+      }
+      const btn = $('review-submit-btn');
+      btn.disabled = true;
+      try {
+        const { data: { session } } = await supabaseClient.auth.getSession();
+        const token = session?.access_token;
+        const res = await fetch(EDGE_FN_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${token}` },
+          body: JSON.stringify({
+            restaurant_id: reviewRestaurantId,
+            rating: selectedRating,
+            text: $('review-text').value.trim() || null,
+            is_anonymous: $('anon-toggle').checked,
+          })
+        });
+        const result = await res.json();
+        if (!res.ok) {
+          const msg = result.error === 'already_reviewed' ? t().reviewAlready
+                    : result.error === 'rate_limit'       ? t().reviewRateLimit
+                    : result.error;
+          throw new Error(msg);
+        }
+        delete reviewsCache[reviewRestaurantId];
+        closeReviewSheet();
+        showToast(t().reviewThanks);
+        loadReviewsForVisible();
+      } catch (err) {
+        showToast(err.message);
+        btn.disabled = false;
+      }
+    }
+
+    async function loadReviewsForVisible() {
+      if (!supabaseClient) return;
+      const cards = document.querySelectorAll('.card-rating[data-rid]');
+      const ids   = [...new Set([...cards].map(c => c.dataset.rid))];
+      if (!ids.length) return;
+
+      const { data: rows } = await supabaseClient
+        .from('public_reviews')
+        .select('restaurant_id, rating, text, is_anonymous, created_at')
+        .in('restaurant_id', ids);
+      if (!rows) return;
+
+      const byId = {};
+      for (const row of rows) {
+        (byId[row.restaurant_id] = byId[row.restaurant_id] || []).push(row);
+      }
+
+      for (const id of ids) {
+        const rRows = byId[id] || [];
+        const avg   = rRows.length ? rRows.reduce((s, r) => s + r.rating, 0) / rRows.length : 0;
+        reviewsCache[id] = { avg, count: rRows.length, reviews: rRows.slice(0, 5) };
+        updateCardRating(id);
+      }
+    }
+
+    function starStr(rating) {
+      const full = Math.round(rating);
+      return '★'.repeat(full) + '☆'.repeat(5 - full);
+    }
+
+    function updateCardRating(restaurantId) {
+      const el = document.querySelector(`.card-rating[data-rid="${restaurantId}"]`);
+      if (!el) return;
+      const cached = reviewsCache[restaurantId];
+
+      if (!cached || cached.count === 0) {
+        el.innerHTML = `<button class="card-rating-btn" onclick="openReviewSheet('${restaurantId}')">${esc(t().reviewRateBtn)}</button>`;
+        return;
+      }
+
+      const { avg, count, reviews } = cached;
+      const reviewsHtml = reviews.map(r => {
+        const author = r.is_anonymous ? esc(t().reviewAnonymous) : (lang === 'he' ? 'משתמש רשום' : 'Member');
+        const date   = new Date(r.created_at).toLocaleDateString(lang === 'he' ? 'he-IL' : 'en-US', { day: 'numeric', month: 'short' });
+        const text   = r.text ? `<div class="review-item-text">${esc(r.text)}</div>` : '';
+        return `<div class="review-item">
+          <div class="review-item-header">
+            <span class="review-item-stars">${'★'.repeat(r.rating)}</span>
+            <span class="review-item-author">${author}</span>
+            <span class="review-item-date">${esc(date)}</span>
+          </div>${text}
+        </div>`;
+      }).join('');
+
+      el.innerHTML = `
+        <span class="card-rating-stars">${starStr(avg)}</span>
+        <span class="card-rating-score">${avg.toFixed(1)}</span>
+        <span class="card-rating-count">(${count})</span>
+        <button class="card-rating-btn" onclick="openReviewSheet('${restaurantId}')">${esc(t().reviewAddBtn)}</button>
+        <button class="card-rating-btn" onclick="toggleReviews('${restaurantId}')">${esc(t().reviewsBtn)}</button>
+        <div class="card-reviews" id="reviews-${restaurantId}">${reviewsHtml}</div>`;
+    }
+
+    function toggleReviews(restaurantId) {
+      const el = $(`reviews-${restaurantId}`);
+      if (el) el.classList.toggle('open');
+    }
+
+    // ============================================================
     // Init
     // ============================================================
     async function init() {
@@ -1740,7 +2385,36 @@
         console.error("Failed to load restaurant data:", err);
         showToast("שגיאה בטעינת הנתונים. נסה לרענן את הדף.");
       }
+      initSupabase();
+      updateAuthBtn();
     }
+
+    // Auth button
+    $('auth-btn').addEventListener('click', handleAuthBtnClick);
+    $('auth-close').addEventListener('click', closeAuthModal);
+    $('auth-overlay').addEventListener('click', e => { if (e.target === $('auth-overlay')) closeAuthModal(); });
+    $('auth-submit').addEventListener('click', handleAuthSubmit);
+    $('auth-toggle-btn').addEventListener('click', () => {
+      authMode = authMode === 'login' ? 'signup' : 'login';
+      renderAuthModal();
+      $('auth-error').classList.remove('visible');
+    });
+    ['auth-email', 'auth-password', 'auth-username'].forEach(id => {
+      $(id).addEventListener('keydown', e => { if (e.key === 'Enter') handleAuthSubmit(); });
+    });
+
+    // Review sheet
+    $('review-overlay').addEventListener('click', closeReviewSheet);
+    $('review-submit-btn').addEventListener('click', submitReview);
+    $('review-text').addEventListener('input', e => {
+      $('review-char-count').textContent = `${e.target.value.length} / 150`;
+    });
+    $('star-selector').addEventListener('click', e => {
+      const btn = e.target.closest('button[data-star]');
+      if (!btn) return;
+      selectedRating = parseInt(btn.dataset.star);
+      updateStarSelector(selectedRating);
+    });
 
     init();
   </script>
