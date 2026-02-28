@@ -2917,7 +2917,7 @@
       const photo       = getCategoryPhoto(restaurant.category.en);
       const tipHtml     = post.tip ? `<div class="feed-card-tip">"${esc(post.tip)}"</div>` : '';
       const ratingHtml  = post.rating
-        ? `<div class="feed-card-rating"><span class="feed-card-stars">${'★'.repeat(post.rating)}${'☆'.repeat(5 - post.rating)}</span></div>`
+        ? `<div class="feed-card-rating"><span class="feed-card-stars">${'★'.repeat(post.rating)}${'☆'.repeat(5 - post.rating)}</span><span style="font-weight:700;font-size:0.82rem;">${post.rating}.0</span></div>`
         : '';
       const q           = buildMapQuery(restaurant);
       const wazeUrl     = `https://waze.com/ul?q=${q}&navigate=yes`;
