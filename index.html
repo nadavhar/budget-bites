@@ -1224,6 +1224,263 @@
     .chat-send-btn:hover { background: var(--accent-hover); }
     .chat-send-btn:disabled { opacity: 0.55; cursor: not-allowed; }
 
+    /* ── Feed ────────────────────────────────────────────────── */
+    @keyframes feedSlideIn {
+      from { opacity: 0; transform: translateY(-12px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    #feed-wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0.75rem 1rem 5rem;
+    }
+
+    .feed-card {
+      background: var(--card-bg);
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      margin-bottom: 1rem;
+      overflow: hidden;
+    }
+    .feed-card.new { animation: feedSlideIn 0.35s ease; }
+
+    .feed-card-photo {
+      width: 72px;
+      height: 72px;
+      object-fit: cover;
+      border-radius: 10px;
+      flex-shrink: 0;
+    }
+
+    .feed-card-info {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.85rem;
+      padding: 0.9rem 1rem 0.65rem;
+    }
+
+    .feed-card-name {
+      font-size: 0.95rem;
+      font-weight: 700;
+    }
+
+    .feed-card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      margin-top: 0.25rem;
+    }
+
+    .feed-card-author {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 0.3rem;
+    }
+
+    .feed-card-restaurant {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    .feed-card-tip {
+      font-size: 0.88rem;
+      color: var(--text);
+      padding: 0 1rem 0.65rem;
+      font-style: italic;
+    }
+
+    .feed-card-rating {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+      margin-top: 0.2rem;
+    }
+
+    .feed-card-stars {
+      color: #f59e0b;
+      font-size: 0.9rem;
+    }
+
+    .feed-card-actions {
+      display: flex;
+      gap: 0.5rem;
+      padding: 0.55rem 1rem 0.9rem;
+      flex-wrap: wrap;
+    }
+
+    .feed-card-actions a,
+    .feed-card-actions button {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      border-radius: 8px;
+      padding: 0.38rem 0.7rem;
+      text-decoration: none;
+      border: 1.5px solid var(--border);
+      background: white;
+      color: var(--text);
+      cursor: pointer;
+      font-family: inherit;
+      transition: background 0.15s, border-color 0.15s;
+    }
+
+    .feed-card-actions a:hover,
+    .feed-card-actions button:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+      background: var(--tag-bg);
+    }
+
+    .feed-card-actions a svg { width: 14px; height: 14px; }
+
+    .feed-empty {
+      text-align: center;
+      padding: 3rem 1rem;
+      color: var(--text-muted);
+    }
+    .feed-empty .emoji { font-size: 2.5rem; margin-bottom: 0.5rem; }
+
+    .feed-compose-fab {
+      position: fixed;
+      bottom: 1.5rem;
+      inset-inline-end: 1.5rem;
+      width: 52px;
+      height: 52px;
+      background: var(--accent);
+      color: white;
+      border: none;
+      border-radius: 50%;
+      font-size: 1.6rem;
+      font-weight: 700;
+      cursor: pointer;
+      z-index: 200;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.15s, transform 0.15s;
+    }
+    .feed-compose-fab:hover { background: var(--accent-hover); transform: scale(1.06); }
+    .feed-compose-fab.visible { display: flex; }
+
+    /* Post composer sheet */
+    .post-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.4);
+      z-index: 502;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.25s;
+    }
+    .post-overlay.open { opacity: 1; pointer-events: all; }
+
+    .post-sheet {
+      position: fixed;
+      bottom: 0;
+      inset-inline: 0;
+      background: white;
+      border-radius: 20px 20px 0 0;
+      padding: 1.25rem 1.5rem 2.5rem;
+      z-index: 503;
+      transform: translateY(100%);
+      transition: transform 0.3s cubic-bezier(0.32, 0.72, 0, 1);
+      max-height: 90vh;
+      overflow-y: auto;
+    }
+    .post-sheet.open { transform: translateY(0); }
+    .post-sheet-handle {
+      width: 36px;
+      height: 4px;
+      background: #e0e0d8;
+      border-radius: 2px;
+      margin: 0 auto 1.1rem;
+    }
+    .post-sheet h3 { font-size: 1rem; font-weight: 800; margin-bottom: 1rem; }
+
+    .post-rest-wrap { position: relative; margin-bottom: 0.75rem; }
+    .post-rest-input {
+      width: 100%;
+      border: 1.5px solid var(--border);
+      border-radius: 10px;
+      padding: 0.6rem 0.85rem;
+      font-size: 0.9rem;
+      font-family: inherit;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    .post-rest-input:focus { border-color: var(--accent); }
+
+    .post-rest-results {
+      position: absolute;
+      top: calc(100% + 4px);
+      inset-inline: 0;
+      background: white;
+      border: 1.5px solid var(--border);
+      border-radius: 10px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+      z-index: 10;
+      max-height: 180px;
+      overflow-y: auto;
+      display: none;
+    }
+    .post-rest-results.open { display: block; }
+
+    .post-rest-option {
+      padding: 0.6rem 0.85rem;
+      font-size: 0.88rem;
+      cursor: pointer;
+      transition: background 0.1s;
+    }
+    .post-rest-option:hover { background: var(--tag-bg); }
+
+    .post-rest-selected {
+      display: none;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--tag-bg);
+      border-radius: 8px;
+      padding: 0.5rem 0.75rem;
+      font-size: 0.88rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+    }
+    .post-rest-selected.visible { display: flex; }
+    .post-rest-clear-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 1rem;
+      color: var(--text-muted);
+      padding: 0;
+      margin-inline-start: auto;
+    }
+
+    .post-rating-row {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .post-rating-label { font-size: 0.85rem; font-weight: 600; color: var(--text-muted); }
+
+    .post-star-selector { display: flex; gap: 0.25rem; direction: ltr; }
+    .post-star-selector button {
+      background: none;
+      border: none;
+      font-size: 1.8rem;
+      cursor: pointer;
+      padding: 0;
+      line-height: 1;
+      color: #d1d5db;
+      transition: color 0.1s, transform 0.1s;
+    }
+    .post-star-selector button.active { color: #f59e0b; }
+    .post-star-selector button:hover { transform: scale(1.15); }
+
   </style>
   <link rel="stylesheet" href="vendor/leaflet.css">
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
@@ -1334,6 +1591,7 @@
   <div class="stats">
     <span id="result-count"></span>
     <div class="stats-right">
+      <button class="map-toggle-btn" id="feed-toggle-btn"></button>
       <button class="map-toggle-btn" id="map-toggle-btn"></button>
       <button class="sort-btn" id="sort-btn"></button>
     </div>
@@ -1357,6 +1615,15 @@
     </div>
   </div>
 
+  <div id="feed-wrap" style="display:none">
+    <div id="feed-list"></div>
+    <div class="feed-empty" id="feed-empty" style="display:none">
+      <div class="emoji">📣</div>
+      <p id="feed-empty-text"></p>
+    </div>
+  </div>
+  <button class="feed-compose-fab" id="feed-compose-btn" aria-label="New post">+</button>
+
   <div class="grid" id="grid"></div>
 
   <footer id="footer-text"></footer>
@@ -1374,6 +1641,44 @@
       <textarea class="chat-input" id="chat-input" maxlength="300" rows="1"></textarea>
       <button class="chat-send-btn" id="chat-send-btn"></button>
     </div>
+  </div>
+
+  <!-- Post Composer Sheet -->
+  <div class="post-overlay" id="post-overlay"></div>
+  <div class="post-sheet" id="post-sheet">
+    <div class="post-sheet-handle"></div>
+    <h3 id="post-compose-title"></h3>
+    <div class="post-rest-wrap">
+      <input class="post-rest-input" id="post-rest-input" type="text" autocomplete="off">
+      <div class="post-rest-results" id="post-rest-results"></div>
+    </div>
+    <div class="post-rest-selected" id="post-rest-selected">
+      <span id="post-rest-name"></span>
+      <button class="post-rest-clear-btn" id="post-rest-clear" aria-label="Clear">✕</button>
+    </div>
+    <div class="post-rating-row">
+      <span class="post-rating-label" id="post-rating-label"></span>
+      <div class="post-star-selector" id="post-star-selector">
+        <button data-star="1">★</button>
+        <button data-star="2">★</button>
+        <button data-star="3">★</button>
+        <button data-star="4">★</button>
+        <button data-star="5">★</button>
+      </div>
+    </div>
+    <textarea class="review-textarea" id="post-tip" maxlength="150"></textarea>
+    <span class="review-char-count" id="post-char-count">0 / 150</span>
+    <div class="anon-toggle-row">
+      <div>
+        <div class="anon-toggle-label" id="post-anon-label"></div>
+        <div class="anon-toggle-desc"  id="post-anon-desc"></div>
+      </div>
+      <label class="toggle-switch">
+        <input type="checkbox" id="post-anon-toggle" checked>
+        <span class="toggle-slider"></span>
+      </label>
+    </div>
+    <button class="review-submit-btn" id="post-submit-btn"></button>
   </div>
 
   <!-- Auth Modal -->
@@ -1500,6 +1805,19 @@
         chatSend:        "שלח",
         chatRateLimit:   "מקסימום 10 הודעות בשעה",
         chatAnonPrefix:  "גורמה",
+        feedTab:              "📣 פיד",
+        feedEmpty:            "עוד אין המלצות. היה הראשון!",
+        feedComposeTitle:     "שתף המלצה",
+        feedRestaurantSearch: "חפש מסעדה...",
+        feedTipPlaceholder:   "הוסף טיפ (לא חובה, עד 150 תווים)",
+        feedSubmit:           "פרסם",
+        feedAnonLabel:        "פרסם בצורה אנונימית",
+        feedAnonDesc:         "שמור על הפרטיות שלך",
+        feedPosted:           "✅ ההמלצה פורסמה!",
+        feedRateLimit:        "מקסימום 5 פוסטים בשעה",
+        feedNoRestaurant:     "יש לבחור מסעדה",
+        feedAnonymousAuthor:  "🕵️ אנונימי",
+        feedRatingLabel:      "דירוג (לא חובה)",
       },
       en: {
         title: "Budget Bites",
@@ -1565,6 +1883,19 @@
         chatSend:        "Send",
         chatRateLimit:   "Max 10 messages per hour",
         chatAnonPrefix:  "Foodie",
+        feedTab:              "📣 Feed",
+        feedEmpty:            "No posts yet. Be the first!",
+        feedComposeTitle:     "Share a tip",
+        feedRestaurantSearch: "Search a restaurant...",
+        feedTipPlaceholder:   "Add a tip (optional, up to 150 chars)",
+        feedSubmit:           "Post",
+        feedAnonLabel:        "Post anonymously",
+        feedAnonDesc:         "Keep your identity private",
+        feedPosted:           "✅ Posted!",
+        feedRateLimit:        "Max 5 posts per hour",
+        feedNoRestaurant:     "Please select a restaurant",
+        feedAnonymousAuthor:  "🕵️ Anonymous",
+        feedRatingLabel:      "Rating (optional)",
       }
     };
 
@@ -1601,6 +1932,7 @@
     const SUPABASE_ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImttZ2trY3J4dHhnZ3pwZ2RzYndkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzIyNjAxMDIsImV4cCI6MjA4NzgzNjEwMn0.5P3D18M1C8yyQu6vqT3AUZGEzzHB20iw9_bHfqfILmc';
     const EDGE_FN_URL      = SUPABASE_URL + '/functions/v1/submit-review';
     const EDGE_COMMENT_URL = SUPABASE_URL + '/functions/v1/submit-comment';
+    const EDGE_POST_URL    = SUPABASE_URL + '/functions/v1/submit-post';
 
     let supabaseClient         = null;
     let currentUser            = null;
@@ -1609,6 +1941,13 @@
     let selectedRating         = 0;
     let authMode               = 'login'; // 'login' | 'signup'
     let pendingReviewId        = null;
+
+    // Feed state
+    let feedVisible        = false;
+    let feedPosts          = [];
+    let feedChannel        = null;
+    let postRestaurantId   = null;
+    let selectedPostRating = 0;
 
     // Chat state
     let activeChatRestId = null;
@@ -2020,7 +2359,9 @@
       updateCardChips();
       updateGeoChip();
       $("map-toggle-btn").textContent  = mapVisible ? t().mapBtnClose : t().mapBtn;
+      $("feed-toggle-btn").textContent = feedVisible ? `✕ ${lang === 'he' ? 'פיד' : 'Feed'}` : t().feedTab;
       if ($("radius-label")) $("radius-label").textContent = t().radiusLabel;
+      if (feedVisible) renderFeed();
       updateAuthBtn();
       render();
     }
@@ -2303,10 +2644,12 @@
       supabaseClient.auth.onAuthStateChange((_event, session) => {
         currentUser = session?.user ?? null;
         updateAuthBtn();
+        updateFeedFab();
       });
       supabaseClient.auth.getSession().then(({ data: { session } }) => {
         currentUser = session?.user ?? null;
         updateAuthBtn();
+        updateFeedFab();
         loadReviewsForVisible();
       });
     }
@@ -2719,6 +3062,248 @@
     }
 
     // ============================================================
+    // Feed
+    // ============================================================
+    function updateFeedFab() {
+      const fab = $('feed-compose-btn');
+      fab.classList.toggle('visible', feedVisible && !!currentUser);
+    }
+
+    function toggleFeed() {
+      feedVisible = !feedVisible;
+      $('feed-wrap').style.display = feedVisible ? 'block' : 'none';
+      $('grid').style.display      = feedVisible ? 'none'  : '';
+      $('feed-toggle-btn').textContent = feedVisible
+        ? `✕ ${lang === 'he' ? 'פיד' : 'Feed'}`
+        : t().feedTab;
+      $('feed-toggle-btn').classList.toggle('active', feedVisible);
+      updateFeedFab();
+      if (feedVisible) {
+        loadFeed();
+        subscribeFeed();
+      } else {
+        unsubscribeFeed();
+      }
+    }
+
+    async function loadFeed() {
+      if (!supabaseClient) return;
+      const { data: rows } = await supabaseClient
+        .from('public_feed_posts')
+        .select('*')
+        .order('created_at', { ascending: false })
+        .limit(50);
+      feedPosts = rows || [];
+      renderFeed();
+    }
+
+    function renderFeed() {
+      const listEl  = $('feed-list');
+      const emptyEl = $('feed-empty');
+      if (!feedPosts.length) {
+        listEl.innerHTML = '';
+        $('feed-empty-text').textContent = t().feedEmpty;
+        emptyEl.style.display = 'block';
+        return;
+      }
+      emptyEl.style.display = 'none';
+      listEl.innerHTML = feedPosts.map(p => buildFeedCard(p, false)).join('');
+    }
+
+    function buildFeedCard(post, isNew) {
+      const rest   = data.find(r => r.id === post.restaurant_id);
+      const name   = rest ? esc(l(rest.name)) : esc(post.restaurant_id);
+      const cat    = rest ? rest.category.en : '';
+      const photo  = getCategoryPhoto(cat);
+      const author = post.is_anonymous ? esc(t().feedAnonymousAuthor)
+                   : esc(post.author_name || t().feedAnonymousAuthor);
+      const tip    = post.tip ? `<div class="feed-card-tip">"${esc(post.tip)}"</div>` : '';
+      const ratingHtml = post.rating
+        ? `<div class="feed-card-rating"><span class="feed-card-stars">${'★'.repeat(post.rating)}${'☆'.repeat(5 - post.rating)}</span></div>`
+        : '';
+      const time = timeAgo(post.created_at);
+
+      const q           = rest ? buildMapQuery(rest) : encodeURIComponent(name);
+      const wazeUrl     = `https://waze.com/ul?q=${q}&navigate=yes`;
+      const gmapsUrl    = `https://www.google.com/maps/search/?api=1&query=${q}`;
+      const shareText   = encodeURIComponent(
+        lang === 'he'
+          ? `${name} - ${t().feedTab} | Budget Bites`
+          : `${name} - via Budget Bites`
+      );
+      const whatsappUrl = `https://wa.me/?text=${shareText}`;
+      const mapsLabel   = lang === 'he' ? 'מפה' : 'Map';
+      const shareLabel  = lang === 'he' ? 'שיתוף' : 'Share';
+
+      return `<div class="feed-card${isNew ? ' new' : ''}">
+        <div class="feed-card-info">
+          <img class="feed-card-photo" src="${photo}" alt="${name}" loading="lazy">
+          <div>
+            <div class="feed-card-name">${name}</div>
+            ${ratingHtml}
+            <div class="feed-card-author">${author} · ${esc(time)}</div>
+          </div>
+        </div>
+        ${tip}
+        <div class="feed-card-actions">
+          <a href="${wazeUrl}"     target="_blank" rel="noopener">${ICON_WAZE}<span>Waze</span></a>
+          <a href="${gmapsUrl}"    target="_blank" rel="noopener">${ICON_GMAPS}<span>${mapsLabel}</span></a>
+          <a href="${whatsappUrl}" target="_blank" rel="noopener">${ICON_WHATSAPP}<span>${shareLabel}</span></a>
+          <button onclick="openChatSheet('${esc(post.restaurant_id)}', '${name}')">${esc(t().chatBtn)}</button>
+        </div>
+      </div>`;
+    }
+
+    function handleNewFeedPost(payload) {
+      if (!feedVisible) return;
+      const post = payload.new;
+      if (!post || !post.id) return;
+      feedPosts.unshift(post);
+      const emptyEl = $('feed-empty');
+      emptyEl.style.display = 'none';
+      $('feed-list').insertAdjacentHTML('afterbegin', buildFeedCard(post, true));
+    }
+
+    function subscribeFeed() {
+      if (!supabaseClient) return;
+      feedChannel = supabaseClient
+        .channel('feed-posts')
+        .on('postgres_changes', {
+          event: 'INSERT',
+          schema: 'public',
+          table: 'feed_posts',
+        }, handleNewFeedPost)
+        .subscribe();
+    }
+
+    function unsubscribeFeed() {
+      if (feedChannel && supabaseClient) {
+        supabaseClient.removeChannel(feedChannel);
+        feedChannel = null;
+      }
+    }
+
+    function openPostSheet() {
+      if (!supabaseClient) {
+        showToast(lang === 'he' ? 'יש להגדיר Supabase תחילה' : 'Supabase not configured');
+        return;
+      }
+      if (!currentUser) {
+        openAuthModal('login');
+        return;
+      }
+      postRestaurantId   = null;
+      selectedPostRating = 0;
+      $('post-compose-title').textContent   = t().feedComposeTitle;
+      $('post-rest-input').placeholder      = t().feedRestaurantSearch;
+      $('post-rest-input').value            = '';
+      $('post-rest-results').innerHTML      = '';
+      $('post-rest-results').classList.remove('open');
+      $('post-rest-selected').classList.remove('visible');
+      $('post-rest-name').textContent       = '';
+      $('post-rating-label').textContent    = t().feedRatingLabel;
+      updatePostStarSelector(0);
+      $('post-tip').value                   = '';
+      $('post-tip').placeholder             = t().feedTipPlaceholder;
+      $('post-char-count').textContent      = '0 / 150';
+      $('post-anon-toggle').checked         = true;
+      $('post-anon-label').textContent      = t().feedAnonLabel;
+      $('post-anon-desc').textContent       = t().feedAnonDesc;
+      $('post-submit-btn').textContent      = t().feedSubmit;
+      $('post-submit-btn').disabled         = false;
+      $('post-overlay').classList.add('open');
+      $('post-sheet').classList.add('open');
+      setTimeout(() => $('post-rest-input').focus(), 350);
+    }
+
+    function closePostSheet() {
+      $('post-overlay').classList.remove('open');
+      $('post-sheet').classList.remove('open');
+      postRestaurantId   = null;
+      selectedPostRating = 0;
+    }
+
+    function searchRestaurants(q) {
+      const resultsEl = $('post-rest-results');
+      if (!q.trim()) {
+        resultsEl.innerHTML = '';
+        resultsEl.classList.remove('open');
+        return;
+      }
+      const lq = q.toLowerCase();
+      const matches = data.filter(r => {
+        return [r.name.he, r.name.en, l(r.location.city)].join(' ').toLowerCase().includes(lq);
+      }).slice(0, 8);
+      if (!matches.length) {
+        resultsEl.innerHTML = '';
+        resultsEl.classList.remove('open');
+        return;
+      }
+      resultsEl.innerHTML = matches.map(r =>
+        `<div class="post-rest-option" data-id="${esc(r.id)}">${esc(l(r.name))} <span style="color:var(--text-muted);font-size:0.8em">· ${esc(l(r.location.city))}</span></div>`
+      ).join('');
+      resultsEl.classList.add('open');
+    }
+
+    function selectRestaurant(id) {
+      const rest = data.find(r => r.id === id);
+      if (!rest) return;
+      postRestaurantId = id;
+      $('post-rest-name').textContent = l(rest.name);
+      $('post-rest-selected').classList.add('visible');
+      $('post-rest-input').value = '';
+      $('post-rest-results').innerHTML = '';
+      $('post-rest-results').classList.remove('open');
+    }
+
+    function clearRestaurantSelection() {
+      postRestaurantId = null;
+      $('post-rest-selected').classList.remove('visible');
+      $('post-rest-name').textContent = '';
+      $('post-rest-input').value = '';
+      $('post-rest-input').focus();
+    }
+
+    function updatePostStarSelector(rating) {
+      $('post-star-selector').querySelectorAll('button').forEach(btn => {
+        btn.classList.toggle('active', parseInt(btn.dataset.star) <= rating);
+      });
+    }
+
+    async function submitPost() {
+      if (!postRestaurantId) {
+        showToast(t().feedNoRestaurant);
+        return;
+      }
+      const btn = $('post-submit-btn');
+      btn.disabled = true;
+      try {
+        const { data: { session } } = await supabaseClient.auth.getSession();
+        const token = session?.access_token;
+        const res = await fetch(EDGE_POST_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${token}` },
+          body: JSON.stringify({
+            restaurant_id: postRestaurantId,
+            tip: $('post-tip').value.trim() || null,
+            is_anonymous: $('post-anon-toggle').checked,
+            rating: selectedPostRating || null,
+          })
+        });
+        const result = await res.json();
+        if (!res.ok) {
+          const msg = result.error === 'rate_limit' ? t().feedRateLimit : (result.error || (lang === 'he' ? 'שגיאה' : 'Error'));
+          throw new Error(msg);
+        }
+        closePostSheet();
+        showToast(t().feedPosted);
+      } catch (err) {
+        showToast(err.message);
+        btn.disabled = false;
+      }
+    }
+
+    // ============================================================
     // Init
     // ============================================================
     async function init() {
@@ -2748,6 +3333,27 @@
     });
     ['auth-email', 'auth-password', 'auth-username'].forEach(id => {
       $(id).addEventListener('keydown', e => { if (e.key === 'Enter') handleAuthSubmit(); });
+    });
+
+    // Feed
+    $('feed-toggle-btn').addEventListener('click', toggleFeed);
+    $('feed-compose-btn').addEventListener('click', openPostSheet);
+    $('post-overlay').addEventListener('click', closePostSheet);
+    $('post-submit-btn').addEventListener('click', submitPost);
+    $('post-rest-clear').addEventListener('click', clearRestaurantSelection);
+    $('post-rest-input').addEventListener('input', e => searchRestaurants(e.target.value));
+    $('post-rest-results').addEventListener('click', e => {
+      const opt = e.target.closest('.post-rest-option');
+      if (opt) selectRestaurant(opt.dataset.id);
+    });
+    $('post-tip').addEventListener('input', e => {
+      $('post-char-count').textContent = `${e.target.value.length} / 150`;
+    });
+    $('post-star-selector').addEventListener('click', e => {
+      const btn = e.target.closest('button[data-star]');
+      if (!btn) return;
+      selectedPostRating = parseInt(btn.dataset.star);
+      updatePostStarSelector(selectedPostRating);
     });
 
     // Chat sheet
