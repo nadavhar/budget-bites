@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#2d6a4f">
   <link rel="manifest" href="/budget-bites/manifest.json">
+  <link rel="apple-touch-icon" href="/budget-bites/images/icons/apple-touch-icon.png">
   <title>Budget Bites | ביס בתקציב – ארוחות צהריים עד 50 ₪</title>
 
   <!-- SEO -->
@@ -3487,6 +3488,11 @@
     });
 
     init();
+
+    // Service Worker
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/budget-bites/sw.js');
+    }
   </script>
 </body>
 </html>
