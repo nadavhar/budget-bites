@@ -1,0 +1,36 @@
+name: Daily Wolt Scan
+
+on:
+  schedule:
+    - cron: '0 5 * * *'   # Every day at 05:00 UTC (08:00 Israel time)
+  workflow_dispatch:        # Allow manual trigger from GitHub UI
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run Wolt scan
+        run: python scripts/scan_wolt.py
+
+      - name: Commit new restaurants (if any)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/restaurants_i18n.json
+          if git diff --staged --quiet; then
+            echo "No new restaurants found."
+          else
+            COUNT=$(git diff --staged --stat | grep -oP '\d+(?= insertion)' || echo "?")
+            git commit -m "Auto-scan: add new Wolt restaurants [skip ci]"
+            git push
+            echo "✅ Pushed $COUNT new lines to DB."
+          fi
