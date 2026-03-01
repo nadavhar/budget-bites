@@ -1529,6 +1529,22 @@
     .post-star-selector button.active { color: #f59e0b; }
     .post-star-selector button:hover { transform: scale(1.15); }
 
+    .auth-divider {
+      display: flex; align-items: center; gap: 8px;
+      color: #9ca3af; font-size: 13px; margin: 12px 0;
+    }
+    .auth-divider::before, .auth-divider::after {
+      content: ''; flex: 1; height: 1px; background: var(--border);
+    }
+    .auth-google-btn {
+      width: 100%; padding: 10px; border: 1px solid var(--border);
+      border-radius: 8px; background: white; cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      gap: 8px; font-size: 14px; font-weight: 500;
+      transition: background 0.15s;
+    }
+    .auth-google-btn:hover { background: #f9fafb; }
+
   </style>
   <link rel="stylesheet" href="vendor/leaflet.css">
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
@@ -1746,6 +1762,11 @@
         <input type="password" id="auth-password" autocomplete="current-password">
       </div>
       <button class="auth-submit" id="auth-submit"></button>
+      <div class="auth-divider"><span id="auth-divider-text"></span></div>
+      <button class="auth-google-btn" id="auth-google-btn">
+        <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" width="18" height="18" alt="">
+        <span id="auth-google-label"></span>
+      </button>
       <div class="auth-toggle">
         <span id="auth-toggle-text"></span>
         <button id="auth-toggle-btn"></button>
@@ -1844,6 +1865,7 @@
         authEmail:        "אימייל",
         authPassword:     "סיסמה",
         authUsername:     "שם משתמש",
+        authGoogle:       "המשך עם Google",
         authNoAccount:    "אין לך חשבון?",
         authHasAccount:   "כבר יש לך חשבון?",
         authWelcome:      "👋 ברוך הבא!",
@@ -1925,6 +1947,7 @@
         authEmail:        "Email",
         authPassword:     "Password",
         authUsername:     "Username",
+        authGoogle:       "Continue with Google",
         authNoAccount:    "Don't have an account?",
         authHasAccount:   "Already have an account?",
         authWelcome:      "👋 Welcome!",
@@ -2791,6 +2814,15 @@
       $('auth-username-field').style.display = isLogin ? 'none' : '';
       $('auth-toggle-text').textContent  = isLogin ? t().authNoAccount : t().authHasAccount;
       $('auth-toggle-btn').textContent   = isLogin ? t().authSignUp : t().authSignIn;
+      $('auth-google-label').textContent = t().authGoogle;
+      $('auth-divider-text').textContent = lang === 'he' ? 'או' : 'or';
+    }
+
+    async function signInWithGoogle() {
+      await supabaseClient.auth.signInWithOAuth({
+        provider: 'google',
+        options: { redirectTo: 'https://nadavhar.github.io/budget-bites/' }
+      });
     }
 
     async function handleAuthSubmit() {
@@ -3400,6 +3432,7 @@
     $('auth-close').addEventListener('click', closeAuthModal);
     $('auth-overlay').addEventListener('click', e => { if (e.target === $('auth-overlay')) closeAuthModal(); });
     $('auth-submit').addEventListener('click', handleAuthSubmit);
+    $('auth-google-btn').addEventListener('click', signInWithGoogle);
     $('auth-toggle-btn').addEventListener('click', () => {
       authMode = authMode === 'login' ? 'signup' : 'login';
       renderAuthModal();
