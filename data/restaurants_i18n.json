@@ -7343,7 +7343,7 @@
   {
     "id": "203",
     "name": {
-      "he": "Hummus Bahadunas | Ra'anana ",
+      "he": "חומוס בהדונה",
       "en": "Hummus Bahadunas | Ra'anana "
     },
     "dish_name": {
@@ -7392,7 +7392,7 @@
   {
     "id": "204",
     "name": {
-      "he": "Abulafia | Allenby",
+      "he": "אבולעפיה",
       "en": "Abulafia | Allenby"
     },
     "dish_name": {
@@ -7441,7 +7441,7 @@
   {
     "id": "205",
     "name": {
-      "he": "Ha'Yerushalmi | Haifa",
+      "he": "הירושלמי",
       "en": "Ha'Yerushalmi | Haifa"
     },
     "dish_name": {
@@ -7490,7 +7490,7 @@
   {
     "id": "206",
     "name": {
-      "he": "Retro Biss",
+      "he": "רטרו ביס",
       "en": "Retro Biss"
     },
     "dish_name": {
@@ -7539,7 +7539,7 @@
   {
     "id": "207",
     "name": {
-      "he": "I Love Sandwich",
+      "he": "אני אוהב סנדוויץ'",
       "en": "I Love Sandwich"
     },
     "dish_name": {
@@ -7588,7 +7588,7 @@
   {
     "id": "208",
     "name": {
-      "he": "Jachnun Ruha",
+      "he": "ג'חנון רוחה",
       "en": "Jachnun Ruha"
     },
     "dish_name": {
@@ -7637,7 +7637,7 @@
   {
     "id": "209",
     "name": {
-      "he": "Hummus Hertzl",
+      "he": "חומוס הרצל",
       "en": "Hummus Hertzl"
     },
     "dish_name": {
@@ -7686,7 +7686,7 @@
   {
     "id": "210",
     "name": {
-      "he": "Sabich & Falafel Eyal",
+      "he": "סביץ' ופלאפל אייל",
       "en": "Sabich & Falafel Eyal"
     },
     "dish_name": {
@@ -7735,7 +7735,7 @@
   {
     "id": "211",
     "name": {
-      "he": "Just Tasty",
+      "he": "פשוט טעים",
       "en": "Just Tasty"
     },
     "dish_name": {
@@ -7784,7 +7784,7 @@
   {
     "id": "212",
     "name": {
-      "he": "Mr. Pretzels | Petah Tikva",
+      "he": "מר בייגלה",
       "en": "Mr. Pretzels | Petah Tikva"
     },
     "dish_name": {
@@ -7833,7 +7833,7 @@
   {
     "id": "213",
     "name": {
-      "he": "HaTarnegol",
+      "he": "הטרנגול",
       "en": "HaTarnegol"
     },
     "dish_name": {
@@ -7882,7 +7882,7 @@
   {
     "id": "214",
     "name": {
-      "he": "Sabich Hasharon | Petah Tikva",
+      "he": "סביך השרון",
       "en": "Sabich Hasharon | Petah Tikva"
     },
     "dish_name": {
@@ -7931,7 +7931,7 @@
   {
     "id": "215",
     "name": {
-      "he": "Falafel Armon",
+      "he": "פלאפל ארמון",
       "en": "Falafel Armon"
     },
     "dish_name": {
@@ -7980,7 +7980,7 @@
   {
     "id": "216",
     "name": {
-      "he": "Hummus Hasuri",
+      "he": "חומוס חסורי",
       "en": "Hummus Hasuri"
     },
     "dish_name": {
@@ -8029,7 +8029,7 @@
   {
     "id": "217",
     "name": {
-      "he": "Falafel Ofer",
+      "he": "פלאפל עופר",
       "en": "Falafel Ofer"
     },
     "dish_name": {
@@ -8078,7 +8078,7 @@
   {
     "id": "218",
     "name": {
-      "he": "Hummus Bahadunas | Herzliya",
+      "he": "חומוס בהדונה",
       "en": "Hummus Bahadunas | Herzliya"
     },
     "dish_name": {
@@ -8127,7 +8127,7 @@
   {
     "id": "219",
     "name": {
-      "he": "Falafel Gingi | Holon",
+      "he": "פלאפל ג'ינג'י",
       "en": "Falafel Gingi | Holon"
     },
     "dish_name": {
@@ -8176,7 +8176,7 @@
   {
     "id": "220",
     "name": {
-      "he": "Tan'ami Hummus Bar",
+      "he": "תנעמי חומוס בר",
       "en": "Tan'ami Hummus Bar"
     },
     "dish_name": {
@@ -8225,7 +8225,7 @@
   {
     "id": "221",
     "name": {
-      "he": "Pizza Keshet",
+      "he": "פיצה קשת",
       "en": "Pizza Keshet"
     },
     "dish_name": {
@@ -8274,7 +8274,7 @@
   {
     "id": "222",
     "name": {
-      "he": "Burekas Baba | Herzliya",
+      "he": "בורקאס באבא",
       "en": "Burekas Baba | Herzliya"
     },
     "dish_name": {
@@ -8323,7 +8323,7 @@
   {
     "id": "223",
     "name": {
-      "he": "Hummus Or Yehuda",
+      "he": "חומוס אור יהודה",
       "en": "Hummus Or Yehuda"
     },
     "dish_name": {
@@ -8372,7 +8372,7 @@
   {
     "id": "224",
     "name": {
-      "he": "Falafel Kadoori | The Blue Kiosk",
+      "he": "פלאפל כדורי",
       "en": "Falafel Kadoori | The Blue Kiosk"
     },
     "dish_name": {
@@ -8421,7 +8421,7 @@
   {
     "id": "225",
     "name": {
-      "he": "Hummus Badusa - Dr. Ful Shakshuka | Poleg",
+      "he": "חומוס בדוסה - ד\"ר פול שקשוקה",
       "en": "Hummus Badusa - Dr. Ful Shakshuka | Poleg"
     },
     "dish_name": {
@@ -8470,7 +8470,7 @@
   {
     "id": "226",
     "name": {
-      "he": "Hummus Atiya",
+      "he": "חומוס עטיה",
       "en": "Hummus Atiya"
     },
     "dish_name": {
@@ -8519,7 +8519,7 @@
   {
     "id": "227",
     "name": {
-      "he": "Uzi Hummus Ful | Sha'ar Haemek",
+      "he": "עוזי חומוס פול",
       "en": "Uzi Hummus Ful | Sha'ar Haemek"
     },
     "dish_name": {
@@ -8568,7 +8568,7 @@
   {
     "id": "228",
     "name": {
-      "he": "Toast Ha'osher | Rehovot",
+      "he": "טוסט האושר",
       "en": "Toast Ha'osher | Rehovot"
     },
     "dish_name": {
@@ -8617,7 +8617,7 @@
   {
     "id": "229",
     "name": {
-      "he": "Hummus Achdut | Modi'in",
+      "he": "חומוס אחדות",
       "en": "Hummus Achdut | Modi'in"
     },
     "dish_name": {
@@ -8666,7 +8666,7 @@
   {
     "id": "230",
     "name": {
-      "he": "Schnitzel Haim Boya | Netanya",
+      "he": "שניצל חיים בויה",
       "en": "Schnitzel Haim Boya | Netanya"
     },
     "dish_name": {
@@ -8715,7 +8715,7 @@
   {
     "id": "231",
     "name": {
-      "he": "Hummus Mori ",
+      "he": "חומוס מורי",
       "en": "Hummus Mori "
     },
     "dish_name": {
@@ -8764,7 +8764,7 @@
   {
     "id": "232",
     "name": {
-      "he": "Falafel Ezra",
+      "he": "פלאפל עזרא",
       "en": "Falafel Ezra"
     },
     "dish_name": {
@@ -8813,7 +8813,7 @@
   {
     "id": "233",
     "name": {
-      "he": "Hummus Badusa | The old industrial area",
+      "he": "חומוס בדוסה",
       "en": "Hummus Badusa | The old industrial area"
     },
     "dish_name": {
@@ -8862,7 +8862,7 @@
   {
     "id": "234",
     "name": {
-      "he": "New Deli | Ramat Gan",
+      "he": "מעדנייה חדשה",
       "en": "New Deli | Ramat Gan"
     },
     "dish_name": {
@@ -8911,7 +8911,7 @@
   {
     "id": "235",
     "name": {
-      "he": "Bourekas Baba | Modi'in",
+      "he": "בורקאס באבא",
       "en": "Bourekas Baba | Modi'in"
     },
     "dish_name": {
@@ -8960,7 +8960,7 @@
   {
     "id": "236",
     "name": {
-      "he": "Sabich HaSharon | Ra'anana",
+      "he": "סביך השרון",
       "en": "Sabich HaSharon | Ra'anana"
     },
     "dish_name": {
@@ -9009,7 +9009,7 @@
   {
     "id": "237",
     "name": {
-      "he": "Hummus Hamudot",
+      "he": "חומוס חמודות",
       "en": "Hummus Hamudot"
     },
     "dish_name": {
@@ -9058,7 +9058,7 @@
   {
     "id": "238",
     "name": {
-      "he": "Hummus Hakerem | Ha'Rakevet",
+      "he": "חומוס הכרם",
       "en": "Hummus Hakerem | Ha'Rakevet"
     },
     "dish_name": {
@@ -9107,7 +9107,7 @@
   {
     "id": "239",
     "name": {
-      "he": "Bourekas Ki Leolam Hesdo",
+      "he": "בורקאס קי לאולם הסדו",
       "en": "Bourekas Ki Leolam Hesdo"
     },
     "dish_name": {
@@ -9156,7 +9156,7 @@
   {
     "id": "240",
     "name": {
-      "he": "Sabich Deluxe",
+      "he": "סביץ' דלוקס",
       "en": "Sabich Deluxe"
     },
     "dish_name": {
@@ -9205,7 +9205,7 @@
   {
     "id": "241",
     "name": {
-      "he": "Johnny Jachnun",
+      "he": "ג'וני ג'חנון",
       "en": "Johnny Jachnun"
     },
     "dish_name": {
@@ -9254,7 +9254,7 @@
   {
     "id": "242",
     "name": {
-      "he": "Falafel Shoshana | Nuriot",
+      "he": "פלאפל שושנה",
       "en": "Falafel Shoshana | Nuriot"
     },
     "dish_name": {
@@ -9303,7 +9303,7 @@
   {
     "id": "243",
     "name": {
-      "he": "Abulafia | Shlabim",
+      "he": "אבולעפיה",
       "en": "Abulafia | Shlabim"
     },
     "dish_name": {
@@ -9352,7 +9352,7 @@
   {
     "id": "244",
     "name": {
-      "he": "Edmund Coffee",
+      "he": "אדמונד קפה",
       "en": "Edmund Coffee"
     },
     "dish_name": {
@@ -9401,7 +9401,7 @@
   {
     "id": "245",
     "name": {
-      "he": "Maya's Taboon",
+      "he": "הטאבון של מאיה",
       "en": "Maya's Taboon"
     },
     "dish_name": {
@@ -9450,7 +9450,7 @@
   {
     "id": "246",
     "name": {
-      "he": "Jachnun Ayuni",
+      "he": "ג'חנון עיוני",
       "en": "Jachnun Ayuni"
     },
     "dish_name": {
@@ -9499,7 +9499,7 @@
   {
     "id": "247",
     "name": {
-      "he": "Falafel 4 Flavours | Tel Aviv",
+      "he": "פלאפל 4 טעמים",
       "en": "Falafel 4 Flavours | Tel Aviv"
     },
     "dish_name": {
@@ -9548,7 +9548,7 @@
   {
     "id": "248",
     "name": {
-      "he": "Levontin Bakery",
+      "he": "מאפיית לבונטין",
       "en": "Levontin Bakery"
     },
     "dish_name": {
@@ -9597,7 +9597,7 @@
   {
     "id": "249",
     "name": {
-      "he": "Yossi Hummus",
+      "he": "יוסי חומוס",
       "en": "Yossi Hummus"
     },
     "dish_name": {
@@ -9695,7 +9695,7 @@
   {
     "id": "251",
     "name": {
-      "he": "I Love Sandwich | Ramat Gan",
+      "he": "אני אוהב סנדוויץ'",
       "en": "I Love Sandwich | Ramat Gan"
     },
     "dish_name": {
@@ -9744,7 +9744,7 @@
   {
     "id": "252",
     "name": {
-      "he": "Hummus Bahadunas | Kfar Saba",
+      "he": "חומוס בהדונה",
       "en": "Hummus Bahadunas | Kfar Saba"
     },
     "dish_name": {
@@ -9793,7 +9793,7 @@
   {
     "id": "253",
     "name": {
-      "he": "Full House | Ra'anana",
+      "he": "בית מלא",
       "en": "Full House | Ra'anana"
     },
     "dish_name": {
@@ -9842,7 +9842,7 @@
   {
     "id": "254",
     "name": {
-      "he": "Sabich Falafel Hasharon Bialik",
+      "he": "סביך פלאפל השרון ביאליק",
       "en": "Sabich Falafel Hasharon Bialik"
     },
     "dish_name": {
@@ -9891,7 +9891,7 @@
   {
     "id": "255",
     "name": {
-      "he": "Falafel Hatuka | Petah Tikva",
+      "he": "פלאפל חתוקה",
       "en": "Falafel Hatuka | Petah Tikva"
     },
     "dish_name": {
@@ -9940,7 +9940,7 @@
   {
     "id": "256",
     "name": {
-      "he": "Doron's Jachnun | Givatayim",
+      "he": "הג'חנון של דורון",
       "en": "Doron's Jachnun | Givatayim"
     },
     "dish_name": {
@@ -9989,7 +9989,7 @@
   {
     "id": "257",
     "name": {
-      "he": "Bourekas Kadosh",
+      "he": "בורקאס קדוש",
       "en": "Bourekas Kadosh"
     },
     "dish_name": {
@@ -10038,7 +10038,7 @@
   {
     "id": "258",
     "name": {
-      "he": "Hummus Neri | Kiryat Ono",
+      "he": "חומוס נרי",
       "en": "Hummus Neri | Kiryat Ono"
     },
     "dish_name": {
@@ -10087,7 +10087,7 @@
   {
     "id": "259",
     "name": {
-      "he": "Hummus Jonathan",
+      "he": "חומוס יונתן",
       "en": "Hummus Jonathan"
     },
     "dish_name": {
@@ -10136,7 +10136,7 @@
   {
     "id": "260",
     "name": {
-      "he": "Aryeh's Schnitzel",
+      "he": "השניצל של אריה",
       "en": "Aryeh's Schnitzel"
     },
     "dish_name": {
@@ -10185,7 +10185,7 @@
   {
     "id": "261",
     "name": {
-      "he": "Hummus Shuk",
+      "he": "חומוס שוק",
       "en": "Hummus Shuk"
     },
     "dish_name": {
@@ -10234,7 +10234,7 @@
   {
     "id": "262",
     "name": {
-      "he": "Ha'Adon Ha'Bukhari | Ramat Gan",
+      "he": "האדון הבוכרי",
       "en": "Ha'Adon Ha'Bukhari | Ramat Gan"
     },
     "dish_name": {
@@ -10283,7 +10283,7 @@
   {
     "id": "263",
     "name": {
-      "he": "Chantro Hummus & Full",
+      "he": "צ'נטרו חומוס ומלא",
       "en": "Chantro Hummus & Full"
     },
     "dish_name": {
@@ -10332,7 +10332,7 @@
   {
     "id": "264",
     "name": {
-      "he": "New Deli | Petah Tikva",
+      "he": "מעדנייה חדשה",
       "en": "New Deli | Petah Tikva"
     },
     "dish_name": {
@@ -10381,7 +10381,7 @@
   {
     "id": "265",
     "name": {
-      "he": "Shoshana's Jachnun",
+      "he": "הג'חנון של שושנה",
       "en": "Shoshana's Jachnun"
     },
     "dish_name": {
@@ -10430,7 +10430,7 @@
   {
     "id": "266",
     "name": {
-      "he": "Sabich Zisman | Bursa",
+      "he": "סביך זיסמן",
       "en": "Sabich Zisman | Bursa"
     },
     "dish_name": {
@@ -10479,7 +10479,7 @@
   {
     "id": "267",
     "name": {
-      "he": "Ilan Schnitz",
+      "he": "אילן שניץ",
       "en": "Ilan Schnitz"
     },
     "dish_name": {
@@ -10528,7 +10528,7 @@
   {
     "id": "268",
     "name": {
-      "he": "Hajachnunia | Rehovot",
+      "he": "חג'חנוניה",
       "en": "Hajachnunia | Rehovot"
     },
     "dish_name": {
@@ -10577,7 +10577,7 @@
   {
     "id": "269",
     "name": {
-      "he": "Falafel Ha'tzanani | Rehovot",
+      "he": "פלאפל הצנעני",
       "en": "Falafel Ha'tzanani | Rehovot"
     },
     "dish_name": {
@@ -10626,7 +10626,7 @@
   {
     "id": "270",
     "name": {
-      "he": "Luma Hummus  | Hod Hasharon",
+      "he": "חומוס לומה",
       "en": "Luma Hummus  | Hod Hasharon"
     },
     "dish_name": {
@@ -10675,7 +10675,7 @@
   {
     "id": "271",
     "name": {
-      "he": "Hummus Ha'Mayaan",
+      "he": "חומוס המעיין",
       "en": "Hummus Ha'Mayaan"
     },
     "dish_name": {
@@ -10724,7 +10724,7 @@
   {
     "id": "272",
     "name": {
-      "he": "Shawarma Orlov | Petah Tikva",
+      "he": "שווארמה אורלוב",
       "en": "Shawarma Orlov | Petah Tikva"
     },
     "dish_name": {
@@ -10773,7 +10773,7 @@
   {
     "id": "273",
     "name": {
-      "he": "Sahbak | Holon",
+      "he": "סחבק",
       "en": "Sahbak | Holon"
     },
     "dish_name": {
@@ -10822,7 +10822,7 @@
   {
     "id": "274",
     "name": {
-      "he": "Hummus Ha'kikar",
+      "he": "חומוס הכיכר",
       "en": "Hummus Ha'kikar"
     },
     "dish_name": {
@@ -10871,7 +10871,7 @@
   {
     "id": "275",
     "name": {
-      "he": "Hummus Achdut",
+      "he": "חומוס אחדות",
       "en": "Hummus Achdut"
     },
     "dish_name": {
@@ -10920,7 +10920,7 @@
   {
     "id": "276",
     "name": {
-      "he": "Falafel Boaron | Ashkelon",
+      "he": "פלאפל בוארון",
       "en": "Falafel Boaron | Ashkelon"
     },
     "dish_name": {
@@ -10969,7 +10969,7 @@
   {
     "id": "277",
     "name": {
-      "he": "Mister Pizza | Petah Tikva",
+      "he": "מר פיצה",
       "en": "Mister Pizza | Petah Tikva"
     },
     "dish_name": {
@@ -11018,7 +11018,7 @@
   {
     "id": "278",
     "name": {
-      "he": "Hummus Eliyahu | Or Yehuda",
+      "he": "חומוס אליהו",
       "en": "Hummus Eliyahu | Or Yehuda"
     },
     "dish_name": {
@@ -11067,7 +11067,7 @@
   {
     "id": "279",
     "name": {
-      "he": "Muchachos | Petah Tikva",
+      "he": "Muchachos",
       "en": "Muchachos | Petah Tikva"
     },
     "dish_name": {
@@ -11116,7 +11116,7 @@
   {
     "id": "280",
     "name": {
-      "he": "Hummus Neri | Hod Hasharon",
+      "he": "חומוס נרי",
       "en": "Hummus Neri | Hod Hasharon"
     },
     "dish_name": {
@@ -11165,7 +11165,7 @@
   {
     "id": "281",
     "name": {
-      "he": "Hummus Azrieli",
+      "he": "חומוס עזריאלי",
       "en": "Hummus Azrieli"
     },
     "dish_name": {
@@ -11214,7 +11214,7 @@
   {
     "id": "282",
     "name": {
-      "he": "Coompaniya | Ra'anana",
+      "he": "קומפניה",
       "en": "Coompaniya | Ra'anana"
     },
     "dish_name": {
@@ -11263,7 +11263,7 @@
   {
     "id": "283",
     "name": {
-      "he": "Ha'rishon Bashawarma",
+      "he": "הראשון בשווארמה",
       "en": "Ha'rishon Bashawarma"
     },
     "dish_name": {
@@ -11312,7 +11312,7 @@
   {
     "id": "284",
     "name": {
-      "he": "AZIZA",
+      "he": "עזיזה",
       "en": "AZIZA"
     },
     "dish_name": {
@@ -11361,7 +11361,7 @@
   {
     "id": "285",
     "name": {
-      "he": "Pizza Bakikar | Holon",
+      "he": "פיצה בקקר",
       "en": "Pizza Bakikar | Holon"
     },
     "dish_name": {
@@ -11410,7 +11410,7 @@
   {
     "id": "286",
     "name": {
-      "he": "Mr. Donuts | Kfar Saba",
+      "he": "מר סופגניות",
       "en": "Mr. Donuts | Kfar Saba"
     },
     "dish_name": {
@@ -11459,7 +11459,7 @@
   {
     "id": "287",
     "name": {
-      "he": "Pizza Shemesh | Bnei Brak Kahanman",
+      "he": "פיצה שמש",
       "en": "Pizza Shemesh | Bnei Brak Kahanman"
     },
     "dish_name": {
@@ -11508,7 +11508,7 @@
   {
     "id": "288",
     "name": {
-      "he": "Koko Omelette",
+      "he": "אומלט קוקו",
       "en": "Koko Omelette"
     },
     "dish_name": {
@@ -11557,7 +11557,7 @@
   {
     "id": "289",
     "name": {
-      "he": "Pizza Pelini",
+      "he": "פיצה פליני",
       "en": "Pizza Pelini"
     },
     "dish_name": {
@@ -11606,7 +11606,7 @@
   {
     "id": "290",
     "name": {
-      "he": "Etzel Menash",
+      "he": "אצ\"ל מנש",
       "en": "Etzel Menash"
     },
     "dish_name": {
@@ -11655,7 +11655,7 @@
   {
     "id": "291",
     "name": {
-      "he": "Toast Express",
+      "he": "טוסט אקספרס",
       "en": "Toast Express"
     },
     "dish_name": {
@@ -11704,7 +11704,7 @@
   {
     "id": "292",
     "name": {
-      "he": "Pizza Peppinio | Holon",
+      "he": "פיצה פפניו",
       "en": "Pizza Peppinio | Holon"
     },
     "dish_name": {
@@ -11753,7 +11753,7 @@
   {
     "id": "293",
     "name": {
-      "he": "Falafel Hashuk Rehovot",
+      "he": "פלאפל השוק רחובות",
       "en": "Falafel Hashuk Rehovot"
     },
     "dish_name": {
@@ -11802,7 +11802,7 @@
   {
     "id": "294",
     "name": {
-      "he": "The House of Hummus",
+      "he": "בית החומוס",
       "en": "The House of Hummus"
     },
     "dish_name": {
@@ -11851,7 +11851,7 @@
   {
     "id": "295",
     "name": {
-      "he": "Hajachnunia | Rishon Lezion",
+      "he": "חג'חנוניה",
       "en": "Hajachnunia | Rishon Lezion"
     },
     "dish_name": {
@@ -11900,7 +11900,7 @@
   {
     "id": "296",
     "name": {
-      "he": "Rothschild 33",
+      "he": "רוטשילד 33",
       "en": "Rothschild 33"
     },
     "dish_name": {
@@ -11949,7 +11949,7 @@
   {
     "id": "297",
     "name": {
-      "he": "The Prince Hummus",
+      "he": "חומוס הנסיך",
       "en": "The Prince Hummus"
     },
     "dish_name": {
@@ -11998,7 +11998,7 @@
   {
     "id": "298",
     "name": {
-      "he": "Mifgash Hashekh | Rehovot",
+      "he": "מפגש השך",
       "en": "Mifgash Hashekh | Rehovot"
     },
     "dish_name": {
@@ -12047,7 +12047,7 @@
   {
     "id": "299",
     "name": {
-      "he": "Sabich Hasharon | Hod Hasharon",
+      "he": "סביך השרון",
       "en": "Sabich Hasharon | Hod Hasharon"
     },
     "dish_name": {
@@ -12096,7 +12096,7 @@
   {
     "id": "300",
     "name": {
-      "he": "Gavriela- Rotisserie Chicken",
+      "he": "גבריאלה- עוף רוטיסרי",
       "en": "Gavriela- Rotisserie Chicken"
     },
     "dish_name": {
@@ -12145,7 +12145,7 @@
   {
     "id": 301,
     "name": {
-      "he": "Ful and Shawarma House",
+      "he": "בית פול ושווארמה",
       "en": "Ful and Shawarma House"
     },
     "dish_name": {
@@ -12194,7 +12194,7 @@
   {
     "id": 302,
     "name": {
-      "he": "Hummus Yakov",
+      "he": "חומוס יעקב",
       "en": "Hummus Yakov"
     },
     "dish_name": {
@@ -12243,7 +12243,7 @@
   {
     "id": 303,
     "name": {
-      "he": "Shenkin's",
+      "he": "של שינקין",
       "en": "Shenkin's"
     },
     "dish_name": {
@@ -12292,7 +12292,7 @@
   {
     "id": 304,
     "name": {
-      "he": "The Original Baguette Nir",
+      "he": "הבאגט המקורי ניר",
       "en": "The Original Baguette Nir"
     },
     "dish_name": {
@@ -12341,7 +12341,7 @@
   {
     "id": 305,
     "name": {
-      "he": "Hummus Shamsiya",
+      "he": "חומוס שמסיה",
       "en": "Hummus Shamsiya"
     },
     "dish_name": {
@@ -12390,7 +12390,7 @@
   {
     "id": 306,
     "name": {
-      "he": "2 Amigos",
+      "he": "2 אמיגוס",
       "en": "2 Amigos"
     },
     "dish_name": {
@@ -12439,7 +12439,7 @@
   {
     "id": 307,
     "name": {
-      "he": "Dkan",
+      "he": "דקאן",
       "en": "Dkan"
     },
     "dish_name": {
@@ -12488,7 +12488,7 @@
   {
     "id": 308,
     "name": {
-      "he": "The Hummus",
+      "he": "החומוס",
       "en": "The Hummus"
     },
     "dish_name": {
@@ -12537,7 +12537,7 @@
   {
     "id": 309,
     "name": {
-      "he": "Aharon Falafel & Sabich",
+      "he": "אהרון פלאפל וסביך",
       "en": "Aharon Falafel & Sabich"
     },
     "dish_name": {
@@ -12635,7 +12635,7 @@
   {
     "id": 311,
     "name": {
-      "he": "Burekas In The City",
+      "he": "בורקאס בעיר",
       "en": "Burekas In The City"
     },
     "dish_name": {
@@ -12684,7 +12684,7 @@
   {
     "id": 312,
     "name": {
-      "he": "Sabih El Hi'r",
+      "he": "סביח אל היאר",
       "en": "Sabih El Hi'r"
     },
     "dish_name": {
@@ -12733,7 +12733,7 @@
   {
     "id": 313,
     "name": {
-      "he": "Asher's Baguette",
+      "he": "הבאגט של אשר",
       "en": "Asher's Baguette"
     },
     "dish_name": {
@@ -12782,7 +12782,7 @@
   {
     "id": 314,
     "name": {
-      "he": "Johnny Jachnun",
+      "he": "ג'וני ג'חנון",
       "en": "Johnny Jachnun"
     },
     "dish_name": {
@@ -12831,7 +12831,7 @@
   {
     "id": 315,
     "name": {
-      "he": "Falafel Shoshana",
+      "he": "פלאפל שושנה",
       "en": "Falafel Shoshana"
     },
     "dish_name": {
@@ -12880,7 +12880,7 @@
   {
     "id": 316,
     "name": {
-      "he": "Jachnun Ayuni",
+      "he": "ג'חנון עיוני",
       "en": "Jachnun Ayuni"
     },
     "dish_name": {
@@ -12929,7 +12929,7 @@
   {
     "id": 317,
     "name": {
-      "he": "Toast Ha'osher",
+      "he": "טוסט האושר",
       "en": "Toast Ha'osher"
     },
     "dish_name": {
@@ -12978,7 +12978,7 @@
   {
     "id": 318,
     "name": {
-      "he": "Jachnun Hachatzer",
+      "he": "ג'חנון החצר",
       "en": "Jachnun Hachatzer"
     },
     "dish_name": {
@@ -13027,7 +13027,7 @@
   {
     "id": 319,
     "name": {
-      "he": "Hummus Salim",
+      "he": "חומוס סלים",
       "en": "Hummus Salim"
     },
     "dish_name": {
@@ -13076,7 +13076,7 @@
   {
     "id": 320,
     "name": {
-      "he": "Toast & Salad Corner",
+      "he": "פינת טוסט וסלט",
       "en": "Toast & Salad Corner"
     },
     "dish_name": {
@@ -13125,7 +13125,7 @@
   {
     "id": 321,
     "name": {
-      "he": "Hajachnunia",
+      "he": "חג'חנוניה",
       "en": "Hajachnunia"
     },
     "dish_name": {
@@ -13174,7 +13174,7 @@
   {
     "id": 322,
     "name": {
-      "he": "Borekas Ha Bulgari",
+      "he": "בורקאס הא בולגרי",
       "en": "Borekas Ha Bulgari"
     },
     "dish_name": {
@@ -13223,7 +13223,7 @@
   {
     "id": 323,
     "name": {
-      "he": "Falafel Zohar",
+      "he": "פלאפל זוהר",
       "en": "Falafel Zohar"
     },
     "dish_name": {
@@ -13370,7 +13370,7 @@
   {
     "id": 326,
     "name": {
-      "he": "Hummus Eliyahu Kosher L'Mehadrin",
+      "he": "חומוס אליהו כשר למהדרין",
       "en": "Hummus Eliyahu Kosher L'Mehadrin"
     },
     "dish_name": {
@@ -13419,7 +13419,7 @@
   {
     "id": 327,
     "name": {
-      "he": "Yosi Burekas",
+      "he": "יוסי בורקאס",
       "en": "Yosi Burekas"
     },
     "dish_name": {
@@ -13468,7 +13468,7 @@
   {
     "id": 328,
     "name": {
-      "he": "Restaurant Havita Baeir",
+      "he": "מסעדת חויטה באייר",
       "en": "Restaurant Havita Baeir"
     },
     "dish_name": {
@@ -13517,7 +13517,7 @@
   {
     "id": 329,
     "name": {
-      "he": "Borekas Ha Bulgari",
+      "he": "בורקאס הא בולגרי",
       "en": "Borekas Ha Bulgari"
     },
     "dish_name": {
@@ -13566,7 +13566,7 @@
   {
     "id": 330,
     "name": {
-      "he": "The Persian's Baguette",
+      "he": "הבאגט של הפרסי",
       "en": "The Persian's Baguette"
     },
     "dish_name": {
@@ -13615,7 +13615,7 @@
   {
     "id": 331,
     "name": {
-      "he": "Falafel Boaron",
+      "he": "פלאפל בוארון",
       "en": "Falafel Boaron"
     },
     "dish_name": {
@@ -13664,7 +13664,7 @@
   {
     "id": 332,
     "name": {
-      "he": "Zigdon",
+      "he": "זיגדון",
       "en": "Zigdon"
     },
     "dish_name": {
@@ -13713,7 +13713,7 @@
   {
     "id": 333,
     "name": {
-      "he": "Makom Tov Lashevet",
+      "he": "מקום טוב לשבט",
       "en": "Makom Tov Lashevet"
     },
     "dish_name": {
@@ -13762,7 +13762,7 @@
   {
     "id": 334,
     "name": {
-      "he": "Falafel Hen",
+      "he": "תרנגולת פלאפל",
       "en": "Falafel Hen"
     },
     "dish_name": {
@@ -13811,7 +13811,7 @@
   {
     "id": 335,
     "name": {
-      "he": "Riki Niki",
+      "he": "ריקי ניקי",
       "en": "Riki Niki"
     },
     "dish_name": {
@@ -13860,7 +13860,7 @@
   {
     "id": 336,
     "name": {
-      "he": "Hummus Bereshit",
+      "he": "חומוס בראשית",
       "en": "Hummus Bereshit"
     },
     "dish_name": {
@@ -13909,7 +13909,7 @@
   {
     "id": 337,
     "name": {
-      "he": "Kaiyfuye",
+      "he": "קייפוי",
       "en": "Kaiyfuye"
     },
     "dish_name": {
@@ -13958,7 +13958,7 @@
   {
     "id": 338,
     "name": {
-      "he": "Shnitzel Johnam",
+      "he": "שניצל ג'ונם",
       "en": "Shnitzel Johnam"
     },
     "dish_name": {
@@ -14007,7 +14007,7 @@
   {
     "id": 339,
     "name": {
-      "he": "Gingi's Falafel Bereshit",
+      "he": "הפלאפל בראשית של ג'ינגי",
       "en": "Gingi's Falafel Bereshit"
     },
     "dish_name": {
@@ -14056,7 +14056,7 @@
   {
     "id": 340,
     "name": {
-      "he": "Mifgash Haverim",
+      "he": "מפגש חורים",
       "en": "Mifgash Haverim"
     },
     "dish_name": {
@@ -14105,7 +14105,7 @@
   {
     "id": 341,
     "name": {
-      "he": "Ilan's Shawarma",
+      "he": "השווארמה של אילן",
       "en": "Ilan's Shawarma"
     },
     "dish_name": {
@@ -14154,7 +14154,7 @@
   {
     "id": 342,
     "name": {
-      "he": "PIzza Boutique",
+      "he": "בוטיק פיצה",
       "en": "PIzza Boutique"
     },
     "dish_name": {
@@ -14203,7 +14203,7 @@
   {
     "id": 343,
     "name": {
-      "he": "Yul's",
+      "he": "של יול",
       "en": "Yul's"
     },
     "dish_name": {
@@ -14252,7 +14252,7 @@
   {
     "id": 344,
     "name": {
-      "he": "Falafel Shoshana",
+      "he": "פלאפל שושנה",
       "en": "Falafel Shoshana"
     },
     "dish_name": {
@@ -14301,7 +14301,7 @@
   {
     "id": 345,
     "name": {
-      "he": "Shoshana's Jachnun",
+      "he": "הג'חנון של שושנה",
       "en": "Shoshana's Jachnun"
     },
     "dish_name": {
@@ -14350,7 +14350,7 @@
   {
     "id": 346,
     "name": {
-      "he": "Ha'rishon Bashawarma",
+      "he": "הראשון בשווארמה",
       "en": "Ha'rishon Bashawarma"
     },
     "dish_name": {
@@ -14399,7 +14399,7 @@
   {
     "id": 347,
     "name": {
-      "he": "Hummus Bereshit",
+      "he": "חומוס בראשית",
       "en": "Hummus Bereshit"
     },
     "dish_name": {
@@ -14448,7 +14448,7 @@
   {
     "id": 348,
     "name": {
-      "he": "New York Hot Dog",
+      "he": "נקניקיות ניו יורק",
       "en": "New York Hot Dog"
     },
     "dish_name": {
@@ -14497,7 +14497,7 @@
   {
     "id": 349,
     "name": {
-      "he": "Hummus Halil",
+      "he": "חומוס חליל",
       "en": "Hummus Halil"
     },
     "dish_name": {
@@ -14546,7 +14546,7 @@
   {
     "id": 350,
     "name": {
-      "he": "Noya - Sandwich Bar",
+      "he": "נויה - סנדוויץ' בר",
       "en": "Noya - Sandwich Bar"
     },
     "dish_name": {
@@ -14595,7 +14595,7 @@
   {
     "id": 351,
     "name": {
-      "he": "Hummus Hanof",
+      "he": "חומוס הנוף",
       "en": "Hummus Hanof"
     },
     "dish_name": {
@@ -14644,7 +14644,7 @@
   {
     "id": 352,
     "name": {
-      "he": "Shawarma Azar",
+      "he": "שווארמה אזאר",
       "en": "Shawarma Azar"
     },
     "dish_name": {
@@ -14693,7 +14693,7 @@
   {
     "id": 353,
     "name": {
-      "he": "Hot Corn",
+      "he": "תירס חם",
       "en": "Hot Corn"
     },
     "dish_name": {
@@ -14742,7 +14742,7 @@
   {
     "id": 354,
     "name": {
-      "he": "Shakshukash",
+      "he": "שקשוקש",
       "en": "Shakshukash"
     },
     "dish_name": {
@@ -14791,7 +14791,7 @@
   {
     "id": 355,
     "name": {
-      "he": "Hummus Blue Bus",
+      "he": "אוטובוס חומוס כחול",
       "en": "Hummus Blue Bus"
     },
     "dish_name": {
@@ -14840,7 +14840,7 @@
   {
     "id": 356,
     "name": {
-      "he": "Bikta",
+      "he": "ביקטה",
       "en": "Bikta"
     },
     "dish_name": {
@@ -14889,7 +14889,7 @@
   {
     "id": 357,
     "name": {
-      "he": "Marko",
+      "he": "מרקו",
       "en": "Marko"
     },
     "dish_name": {
@@ -14938,7 +14938,7 @@
   {
     "id": 358,
     "name": {
-      "he": "Mr. Pizza",
+      "he": "מר פיצה",
       "en": "Mr. Pizza"
     },
     "dish_name": {
@@ -14987,7 +14987,7 @@
   {
     "id": 359,
     "name": {
-      "he": "Hummus Beit Hakerem",
+      "he": "חומוס בית הכרם",
       "en": "Hummus Beit Hakerem"
     },
     "dish_name": {
@@ -15036,7 +15036,7 @@
   {
     "id": 360,
     "name": {
-      "he": "Sujok",
+      "he": "סוג'וק",
       "en": "Sujok"
     },
     "dish_name": {
@@ -15085,7 +15085,7 @@
   {
     "id": 361,
     "name": {
-      "he": "Cheezy Pizza",
+      "he": "צ'יזי פיצה",
       "en": "Cheezy Pizza"
     },
     "dish_name": {
@@ -15134,7 +15134,7 @@
   {
     "id": 362,
     "name": {
-      "he": "Pizza Rimini",
+      "he": "פיצה רימיני",
       "en": "Pizza Rimini"
     },
     "dish_name": {
@@ -15183,7 +15183,7 @@
   {
     "id": 363,
     "name": {
-      "he": "Pizza Rabin",
+      "he": "פיצה רבין",
       "en": "Pizza Rabin"
     },
     "dish_name": {
@@ -15232,7 +15232,7 @@
   {
     "id": 364,
     "name": {
-      "he": "Vita Food",
+      "he": "ויטה אוכל",
       "en": "Vita Food"
     },
     "dish_name": {
@@ -15281,7 +15281,7 @@
   {
     "id": 365,
     "name": {
-      "he": "Pokido | Afula",
+      "he": "פוקידו",
       "en": "Pokido | Afula"
     },
     "dish_name": {
@@ -15330,7 +15330,7 @@
   {
     "id": 366,
     "name": {
-      "he": "Liraz Swisa Bakery | Afula",
+      "he": "מאפיית לירז סוויסה",
       "en": "Liraz Swisa Bakery | Afula"
     },
     "dish_name": {
@@ -15379,7 +15379,7 @@
   {
     "id": 367,
     "name": {
-      "he": "Stella Vaknin",
+      "he": "סטלה וקנין",
       "en": "Stella Vaknin"
     },
     "dish_name": {
@@ -15428,7 +15428,7 @@
   {
     "id": 368,
     "name": {
-      "he": "Baguette Nir | Afula",
+      "he": "באגט ניר",
       "en": "Baguette Nir | Afula"
     },
     "dish_name": {
@@ -15477,7 +15477,7 @@
   {
     "id": 369,
     "name": {
-      "he": "New Deli | Ashdod",
+      "he": "מעדנייה חדשה",
       "en": "New Deli | Ashdod"
     },
     "dish_name": {
@@ -15526,7 +15526,7 @@
   {
     "id": 370,
     "name": {
-      "he": "Delicatesse | Ashdod",
+      "he": "מעדן",
       "en": "Delicatesse | Ashdod"
     },
     "dish_name": {
@@ -15575,7 +15575,7 @@
   {
     "id": 371,
     "name": {
-      "he": "Pizza Story | Ashdod",
+      "he": "סיפור פיצה",
       "en": "Pizza Story | Ashdod"
     },
     "dish_name": {
@@ -15624,7 +15624,7 @@
   {
     "id": 372,
     "name": {
-      "he": "Dizzy Bar",
+      "he": "דיזי בר",
       "en": "Dizzy Bar"
     },
     "dish_name": {
@@ -15673,7 +15673,7 @@
   {
     "id": 373,
     "name": {
-      "he": "Shawarma HaMifgash",
+      "he": "שווארמה המפגש",
       "en": "Shawarma HaMifgash"
     },
     "dish_name": {
@@ -15722,7 +15722,7 @@
   {
     "id": 374,
     "name": {
-      "he": "Buza | Ashkelon",
+      "he": "בוזה",
       "en": "Buza | Ashkelon"
     },
     "dish_name": {
@@ -15771,7 +15771,7 @@
   {
     "id": 375,
     "name": {
-      "he": "Brunchos | Ashkelon",
+      "he": "בראנצ'וס",
       "en": "Brunchos | Ashkelon"
     },
     "dish_name": {
@@ -15820,7 +15820,7 @@
   {
     "id": 376,
     "name": {
-      "he": "Pro Bar",
+      "he": "פרו בר",
       "en": "Pro Bar"
     },
     "dish_name": {
@@ -15869,7 +15869,7 @@
   {
     "id": 377,
     "name": {
-      "he": "Buchari Express",
+      "he": "בוכרי אקספרס",
       "en": "Buchari Express"
     },
     "dish_name": {
@@ -15918,7 +15918,7 @@
   {
     "id": 378,
     "name": {
-      "he": "Pizza Story | Eli Cohen Ashkelon",
+      "he": "סיפור פיצה",
       "en": "Pizza Story | Eli Cohen Ashkelon"
     },
     "dish_name": {
@@ -15967,11 +15967,11 @@
   {
     "id": 379,
     "name": {
-      "he": "Moses Shop Kosher | Bat Yam",
+      "he": "מוזס שופ כשר",
       "en": "Moses Shop Kosher | Bat Yam"
     },
     "dish_name": {
-      "he": "OLD SCHOOL & FRIES",
+      "he": "OLD SCHOOL וצ'יפס",
       "en": "OLD SCHOOL & FRIES"
     },
     "price": 44,
@@ -16016,11 +16016,11 @@
   {
     "id": 380,
     "name": {
-      "he": "Burger Station 23",
+      "he": "בורגר סטיישן 23",
       "en": "Burger Station 23"
     },
     "dish_name": {
-      "he": "Crispy Chicken Nuggets",
+      "he": "קריספי צ'יקן נאגטס",
       "en": "Crispy Chicken Nuggets"
     },
     "price": 46,
@@ -16065,11 +16065,11 @@
   {
     "id": 381,
     "name": {
-      "he": "Burger Station | Bat Yam",
+      "he": "בורגר סטיישן",
       "en": "Burger Station | Bat Yam"
     },
     "dish_name": {
-      "he": "Entrecote Tortilla",
+      "he": "טורטיה אנטריקוט",
       "en": "Entrecote Tortilla"
     },
     "price": 44,
@@ -16114,7 +16114,7 @@
   {
     "id": 382,
     "name": {
-      "he": "The Italian Magician Pizza",
+      "he": "פיצה הקוסם האיטלקי",
       "en": "The Italian Magician Pizza"
     },
     "dish_name": {
@@ -16163,7 +16163,7 @@
   {
     "id": 383,
     "name": {
-      "he": "DINNER 96",
+      "he": "ארוחת ערב 96",
       "en": "DINNER 96"
     },
     "dish_name": {
@@ -16212,11 +16212,11 @@
   {
     "id": 384,
     "name": {
-      "he": "Jin Fis | Pizza on Charcoal",
+      "he": "ג'ין פיס",
       "en": "Jin Fis | Pizza on Charcoal"
     },
     "dish_name": {
-      "he": "Personal Pizza Tray + Topping",
+      "he": "מגש פיצה אישי + תוספת",
       "en": "Personal Pizza Tray + Topping"
     },
     "price": 44,
@@ -16261,7 +16261,7 @@
   {
     "id": 385,
     "name": {
-      "he": "New Deli | Beer Sheva",
+      "he": "מעדנייה חדשה",
       "en": "New Deli | Beer Sheva"
     },
     "dish_name": {
@@ -16310,7 +16310,7 @@
   {
     "id": 386,
     "name": {
-      "he": "Shiri's Burger Bar | Beer Sheva",
+      "he": "בורגר בר של שירי",
       "en": "Shiri's Burger Bar | Beer Sheva"
     },
     "dish_name": {
@@ -16359,7 +16359,7 @@
   {
     "id": 387,
     "name": {
-      "he": "Revi's Burger",
+      "he": "המבורגר של רווי",
       "en": "Revi's Burger"
     },
     "dish_name": {
@@ -16457,7 +16457,7 @@
   {
     "id": 389,
     "name": {
-      "he": "Zohar's Knafeh",
+      "he": "הכנפה של זוהר",
       "en": "Zohar's Knafeh"
     },
     "dish_name": {
@@ -16506,7 +16506,7 @@
   {
     "id": 390,
     "name": {
-      "he": "Chupapi",
+      "he": "צ'ופפי",
       "en": "Chupapi"
     },
     "dish_name": {
@@ -16555,7 +16555,7 @@
   {
     "id": 391,
     "name": {
-      "he": "Togarashi",
+      "he": "טוגאראשי",
       "en": "Togarashi"
     },
     "dish_name": {
@@ -16604,7 +16604,7 @@
   {
     "id": 392,
     "name": {
-      "he": "Burgers Bar Kosher Mahfud | Pninat Eilat",
+      "he": "בורגרים בר מחפוד כשר",
       "en": "Burgers Bar Kosher Mahfud | Pninat Eilat"
     },
     "dish_name": {
@@ -16702,11 +16702,11 @@
   {
     "id": 394,
     "name": {
-      "he": "Atza Sushi Bar | Hadera",
+      "he": "אצה סושי בר",
       "en": "Atza Sushi Bar | Hadera"
     },
     "dish_name": {
-      "he": "Special Tempura ",
+      "he": "טמפורה מיוחדת",
       "en": "Special Tempura "
     },
     "price": 48,
@@ -16751,7 +16751,7 @@
   {
     "id": 395,
     "name": {
-      "he": "Mimi Gelato Art | Hadera Village",
+      "he": "Mimi Gelato Art",
       "en": "Mimi Gelato Art | Hadera Village"
     },
     "dish_name": {
@@ -16800,7 +16800,7 @@
   {
     "id": 396,
     "name": {
-      "he": "Moses Shop Kosher | Hadera",
+      "he": "מוזס שופ כשר",
       "en": "Moses Shop Kosher | Hadera"
     },
     "dish_name": {
@@ -16849,7 +16849,7 @@
   {
     "id": 397,
     "name": {
-      "he": "American Pizza | Hadera",
+      "he": "פיצה אמריקאית",
       "en": "American Pizza | Hadera"
     },
     "dish_name": {
@@ -16898,7 +16898,7 @@
   {
     "id": 398,
     "name": {
-      "he": "Pizza Munch | Nesher",
+      "he": "פיצה מאנץ'",
       "en": "Pizza Munch | Nesher"
     },
     "dish_name": {
@@ -16947,7 +16947,7 @@
   {
     "id": 399,
     "name": {
-      "he": "Pizza Ria",
+      "he": "פיצה ריה",
       "en": "Pizza Ria"
     },
     "dish_name": {
@@ -16996,7 +16996,7 @@
   {
     "id": 400,
     "name": {
-      "he": "Dr. Bis",
+      "he": "ד\"ר ביס",
       "en": "Dr. Bis"
     },
     "dish_name": {
@@ -17045,7 +17045,7 @@
   {
     "id": 401,
     "name": {
-      "he": "Zesty | Carmel",
+      "he": "זסטי",
       "en": "Zesty | Carmel"
     },
     "dish_name": {
@@ -17094,7 +17094,7 @@
   {
     "id": 402,
     "name": {
-      "he": "Pizza Munch | Haifa",
+      "he": "פיצה מאנץ'",
       "en": "Pizza Munch | Haifa"
     },
     "dish_name": {
@@ -17143,7 +17143,7 @@
   {
     "id": 403,
     "name": {
-      "he": "FIBO Toast Naknik",
+      "he": "FIBO טוסט נאקניק",
       "en": "FIBO Toast Naknik"
     },
     "dish_name": {
@@ -17192,11 +17192,11 @@
   {
     "id": 404,
     "name": {
-      "he": "Gelateria Siciliana | Herzliya",
+      "he": "ג'לאטריה סיציליאנה",
       "en": "Gelateria Siciliana | Herzliya"
     },
     "dish_name": {
-      "he": "Tiramisu",
+      "he": "טירמיסו",
       "en": "Tiramisu"
     },
     "price": 45,
@@ -17241,7 +17241,7 @@
   {
     "id": 405,
     "name": {
-      "he": "Burgers Bar Kosher | Herzliya",
+      "he": "בורגרים בר כשר",
       "en": "Burgers Bar Kosher | Herzliya"
     },
     "dish_name": {
@@ -17290,11 +17290,11 @@
   {
     "id": 406,
     "name": {
-      "he": "Silly Kid | Neot Afeka",
+      "he": "ילד טיפש",
       "en": "Silly Kid | Neot Afeka"
     },
     "dish_name": {
-      "he": "Holy Honey",
+      "he": "דבש קדוש",
       "en": "Holy Honey"
     },
     "price": 48,
@@ -17339,11 +17339,11 @@
   {
     "id": 407,
     "name": {
-      "he": "Hamsa Smash Burger | Kosher",
+      "he": "חמסה סמאש בורגר",
       "en": "Hamsa Smash Burger | Kosher"
     },
     "dish_name": {
-      "he": "The New York Hustle",
+      "he": "ההמולה של ניו יורק",
       "en": "The New York Hustle"
     },
     "price": 50,
@@ -17388,11 +17388,11 @@
   {
     "id": 408,
     "name": {
-      "he": "Moses Shop Kosher | Bat Yam",
+      "he": "מוזס שופ כשר",
       "en": "Moses Shop Kosher | Bat Yam"
     },
     "dish_name": {
-      "he": "OLD SCHOOL & FRIES",
+      "he": "OLD SCHOOL וצ'יפס",
       "en": "OLD SCHOOL & FRIES"
     },
     "price": 44,
@@ -17437,11 +17437,11 @@
   {
     "id": 409,
     "name": {
-      "he": "HaMalabiya | Kfar Saba",
+      "he": "המלביה",
       "en": "HaMalabiya | Kfar Saba"
     },
     "dish_name": {
-      "he": "The pink panther ",
+      "he": "הפנתר הוורוד",
       "en": "The pink panther "
     },
     "price": 50,
@@ -17486,7 +17486,7 @@
   {
     "id": 410,
     "name": {
-      "he": "Pancake House | Kfar Saba",
+      "he": "בית פנקייק",
       "en": "Pancake House | Kfar Saba"
     },
     "dish_name": {
@@ -17535,7 +17535,7 @@
   {
     "id": 411,
     "name": {
-      "he": "Dr. Gonzo",
+      "he": "ד\"ר גונזו",
       "en": "Dr. Gonzo"
     },
     "dish_name": {
@@ -17584,7 +17584,7 @@
   {
     "id": 412,
     "name": {
-      "he": "Paris Texas Burger | Hod Hasharon",
+      "he": "פריז טקסס בורגר",
       "en": "Paris Texas Burger | Hod Hasharon"
     },
     "dish_name": {
@@ -17633,7 +17633,7 @@
   {
     "id": 413,
     "name": {
-      "he": "Pizza Munch | Nesher",
+      "he": "פיצה מאנץ'",
       "en": "Pizza Munch | Nesher"
     },
     "dish_name": {
@@ -17682,7 +17682,7 @@
   {
     "id": 414,
     "name": {
-      "he": "Vesava'ata",
+      "he": "וסאוואאטה",
       "en": "Vesava'ata"
     },
     "dish_name": {
@@ -17731,7 +17731,7 @@
   {
     "id": 415,
     "name": {
-      "he": "Pizza Ria",
+      "he": "פיצה ריה",
       "en": "Pizza Ria"
     },
     "dish_name": {
@@ -17780,11 +17780,11 @@
   {
     "id": 416,
     "name": {
-      "he": "Golda Kosher | Kiryat Ata",
+      "he": "גולדה כשר",
       "en": "Golda Kosher | Kiryat Ata"
     },
     "dish_name": {
-      "he": "Golda Ice Cream  0,5 Kg",
+      "he": "גלידת גולדה 0.5 ק\"ג",
       "en": "Golda Ice Cream  0,5 Kg"
     },
     "price": 47,
@@ -17829,7 +17829,7 @@
   {
     "id": 417,
     "name": {
-      "he": "Pasta Basta | Modi'in",
+      "he": "פסטה באסטה",
       "en": "Pasta Basta | Modi'in"
     },
     "dish_name": {
@@ -17878,7 +17878,7 @@
   {
     "id": 418,
     "name": {
-      "he": "Twosome",
+      "he": "צֶמֶד",
       "en": "Twosome"
     },
     "dish_name": {
@@ -17927,7 +17927,7 @@
   {
     "id": 419,
     "name": {
-      "he": "Faza | Food Bar",
+      "he": "פאזה",
       "en": "Faza | Food Bar"
     },
     "dish_name": {
@@ -17976,7 +17976,7 @@
   {
     "id": 420,
     "name": {
-      "he": "Pizza Pazaz | Modi'in",
+      "he": "פיצה פזז",
       "en": "Pizza Pazaz | Modi'in"
     },
     "dish_name": {
@@ -18025,11 +18025,11 @@
   {
     "id": 421,
     "name": {
-      "he": "American Pizza | Nahariya",
+      "he": "פיצה אמריקאית",
       "en": "American Pizza | Nahariya"
     },
     "dish_name": {
-      "he": " Pasta Penne Cream",
+      "he": "קרם פסטה פנה",
       "en": " Pasta Penne Cream"
     },
     "price": 49,
@@ -18074,7 +18074,7 @@
   {
     "id": 422,
     "name": {
-      "he": "Pizza Buena",
+      "he": "פיצה בואנה",
       "en": "Pizza Buena"
     },
     "dish_name": {
@@ -18123,7 +18123,7 @@
   {
     "id": 423,
     "name": {
-      "he": "Burgerim | Nahariya",
+      "he": "בורגרים",
       "en": "Burgerim | Nahariya"
     },
     "dish_name": {
@@ -18172,7 +18172,7 @@
   {
     "id": 424,
     "name": {
-      "he": "Baguette Budi",
+      "he": "בגט בודי",
       "en": "Baguette Budi"
     },
     "dish_name": {
@@ -18221,7 +18221,7 @@
   {
     "id": 425,
     "name": {
-      "he": "Bulls | Nahariya",
+      "he": "שוורים",
       "en": "Bulls | Nahariya"
     },
     "dish_name": {
@@ -18270,7 +18270,7 @@
   {
     "id": 426,
     "name": {
-      "he": "Pancakes House | Netanya",
+      "he": "בית הפנקייקים",
       "en": "Pancakes House | Netanya"
     },
     "dish_name": {
@@ -18319,7 +18319,7 @@
   {
     "id": 427,
     "name": {
-      "he": "Lucky Chicken | Bitan Aharon",
+      "he": "מזל עוף",
       "en": "Lucky Chicken | Bitan Aharon"
     },
     "dish_name": {
@@ -18368,11 +18368,11 @@
   {
     "id": 428,
     "name": {
-      "he": "Burger Station | Poleg",
+      "he": "בורגר סטיישן",
       "en": "Burger Station | Poleg"
     },
     "dish_name": {
-      "he": "Entrecote Tortilla",
+      "he": "טורטיה אנטריקוט",
       "en": "Entrecote Tortilla"
     },
     "price": 44,
@@ -18417,7 +18417,7 @@
   {
     "id": 429,
     "name": {
-      "he": "Bariloche | Netanya",
+      "he": "ברילוצ'ה",
       "en": "Bariloche | Netanya"
     },
     "dish_name": {
@@ -18466,11 +18466,11 @@
   {
     "id": 430,
     "name": {
-      "he": "Hamsa Smash Burger | Kosher",
+      "he": "חמסה סמאש בורגר",
       "en": "Hamsa Smash Burger | Kosher"
     },
     "dish_name": {
-      "he": "The New York Hustle",
+      "he": "ההמולה של ניו יורק",
       "en": "The New York Hustle"
     },
     "price": 50,
@@ -18515,11 +18515,11 @@
   {
     "id": 431,
     "name": {
-      "he": "HaMalabiya | Rishon LeZion",
+      "he": "המלביה",
       "en": "HaMalabiya | Rishon LeZion"
     },
     "dish_name": {
-      "he": "The pink panther ",
+      "he": "הפנתר הוורוד",
       "en": "The pink panther "
     },
     "price": 50,
@@ -18564,7 +18564,7 @@
   {
     "id": 432,
     "name": {
-      "he": "Chen Hatunisai",
+      "he": "חן חתוניסאי",
       "en": "Chen Hatunisai"
     },
     "dish_name": {
@@ -18613,7 +18613,7 @@
   {
     "id": 433,
     "name": {
-      "he": "Smishmash | Rishon LeZion",
+      "he": "סמאשמש",
       "en": "Smishmash | Rishon LeZion"
     },
     "dish_name": {
@@ -18662,11 +18662,11 @@
   {
     "id": 434,
     "name": {
-      "he": "Hamsa Smash Burger | Kosher",
+      "he": "חמסה סמאש בורגר",
       "en": "Hamsa Smash Burger | Kosher"
     },
     "dish_name": {
-      "he": "The New York Hustle",
+      "he": "ההמולה של ניו יורק",
       "en": "The New York Hustle"
     },
     "price": 50,
@@ -18711,11 +18711,11 @@
   {
     "id": 435,
     "name": {
-      "he": "HaMalabiya | Rishon LeZion",
+      "he": "המלביה",
       "en": "HaMalabiya | Rishon LeZion"
     },
     "dish_name": {
-      "he": "The pink panther ",
+      "he": "הפנתר הוורוד",
       "en": "The pink panther "
     },
     "price": 50,
@@ -18760,11 +18760,11 @@
   {
     "id": 436,
     "name": {
-      "he": "Hamsa Smash Burger | Kosher",
+      "he": "חמסה סמאש בורגר",
       "en": "Hamsa Smash Burger | Kosher"
     },
     "dish_name": {
-      "he": "The New York Hustle",
+      "he": "ההמולה של ניו יורק",
       "en": "The New York Hustle"
     },
     "price": 50,
@@ -18809,11 +18809,11 @@
   {
     "id": 437,
     "name": {
-      "he": "HaMalabiya | Rishon LeZion",
+      "he": "המלביה",
       "en": "HaMalabiya | Rishon LeZion"
     },
     "dish_name": {
-      "he": "The pink panther ",
+      "he": "הפנתר הוורוד",
       "en": "The pink panther "
     },
     "price": 50,
@@ -18858,7 +18858,7 @@
   {
     "id": 438,
     "name": {
-      "he": "Smishmash | Rishon LeZion",
+      "he": "סמאשמש",
       "en": "Smishmash | Rishon LeZion"
     },
     "dish_name": {
@@ -18907,7 +18907,7 @@
   {
     "id": 439,
     "name": {
-      "he": "Chen Hatunisai",
+      "he": "חן חתוניסאי",
       "en": "Chen Hatunisai"
     },
     "dish_name": {
@@ -18956,7 +18956,7 @@
   {
     "id": "440",
     "name": {
-      "he": "Shawarma Shula",
+      "he": "שווארמה שולה",
       "en": "Shawarma Shula"
     },
     "dish_name": {
@@ -18996,7 +18996,7 @@
   {
     "id": "441",
     "name": {
-      "he": "La Paprika",
+      "he": "לה פפריקה",
       "en": "La Paprika"
     },
     "dish_name": {
@@ -19036,11 +19036,11 @@
   {
     "id": "442",
     "name": {
-      "he": "Shawarma Ha'carmel",
+      "he": "שווארמה הכרמל",
       "en": "Shawarma Ha'carmel"
     },
     "dish_name": {
-      "he": "Spring Chicken Shawarma - Half Handmade Pita",
+      "he": "שווארמה עוף אביב - חצי פיתה בעבודת יד",
       "en": "Spring Chicken Shawarma - Half Handmade Pita"
     },
     "price": 30,
@@ -19076,11 +19076,11 @@
   {
     "id": "443",
     "name": {
-      "he": "Hummus Ashkara",
+      "he": "חומוס אשכרה",
       "en": "Hummus Ashkara"
     },
     "dish_name": {
-      "he": "Hummus in a Box - 250g",
+      "he": "חומוס בקופסה - 250 גרם",
       "en": "Hummus in a Box - 250g"
     },
     "price": 22,
@@ -19116,7 +19116,7 @@
   {
     "id": "444",
     "name": {
-      "he": "Shabu Shawarma & Grill",
+      "he": "שאבו שווארמה אנד גריל",
       "en": "Shabu Shawarma & Grill"
     },
     "dish_name": {
@@ -19156,11 +19156,11 @@
   {
     "id": "445",
     "name": {
-      "he": "JUSA COLD PRESSED",
+      "he": "ג'וסה בכבישה קרה",
       "en": "JUSA COLD PRESSED"
     },
     "dish_name": {
-      "he": "Vegan Shawarma",
+      "he": "שווארמה טבעונית",
       "en": "Vegan Shawarma"
     },
     "price": 34,
@@ -19196,11 +19196,11 @@
   {
     "id": "446",
     "name": {
-      "he": "Hummus Asli",
+      "he": "חומוס אסלי",
       "en": "Hummus Asli"
     },
     "dish_name": {
-      "he": "250 GR Hummus",
+      "he": "חומוס 250 גר'",
       "en": "250 GR Hummus"
     },
     "price": 17,
@@ -19236,7 +19236,7 @@
   {
     "id": "447",
     "name": {
-      "he": "Hummus Asi Ve Edenan",
+      "he": "חומוס אסי ועדנן",
       "en": "Hummus Asi Ve Edenan"
     },
     "dish_name": {
@@ -19276,11 +19276,11 @@
   {
     "id": "448",
     "name": {
-      "he": "Grain Hummus",
+      "he": "חומוס דגנים",
       "en": "Grain Hummus"
     },
     "dish_name": {
-      "he": "Hummus",
+      "he": "חומוס",
       "en": "Hummus"
     },
     "price": 20,
@@ -19316,11 +19316,11 @@
   {
     "id": "449",
     "name": {
-      "he": "Hummus Kaspi | Ben Yehuda",
+      "he": "חומוס כספי",
       "en": "Hummus Kaspi | Ben Yehuda"
     },
     "dish_name": {
-      "he": "Medium Hummus (250 g)",
+      "he": "חומוס בינוני (250 גרם)",
       "en": "Medium Hummus (250 g)"
     },
     "price": 19,
@@ -19356,11 +19356,11 @@
   {
     "id": "450",
     "name": {
-      "he": "Mooza Hummus Bar",
+      "he": "חומוס בר מוזה",
       "en": "Mooza Hummus Bar"
     },
     "dish_name": {
-      "he": "Only Hummus Meal",
+      "he": "רק ארוחת חומוס",
       "en": "Only Hummus Meal"
     },
     "price": 35,
@@ -19396,7 +19396,7 @@
   {
     "id": "451",
     "name": {
-      "he": "Hummus Mozes",
+      "he": "חומוס מוזס",
       "en": "Hummus Mozes"
     },
     "dish_name": {
@@ -19436,11 +19436,11 @@
   {
     "id": "452",
     "name": {
-      "he": "Hummus Acram",
+      "he": "חומוס אקרם",
       "en": "Hummus Acram"
     },
     "dish_name": {
-      "he": "Sabich Pita",
+      "he": "סביך פיתה",
       "en": "Sabich Pita"
     },
     "price": 22,
@@ -19476,7 +19476,7 @@
   {
     "id": "453",
     "name": {
-      "he": "Mercaz Ha'Hummus Ha'Asly | Sarona",
+      "he": "מרכז החומוס האסלי",
       "en": "Mercaz Ha'Hummus Ha'Asly | Sarona"
     },
     "dish_name": {
@@ -19516,11 +19516,11 @@
   {
     "id": "454",
     "name": {
-      "he": "Mifgash HaSteak",
+      "he": "מפגש הסטייק",
       "en": "Mifgash HaSteak"
     },
     "dish_name": {
-      "he": "Hummus",
+      "he": "חומוס",
       "en": "Hummus"
     },
     "price": 25,
@@ -19556,11 +19556,11 @@
   {
     "id": "455",
     "name": {
-      "he": "Yanas",
+      "he": "יאנס",
       "en": "Yanas"
     },
     "dish_name": {
-      "he": "Hummus",
+      "he": "חומוס",
       "en": "Hummus"
     },
     "price": 22,
@@ -19596,11 +19596,11 @@
   {
     "id": "456",
     "name": {
-      "he": "Hummus Ful House",
+      "he": "חומוס פול האוס",
       "en": "Hummus Ful House"
     },
     "dish_name": {
-      "he": "Hummus Cup",
+      "he": "גביע חומוס",
       "en": "Hummus Cup"
     },
     "price": 20,
@@ -19636,7 +19636,7 @@
   {
     "id": "457",
     "name": {
-      "he": "Hummus Hamudi",
+      "he": "חומוס חמודי",
       "en": "Hummus Hamudi"
     },
     "dish_name": {
@@ -19676,7 +19676,7 @@
   {
     "id": "458",
     "name": {
-      "he": "Etsel Mikha",
+      "he": "אטסל מיכא",
       "en": "Etsel Mikha"
     },
     "dish_name": {
@@ -19716,11 +19716,11 @@
   {
     "id": "459",
     "name": {
-      "he": "Hummus Abu Dubi",
+      "he": "חומוס אבו דובי",
       "en": "Hummus Abu Dubi"
     },
     "dish_name": {
-      "he": "Hummus by Weight -  1\\4 kg",
+      "he": "חומוס לפי משקל - 1\\4 ק\"ג",
       "en": "Hummus by Weight -  1\\4 kg"
     },
     "price": 22,
@@ -19760,7 +19760,7 @@
       "en": "Mi va Mi"
     },
     "dish_name": {
-      "he": "Hummus in a Box",
+      "he": "חומוס בקופסה",
       "en": "Hummus in a Box"
     },
     "price": 26,
@@ -19796,7 +19796,7 @@
   {
     "id": "461",
     "name": {
-      "he": "Food Fair | Vegan Fair -Dizengoff Center",
+      "he": "יריד אוכל",
       "en": "Food Fair | Vegan Fair -Dizengoff Center"
     },
     "dish_name": {
@@ -19836,11 +19836,11 @@
   {
     "id": "462",
     "name": {
-      "he": "Hummus Hameshorer",
+      "he": "חומוס המשורר",
       "en": "Hummus Hameshorer"
     },
     "dish_name": {
-      "he": "Hummus - 250 g",
+      "he": "חומוס - 250 גרם",
       "en": "Hummus - 250 g"
     },
     "price": 20,
@@ -19876,7 +19876,7 @@
   {
     "id": "463",
     "name": {
-      "he": "Hummus 616",
+      "he": "חומוס 616",
       "en": "Hummus 616"
     },
     "dish_name": {
@@ -19916,11 +19916,11 @@
   {
     "id": "464",
     "name": {
-      "he": "Halevantini",
+      "he": "הלבנטיני",
       "en": "Halevantini"
     },
     "dish_name": {
-      "he": "Hummus",
+      "he": "חומוס",
       "en": "Hummus"
     },
     "price": 25,
@@ -19956,7 +19956,7 @@
   {
     "id": "465",
     "name": {
-      "he": "Hummus Bahadunas | Yad Harutzim",
+      "he": "חומוס בהדונה",
       "en": "Hummus Bahadunas | Yad Harutzim"
     },
     "dish_name": {
@@ -19996,7 +19996,7 @@
   {
     "id": "466",
     "name": {
-      "he": "Pundak Ayalon | Tel Aviv",
+      "he": "פונדק איילון",
       "en": "Pundak Ayalon | Tel Aviv"
     },
     "dish_name": {
@@ -20036,7 +20036,7 @@
   {
     "id": "467",
     "name": {
-      "he": "Lechem Erez | Kikar Hamdina",
+      "he": "לחם ארז",
       "en": "Lechem Erez | Kikar Hamdina"
     },
     "dish_name": {
@@ -20076,7 +20076,7 @@
   {
     "id": "468",
     "name": {
-      "he": "Yashka | Yehuda Maccabi",
+      "he": "יאשקה",
       "en": "Yashka | Yehuda Maccabi"
     },
     "dish_name": {
@@ -20116,11 +20116,11 @@
   {
     "id": "469",
     "name": {
-      "he": "Congress Basel",
+      "he": "הקונגרס באזל",
       "en": "Congress Basel"
     },
     "dish_name": {
-      "he": "Hummus By Weight",
+      "he": "חומוס לפי משקל",
       "en": "Hummus By Weight"
     },
     "price": 29,
@@ -20156,7 +20156,7 @@
   {
     "id": "470",
     "name": {
-      "he": "Yashka | Dizengoff",
+      "he": "יאשקה",
       "en": "Yashka | Dizengoff"
     },
     "dish_name": {
@@ -20196,11 +20196,11 @@
   {
     "id": "471",
     "name": {
-      "he": "Hummus Abu Adham",
+      "he": "חומוס אבו אדהם",
       "en": "Hummus Abu Adham"
     },
     "dish_name": {
-      "he": "Hummus - 0,25L",
+      "he": "חומוס - 0,25 ליטר",
       "en": "Hummus - 0,25L"
     },
     "price": 29,
@@ -20236,7 +20236,7 @@
   {
     "id": "472",
     "name": {
-      "he": "Gril Yam",
+      "he": "גריל ים",
       "en": "Gril Yam"
     },
     "dish_name": {
@@ -20316,11 +20316,11 @@
   {
     "id": "474",
     "name": {
-      "he": "Bechor and Shoshi | TLV",
+      "he": "בכור ושושי",
       "en": "Bechor and Shoshi | TLV"
     },
     "dish_name": {
-      "he": "Hummus - 300g",
+      "he": "חומוס - 300 גרם",
       "en": "Hummus - 300g"
     },
     "price": 25,
@@ -20356,11 +20356,11 @@
   {
     "id": "475",
     "name": {
-      "he": "Itzik's Grilled Chicken",
+      "he": "עוף בגריל של איציק",
       "en": "Itzik's Grilled Chicken"
     },
     "dish_name": {
-      "he": "Hummus",
+      "he": "חומוס",
       "en": "Hummus"
     },
     "price": 20,
@@ -20396,11 +20396,11 @@
   {
     "id": "476",
     "name": {
-      "he": "Itzko & Rafael",
+      "he": "איצקו ורפאל",
       "en": "Itzko & Rafael"
     },
     "dish_name": {
-      "he": "Just Hummus",
+      "he": "רק חומוס",
       "en": "Just Hummus"
     },
     "price": 20,
@@ -20436,7 +20436,7 @@
   {
     "id": "477",
     "name": {
-      "he": "Schnitzel Time Kosher",
+      "he": "שניצל זמן כשר",
       "en": "Schnitzel Time Kosher"
     },
     "dish_name": {
@@ -20516,7 +20516,7 @@
   {
     "id": "479",
     "name": {
-      "he": "Halev Harachav | Kerem Hateimanim",
+      "he": "הלב הרב",
       "en": "Halev Harachav | Kerem Hateimanim"
     },
     "dish_name": {
@@ -20556,7 +20556,7 @@
   {
     "id": "480",
     "name": {
-      "he": "Hummus Givatayim",
+      "he": "חומוס גבעתיים",
       "en": "Hummus Givatayim"
     },
     "dish_name": {
@@ -20596,7 +20596,7 @@
   {
     "id": "481",
     "name": {
-      "he": "Hummus Abu Taleb",
+      "he": "חומוס אבו טאלב",
       "en": "Hummus Abu Taleb"
     },
     "dish_name": {
@@ -20636,7 +20636,7 @@
   {
     "id": "482",
     "name": {
-      "he": "Younes Aldewan | North TLV",
+      "he": "יונס אלדואן",
       "en": "Younes Aldewan | North TLV"
     },
     "dish_name": {
@@ -20676,11 +20676,11 @@
   {
     "id": "483",
     "name": {
-      "he": "Reviva & Celia Deli",
+      "he": "מעדניית רביבה וסיליה",
       "en": "Reviva & Celia Deli"
     },
     "dish_name": {
-      "he": "Hummus",
+      "he": "חומוס",
       "en": "Hummus"
     },
     "price": 34,
@@ -20716,7 +20716,7 @@
   {
     "id": "484",
     "name": {
-      "he": "Pizza Tic Tac Toe",
+      "he": "פיצה טיק טק",
       "en": "Pizza Tic Tac Toe"
     },
     "dish_name": {
@@ -20836,11 +20836,11 @@
   {
     "id": "487",
     "name": {
-      "he": "Tabun Ben Yehuda",
+      "he": "טבון בן יהודה",
       "en": "Tabun Ben Yehuda"
     },
     "dish_name": {
-      "he": "Tabun Oven Pizza",
+      "he": "פיצה טאבון אובן",
       "en": "Tabun Oven Pizza"
     },
     "price": 27,
@@ -20876,7 +20876,7 @@
   {
     "id": "488",
     "name": {
-      "he": "Abulafia | TLV Port",
+      "he": "אבולעפיה",
       "en": "Abulafia | TLV Port"
     },
     "dish_name": {
@@ -20916,11 +20916,11 @@
   {
     "id": "489",
     "name": {
-      "he": "Abulafia | Menora",
+      "he": "אבולעפיה",
       "en": "Abulafia | Menora"
     },
     "dish_name": {
-      "he": "Abulafia Pizza",
+      "he": "פיצה אבולעפיה",
       "en": "Abulafia Pizza"
     },
     "price": 18,
@@ -20956,11 +20956,11 @@
   {
     "id": "490",
     "name": {
-      "he": "Abulafia | Nahalat Binyamin",
+      "he": "אבולעפיה",
       "en": "Abulafia | Nahalat Binyamin"
     },
     "dish_name": {
-      "he": "Abulafia Pizza",
+      "he": "פיצה אבולעפיה",
       "en": "Abulafia Pizza"
     },
     "price": 17,
@@ -20996,7 +20996,7 @@
   {
     "id": "491",
     "name": {
-      "he": "Abulafia Kosher | Menachem Begin",
+      "he": "אבולעפיה כשר",
       "en": "Abulafia Kosher | Menachem Begin"
     },
     "dish_name": {
@@ -21036,11 +21036,11 @@
   {
     "id": "492",
     "name": {
-      "he": "Domino's Pizza | Carlebach",
+      "he": "דומינו'ס פיצה",
       "en": "Domino's Pizza | Carlebach"
     },
     "dish_name": {
-      "he": "Personal size pizza ",
+      "he": "פיצה בגודל אישי",
       "en": "Personal size pizza "
     },
     "price": 29,
@@ -21076,11 +21076,11 @@
   {
     "id": "493",
     "name": {
-      "he": "Domino's Pizza | Ibn Gabirol",
+      "he": "דומינו'ס פיצה",
       "en": "Domino's Pizza | Ibn Gabirol"
     },
     "dish_name": {
-      "he": "Personal size pizza ",
+      "he": "פיצה בגודל אישי",
       "en": "Personal size pizza "
     },
     "price": 29,
@@ -21116,11 +21116,11 @@
   {
     "id": "494",
     "name": {
-      "he": "Domino's Pizza | HaYarkon Kosher",
+      "he": "דומינו'ס פיצה",
       "en": "Domino's Pizza | HaYarkon Kosher"
     },
     "dish_name": {
-      "he": "Personal size pizza ",
+      "he": "פיצה בגודל אישי",
       "en": "Personal size pizza "
     },
     "price": 29,
@@ -21156,11 +21156,11 @@
   {
     "id": "495",
     "name": {
-      "he": "Domino's Pizza | Givatayim Kosher",
+      "he": "דומינו'ס פיצה",
       "en": "Domino's Pizza | Givatayim Kosher"
     },
     "dish_name": {
-      "he": "Personal size pizza ",
+      "he": "פיצה בגודל אישי",
       "en": "Personal size pizza "
     },
     "price": 29,
@@ -21196,11 +21196,11 @@
   {
     "id": "496",
     "name": {
-      "he": "Domino's Pizza | Yigal Alon",
+      "he": "דומינו'ס פיצה",
       "en": "Domino's Pizza | Yigal Alon"
     },
     "dish_name": {
-      "he": "Personal size pizza ",
+      "he": "פיצה בגודל אישי",
       "en": "Personal size pizza "
     },
     "price": 29,
@@ -21236,7 +21236,7 @@
   {
     "id": "497",
     "name": {
-      "he": "Falafel Avichai",
+      "he": "פלאפל אביחי",
       "en": "Falafel Avichai"
     },
     "dish_name": {
@@ -21276,11 +21276,11 @@
   {
     "id": "498",
     "name": {
-      "he": "Sabich Zisman | Carlebach",
+      "he": "סביך זיסמן",
       "en": "Sabich Zisman | Carlebach"
     },
     "dish_name": {
-      "he": "Falafel In a Pita ",
+      "he": "פלאפל בפיתה",
       "en": "Falafel In a Pita "
     },
     "price": 28,
@@ -21316,11 +21316,11 @@
   {
     "id": "499",
     "name": {
-      "he": "Middle East | Yigal Allon",
+      "he": "מזרח תיכון",
       "en": "Middle East | Yigal Allon"
     },
     "dish_name": {
-      "he": "Sabich Middle",
+      "he": "סביץ' אמצע",
       "en": "Sabich Middle"
     },
     "price": 20,
@@ -21356,11 +21356,11 @@
   {
     "id": "500",
     "name": {
-      "he": "Schnitzel Ha'Kikar",
+      "he": "שניצל הכיכר",
       "en": "Schnitzel Ha'Kikar"
     },
     "dish_name": {
-      "he": "Sabich ",
+      "he": "סביץ'",
       "en": "Sabich "
     },
     "price": 30,
@@ -21396,11 +21396,11 @@
   {
     "id": "501",
     "name": {
-      "he": "Aroma | Dizengoff",
+      "he": "אֲרוֹמָה",
       "en": "Aroma | Dizengoff"
     },
     "dish_name": {
-      "he": "Sabich Sandwich",
+      "he": "סביץ' סנדוויץ'",
       "en": "Sabich Sandwich"
     },
     "price": 21,
@@ -21436,7 +21436,7 @@
   {
     "id": "502",
     "name": {
-      "he": "Jamil Meir | Tel Aviv",
+      "he": "ג'מיל מאיר",
       "en": "Jamil Meir | Tel Aviv"
     },
     "dish_name": {
@@ -21476,11 +21476,11 @@
   {
     "id": "503",
     "name": {
-      "he": "Aroma | Azrieli TLV",
+      "he": "אֲרוֹמָה",
       "en": "Aroma | Azrieli TLV"
     },
     "dish_name": {
-      "he": "Sabich Sandwich",
+      "he": "סביץ' סנדוויץ'",
       "en": "Sabich Sandwich"
     },
     "price": 21,
@@ -21516,11 +21516,11 @@
   {
     "id": "504",
     "name": {
-      "he": "Aroma | Carlebach",
+      "he": "אֲרוֹמָה",
       "en": "Aroma | Carlebach"
     },
     "dish_name": {
-      "he": "Sabich Sandwich",
+      "he": "סביץ' סנדוויץ'",
       "en": "Sabich Sandwich"
     },
     "price": 21,
@@ -21596,11 +21596,11 @@
   {
     "id": "506",
     "name": {
-      "he": "Middle East | Menachem Begin",
+      "he": "מזרח תיכון",
       "en": "Middle East | Menachem Begin"
     },
     "dish_name": {
-      "he": "Sabich",
+      "he": "סביץ'",
       "en": "Sabich"
     },
     "price": 28,
@@ -21636,11 +21636,11 @@
   {
     "id": "507",
     "name": {
-      "he": "Aroma | Menachem Begin",
+      "he": "אֲרוֹמָה",
       "en": "Aroma | Menachem Begin"
     },
     "dish_name": {
-      "he": "Sabich Sandwich",
+      "he": "סביץ' סנדוויץ'",
       "en": "Sabich Sandwich"
     },
     "price": 21,
@@ -21676,7 +21676,7 @@
   {
     "id": "508",
     "name": {
-      "he": "Hummus Falafel Halim - DELETED",
+      "he": "חומוס פלאפל חלים - נמחק",
       "en": "Hummus Falafel Halim - DELETED"
     },
     "dish_name": {
@@ -21716,11 +21716,11 @@
   {
     "id": "509",
     "name": {
-      "he": "Nahala",
+      "he": "נחלה",
       "en": "Nahala"
     },
     "dish_name": {
-      "he": "Sabich",
+      "he": "סביץ'",
       "en": "Sabich"
     },
     "price": 30,
@@ -21756,7 +21756,7 @@
   {
     "id": "510",
     "name": {
-      "he": "Zahi's Corner",
+      "he": "הפינה של זאהי",
       "en": "Zahi's Corner"
     },
     "dish_name": {
@@ -21796,7 +21796,7 @@
   {
     "id": "511",
     "name": {
-      "he": "Shawarma Eduardo",
+      "he": "שווארמה אדוארדו",
       "en": "Shawarma Eduardo"
     },
     "dish_name": {
@@ -21836,7 +21836,7 @@
   {
     "id": "512",
     "name": {
-      "he": "Yardena",
+      "he": "ירדנה",
       "en": "Yardena"
     },
     "dish_name": {
@@ -21876,7 +21876,7 @@
   {
     "id": "513",
     "name": {
-      "he": "Savtot Cooking",
+      "he": "סבתות בישול",
       "en": "Savtot Cooking"
     },
     "dish_name": {
@@ -21916,7 +21916,7 @@
   {
     "id": "514",
     "name": {
-      "he": "Sabich Tshernechovski",
+      "he": "סביך טשרנחובסקי",
       "en": "Sabich Tshernechovski"
     },
     "dish_name": {
@@ -21956,7 +21956,7 @@
   {
     "id": "515",
     "name": {
-      "he": "Beit Hagvinot | Tel Aviv",
+      "he": "בית הגבינות",
       "en": "Beit Hagvinot | Tel Aviv"
     },
     "dish_name": {
@@ -21996,7 +21996,7 @@
   {
     "id": "516",
     "name": {
-      "he": "Anak HaSchnitzelim",
+      "he": "ענק השניצלים",
       "en": "Anak HaSchnitzelim"
     },
     "dish_name": {
@@ -22076,11 +22076,11 @@
   {
     "id": "518",
     "name": {
-      "he": "Sabich Complete - Yomtov",
+      "he": "סביך קומפלט - יוםטוב",
       "en": "Sabich Complete - Yomtov"
     },
     "dish_name": {
-      "he": "Sabich in a pita",
+      "he": "סביץ' בפיתה",
       "en": "Sabich in a pita"
     },
     "price": 27,
@@ -22116,7 +22116,7 @@
   {
     "id": "519",
     "name": {
-      "he": "Ayesha | Tel Aviv",
+      "he": "עיישה",
       "en": "Ayesha | Tel Aviv"
     },
     "dish_name": {
@@ -22156,7 +22156,7 @@
   {
     "id": "520",
     "name": {
-      "he": "The Prince | Hummus and Meat",
+      "he": "הנסיך",
       "en": "The Prince | Hummus and Meat"
     },
     "dish_name": {
@@ -22196,7 +22196,7 @@
   {
     "id": "521",
     "name": {
-      "he": "Mifgash Hasharon",
+      "he": "מפגש השרון",
       "en": "Mifgash Hasharon"
     },
     "dish_name": {
@@ -22236,7 +22236,7 @@
   {
     "id": "522",
     "name": {
-      "he": "Bobe | Azrieli TLV",
+      "he": "בוב",
       "en": "Bobe | Azrieli TLV"
     },
     "dish_name": {
@@ -22276,7 +22276,7 @@
   {
     "id": "523",
     "name": {
-      "he": "Chick Chak Chicken",
+      "he": "צ'יק צ'אק עוף",
       "en": "Chick Chak Chicken"
     },
     "dish_name": {
@@ -22316,7 +22316,7 @@
   {
     "id": "524",
     "name": {
-      "he": "Shake Shack | TLV Port",
+      "he": "שייק שאק",
       "en": "Shake Shack | TLV Port"
     },
     "dish_name": {
@@ -22356,7 +22356,7 @@
   {
     "id": "525",
     "name": {
-      "he": "Druzingoff",
+      "he": "דרוזינגוף",
       "en": "Druzingoff"
     },
     "dish_name": {
@@ -22396,7 +22396,7 @@
   {
     "id": "526",
     "name": {
-      "he": "Hakosem | Shlomo Hamelech",
+      "he": "האקוסם",
       "en": "Hakosem | Shlomo Hamelech"
     },
     "dish_name": {
@@ -22436,7 +22436,7 @@
   {
     "id": "527",
     "name": {
-      "he": "Bread & Co",
+      "he": "לחם ושות'",
       "en": "Bread & Co"
     },
     "dish_name": {
@@ -22476,7 +22476,7 @@
   {
     "id": "528",
     "name": {
-      "he": "Super Yuda | Ibn Gabirol",
+      "he": "סופר יודה",
       "en": "Super Yuda | Ibn Gabirol"
     },
     "dish_name": {
@@ -22516,7 +22516,7 @@
   {
     "id": "529",
     "name": {
-      "he": "Zohar Bakery",
+      "he": "מאפיית זוהר",
       "en": "Zohar Bakery"
     },
     "dish_name": {
@@ -22556,7 +22556,7 @@
   {
     "id": "530",
     "name": {
-      "he": "Gingiz | Ben Yehuda",
+      "he": "גינגיז",
       "en": "Gingiz | Ben Yehuda"
     },
     "dish_name": {
@@ -22596,7 +22596,7 @@
   {
     "id": "531",
     "name": {
-      "he": "Super Yuda | Rabin Square",
+      "he": "סופר יודה",
       "en": "Super Yuda | Rabin Square"
     },
     "dish_name": {
@@ -22636,11 +22636,11 @@
   {
     "id": "532",
     "name": {
-      "he": "Pita Basta | Sarona",
+      "he": "פיתה באסטה",
       "en": "Pita Basta | Sarona"
     },
     "dish_name": {
-      "he": "Extra Crispy Fries",
+      "he": "אקסטרה קריספי פרייז",
       "en": "Extra Crispy Fries"
     },
     "price": 19,
@@ -22676,7 +22676,7 @@
   {
     "id": "533",
     "name": {
-      "he": "Falafel Doron",
+      "he": "פלאפל דורון",
       "en": "Falafel Doron"
     },
     "dish_name": {
@@ -22716,7 +22716,7 @@
   {
     "id": "534",
     "name": {
-      "he": "Shevach",
+      "he": "שבח",
       "en": "Shevach"
     },
     "dish_name": {
@@ -22756,7 +22756,7 @@
   {
     "id": "535",
     "name": {
-      "he": "Shalom Falafel | Agripas",
+      "he": "שלום פלאפל",
       "en": "Shalom Falafel | Agripas"
     },
     "dish_name": {
@@ -22796,7 +22796,7 @@
   {
     "id": "536",
     "name": {
-      "he": "Pisgat Hafalafel | Yafo",
+      "he": "פסגת הפלאפל",
       "en": "Pisgat Hafalafel | Yafo"
     },
     "dish_name": {
@@ -22836,7 +22836,7 @@
   {
     "id": "537",
     "name": {
-      "he": "Eshtanur Falafel",
+      "he": "אשתנור פלאפל",
       "en": "Eshtanur Falafel"
     },
     "dish_name": {
@@ -22876,7 +22876,7 @@
   {
     "id": "538",
     "name": {
-      "he": "La Falafel",
+      "he": "לה פלאפל",
       "en": "La Falafel"
     },
     "dish_name": {
@@ -22916,7 +22916,7 @@
   {
     "id": "539",
     "name": {
-      "he": "Pisgat Ha'falafel | Pisgat Ze'ev",
+      "he": "פסגת הפלאפל",
       "en": "Pisgat Ha'falafel | Pisgat Ze'ev"
     },
     "dish_name": {
@@ -22956,11 +22956,11 @@
   {
     "id": "540",
     "name": {
-      "he": "Pisgat Hafalafel | Ben Yehuda",
+      "he": "פסגת הפלאפל",
       "en": "Pisgat Hafalafel | Ben Yehuda"
     },
     "dish_name": {
-      "he": "Falafel in half pita",
+      "he": "פלאפל בחצי פיתה",
       "en": "Falafel in half pita"
     },
     "price": 15,
@@ -22996,7 +22996,7 @@
   {
     "id": "541",
     "name": {
-      "he": "Babush's Falafel",
+      "he": "הפלאפל של בבוש",
       "en": "Babush's Falafel"
     },
     "dish_name": {
@@ -23036,7 +23036,7 @@
   {
     "id": "542",
     "name": {
-      "he": "Shalom Falafel | Central Station",
+      "he": "שלום פלאפל",
       "en": "Shalom Falafel | Central Station"
     },
     "dish_name": {
@@ -23076,7 +23076,7 @@
   {
     "id": "543",
     "name": {
-      "he": "Shalom Falafel | Kiryat Yovel",
+      "he": "שלום פלאפל",
       "en": "Shalom Falafel | Kiryat Yovel"
     },
     "dish_name": {
@@ -23116,11 +23116,11 @@
   {
     "id": "544",
     "name": {
-      "he": "Pisgat Ha'falafel | Givat Shaul",
+      "he": "פסגת הפלאפל",
       "en": "Pisgat Ha'falafel | Givat Shaul"
     },
     "dish_name": {
-      "he": "Falafel in half pita",
+      "he": "פלאפל בחצי פיתה",
       "en": "Falafel in half pita"
     },
     "price": 17,
@@ -23156,7 +23156,7 @@
   {
     "id": "545",
     "name": {
-      "he": "Hummus Bracha | Mamila",
+      "he": "חומוס ברכה",
       "en": "Hummus Bracha | Mamila"
     },
     "dish_name": {
@@ -23196,7 +23196,7 @@
   {
     "id": "546",
     "name": {
-      "he": "Hummus Bar Ilan",
+      "he": "חומוס בר אילן",
       "en": "Hummus Bar Ilan"
     },
     "dish_name": {
@@ -23236,7 +23236,7 @@
   {
     "id": "547",
     "name": {
-      "he": "Shalom Falafel | Har Homa",
+      "he": "שלום פלאפל",
       "en": "Shalom Falafel | Har Homa"
     },
     "dish_name": {
@@ -23276,7 +23276,7 @@
   {
     "id": "548",
     "name": {
-      "he": "Falafel Maoz | Jerusalem",
+      "he": "פלאפל מעוז",
       "en": "Falafel Maoz | Jerusalem"
     },
     "dish_name": {
@@ -23316,11 +23316,11 @@
   {
     "id": "549",
     "name": {
-      "he": "Babush",
+      "he": "בבוש",
       "en": "Babush"
     },
     "dish_name": {
-      "he": "Falafel",
+      "he": "פָלָפֶל",
       "en": "Falafel"
     },
     "price": 25,
@@ -23356,7 +23356,7 @@
   {
     "id": "550",
     "name": {
-      "he": "Hummus Rehavia",
+      "he": "חומוס רחביה",
       "en": "Hummus Rehavia"
     },
     "dish_name": {
@@ -23396,7 +23396,7 @@
   {
     "id": "551",
     "name": {
-      "he": "Hashamen | Katamon",
+      "he": "השאמן",
       "en": "Hashamen | Katamon"
     },
     "dish_name": {
@@ -23436,7 +23436,7 @@
   {
     "id": "552",
     "name": {
-      "he": "Hari Restaurant",
+      "he": "מסעדת הרי",
       "en": "Hari Restaurant"
     },
     "dish_name": {
@@ -23476,11 +23476,11 @@
   {
     "id": "553",
     "name": {
-      "he": "Jacobs",
+      "he": "ג'ייקובס",
       "en": "Jacobs"
     },
     "dish_name": {
-      "he": "Sabich",
+      "he": "סביץ'",
       "en": "Sabich"
     },
     "price": 23,
@@ -23516,7 +23516,7 @@
   {
     "id": "554",
     "name": {
-      "he": "Shawarma Moshiko",
+      "he": "שווארמה מושיקו",
       "en": "Shawarma Moshiko"
     },
     "dish_name": {
@@ -23556,7 +23556,7 @@
   {
     "id": "555",
     "name": {
-      "he": "Ayesha",
+      "he": "עיישה",
       "en": "Ayesha"
     },
     "dish_name": {
@@ -23596,7 +23596,7 @@
   {
     "id": "556",
     "name": {
-      "he": "Falafel Bar Ilan",
+      "he": "פלאפל בר אילן",
       "en": "Falafel Bar Ilan"
     },
     "dish_name": {
@@ -23636,7 +23636,7 @@
   {
     "id": "557",
     "name": {
-      "he": "Meat Station",
+      "he": "תחנת בשר",
       "en": "Meat Station"
     },
     "dish_name": {
@@ -23676,7 +23676,7 @@
   {
     "id": "558",
     "name": {
-      "he": "Assaf Ha'Gadol",
+      "he": "אסף הגדול",
       "en": "Assaf Ha'Gadol"
     },
     "dish_name": {
@@ -23716,7 +23716,7 @@
   {
     "id": "559",
     "name": {
-      "he": "Habibi",
+      "he": "חביבי",
       "en": "Habibi"
     },
     "dish_name": {
@@ -23756,7 +23756,7 @@
   {
     "id": "560",
     "name": {
-      "he": "Hashamen | Beit Hakerem",
+      "he": "השאמן",
       "en": "Hashamen | Beit Hakerem"
     },
     "dish_name": {
@@ -23796,7 +23796,7 @@
   {
     "id": "561",
     "name": {
-      "he": "Tzidkiyahu To Go",
+      "he": "צידקיהו טו גו",
       "en": "Tzidkiyahu To Go"
     },
     "dish_name": {
@@ -23836,11 +23836,11 @@
   {
     "id": "562",
     "name": {
-      "he": "Pizza Hallel",
+      "he": "פיצה הלל",
       "en": "Pizza Hallel"
     },
     "dish_name": {
-      "he": "Falafel In A Laffa Bread",
+      "he": "פלאפל בלחם לאפה",
       "en": "Falafel In A Laffa Bread"
     },
     "price": 32,
@@ -23876,7 +23876,7 @@
   {
     "id": "563",
     "name": {
-      "he": "Hagalgal Shel Shreder | Jerusalem",
+      "he": "הגגל של מגרסת",
       "en": "Hagalgal Shel Shreder | Jerusalem"
     },
     "dish_name": {
@@ -23916,7 +23916,7 @@
   {
     "id": "564",
     "name": {
-      "he": "Tubi Shawarma",
+      "he": "טובי שווארמה",
       "en": "Tubi Shawarma"
     },
     "dish_name": {
@@ -23996,7 +23996,7 @@
   {
     "id": "566",
     "name": {
-      "he": "Pinati | Ramot",
+      "he": "פינאטי",
       "en": "Pinati | Ramot"
     },
     "dish_name": {
@@ -24036,7 +24036,7 @@
   {
     "id": "567",
     "name": {
-      "he": "Tavshilei Ima",
+      "he": "תבשילי אימא",
       "en": "Tavshilei Ima"
     },
     "dish_name": {
@@ -24076,7 +24076,7 @@
   {
     "id": "568",
     "name": {
-      "he": "Arkadesh",
+      "he": "ארקדש",
       "en": "Arkadesh"
     },
     "dish_name": {
@@ -24116,11 +24116,11 @@
   {
     "id": "569",
     "name": {
-      "he": "Falafel Shehakol Nihyah Bidvaro",
+      "he": "פלאפל שחקול ניהיה בידווארו",
       "en": "Falafel Shehakol Nihyah Bidvaro"
     },
     "dish_name": {
-      "he": "Falafel in half pita",
+      "he": "פלאפל בחצי פיתה",
       "en": "Falafel in half pita"
     },
     "price": 17,
@@ -24156,7 +24156,7 @@
   {
     "id": "570",
     "name": {
-      "he": "Ha'shamen | Mevaseret Zion",
+      "he": "הא'שאמן",
       "en": "Ha'shamen | Mevaseret Zion"
     },
     "dish_name": {
@@ -24196,7 +24196,7 @@
   {
     "id": "571",
     "name": {
-      "he": "Shawarma Falafel Bar Ilan",
+      "he": "שווארמה פלאפל בר אילן",
       "en": "Shawarma Falafel Bar Ilan"
     },
     "dish_name": {
@@ -24236,7 +24236,7 @@
   {
     "id": "572",
     "name": {
-      "he": "Hummus Bengal | Reut",
+      "he": "חומוס בנגל",
       "en": "Hummus Bengal | Reut"
     },
     "dish_name": {
@@ -24276,7 +24276,7 @@
   {
     "id": "573",
     "name": {
-      "he": "Ben-Sira Hummus",
+      "he": "בן-סירה חומוס",
       "en": "Ben-Sira Hummus"
     },
     "dish_name": {
@@ -24316,7 +24316,7 @@
   {
     "id": "574",
     "name": {
-      "he": "Shawarma Hakatzavim | Machane Yehuda",
+      "he": "שווארמה הקצבים",
       "en": "Shawarma Hakatzavim | Machane Yehuda"
     },
     "dish_name": {
@@ -24356,7 +24356,7 @@
   {
     "id": "575",
     "name": {
-      "he": "Ha'Hummus Shel Ha'Meleh - Masabaha",
+      "he": "החומוס של המלה - מסבחה",
       "en": "Ha'Hummus Shel Ha'Meleh - Masabaha"
     },
     "dish_name": {
@@ -24396,7 +24396,7 @@
   {
     "id": "576",
     "name": {
-      "he": "Hummus 101",
+      "he": "חומוס 101",
       "en": "Hummus 101"
     },
     "dish_name": {
@@ -24436,7 +24436,7 @@
   {
     "id": "577",
     "name": {
-      "he": "Babi | Jerusalem",
+      "he": "באבי",
       "en": "Babi | Jerusalem"
     },
     "dish_name": {
@@ -24476,11 +24476,11 @@
   {
     "id": "578",
     "name": {
-      "he": "Cholent Bar | Arnona",
+      "he": "צ'ולנט בר",
       "en": "Cholent Bar | Arnona"
     },
     "dish_name": {
-      "he": "Homemade Hummus - 200 g",
+      "he": "חומוס ביתי - 200 גרם",
       "en": "Homemade Hummus - 200 g"
     },
     "price": 18,
@@ -24516,7 +24516,7 @@
   {
     "id": "579",
     "name": {
-      "he": "Ezra Grill",
+      "he": "עזרא גריל",
       "en": "Ezra Grill"
     },
     "dish_name": {
@@ -24556,11 +24556,11 @@
   {
     "id": "580",
     "name": {
-      "he": "Aroma | Yes Planet Jerusalem",
+      "he": "אֲרוֹמָה",
       "en": "Aroma | Yes Planet Jerusalem"
     },
     "dish_name": {
-      "he": "Sabich Sandwich",
+      "he": "סביץ' סנדוויץ'",
       "en": "Sabich Sandwich"
     },
     "price": 19,
@@ -24596,7 +24596,7 @@
   {
     "id": "581",
     "name": {
-      "he": "Maadanei Choona",
+      "he": "מעדני צ'ונה",
       "en": "Maadanei Choona"
     },
     "dish_name": {
@@ -24636,7 +24636,7 @@
   {
     "id": "582",
     "name": {
-      "he": "Naji Restaurant",
+      "he": "מסעדת נאג'י",
       "en": "Naji Restaurant"
     },
     "dish_name": {
@@ -24676,7 +24676,7 @@
   {
     "id": "583",
     "name": {
-      "he": "Shanklish",
+      "he": "שאנקליש",
       "en": "Shanklish"
     },
     "dish_name": {
@@ -24796,7 +24796,7 @@
   {
     "id": "586",
     "name": {
-      "he": "Pizzaela",
+      "he": "פיצה",
       "en": "Pizzaela"
     },
     "dish_name": {
@@ -24836,7 +24836,7 @@
   {
     "id": "587",
     "name": {
-      "he": "Sabra",
+      "he": "צָבָּר",
       "en": "Sabra"
     },
     "dish_name": {
@@ -24876,7 +24876,7 @@
   {
     "id": "588",
     "name": {
-      "he": "Tsouli Pizza",
+      "he": "צולי פיצה",
       "en": "Tsouli Pizza"
     },
     "dish_name": {
@@ -24916,7 +24916,7 @@
   {
     "id": "589",
     "name": {
-      "he": "Pizzelia",
+      "he": "פיצליה",
       "en": "Pizzelia"
     },
     "dish_name": {
@@ -24956,7 +24956,7 @@
   {
     "id": "590",
     "name": {
-      "he": "Pizza Dizza | German Colony",
+      "he": "פיצה דיצה",
       "en": "Pizza Dizza | German Colony"
     },
     "dish_name": {
@@ -24996,7 +24996,7 @@
   {
     "id": "591",
     "name": {
-      "he": "Pizza Dizza | Ramat Denya",
+      "he": "פיצה דיצה",
       "en": "Pizza Dizza | Ramat Denya"
     },
     "dish_name": {
@@ -25036,7 +25036,7 @@
   {
     "id": "592",
     "name": {
-      "he": "Kazze",
+      "he": "קאזה",
       "en": "Kazze"
     },
     "dish_name": {
@@ -25076,11 +25076,11 @@
   {
     "id": "593",
     "name": {
-      "he": "Mifgash Hashekh | Arena",
+      "he": "מפגש השך",
       "en": "Mifgash Hashekh | Arena"
     },
     "dish_name": {
-      "he": "Pizza Sambusak",
+      "he": "פיצה סמבוסק",
       "en": "Pizza Sambusak"
     },
     "price": 27,
@@ -25116,7 +25116,7 @@
   {
     "id": "594",
     "name": {
-      "he": "La Mozzarella",
+      "he": "לה מוצרלה",
       "en": "La Mozzarella"
     },
     "dish_name": {
@@ -25156,7 +25156,7 @@
   {
     "id": "595",
     "name": {
-      "he": "Home Pizza",
+      "he": "פיצה ביתית",
       "en": "Home Pizza"
     },
     "dish_name": {
@@ -25196,7 +25196,7 @@
   {
     "id": "596",
     "name": {
-      "he": "Pizza della Piazza",
+      "he": "פיצה דלה פיאצה",
       "en": "Pizza della Piazza"
     },
     "dish_name": {
@@ -25236,7 +25236,7 @@
   {
     "id": "597",
     "name": {
-      "he": "Trevi Pizza",
+      "he": "פיצה טרווי",
       "en": "Trevi Pizza"
     },
     "dish_name": {
@@ -25276,7 +25276,7 @@
   {
     "id": "598",
     "name": {
-      "he": "Pizza Vini Vici | Talpiyot",
+      "he": "פיצה ויני ויצ'י",
       "en": "Pizza Vini Vici | Talpiyot"
     },
     "dish_name": {
@@ -25316,11 +25316,11 @@
   {
     "id": "599",
     "name": {
-      "he": "Mifgash Hashekh | Talpiyot",
+      "he": "מפגש השך",
       "en": "Mifgash Hashekh | Talpiyot"
     },
     "dish_name": {
-      "he": "Pizza Sambusak",
+      "he": "פיצה סמבוסק",
       "en": "Pizza Sambusak"
     },
     "price": 27,
@@ -25356,7 +25356,7 @@
   {
     "id": "600",
     "name": {
-      "he": "Pizza Kimat Hinam | Jerusalem",
+      "he": "פיצה קימת חינם",
       "en": "Pizza Kimat Hinam | Jerusalem"
     },
     "dish_name": {
@@ -25396,11 +25396,11 @@
   {
     "id": "601",
     "name": {
-      "he": "Domino's Pizza | Talpiyot",
+      "he": "דומינו'ס פיצה",
       "en": "Domino's Pizza | Talpiyot"
     },
     "dish_name": {
-      "he": "Personal size pizza ",
+      "he": "פיצה בגודל אישי",
       "en": "Personal size pizza "
     },
     "price": 29,
@@ -25436,11 +25436,11 @@
   {
     "id": "602",
     "name": {
-      "he": "Domino's Pizza | French Hill",
+      "he": "דומינו'ס פיצה",
       "en": "Domino's Pizza | French Hill"
     },
     "dish_name": {
-      "he": "Personal size pizza ",
+      "he": "פיצה בגודל אישי",
       "en": "Personal size pizza "
     },
     "price": 29,
@@ -25476,11 +25476,11 @@
   {
     "id": "603",
     "name": {
-      "he": "Aricha Sabich",
+      "he": "אריכא סביץ'",
       "en": "Aricha Sabich"
     },
     "dish_name": {
-      "he": "Freshly squeezed oranges ",
+      "he": "תפוזים סחוטים טריים",
       "en": "Freshly squeezed oranges "
     },
     "price": 18,
@@ -25516,7 +25516,7 @@
   {
     "id": "604",
     "name": {
-      "he": "Babado Shawarma",
+      "he": "באבאדו שווארמה",
       "en": "Babado Shawarma"
     },
     "dish_name": {
@@ -25556,11 +25556,11 @@
   {
     "id": "605",
     "name": {
-      "he": "Angel Bakery | Gilo",
+      "he": "מאפיית אנג'ל",
       "en": "Angel Bakery | Gilo"
     },
     "dish_name": {
-      "he": "Sabich Pita",
+      "he": "סביך פיתה",
       "en": "Sabich Pita"
     },
     "price": 29,
@@ -25596,7 +25596,7 @@
   {
     "id": "606",
     "name": {
-      "he": "Baba Grill",
+      "he": "באבא גריל",
       "en": "Baba Grill"
     },
     "dish_name": {
@@ -25636,7 +25636,7 @@
   {
     "id": "607",
     "name": {
-      "he": "Toast Naknik & More",
+      "he": "טוסט נקניק ועוד",
       "en": "Toast Naknik & More"
     },
     "dish_name": {
@@ -25676,7 +25676,7 @@
   {
     "id": "608",
     "name": {
-      "he": "Station 1",
+      "he": "תחנה 1",
       "en": "Station 1"
     },
     "dish_name": {
@@ -25716,7 +25716,7 @@
   {
     "id": "609",
     "name": {
-      "he": "Butcher Shop Hamawi Brothers | Jerusalem",
+      "he": "אטליז האחים חמאווי",
       "en": "Butcher Shop Hamawi Brothers | Jerusalem"
     },
     "dish_name": {
@@ -25756,7 +25756,7 @@
   {
     "id": "610",
     "name": {
-      "he": "Burgeranch | Central Station",
+      "he": "בורגראנץ'",
       "en": "Burgeranch | Central Station"
     },
     "dish_name": {
@@ -25796,7 +25796,7 @@
   {
     "id": "611",
     "name": {
-      "he": "Burgeranch | Malha Mall",
+      "he": "בורגראנץ'",
       "en": "Burgeranch | Malha Mall"
     },
     "dish_name": {
@@ -25836,7 +25836,7 @@
   {
     "id": "612",
     "name": {
-      "he": "Shnitzka",
+      "he": "שניצקה",
       "en": "Shnitzka"
     },
     "dish_name": {
@@ -25876,7 +25876,7 @@
   {
     "id": "613",
     "name": {
-      "he": "Said Shnitzel",
+      "he": "אמר שניצל",
       "en": "Said Shnitzel"
     },
     "dish_name": {
@@ -25996,7 +25996,7 @@
   {
     "id": "616",
     "name": {
-      "he": "Arais Mahane Yehuda | Jerusalem",
+      "he": "עראיס מחנה יהודה",
       "en": "Arais Mahane Yehuda | Jerusalem"
     },
     "dish_name": {
@@ -26036,7 +26036,7 @@
   {
     "id": "617",
     "name": {
-      "he": "Super Sapir | Uruguay Jerusalem",
+      "he": "סופר ספיר",
       "en": "Super Sapir | Uruguay Jerusalem"
     },
     "dish_name": {
@@ -26076,7 +26076,7 @@
   {
     "id": "618",
     "name": {
-      "he": "Anise | HaMoshava",
+      "he": "אָנִיס",
       "en": "Anise | HaMoshava"
     },
     "dish_name": {
@@ -26116,7 +26116,7 @@
   {
     "id": "619",
     "name": {
-      "he": "Hamotzi",
+      "he": "חמוצי",
       "en": "Hamotzi"
     },
     "dish_name": {
@@ -26156,7 +26156,7 @@
   {
     "id": "620",
     "name": {
-      "he": "Musa Pita Shuk",
+      "he": "מוסא פיתה שוק",
       "en": "Musa Pita Shuk"
     },
     "dish_name": {
@@ -26196,11 +26196,11 @@
   {
     "id": "621",
     "name": {
-      "he": "Pita Basar | Mahne Yehuda",
+      "he": "פיתה בסר",
       "en": "Pita Basar | Mahne Yehuda"
     },
     "dish_name": {
-      "he": "Coke ",
+      "he": "קוֹקָה קוֹלָה",
       "en": "Coke "
     },
     "price": 12,
@@ -26236,7 +26236,7 @@
   {
     "id": "622",
     "name": {
-      "he": "Full House | Old City",
+      "he": "בית מלא",
       "en": "Full House | Old City"
     },
     "dish_name": {
@@ -26276,7 +26276,7 @@
   {
     "id": "623",
     "name": {
-      "he": "Full House | BGU",
+      "he": "בית מלא",
       "en": "Full House | BGU"
     },
     "dish_name": {
@@ -26316,7 +26316,7 @@
   {
     "id": "624",
     "name": {
-      "he": "Full House | Central Station",
+      "he": "בית מלא",
       "en": "Full House | Central Station"
     },
     "dish_name": {
@@ -26356,7 +26356,7 @@
   {
     "id": "625",
     "name": {
-      "he": "Hummus & Shnizel Al Ha'Bar",
+      "he": "חומוס ושניזל אל הבר",
       "en": "Hummus & Shnizel Al Ha'Bar"
     },
     "dish_name": {
@@ -26396,7 +26396,7 @@
   {
     "id": "626",
     "name": {
-      "he": "Shawarama Falfel Azura",
+      "he": "שווארמה פלפל אזורה",
       "en": "Shawarama Falfel Azura"
     },
     "dish_name": {
@@ -26436,7 +26436,7 @@
   {
     "id": "627",
     "name": {
-      "he": "Shawarma Eden Hashamen",
+      "he": "שווארמה עדן השמן",
       "en": "Shawarma Eden Hashamen"
     },
     "dish_name": {
@@ -26476,7 +26476,7 @@
   {
     "id": "628",
     "name": {
-      "he": "Shawarma Girosauce",
+      "he": "רוטב שווארמה ג'ירו",
       "en": "Shawarma Girosauce"
     },
     "dish_name": {
@@ -26516,7 +26516,7 @@
   {
     "id": "629",
     "name": {
-      "he": "Schnitzel's Story",
+      "he": "סיפורו של שניצל",
       "en": "Schnitzel's Story"
     },
     "dish_name": {
@@ -26556,7 +26556,7 @@
   {
     "id": "630",
     "name": {
-      "he": "Ronen's Shawarma | Shaul Hamelech Mall",
+      "he": "השווארמה של רונן",
       "en": "Ronen's Shawarma | Shaul Hamelech Mall"
     },
     "dish_name": {
@@ -26596,7 +26596,7 @@
   {
     "id": "631",
     "name": {
-      "he": "Ronen's Shawarma |  Grand Mall",
+      "he": "השווארמה של רונן",
       "en": "Ronen's Shawarma |  Grand Mall"
     },
     "dish_name": {
@@ -26636,7 +26636,7 @@
   {
     "id": "632",
     "name": {
-      "he": "Liberty Shawarma",
+      "he": "ליברטי שווארמה",
       "en": "Liberty Shawarma"
     },
     "dish_name": {
@@ -26676,7 +26676,7 @@
   {
     "id": "633",
     "name": {
-      "he": "Baba Shawarma",
+      "he": "באבא שווארמה",
       "en": "Baba Shawarma"
     },
     "dish_name": {
@@ -26716,7 +26716,7 @@
   {
     "id": "634",
     "name": {
-      "he": "Beit Ha'Egel | Israeli Grill",
+      "he": "בית האגל",
       "en": "Beit Ha'Egel | Israeli Grill"
     },
     "dish_name": {
@@ -26756,7 +26756,7 @@
   {
     "id": "635",
     "name": {
-      "he": "HaShipudia Shel Atias",
+      "he": "השיפודיה של אטיאס",
       "en": "HaShipudia Shel Atias"
     },
     "dish_name": {
@@ -26796,7 +26796,7 @@
   {
     "id": "636",
     "name": {
-      "he": "Shawarama Ba'atika",
+      "he": "שווארמה באטיקה",
       "en": "Shawarama Ba'atika"
     },
     "dish_name": {
@@ -26836,7 +26836,7 @@
   {
     "id": "637",
     "name": {
-      "he": "Shawarma Rasko",
+      "he": "שווארמה רסקו",
       "en": "Shawarma Rasko"
     },
     "dish_name": {
@@ -26916,7 +26916,7 @@
   {
     "id": "639",
     "name": {
-      "he": "Pepe Leon | Ramot",
+      "he": "פפה ליאון",
       "en": "Pepe Leon | Ramot"
     },
     "dish_name": {
@@ -26956,7 +26956,7 @@
   {
     "id": "640",
     "name": {
-      "he": "Shwarma Ezra Zion",
+      "he": "שווארמה עזרא ציון",
       "en": "Shwarma Ezra Zion"
     },
     "dish_name": {
@@ -26996,11 +26996,11 @@
   {
     "id": "641",
     "name": {
-      "he": "Libya",
+      "he": "לוב",
       "en": "Libya"
     },
     "dish_name": {
-      "he": "10 Falafel Balls",
+      "he": "10 כדורי פלאפל",
       "en": "10 Falafel Balls"
     },
     "price": 25,
@@ -27036,7 +27036,7 @@
   {
     "id": "642",
     "name": {
-      "he": "Shawarama Karamani",
+      "he": "שווארמה קראמני",
       "en": "Shawarama Karamani"
     },
     "dish_name": {
@@ -27076,7 +27076,7 @@
   {
     "id": "643",
     "name": {
-      "he": "Ful and Shawarma  House | Neve Zeev",
+      "he": "בית פול ושווארמה",
       "en": "Ful and Shawarma  House | Neve Zeev"
     },
     "dish_name": {
@@ -27116,7 +27116,7 @@
   {
     "id": "644",
     "name": {
-      "he": "Hungry Monkeys",
+      "he": "קופים רעבים",
       "en": "Hungry Monkeys"
     },
     "dish_name": {
@@ -27156,7 +27156,7 @@
   {
     "id": "645",
     "name": {
-      "he": "Hagalgal Shel Shreder | Be'er Sheva",
+      "he": "הגגל של מגרסת",
       "en": "Hagalgal Shel Shreder | Be'er Sheva"
     },
     "dish_name": {
@@ -27196,7 +27196,7 @@
   {
     "id": "646",
     "name": {
-      "he": "Shawarma BaShchuna",
+      "he": "שווארמה בשצ'ונה",
       "en": "Shawarma BaShchuna"
     },
     "dish_name": {
@@ -27236,7 +27236,7 @@
   {
     "id": "647",
     "name": {
-      "he": "Shawarma Oren",
+      "he": "שווארמה אורן",
       "en": "Shawarma Oren"
     },
     "dish_name": {
@@ -27276,7 +27276,7 @@
   {
     "id": "648",
     "name": {
-      "he": "Rolls Meat",
+      "he": "רולס בשר",
       "en": "Rolls Meat"
     },
     "dish_name": {
@@ -27316,7 +27316,7 @@
   {
     "id": "649",
     "name": {
-      "he": "Taam'ale",
+      "he": "טעמעלה",
       "en": "Taam'ale"
     },
     "dish_name": {
