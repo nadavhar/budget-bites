@@ -27352,5 +27352,6645 @@
       "en": "Found on Wolt. Dish: ‫שווארמה סייטן טבעונית 🌱"
     },
     "verified_date": "2026-03"
+  },
+  {
+    "id": "650",
+    "name": {
+      "he": "Diana Express",
+      "en": "Diana Express"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "פלאפל בפיתה"
+    },
+    "price": 29,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/tel-aviv/restaurant/diana-express-tel-aviv",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל בפיתה",
+      "en": "Found on Wolt. Dish: פלאפל בפיתה"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "651",
+    "name": {
+      "he": "Pinat Hamifgash",
+      "en": "Pinat Hamifgash"
+    },
+    "dish_name": {
+      "he": "פלאפל",
+      "en": "פלאפל"
+    },
+    "price": 21,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/tel-aviv/restaurant/pinat-hamifgash",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל",
+      "en": "Found on Wolt. Dish: פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "652",
+    "name": {
+      "he": "Sova Haim | TLV",
+      "en": "Sova Haim | TLV"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "פלאפל בפיתה"
+    },
+    "price": 33,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/tel-aviv/restaurant/sova-haim-tlv",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל בפיתה",
+      "en": "Found on Wolt. Dish: פלאפל בפיתה"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "653",
+    "name": {
+      "he": "The Falafel",
+      "en": "The Falafel"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "פלאפל בפיתה"
+    },
+    "price": 28,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/tel-aviv/restaurant/the-falafel-rg",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל בפיתה",
+      "en": "Found on Wolt. Dish: פלאפל בפיתה"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "654",
+    "name": {
+      "he": "Shawarma Mia",
+      "en": "Shawarma Mia"
+    },
+    "dish_name": {
+      "he": "פלאפל",
+      "en": "פלאפל"
+    },
+    "price": 20,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/tel-aviv/restaurant/shawarma-mia",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל",
+      "en": "Found on Wolt. Dish: פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "655",
+    "name": {
+      "he": "Shawarma Carlebach 39",
+      "en": "Shawarma Carlebach 39"
+    },
+    "dish_name": {
+      "he": "פלאפל",
+      "en": "פלאפל"
+    },
+    "price": 25,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/tel-aviv/restaurant/carlebach-39",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל",
+      "en": "Found on Wolt. Dish: פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "656",
+    "name": {
+      "he": "Shawarma Rosh Ha'eer",
+      "en": "Shawarma Rosh Ha'eer"
+    },
+    "dish_name": {
+      "he": "פלאפל",
+      "en": "פלאפל"
+    },
+    "price": 28,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/tel-aviv/restaurant/shawarma-rosh-haeer",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל",
+      "en": "Found on Wolt. Dish: פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "657",
+    "name": {
+      "he": "Mot'ke",
+      "en": "Mot'ke"
+    },
+    "dish_name": {
+      "he": "כדורי פלאפל - 10 יח׳",
+      "en": "כדורי פלאפל - 10 יח׳"
+    },
+    "price": 20,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/tel-aviv/restaurant/motke",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: כדורי פלאפל - 10 יח׳",
+      "en": "Found on Wolt. Dish: כדורי פלאפל - 10 יח׳"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "658",
+    "name": {
+      "he": "Shawarma Hamoshel",
+      "en": "Shawarma Hamoshel"
+    },
+    "dish_name": {
+      "he": "פלאפל המושל",
+      "en": "פלאפל המושל"
+    },
+    "price": 28,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/tel-aviv/restaurant/hamoshel",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל המושל",
+      "en": "Found on Wolt. Dish: פלאפל המושל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "659",
+    "name": {
+      "he": "Butra",
+      "en": "Butra"
+    },
+    "dish_name": {
+      "he": "פלאפל",
+      "en": "פלאפל"
+    },
+    "price": 32,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/tel-aviv/restaurant/butra",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל",
+      "en": "Found on Wolt. Dish: פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "660",
+    "name": {
+      "he": "Pninat Ha'Shawarma",
+      "en": "Pninat Ha'Shawarma"
+    },
+    "dish_name": {
+      "he": "כדורי פלאפל",
+      "en": "כדורי פלאפל"
+    },
+    "price": 18,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/tel-aviv/restaurant/pninat-hashawarma",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: כדורי פלאפל",
+      "en": "Found on Wolt. Dish: כדורי פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "661",
+    "name": {
+      "he": "Dolly",
+      "en": "Dolly"
+    },
+    "dish_name": {
+      "he": "פלאפל",
+      "en": "פלאפל"
+    },
+    "price": 28,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/tel-aviv/restaurant/dolly",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל",
+      "en": "Found on Wolt. Dish: פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "662",
+    "name": {
+      "he": "Hamoshel Express",
+      "en": "Hamoshel Express"
+    },
+    "dish_name": {
+      "he": "כדורי פלאפל",
+      "en": "כדורי פלאפל"
+    },
+    "price": 30,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/tel-aviv/restaurant/hamoshel-express",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: כדורי פלאפל",
+      "en": "Found on Wolt. Dish: כדורי פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "663",
+    "name": {
+      "he": "Aluf Ha'shnitzel",
+      "en": "Aluf Ha'shnitzel"
+    },
+    "dish_name": {
+      "he": "Falafel In A Pita",
+      "en": "Falafel In A Pita"
+    },
+    "price": 30,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/tel-aviv/restaurant/aluf-hashnitzel",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Falafel In A Pita",
+      "en": "Found on Wolt. Dish: Falafel In A Pita"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "664",
+    "name": {
+      "he": "Shawaradi",
+      "en": "Shawaradi"
+    },
+    "dish_name": {
+      "he": "פלאפל | 5 יח׳",
+      "en": "פלאפל | 5 יח׳"
+    },
+    "price": 15,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/tel-aviv/restaurant/shawaradi",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל | 5 יח׳",
+      "en": "Found on Wolt. Dish: פלאפל | 5 יח׳"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "665",
+    "name": {
+      "he": "Hummus Eben Gabirol",
+      "en": "Hummus Eben Gabirol"
+    },
+    "dish_name": {
+      "he": "כדורי פלאפל | 6 יח׳",
+      "en": "כדורי פלאפל | 6 יח׳"
+    },
+    "price": 20,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/tel-aviv/restaurant/hummus-eben-gabirol",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: כדורי פלאפל | 6 יח׳",
+      "en": "Found on Wolt. Dish: כדורי פלאפל | 6 יח׳"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "666",
+    "name": {
+      "he": "Hummus Bahadunas | Ibn Gabirol",
+      "en": "Hummus Bahadunas | Ibn Gabirol"
+    },
+    "dish_name": {
+      "he": "‫פלאפל - ללא גלוטן",
+      "en": "‫פלאפל - ללא גלוטן"
+    },
+    "price": 14,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/tel-aviv/restaurant/hummus-bahadunas-ibn-gabirol",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: ‫פלאפל - ללא גלוטן",
+      "en": "Found on Wolt. Dish: ‫פלאפל - ללא גלוטן"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "667",
+    "name": {
+      "he": "Kochav HaSchnitzel",
+      "en": "Kochav HaSchnitzel"
+    },
+    "dish_name": {
+      "he": "פלאפל",
+      "en": "פלאפל"
+    },
+    "price": 22,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/tel-aviv/restaurant/the-champion-of-schnitzel-falafel",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל",
+      "en": "Found on Wolt. Dish: פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "668",
+    "name": {
+      "he": "Shawarma Gisenu",
+      "en": "Shawarma Gisenu"
+    },
+    "dish_name": {
+      "he": "6 כדורי פלאפל حب فلافل",
+      "en": "6 כדורי פלאפל حب فلافل"
+    },
+    "price": 15,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/tel-aviv/restaurant/giseno",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: 6 כדורי פלאפל حب فلافل",
+      "en": "Found on Wolt. Dish: 6 כדורי פלאפל حب فلافل"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "669",
+    "name": {
+      "he": "Sharabanis' Shawarma",
+      "en": "Sharabanis' Shawarma"
+    },
+    "dish_name": {
+      "he": "Large Falafel",
+      "en": "Large Falafel"
+    },
+    "price": 20,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/tel-aviv/restaurant/sharabanis-shawarma",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Large Falafel",
+      "en": "Found on Wolt. Dish: Large Falafel"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "670",
+    "name": {
+      "he": "Falafel Ben Hur | Hamasger",
+      "en": "Falafel Ben Hur | Hamasger"
+    },
+    "dish_name": {
+      "he": "10 Falafel Balls",
+      "en": "10 Falafel Balls"
+    },
+    "price": 22,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/tel-aviv/restaurant/falafel-ben-hur-hamasger",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: 10 Falafel Balls",
+      "en": "Found on Wolt. Dish: 10 Falafel Balls"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "671",
+    "name": {
+      "he": "Shawarma Bon Ta'am",
+      "en": "Shawarma Bon Ta'am"
+    },
+    "dish_name": {
+      "he": "7 כדורי פלאפל",
+      "en": "7 כדורי פלאפל"
+    },
+    "price": 15,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/tel-aviv/restaurant/bon-taam",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: 7 כדורי פלאפל",
+      "en": "Found on Wolt. Dish: 7 כדורי פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "672",
+    "name": {
+      "he": "Meni Roll",
+      "en": "Meni Roll"
+    },
+    "dish_name": {
+      "he": "‫5 כדורי פלאפל 🌱",
+      "en": "‫5 כדורי פלאפל 🌱"
+    },
+    "price": 25,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/tel-aviv/restaurant/meni-roll",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: ‫5 כדורי פלאפל 🌱",
+      "en": "Found on Wolt. Dish: ‫5 כדורי פלאפל 🌱"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "673",
+    "name": {
+      "he": "Meat In The Carmel Market",
+      "en": "Meat In The Carmel Market"
+    },
+    "dish_name": {
+      "he": "פלאפל",
+      "en": "פלאפל"
+    },
+    "price": 23,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/tel-aviv/restaurant/roni-bsarim",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל",
+      "en": "Found on Wolt. Dish: פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "674",
+    "name": {
+      "he": "Shipudey Hanechadim",
+      "en": "Shipudey Hanechadim"
+    },
+    "dish_name": {
+      "he": "פלאפל",
+      "en": "פלאפל"
+    },
+    "price": 35,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/tel-aviv/restaurant/sami-express",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל",
+      "en": "Found on Wolt. Dish: פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "675",
+    "name": {
+      "he": "HaTaboon Bakery | Allenby",
+      "en": "HaTaboon Bakery | Allenby"
+    },
+    "dish_name": {
+      "he": "Pizza Sambusak",
+      "en": "Pizza Sambusak"
+    },
+    "price": 25,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/tel-aviv/restaurant/hatabun-allenby",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Pizza Sambusak",
+      "en": "Found on Wolt. Dish: Pizza Sambusak"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "676",
+    "name": {
+      "he": "Gingiz | Brurya",
+      "en": "Gingiz | Brurya"
+    },
+    "dish_name": {
+      "he": "פיתה כוסמין 8 יחידות אנג'ל",
+      "en": "פיתה כוסמין 8 יחידות אנג'ל"
+    },
+    "price": 24,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "address": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "region": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/tel-aviv/restaurant/gingiz-brurya",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פיתה כוסמין 8 יחידות אנג'ל",
+      "en": "Found on Wolt. Dish: פיתה כוסמין 8 יחידות אנג'ל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "677",
+    "name": {
+      "he": "Goldy's",
+      "en": "Goldy's"
+    },
+    "dish_name": {
+      "he": "חומוס | 280 מ״ל",
+      "en": "חומוס | 280 מ״ל"
+    },
+    "price": 19,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      },
+      "address": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      },
+      "region": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/jerusalem/restaurant/goldys",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: חומוס | 280 מ״ל",
+      "en": "Found on Wolt. Dish: חומוס | 280 מ״ל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "678",
+    "name": {
+      "he": "Super HaMoshava | Emek Refaim",
+      "en": "Super HaMoshava | Emek Refaim"
+    },
+    "dish_name": {
+      "he": "אנג'ל פיתה פיתה של עבודת יד 8 יחידות",
+      "en": "אנג'ל פיתה פיתה של עבודת יד 8 יחידות"
+    },
+    "price": 17,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      },
+      "address": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      },
+      "region": {
+        "he": "ירושלים",
+        "en": "Jerusalem"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/jerusalem/restaurant/super-hamoshava-emek-refaim",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: אנג'ל פיתה פיתה של עבודת יד 8 יחידות",
+      "en": "Found on Wolt. Dish: אנג'ל פיתה פיתה של עבודת יד 8 יחידות"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "679",
+    "name": {
+      "he": "Sadafa",
+      "en": "Sadafa"
+    },
+    "dish_name": {
+      "he": "חומוס",
+      "en": "חומוס"
+    },
+    "price": 15,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/sadafa",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: חומוס",
+      "en": "Found on Wolt. Dish: חומוס"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "680",
+    "name": {
+      "he": "Sheikh Ba'katar",
+      "en": "Sheikh Ba'katar"
+    },
+    "dish_name": {
+      "he": "פיתה חומוס",
+      "en": "פיתה חומוס"
+    },
+    "price": 25,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/jachnun-bekatar",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פיתה חומוס",
+      "en": "Found on Wolt. Dish: פיתה חומוס"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "681",
+    "name": {
+      "he": "Aroma Kosher | University Beer Sheva",
+      "en": "Aroma Kosher | University Beer Sheva"
+    },
+    "dish_name": {
+      "he": "Hummus \"Omelet\" Sandwich 🌱",
+      "en": "Hummus \"Omelet\" Sandwich 🌱"
+    },
+    "price": 19,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/aroma-university-beer-sheva",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Hummus \"Omelet\" Sandwich 🌱",
+      "en": "Found on Wolt. Dish: Hummus \"Omelet\" Sandwich 🌱"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "682",
+    "name": {
+      "he": "Oren Meshi | Jacob Cohen",
+      "en": "Oren Meshi | Jacob Cohen"
+    },
+    "dish_name": {
+      "he": "פילאס פיצה חלבי | 3 יחידות",
+      "en": "פילאס פיצה חלבי | 3 יחידות"
+    },
+    "price": 12,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/oren-meshi-beer-sheva",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פילאס פיצה חלבי | 3 יחידות",
+      "en": "Found on Wolt. Dish: פילאס פיצה חלבי | 3 יחידות"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "683",
+    "name": {
+      "he": "Machsany Lahav | Be'er Sheva",
+      "en": "Machsany Lahav | Be'er Sheva"
+    },
+    "dish_name": {
+      "he": "Hummus with great tahini - 400 grams",
+      "en": "Hummus with great tahini - 400 grams"
+    },
+    "price": 15,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/machsany-lahav-beer-sheva",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Hummus with great tahini - 400 grams",
+      "en": "Found on Wolt. Dish: Hummus with great tahini - 400 grams"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "684",
+    "name": {
+      "he": "Carrefour | Beer Sheva North",
+      "en": "Carrefour | Beer Sheva North"
+    },
+    "dish_name": {
+      "he": "Great hummus - 400 grams",
+      "en": "Great hummus - 400 grams"
+    },
+    "price": 13,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/carrefour-beer-sheva-north",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Great hummus - 400 grams",
+      "en": "Found on Wolt. Dish: Great hummus - 400 grams"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "685",
+    "name": {
+      "he": "Pizza Roma | Gush Etzion",
+      "en": "Pizza Roma | Gush Etzion"
+    },
+    "dish_name": {
+      "he": "פיצה רומא",
+      "en": "פיצה רומא"
+    },
+    "price": 35,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/pizza-roma-gush-etzion",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פיצה רומא",
+      "en": "Found on Wolt. Dish: פיצה רומא"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "686",
+    "name": {
+      "he": "Pizza Selfie",
+      "en": "Pizza Selfie"
+    },
+    "dish_name": {
+      "he": "פיצה אישית",
+      "en": "פיצה אישית"
+    },
+    "price": 25,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/pizza-selfie",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פיצה אישית",
+      "en": "Found on Wolt. Dish: פיצה אישית"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "687",
+    "name": {
+      "he": "Pizza Roma | Neve Zeev",
+      "en": "Pizza Roma | Neve Zeev"
+    },
+    "dish_name": {
+      "he": "פיצה רומא",
+      "en": "פיצה רומא"
+    },
+    "price": 35,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/pizza-roma-bs",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פיצה רומא",
+      "en": "Found on Wolt. Dish: פיצה רומא"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "688",
+    "name": {
+      "he": "Pizza Pie | Migdali Nof",
+      "en": "Pizza Pie | Migdali Nof"
+    },
+    "dish_name": {
+      "he": "תחתית פיצה משפחתית",
+      "en": "תחתית פיצה משפחתית"
+    },
+    "price": 23,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/pizza-pie-migdali-nof",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: תחתית פיצה משפחתית",
+      "en": "Found on Wolt. Dish: תחתית פיצה משפחתית"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "689",
+    "name": {
+      "he": "Cafe Alma | Beer Sheva",
+      "en": "Cafe Alma | Beer Sheva"
+    },
+    "dish_name": {
+      "he": "Pizza",
+      "en": "Pizza"
+    },
+    "price": 32,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/cafe-alma-beer-sheva",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Pizza",
+      "en": "Found on Wolt. Dish: Pizza"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "690",
+    "name": {
+      "he": "Megulgalawach | Be׳er Sheva",
+      "en": "Megulgalawach | Be׳er Sheva"
+    },
+    "dish_name": {
+      "he": "פיצה מלוואח",
+      "en": "פיצה מלוואח"
+    },
+    "price": 35,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/megulgalawachbs",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פיצה מלוואח",
+      "en": "Found on Wolt. Dish: פיצה מלוואח"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "691",
+    "name": {
+      "he": "La Pizza",
+      "en": "La Pizza"
+    },
+    "dish_name": {
+      "he": "פיצה אישית",
+      "en": "פיצה אישית"
+    },
+    "price": 30,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/la-pizzabeersheva",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פיצה אישית",
+      "en": "Found on Wolt. Dish: פיצה אישית"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "692",
+    "name": {
+      "he": "Pizza Mehadrin",
+      "en": "Pizza Mehadrin"
+    },
+    "dish_name": {
+      "he": "פיצה אישית",
+      "en": "פיצה אישית"
+    },
+    "price": 31,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/pizza-mehadrin-bs",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פיצה אישית",
+      "en": "Found on Wolt. Dish: פיצה אישית"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "693",
+    "name": {
+      "he": "Bleecker Bakery | Beer Sheva",
+      "en": "Bleecker Bakery | Beer Sheva"
+    },
+    "dish_name": {
+      "he": "Kids Pizza ",
+      "en": "Kids Pizza "
+    },
+    "price": 34,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/bleecker-bakery-beer-sheva",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Kids Pizza ",
+      "en": "Found on Wolt. Dish: Kids Pizza "
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "694",
+    "name": {
+      "he": "Little Italy | Beer Sheva",
+      "en": "Little Italy | Beer Sheva"
+    },
+    "dish_name": {
+      "he": "פיצה אישית",
+      "en": "פיצה אישית"
+    },
+    "price": 32,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/little-italy-beer-sheva",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פיצה אישית",
+      "en": "Found on Wolt. Dish: פיצה אישית"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "695",
+    "name": {
+      "he": "Pizza Montefiore",
+      "en": "Pizza Montefiore"
+    },
+    "dish_name": {
+      "he": "פיצה אישית",
+      "en": "פיצה אישית"
+    },
+    "price": 35,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/pizza-montefiore",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פיצה אישית",
+      "en": "Found on Wolt. Dish: פיצה אישית"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "696",
+    "name": {
+      "he": "Pizza Nissim",
+      "en": "Pizza Nissim"
+    },
+    "dish_name": {
+      "he": "פיצה אישית",
+      "en": "פיצה אישית"
+    },
+    "price": 25,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/pizza-nissim",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פיצה אישית",
+      "en": "Found on Wolt. Dish: פיצה אישית"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "697",
+    "name": {
+      "he": "Pizza Story | Metzada",
+      "en": "Pizza Story | Metzada"
+    },
+    "dish_name": {
+      "he": "פיצה אישית",
+      "en": "פיצה אישית"
+    },
+    "price": 29,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/pizza-story-metzada",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פיצה אישית",
+      "en": "Found on Wolt. Dish: פיצה אישית"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "698",
+    "name": {
+      "he": "Pizza Story | Beer Sheva",
+      "en": "Pizza Story | Beer Sheva"
+    },
+    "dish_name": {
+      "he": "פיצה אישית",
+      "en": "פיצה אישית"
+    },
+    "price": 29,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/pizza-story-beer-sheva",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פיצה אישית",
+      "en": "Found on Wolt. Dish: פיצה אישית"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "699",
+    "name": {
+      "he": "Bocca",
+      "en": "Bocca"
+    },
+    "dish_name": {
+      "he": "כדור פיצה",
+      "en": "כדור פיצה"
+    },
+    "price": 15,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/bocca-bs",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: כדור פיצה",
+      "en": "Found on Wolt. Dish: כדור פיצה"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "700",
+    "name": {
+      "he": "Pizza Hamagash Hacham",
+      "en": "Pizza Hamagash Hacham"
+    },
+    "dish_name": {
+      "he": "פיצה מרגריטה | אישית",
+      "en": "פיצה מרגריטה | אישית"
+    },
+    "price": 35,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/hamagash-hacham",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פיצה מרגריטה | אישית",
+      "en": "Found on Wolt. Dish: פיצה מרגריטה | אישית"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "701",
+    "name": {
+      "he": "Domino's Pizza | Be'er Sheva Ramot",
+      "en": "Domino's Pizza | Be'er Sheva Ramot"
+    },
+    "dish_name": {
+      "he": "Personal size pizza ",
+      "en": "Personal size pizza "
+    },
+    "price": 29,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/dominos-pizza-beer-sheva-ramot",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Personal size pizza ",
+      "en": "Found on Wolt. Dish: Personal size pizza "
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "702",
+    "name": {
+      "he": "Domino's Pizza | Be'er Sheva Center",
+      "en": "Domino's Pizza | Be'er Sheva Center"
+    },
+    "dish_name": {
+      "he": "Personal size pizza ",
+      "en": "Personal size pizza "
+    },
+    "price": 29,
+    "category": {
+      "he": "פיצה",
+      "en": "Pizza"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/dominos-pizza-beer-sheva-center",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Personal size pizza ",
+      "en": "Found on Wolt. Dish: Personal size pizza "
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "703",
+    "name": {
+      "he": "Miriam's Sabich",
+      "en": "Miriam's Sabich"
+    },
+    "dish_name": {
+      "he": "פיתה סביח",
+      "en": "פיתה סביח"
+    },
+    "price": 34,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/miriams-sabich",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פיתה סביח",
+      "en": "Found on Wolt. Dish: פיתה סביח"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "704",
+    "name": {
+      "he": "Carole",
+      "en": "Carole"
+    },
+    "dish_name": {
+      "he": "Sabich Sandwich",
+      "en": "Sabich Sandwich"
+    },
+    "price": 32,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/karol",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Sabich Sandwich",
+      "en": "Found on Wolt. Dish: Sabich Sandwich"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "705",
+    "name": {
+      "he": "Oren Meshi | Beer Sheva Park",
+      "en": "Oren Meshi | Beer Sheva Park"
+    },
+    "dish_name": {
+      "he": "כריך סביח",
+      "en": "כריך סביח"
+    },
+    "price": 28,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/oren-meshi-beer-sheva-park",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: כריך סביח",
+      "en": "Found on Wolt. Dish: כריך סביח"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "706",
+    "name": {
+      "he": "Tres Jolie | Kosher",
+      "en": "Tres Jolie | Kosher"
+    },
+    "dish_name": {
+      "he": "פרנה ביס סביח",
+      "en": "פרנה ביס סביח"
+    },
+    "price": 19,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/tres-jolie",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פרנה ביס סביח",
+      "en": "Found on Wolt. Dish: פרנה ביס סביח"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "707",
+    "name": {
+      "he": "Shibolet Hasharon | Big Beer Sheva",
+      "en": "Shibolet Hasharon | Big Beer Sheva"
+    },
+    "dish_name": {
+      "he": "Sabich Sambusak",
+      "en": "Sabich Sambusak"
+    },
+    "price": 18,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/shibolet-hasharon-big-beer-sheva",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Sabich Sambusak",
+      "en": "Found on Wolt. Dish: Sabich Sambusak"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "708",
+    "name": {
+      "he": "Mamos | Be'er Sheva",
+      "en": "Mamos | Be'er Sheva"
+    },
+    "dish_name": {
+      "he": "שניצל - 1 יח׳",
+      "en": "שניצל - 1 יח׳"
+    },
+    "price": 12,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/mamos-experss-beer-sheva",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: שניצל - 1 יח׳",
+      "en": "Found on Wolt. Dish: שניצל - 1 יח׳"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "709",
+    "name": {
+      "he": "Starz Burger",
+      "en": "Starz Burger"
+    },
+    "dish_name": {
+      "he": "שניצלונים",
+      "en": "שניצלונים"
+    },
+    "price": 25,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/starz-burger-beer-sheva",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: שניצלונים",
+      "en": "Found on Wolt. Dish: שניצלונים"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "710",
+    "name": {
+      "he": "Burgeranch | Azrieli Negev Mall",
+      "en": "Burgeranch | Azrieli Negev Mall"
+    },
+    "dish_name": {
+      "he": "צ'יפס זיגזג רגיל",
+      "en": "צ'יפס זיגזג רגיל"
+    },
+    "price": 23,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/burgeranch-azrieli-negev-mall",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: צ'יפס זיגזג רגיל",
+      "en": "Found on Wolt. Dish: צ'יפס זיגזג רגיל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "711",
+    "name": {
+      "he": "Eight Sandwich ﻿Chef",
+      "en": "Eight Sandwich ﻿Chef"
+    },
+    "dish_name": {
+      "he": "שניצלונים",
+      "en": "שניצלונים"
+    },
+    "price": 30,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/eight-sandwich-bar",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: שניצלונים",
+      "en": "Found on Wolt. Dish: שניצלונים"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "712",
+    "name": {
+      "he": "Hasandak",
+      "en": "Hasandak"
+    },
+    "dish_name": {
+      "he": "שניצלונים",
+      "en": "שניצלונים"
+    },
+    "price": 30,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/hasandak",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: שניצלונים",
+      "en": "Found on Wolt. Dish: שניצלונים"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "713",
+    "name": {
+      "he": "HaMexicani",
+      "en": "HaMexicani"
+    },
+    "dish_name": {
+      "he": "שניצלונים",
+      "en": "שניצלונים"
+    },
+    "price": 30,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/mexicani",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: שניצלונים",
+      "en": "Found on Wolt. Dish: שניצלונים"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "714",
+    "name": {
+      "he": "Burgeranch | The Grand Mall",
+      "en": "Burgeranch | The Grand Mall"
+    },
+    "dish_name": {
+      "he": "נקניקית ראנץ'",
+      "en": "נקניקית ראנץ'"
+    },
+    "price": 15,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/burgeranch-grand-mall",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: נקניקית ראנץ'",
+      "en": "Found on Wolt. Dish: נקניקית ראנץ'"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "715",
+    "name": {
+      "he": "Re Burger | רי בורגר",
+      "en": "Re Burger | רי בורגר"
+    },
+    "dish_name": {
+      "he": "שניצלונים",
+      "en": "שניצלונים"
+    },
+    "price": 30,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/re-burger-baatika",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: שניצלונים",
+      "en": "Found on Wolt. Dish: שניצלונים"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "716",
+    "name": {
+      "he": "Burgeranch | Neve Zeev",
+      "en": "Burgeranch | Neve Zeev"
+    },
+    "dish_name": {
+      "he": "חטיפי נקניקיות",
+      "en": "חטיפי נקניקיות"
+    },
+    "price": 22,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/burgeranch-neve-zeev",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: חטיפי נקניקיות",
+      "en": "Found on Wolt. Dish: חטיפי נקניקיות"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "717",
+    "name": {
+      "he": "McDonald's® BIG Be'er Sheva",
+      "en": "McDonald's® BIG Be'er Sheva"
+    },
+    "dish_name": {
+      "he": "Hamburger Gluten Free",
+      "en": "Hamburger Gluten Free"
+    },
+    "price": 15,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/mcdonalds-big-beer-sheva",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Hamburger Gluten Free",
+      "en": "Found on Wolt. Dish: Hamburger Gluten Free"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "718",
+    "name": {
+      "he": "McDonald's® Grand Be'er Sheva Kosher",
+      "en": "McDonald's® Grand Be'er Sheva Kosher"
+    },
+    "dish_name": {
+      "he": "Mini Royal",
+      "en": "Mini Royal"
+    },
+    "price": 15,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/mcdonalds-grand-beer-sheva",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Mini Royal",
+      "en": "Found on Wolt. Dish: Mini Royal"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "719",
+    "name": {
+      "he": "McDonald׳s® Central station Be'er sheva Kosher",
+      "en": "McDonald׳s® Central station Be'er sheva Kosher"
+    },
+    "dish_name": {
+      "he": "Hamburger Gluten Free",
+      "en": "Hamburger Gluten Free"
+    },
+    "price": 15,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/mcdonalds-eged-beer-sheva",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Hamburger Gluten Free",
+      "en": "Found on Wolt. Dish: Hamburger Gluten Free"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "720",
+    "name": {
+      "he": "Pita Basar | Be'er Sheva",
+      "en": "Pita Basar | Be'er Sheva"
+    },
+    "dish_name": {
+      "he": "Coke ",
+      "en": "Coke "
+    },
+    "price": 12,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "address": {
+        "he": "באר שבע",
+        "en": "Beer Sheva"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/beer-sheva/restaurant/pita-basar-beer-shava",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Coke ",
+      "en": "Found on Wolt. Dish: Coke "
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "721",
+    "name": {
+      "he": "Falafel Shel Ramla",
+      "en": "Falafel Shel Ramla"
+    },
+    "dish_name": {
+      "he": "Salads pita",
+      "en": "Salads pita"
+    },
+    "price": 22,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/falafel-shel-ramla",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Salads pita",
+      "en": "Found on Wolt. Dish: Salads pita"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "722",
+    "name": {
+      "he": "Falafel Ba'Ribua | Rothschild Rishon LeZion",
+      "en": "Falafel Ba'Ribua | Rothschild Rishon LeZion"
+    },
+    "dish_name": {
+      "he": "חצי מנה פלאפל",
+      "en": "חצי מנה פלאפל"
+    },
+    "price": 19,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/falafel-baribua-rishon-lezion",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: חצי מנה פלאפל",
+      "en": "Found on Wolt. Dish: חצי מנה פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "723",
+    "name": {
+      "he": "Falafel 4 Flavours | Rishon Lezion",
+      "en": "Falafel 4 Flavours | Rishon Lezion"
+    },
+    "dish_name": {
+      "he": "10 Units Of Abu Nafha Fries In A Bag",
+      "en": "10 Units Of Abu Nafha Fries In A Bag"
+    },
+    "price": 15,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/falafel-4-flavours",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: 10 Units Of Abu Nafha Fries In A Bag",
+      "en": "Found on Wolt. Dish: 10 Units Of Abu Nafha Fries In A Bag"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "724",
+    "name": {
+      "he": "Falafel Ba'Ribua | Holon",
+      "en": "Falafel Ba'Ribua | Holon"
+    },
+    "dish_name": {
+      "he": "חצי מנה פלאפל",
+      "en": "חצי מנה פלאפל"
+    },
+    "price": 19,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/falafel-baribua-holon",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: חצי מנה פלאפל",
+      "en": "Found on Wolt. Dish: חצי מנה פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "725",
+    "name": {
+      "he": "Falafel Ba'Ribua | Rishon Lezion Factory Branch",
+      "en": "Falafel Ba'Ribua | Rishon Lezion Factory Branch"
+    },
+    "dish_name": {
+      "he": "חצי מנה פלאפל",
+      "en": "חצי מנה פלאפל"
+    },
+    "price": 19,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/falafel-baribua-rishon-lezion-factory",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: חצי מנה פלאפל",
+      "en": "Found on Wolt. Dish: חצי מנה פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "726",
+    "name": {
+      "he": "Falafel Bakikar | Yesud Ha-MaAla",
+      "en": "Falafel Bakikar | Yesud Ha-MaAla"
+    },
+    "dish_name": {
+      "he": "פלאפל",
+      "en": "פלאפל"
+    },
+    "price": 24,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/falafel-bakikar-khalutsei-yesud-ha-maala",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל",
+      "en": "Found on Wolt. Dish: פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "727",
+    "name": {
+      "he": "Yashka | Rishon Leziyon",
+      "en": "Yashka | Rishon Leziyon"
+    },
+    "dish_name": {
+      "he": "פיתה פלאפל",
+      "en": "פיתה פלאפל"
+    },
+    "price": 28,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/yashka-rishon-leziyon",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פיתה פלאפל",
+      "en": "Found on Wolt. Dish: פיתה פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "728",
+    "name": {
+      "he": "Falafel Ba'Ribua | Paz Gan Havradim",
+      "en": "Falafel Ba'Ribua | Paz Gan Havradim"
+    },
+    "dish_name": {
+      "he": "חצי מנה פלאפל",
+      "en": "חצי מנה פלאפל"
+    },
+    "price": 19,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/falafel-baribua-paz-menachem",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: חצי מנה פלאפל",
+      "en": "Found on Wolt. Dish: חצי מנה פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "729",
+    "name": {
+      "he": "Melech HaHummus Ha'asli",
+      "en": "Melech HaHummus Ha'asli"
+    },
+    "dish_name": {
+      "he": "Falafel balls - 10 Pieces",
+      "en": "Falafel balls - 10 Pieces"
+    },
+    "price": 15,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/melech-hahummus-haasli",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Falafel balls - 10 Pieces",
+      "en": "Found on Wolt. Dish: Falafel balls - 10 Pieces"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "730",
+    "name": {
+      "he": "Hafalafel Shel Biton",
+      "en": "Hafalafel Shel Biton"
+    },
+    "dish_name": {
+      "he": "‫5 כדורי פלאפל",
+      "en": "‫5 כדורי פלאפל"
+    },
+    "price": 12,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/bitons-falafel",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: ‫5 כדורי פלאפל",
+      "en": "Found on Wolt. Dish: ‫5 כדורי פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "731",
+    "name": {
+      "he": "Hummus Amo Eli | Holon",
+      "en": "Hummus Amo Eli | Holon"
+    },
+    "dish_name": {
+      "he": "פלאפל",
+      "en": "פלאפל"
+    },
+    "price": 30,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/hummus-amo",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל",
+      "en": "Found on Wolt. Dish: פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "732",
+    "name": {
+      "he": "Hahummus Shel Erez",
+      "en": "Hahummus Shel Erez"
+    },
+    "dish_name": {
+      "he": "Falafel Balls ",
+      "en": "Falafel Balls "
+    },
+    "price": 12,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/hummus-erez",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Falafel Balls ",
+      "en": "Found on Wolt. Dish: Falafel Balls "
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "733",
+    "name": {
+      "he": "Hummus Klaboni",
+      "en": "Hummus Klaboni"
+    },
+    "dish_name": {
+      "he": "פיתה בהרכבה",
+      "en": "פיתה בהרכבה"
+    },
+    "price": 17,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/hummus-klaboni",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פיתה בהרכבה",
+      "en": "Found on Wolt. Dish: פיתה בהרכבה"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "734",
+    "name": {
+      "he": "Falafel Mano",
+      "en": "Falafel Mano"
+    },
+    "dish_name": {
+      "he": "פיתה פלאפל",
+      "en": "פיתה פלאפל"
+    },
+    "price": 35,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/falafel-mano",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פיתה פלאפל",
+      "en": "Found on Wolt. Dish: פיתה פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "735",
+    "name": {
+      "he": "Falafel Ba'Ribua | Beit Oved",
+      "en": "Falafel Ba'Ribua | Beit Oved"
+    },
+    "dish_name": {
+      "he": "מנה פלאפל",
+      "en": "מנה פלאפל"
+    },
+    "price": 32,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/falafel-baribua-beit-oved",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: מנה פלאפל",
+      "en": "Found on Wolt. Dish: מנה פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "736",
+    "name": {
+      "he": "Shipudei Netanel Express",
+      "en": "Shipudei Netanel Express"
+    },
+    "dish_name": {
+      "he": "פלאפל",
+      "en": "פלאפל"
+    },
+    "price": 30,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/shipudei-netanel-express",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל",
+      "en": "Found on Wolt. Dish: פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "737",
+    "name": {
+      "he": "The House of Shawarma & Schnitzel",
+      "en": "The House of Shawarma & Schnitzel"
+    },
+    "dish_name": {
+      "he": "פלאפל",
+      "en": "פלאפל"
+    },
+    "price": 25,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/the-house-of-shawarma-and-schnitzel",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל",
+      "en": "Found on Wolt. Dish: פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "738",
+    "name": {
+      "he": "Gerale",
+      "en": "Gerale"
+    },
+    "dish_name": {
+      "he": "פלאפל",
+      "en": "פלאפל"
+    },
+    "price": 28,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/gerale",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל",
+      "en": "Found on Wolt. Dish: פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "739",
+    "name": {
+      "he": "Pita Falafel",
+      "en": "Pita Falafel"
+    },
+    "dish_name": {
+      "he": "פלאפל",
+      "en": "פלאפל"
+    },
+    "price": 23,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/pita-falafel",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל",
+      "en": "Found on Wolt. Dish: פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "740",
+    "name": {
+      "he": "Mix Bepita",
+      "en": "Mix Bepita"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "פלאפל בפיתה"
+    },
+    "price": 30,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/mix-bepita",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל בפיתה",
+      "en": "Found on Wolt. Dish: פלאפל בפיתה"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "741",
+    "name": {
+      "he": "Hummus Abu Hassouni",
+      "en": "Hummus Abu Hassouni"
+    },
+    "dish_name": {
+      "he": "פלאפל - ‫10 כדורים",
+      "en": "פלאפל - ‫10 כדורים"
+    },
+    "price": 15,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/hummus-abu-hassouni",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל - ‫10 כדורים",
+      "en": "Found on Wolt. Dish: פלאפל - ‫10 כדורים"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "742",
+    "name": {
+      "he": "Hummus Nordau",
+      "en": "Hummus Nordau"
+    },
+    "dish_name": {
+      "he": "חומוס",
+      "en": "חומוס"
+    },
+    "price": 18,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/hummus-nordau",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: חומוס",
+      "en": "Found on Wolt. Dish: חומוס"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "743",
+    "name": {
+      "he": "Sabich Yahav",
+      "en": "Sabich Yahav"
+    },
+    "dish_name": {
+      "he": "Falafel",
+      "en": "Falafel"
+    },
+    "price": 28,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/sabich-yahav",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Falafel",
+      "en": "Found on Wolt. Dish: Falafel"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "744",
+    "name": {
+      "he": "Falafel Shenkar",
+      "en": "Falafel Shenkar"
+    },
+    "dish_name": {
+      "he": "פיתה פלאפל",
+      "en": "פיתה פלאפל"
+    },
+    "price": 31,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/falafel-shenkar",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פיתה פלאפל",
+      "en": "Found on Wolt. Dish: פיתה פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "745",
+    "name": {
+      "he": "Regina | Rehovot",
+      "en": "Regina | Rehovot"
+    },
+    "dish_name": {
+      "he": "מנה פלאפל",
+      "en": "מנה פלאפל"
+    },
+    "price": 27,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/regina-rehovot",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: מנה פלאפל",
+      "en": "Found on Wolt. Dish: מנה פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "746",
+    "name": {
+      "he": "Shawarma Vedimaa",
+      "en": "Shawarma Vedimaa"
+    },
+    "dish_name": {
+      "he": "כדורי פלאפל של אמא | 10 יח׳",
+      "en": "כדורי פלאפל של אמא | 10 יח׳"
+    },
+    "price": 20,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/shawarma-corner-rlz",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: כדורי פלאפל של אמא | 10 יח׳",
+      "en": "Found on Wolt. Dish: כדורי פלאפל של אמא | 10 יח׳"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "747",
+    "name": {
+      "he": "HaShawarmia from Abu Gush",
+      "en": "HaShawarmia from Abu Gush"
+    },
+    "dish_name": {
+      "he": "‫פלאפל 🌱",
+      "en": "‫פלאפל 🌱"
+    },
+    "price": 22,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/shawarmia-from-abu-gush",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: ‫פלאפל 🌱",
+      "en": "Found on Wolt. Dish: ‫פלאפל 🌱"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "748",
+    "name": {
+      "he": "Hummus Abu Rei",
+      "en": "Hummus Abu Rei"
+    },
+    "dish_name": {
+      "he": "פלאפל",
+      "en": "פלאפל"
+    },
+    "price": 12,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/just-soup",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל",
+      "en": "Found on Wolt. Dish: פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "749",
+    "name": {
+      "he": "Hummus Shaykale",
+      "en": "Hummus Shaykale"
+    },
+    "dish_name": {
+      "he": "Falafel Balls ",
+      "en": "Falafel Balls "
+    },
+    "price": 12,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/hummus-sheikalle",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Falafel Balls ",
+      "en": "Found on Wolt. Dish: Falafel Balls "
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "750",
+    "name": {
+      "he": "Sibel",
+      "en": "Sibel"
+    },
+    "dish_name": {
+      "he": "Homemade Hummus",
+      "en": "Homemade Hummus"
+    },
+    "price": 33,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/sibel",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Homemade Hummus",
+      "en": "Found on Wolt. Dish: Homemade Hummus"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "751",
+    "name": {
+      "he": "Hanania's Grandson | Beer Yaakov",
+      "en": "Hanania's Grandson | Beer Yaakov"
+    },
+    "dish_name": {
+      "he": "10 כדורי פלאפל",
+      "en": "10 כדורי פלאפל"
+    },
+    "price": 21,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/hananias-grandson-by",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: 10 כדורי פלאפל",
+      "en": "Found on Wolt. Dish: 10 כדורי פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "752",
+    "name": {
+      "he": "Hummus Yossef | Rishon Lezion",
+      "en": "Hummus Yossef | Rishon Lezion"
+    },
+    "dish_name": {
+      "he": "Moussa's Original Falafel - 8 pcs",
+      "en": "Moussa's Original Falafel - 8 pcs"
+    },
+    "price": 16,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/hummus-yossef-rishon-lezion",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Moussa's Original Falafel - 8 pcs",
+      "en": "Found on Wolt. Dish: Moussa's Original Falafel - 8 pcs"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "753",
+    "name": {
+      "he": "Avazim Restaurant",
+      "en": "Avazim Restaurant"
+    },
+    "dish_name": {
+      "he": "פלאפל  | 5 כדורים",
+      "en": "פלאפל  | 5 כדורים"
+    },
+    "price": 17,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/shipudei-tzipora-rehovot",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל  | 5 כדורים",
+      "en": "Found on Wolt. Dish: פלאפל  | 5 כדורים"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "754",
+    "name": {
+      "he": "Melech Ha'shawarma | Hazahav Mall",
+      "en": "Melech Ha'shawarma | Hazahav Mall"
+    },
+    "dish_name": {
+      "he": "כדורי פלאפל",
+      "en": "כדורי פלאפל"
+    },
+    "price": 15,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/shawarma-king-rlz",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: כדורי פלאפל",
+      "en": "Found on Wolt. Dish: כדורי פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "755",
+    "name": {
+      "he": "Falafel Berkat Avraham",
+      "en": "Falafel Berkat Avraham"
+    },
+    "dish_name": {
+      "he": "פלאפל",
+      "en": "פלאפל"
+    },
+    "price": 26,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/falafel-berkat-avraham",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל",
+      "en": "Found on Wolt. Dish: פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "756",
+    "name": {
+      "he": "Falafel Hachaverim",
+      "en": "Falafel Hachaverim"
+    },
+    "dish_name": {
+      "he": "פלאפל הבית",
+      "en": "פלאפל הבית"
+    },
+    "price": 23,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/falafel-hachaverim",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל הבית",
+      "en": "Found on Wolt. Dish: פלאפל הבית"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "757",
+    "name": {
+      "he": "Mifgash Tzameret",
+      "en": "Mifgash Tzameret"
+    },
+    "dish_name": {
+      "he": "פלאפל",
+      "en": "פלאפל"
+    },
+    "price": 24,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/mifgashtzameret",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל",
+      "en": "Found on Wolt. Dish: פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "758",
+    "name": {
+      "he": "Hay Shawarma",
+      "en": "Hay Shawarma"
+    },
+    "dish_name": {
+      "he": "פלאפל",
+      "en": "פלאפל"
+    },
+    "price": 25,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/shaywarma",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל",
+      "en": "Found on Wolt. Dish: פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "759",
+    "name": {
+      "he": "Hummus Bahadunas | Rishon LeZion",
+      "en": "Hummus Bahadunas | Rishon LeZion"
+    },
+    "dish_name": {
+      "he": "Hummus By Weight",
+      "en": "Hummus By Weight"
+    },
+    "price": 20,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/hummus-bahadunas-rishon-lezion",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Hummus By Weight",
+      "en": "Found on Wolt. Dish: Hummus By Weight"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "760",
+    "name": {
+      "he": "Falafel Genia | Shlabim",
+      "en": "Falafel Genia | Shlabim"
+    },
+    "dish_name": {
+      "he": "Falafel",
+      "en": "Falafel"
+    },
+    "price": 27,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/falafel-gina-shlabim",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Falafel",
+      "en": "Found on Wolt. Dish: Falafel"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "761",
+    "name": {
+      "he": "Ha'Shamen | Holon",
+      "en": "Ha'Shamen | Holon"
+    },
+    "dish_name": {
+      "he": "‫פלאפל  בפיתה 🌱",
+      "en": "‫פלאפל  בפיתה 🌱"
+    },
+    "price": 30,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/hashamen-holon",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: ‫פלאפל  בפיתה 🌱",
+      "en": "Found on Wolt. Dish: ‫פלאפל  בפיתה 🌱"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "762",
+    "name": {
+      "he": "Mifgash HaFalafel ve HaShawarma",
+      "en": "Mifgash HaFalafel ve HaShawarma"
+    },
+    "dish_name": {
+      "he": "Falafel ",
+      "en": "Falafel "
+    },
+    "price": 26,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/mifgash-hafalafel-ve-hashawarma",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Falafel ",
+      "en": "Found on Wolt. Dish: Falafel "
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "763",
+    "name": {
+      "he": "Falafel Kahil",
+      "en": "Falafel Kahil"
+    },
+    "dish_name": {
+      "he": "Falafel",
+      "en": "Falafel"
+    },
+    "price": 25,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/falafel-kheil",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Falafel",
+      "en": "Found on Wolt. Dish: Falafel"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "764",
+    "name": {
+      "he": "Herzl 2 | Rishon LeZion East",
+      "en": "Herzl 2 | Rishon LeZion East"
+    },
+    "dish_name": {
+      "he": "פלאפל",
+      "en": "פלאפל"
+    },
+    "price": 23,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/herzl-2-rishon-lezion",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל",
+      "en": "Found on Wolt. Dish: פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "765",
+    "name": {
+      "he": "Falafel Ba'Ribua | Rehovot",
+      "en": "Falafel Ba'Ribua | Rehovot"
+    },
+    "dish_name": {
+      "he": "מנה פלאפל",
+      "en": "מנה פלאפל"
+    },
+    "price": 32,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/falafel-baribua-rehovot",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: מנה פלאפל",
+      "en": "Found on Wolt. Dish: מנה פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "766",
+    "name": {
+      "he": "Herzl 2 | Rishon LeZion West",
+      "en": "Herzl 2 | Rishon LeZion West"
+    },
+    "dish_name": {
+      "he": "פלאפל",
+      "en": "פלאפל"
+    },
+    "price": 23,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/herzl-2-rishon-lezion-west",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל",
+      "en": "Found on Wolt. Dish: פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "767",
+    "name": {
+      "he": "Falafel Bakikar | Rishon LeZion",
+      "en": "Falafel Bakikar | Rishon LeZion"
+    },
+    "dish_name": {
+      "he": "פלאפל הבית",
+      "en": "פלאפל הבית"
+    },
+    "price": 25,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/falafel-bakikar-rlz",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל הבית",
+      "en": "Found on Wolt. Dish: פלאפל הבית"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "768",
+    "name": {
+      "he": "Klara | Rishon Lezion",
+      "en": "Klara | Rishon Lezion"
+    },
+    "dish_name": {
+      "he": "חצי פיתה שווארמה",
+      "en": "חצי פיתה שווארמה"
+    },
+    "price": 32,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/clara-rishon-lezion",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: חצי פיתה שווארמה",
+      "en": "Found on Wolt. Dish: חצי פיתה שווארמה"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "769",
+    "name": {
+      "he": "Ha'shamen | Rishon Letzion",
+      "en": "Ha'shamen | Rishon Letzion"
+    },
+    "dish_name": {
+      "he": "פלאפל בפיתה",
+      "en": "פלאפל בפיתה"
+    },
+    "price": 30,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/hashamen-rishon-letzion",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל בפיתה",
+      "en": "Found on Wolt. Dish: פלאפל בפיתה"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "770",
+    "name": {
+      "he": "Shawarma Bachbush | Kosher",
+      "en": "Shawarma Bachbush | Kosher"
+    },
+    "dish_name": {
+      "he": "שווארמה",
+      "en": "שווארמה"
+    },
+    "price": 35,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/shawarma-bachbush",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: שווארמה",
+      "en": "Found on Wolt. Dish: שווארמה"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "771",
+    "name": {
+      "he": "Hummus Faragi",
+      "en": "Hummus Faragi"
+    },
+    "dish_name": {
+      "he": "Hummus Box - 300 gr",
+      "en": "Hummus Box - 300 gr"
+    },
+    "price": 21,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/hummus-faragi",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Hummus Box - 300 gr",
+      "en": "Found on Wolt. Dish: Hummus Box - 300 gr"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "772",
+    "name": {
+      "he": "Roni Full",
+      "en": "Roni Full"
+    },
+    "dish_name": {
+      "he": "חצי קילו חומוס",
+      "en": "חצי קילו חומוס"
+    },
+    "price": 29,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/roni-ful",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: חצי קילו חומוס",
+      "en": "Found on Wolt. Dish: חצי קילו חומוס"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "773",
+    "name": {
+      "he": "Yaman Bar",
+      "en": "Yaman Bar"
+    },
+    "dish_name": {
+      "he": "חומוס | קטן",
+      "en": "חומוס | קטן"
+    },
+    "price": 20,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/yaman-bar",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: חומוס | קטן",
+      "en": "Found on Wolt. Dish: חומוס | קטן"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "774",
+    "name": {
+      "he": "Hummus Binyamin",
+      "en": "Hummus Binyamin"
+    },
+    "dish_name": {
+      "he": "חומוס במשקל",
+      "en": "חומוס במשקל"
+    },
+    "price": 20,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/hummus-binyamin-h",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: חומוס במשקל",
+      "en": "Found on Wolt. Dish: חומוס במשקל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "775",
+    "name": {
+      "he": "Nafis | Holon",
+      "en": "Nafis | Holon"
+    },
+    "dish_name": {
+      "he": "Hummus with Tahini Chickpeas ",
+      "en": "Hummus with Tahini Chickpeas "
+    },
+    "price": 32,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/nafis-holon",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Hummus with Tahini Chickpeas ",
+      "en": "Found on Wolt. Dish: Hummus with Tahini Chickpeas "
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "776",
+    "name": {
+      "he": "Shipudey HaTikva | Rishon LeTsiyon",
+      "en": "Shipudey HaTikva | Rishon LeTsiyon"
+    },
+    "dish_name": {
+      "he": "חומוס טחינה",
+      "en": "חומוס טחינה"
+    },
+    "price": 35,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/shipudey-hatikva-rishon-letsiyon",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: חומוס טחינה",
+      "en": "Found on Wolt. Dish: חומוס טחינה"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "777",
+    "name": {
+      "he": "Mifgash Savoy",
+      "en": "Mifgash Savoy"
+    },
+    "dish_name": {
+      "he": "חומוס טחינה",
+      "en": "חומוס טחינה"
+    },
+    "price": 28,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/mifgash-savoy",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: חומוס טחינה",
+      "en": "Found on Wolt. Dish: חומוס טחינה"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "778",
+    "name": {
+      "he": "At Yochanan's | Ness Ziona",
+      "en": "At Yochanan's | Ness Ziona"
+    },
+    "dish_name": {
+      "he": "Hummus Triangle",
+      "en": "Hummus Triangle"
+    },
+    "price": 35,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/at-yochanans",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Hummus Triangle",
+      "en": "Found on Wolt. Dish: Hummus Triangle"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "779",
+    "name": {
+      "he": "HaDvidka Grill",
+      "en": "HaDvidka Grill"
+    },
+    "dish_name": {
+      "he": "חומוס טחינה",
+      "en": "חומוס טחינה"
+    },
+    "price": 35,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/hadodke",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: חומוס טחינה",
+      "en": "Found on Wolt. Dish: חומוס טחינה"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "780",
+    "name": {
+      "he": "Mashani Salads  | Rishon LeZion",
+      "en": "Mashani Salads  | Rishon LeZion"
+    },
+    "dish_name": {
+      "he": "Hummus Misadot",
+      "en": "Hummus Misadot"
+    },
+    "price": 15,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/mashani-salads",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Hummus Misadot",
+      "en": "Found on Wolt. Dish: Hummus Misadot"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "781",
+    "name": {
+      "he": "Roti | Rishon LeZion",
+      "en": "Roti | Rishon LeZion"
+    },
+    "dish_name": {
+      "he": "חומוס מסעדות",
+      "en": "חומוס מסעדות"
+    },
+    "price": 16,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/rori",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: חומוס מסעדות",
+      "en": "Found on Wolt. Dish: חומוס מסעדות"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "782",
+    "name": {
+      "he": "Hummus Haj Kahil",
+      "en": "Hummus Haj Kahil"
+    },
+    "dish_name": {
+      "he": "Hummus",
+      "en": "Hummus"
+    },
+    "price": 32,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/hummus-haj-kahil",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Hummus",
+      "en": "Found on Wolt. Dish: Hummus"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "783",
+    "name": {
+      "he": "Dr. Shakshuka |  Rishon LeZion",
+      "en": "Dr. Shakshuka |  Rishon LeZion"
+    },
+    "dish_name": {
+      "he": "חומוס גרגרים קטן",
+      "en": "חומוס גרגרים קטן"
+    },
+    "price": 12,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/dr-shakshuka-rishon-letsiyon",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: חומוס גרגרים קטן",
+      "en": "Found on Wolt. Dish: חומוס גרגרים קטן"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "784",
+    "name": {
+      "he": "Beirut Restaurant",
+      "en": "Beirut Restaurant"
+    },
+    "dish_name": {
+      "he": "Hummus tahini ",
+      "en": "Hummus tahini "
+    },
+    "price": 30,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/misadet-beirut",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Hummus tahini ",
+      "en": "Found on Wolt. Dish: Hummus tahini "
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "785",
+    "name": {
+      "he": "Burger Company",
+      "en": "Burger Company"
+    },
+    "dish_name": {
+      "he": "Classic Burger Meal",
+      "en": "Classic Burger Meal"
+    },
+    "price": 35,
+    "category": {
+      "he": "בורגר",
+      "en": "Burger"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/burger-company",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Classic Burger Meal",
+      "en": "Found on Wolt. Dish: Classic Burger Meal"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "786",
+    "name": {
+      "he": "Pita Basar | Rishon Lezion West",
+      "en": "Pita Basar | Rishon Lezion West"
+    },
+    "dish_name": {
+      "he": "Baked Potato ",
+      "en": "Baked Potato "
+    },
+    "price": 24,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/pita-basar-rishon-lezion",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Baked Potato ",
+      "en": "Found on Wolt. Dish: Baked Potato "
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "787",
+    "name": {
+      "he": "Pita Piknik | Pita Asi Ha'maamis",
+      "en": "Pita Piknik | Pita Asi Ha'maamis"
+    },
+    "dish_name": {
+      "he": "צ׳יפס",
+      "en": "צ׳יפס"
+    },
+    "price": 25,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/pita-pita-rishon-lezion",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: צ׳יפס",
+      "en": "Found on Wolt. Dish: צ׳יפס"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "788",
+    "name": {
+      "he": "City Market | Ben Gurion Rishon Lezion",
+      "en": "City Market | Ben Gurion Rishon Lezion"
+    },
+    "dish_name": {
+      "he": "אנג'ל פיתה פיתה של עבודת יד 8 יחידות",
+      "en": "אנג'ל פיתה פיתה של עבודת יד 8 יחידות"
+    },
+    "price": 19,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/city-market-ben-gurion-rishon-lezion",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: אנג'ל פיתה פיתה של עבודת יד 8 יחידות",
+      "en": "Found on Wolt. Dish: אנג'ל פיתה פיתה של עבודת יד 8 יחידות"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "789",
+    "name": {
+      "he": "Pita Basar | Bat Yam",
+      "en": "Pita Basar | Bat Yam"
+    },
+    "dish_name": {
+      "he": "וופל צ׳יפס",
+      "en": "וופל צ׳יפס"
+    },
+    "price": 22,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/pita-basar-bat-yam",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: וופל צ׳יפס",
+      "en": "Found on Wolt. Dish: וופל צ׳יפס"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "790",
+    "name": {
+      "he": "Pita Basar | Holon",
+      "en": "Pita Basar | Holon"
+    },
+    "dish_name": {
+      "he": "Baked Potato ",
+      "en": "Baked Potato "
+    },
+    "price": 24,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/pita",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: Baked Potato ",
+      "en": "Found on Wolt. Dish: Baked Potato "
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "791",
+    "name": {
+      "he": "Oren Meshi | Rishon LeZion",
+      "en": "Oren Meshi | Rishon LeZion"
+    },
+    "dish_name": {
+      "he": "פיתה קלאסית | 10 יחידות",
+      "en": "פיתה קלאסית | 10 יחידות"
+    },
+    "price": 16,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/oren-meshi-rishon-le-zion",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פיתה קלאסית | 10 יחידות",
+      "en": "Found on Wolt. Dish: פיתה קלאסית | 10 יחידות"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "792",
+    "name": {
+      "he": "Shefa Taamim | Rishon Lezion",
+      "en": "Shefa Taamim | Rishon Lezion"
+    },
+    "dish_name": {
+      "he": "פיתה 8 יחידות",
+      "en": "פיתה 8 יחידות"
+    },
+    "price": 18,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/shefa-taamim-rishon-lezion",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פיתה 8 יחידות",
+      "en": "Found on Wolt. Dish: פיתה 8 יחידות"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "793",
+    "name": {
+      "he": "FreshMarket | Kramim Rishon LeZion",
+      "en": "FreshMarket | Kramim Rishon LeZion"
+    },
+    "dish_name": {
+      "he": "פיתה כוסמין 8 יחידות אנג'ל",
+      "en": "פיתה כוסמין 8 יחידות אנג'ל"
+    },
+    "price": 23,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/freshmarket-kramim-rishon-lezion",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פיתה כוסמין 8 יחידות אנג'ל",
+      "en": "Found on Wolt. Dish: פיתה כוסמין 8 יחידות אנג'ל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "794",
+    "name": {
+      "he": "City Market Premium | Rishon Lezion",
+      "en": "City Market Premium | Rishon Lezion"
+    },
+    "dish_name": {
+      "he": "אנג'ל פיתה פיתה של עבודת יד 8 יחידות",
+      "en": "אנג'ל פיתה פיתה של עבודת יד 8 יחידות"
+    },
+    "price": 17,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "address": {
+        "he": "ראשון לציון",
+        "en": "Rishon LeZion"
+      },
+      "region": {
+        "he": "מרכז",
+        "en": "Center"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/rishon-lezion/restaurant/city-market-premium-rishon-lezion",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: אנג'ל פיתה פיתה של עבודת יד 8 יחידות",
+      "en": "Found on Wolt. Dish: אנג'ל פיתה פיתה של עבודת יד 8 יחידות"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "795",
+    "name": {
+      "he": "Taim Li | Ashdod",
+      "en": "Taim Li | Ashdod"
+    },
+    "dish_name": {
+      "he": "פלאפל",
+      "en": "פלאפל"
+    },
+    "price": 28,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "address": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/ashdod/restaurant/taim-li-ashdod",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל",
+      "en": "Found on Wolt. Dish: פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "796",
+    "name": {
+      "he": "Falafel Ba'Ribua | Ashdod",
+      "en": "Falafel Ba'Ribua | Ashdod"
+    },
+    "dish_name": {
+      "he": "סלט ישראלי קצוץ אישי",
+      "en": "סלט ישראלי קצוץ אישי"
+    },
+    "price": 18,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "address": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/ashdod/restaurant/falafel-baribua-ashdod",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: סלט ישראלי קצוץ אישי",
+      "en": "Found on Wolt. Dish: סלט ישראלי קצוץ אישי"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "797",
+    "name": {
+      "he": "Falafel Ba'Ribua | Gan Yavne",
+      "en": "Falafel Ba'Ribua | Gan Yavne"
+    },
+    "dish_name": {
+      "he": "חצי מנה פלאפל",
+      "en": "חצי מנה פלאפל"
+    },
+    "price": 19,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "address": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/ashdod/restaurant/falafel-baribua-gan-yavne",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: חצי מנה פלאפל",
+      "en": "Found on Wolt. Dish: חצי מנה פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "798",
+    "name": {
+      "he": "HummosMan",
+      "en": "HummosMan"
+    },
+    "dish_name": {
+      "he": "‫כדורי פלאפל | 5 יח׳ 🌾",
+      "en": "‫כדורי פלאפל | 5 יח׳ 🌾"
+    },
+    "price": 18,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "address": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/ashdod/restaurant/hummosman",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: ‫כדורי פלאפל | 5 יח׳ 🌾",
+      "en": "Found on Wolt. Dish: ‫כדורי פלאפל | 5 יח׳ 🌾"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "799",
+    "name": {
+      "he": "Noam's Place",
+      "en": "Noam's Place"
+    },
+    "dish_name": {
+      "he": "פלאפל",
+      "en": "פלאפל"
+    },
+    "price": 25,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "address": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/ashdod/restaurant/noams-place",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל",
+      "en": "Found on Wolt. Dish: פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "800",
+    "name": {
+      "he": "HaShawarma Sheli Mehadrin",
+      "en": "HaShawarma Sheli Mehadrin"
+    },
+    "dish_name": {
+      "he": "פלאפל",
+      "en": "פלאפל"
+    },
+    "price": 28,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "address": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/ashdod/restaurant/hashawarma-sheli",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל",
+      "en": "Found on Wolt. Dish: פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "801",
+    "name": {
+      "he": "Jerusalem Hummus",
+      "en": "Jerusalem Hummus"
+    },
+    "dish_name": {
+      "he": "תערובת פלאפל | 500 גר׳",
+      "en": "תערובת פלאפל | 500 גר׳"
+    },
+    "price": 35,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "address": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/ashdod/restaurant/hayerushalmi-ashdod",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: תערובת פלאפל | 500 גר׳",
+      "en": "Found on Wolt. Dish: תערובת פלאפל | 500 גר׳"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "802",
+    "name": {
+      "he": "HaFalafel | Kovshei Hahermon",
+      "en": "HaFalafel | Kovshei Hahermon"
+    },
+    "dish_name": {
+      "he": "מנה פלאפל",
+      "en": "מנה פלאפל"
+    },
+    "price": 27,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "address": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/ashdod/restaurant/hafalafel",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: מנה פלאפל",
+      "en": "Found on Wolt. Dish: מנה פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "803",
+    "name": {
+      "he": "Falafel Ba'Ribua | Yavne",
+      "en": "Falafel Ba'Ribua | Yavne"
+    },
+    "dish_name": {
+      "he": "חצי מנה פלאפל",
+      "en": "חצי מנה פלאפל"
+    },
+    "price": 19,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "address": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/ashdod/restaurant/falafel-baribua-yavne",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: חצי מנה פלאפל",
+      "en": "Found on Wolt. Dish: חצי מנה פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "804",
+    "name": {
+      "he": "Falafel Bdalak | Gedera",
+      "en": "Falafel Bdalak | Gedera"
+    },
+    "dish_name": {
+      "he": "כדורי פלאפל - 10 יח׳",
+      "en": "כדורי פלאפל - 10 יח׳"
+    },
+    "price": 20,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "address": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/ashdod/restaurant/falafel-bdalak",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: כדורי פלאפל - 10 יח׳",
+      "en": "Found on Wolt. Dish: כדורי פלאפל - 10 יח׳"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "805",
+    "name": {
+      "he": "Hak | Yavne",
+      "en": "Hak | Yavne"
+    },
+    "dish_name": {
+      "he": "פלאפל",
+      "en": "פלאפל"
+    },
+    "price": 28,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "address": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/ashdod/restaurant/hak-yavne",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל",
+      "en": "Found on Wolt. Dish: פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "806",
+    "name": {
+      "he": "Falafel Gueta",
+      "en": "Falafel Gueta"
+    },
+    "dish_name": {
+      "he": "‫פלאפל בפיתה",
+      "en": "‫פלאפל בפיתה"
+    },
+    "price": 34,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "address": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/ashdod/restaurant/falafel-gueta-k",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: ‫פלאפל בפיתה",
+      "en": "Found on Wolt. Dish: ‫פלאפל בפיתה"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "807",
+    "name": {
+      "he": "Falafel Bedalak | Rehovot",
+      "en": "Falafel Bedalak | Rehovot"
+    },
+    "dish_name": {
+      "he": "פלאפל",
+      "en": "פלאפל"
+    },
+    "price": 24,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "address": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/ashdod/restaurant/falafel-bedalak",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל",
+      "en": "Found on Wolt. Dish: פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "808",
+    "name": {
+      "he": "Hummus Kazablan",
+      "en": "Hummus Kazablan"
+    },
+    "dish_name": {
+      "he": "5 Falafel Balls",
+      "en": "5 Falafel Balls"
+    },
+    "price": 14,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "address": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/ashdod/restaurant/hummus-kazablan",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: 5 Falafel Balls",
+      "en": "Found on Wolt. Dish: 5 Falafel Balls"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "809",
+    "name": {
+      "he": "Noni's Hummus",
+      "en": "Noni's Hummus"
+    },
+    "dish_name": {
+      "he": "5 כדורי פלאפל",
+      "en": "5 כדורי פלאפל"
+    },
+    "price": 14,
+    "category": {
+      "he": "חומוס",
+      "en": "Hummus"
+    },
+    "location": {
+      "city": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "address": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/ashdod/restaurant/nonis-hummus",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: 5 כדורי פלאפל",
+      "en": "Found on Wolt. Dish: 5 כדורי פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "810",
+    "name": {
+      "he": "Agababa - Shawarma Shemesh  | Rehovot",
+      "en": "Agababa - Shawarma Shemesh  | Rehovot"
+    },
+    "dish_name": {
+      "he": "פלאפל",
+      "en": "פלאפל"
+    },
+    "price": 30,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "address": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/ashdod/restaurant/shawarma-shemesh-rehovot",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל",
+      "en": "Found on Wolt. Dish: פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "811",
+    "name": {
+      "he": "Agababa - Shawarma Shemesh | Yavne",
+      "en": "Agababa - Shawarma Shemesh | Yavne"
+    },
+    "dish_name": {
+      "he": "פלאפל",
+      "en": "פלאפל"
+    },
+    "price": 30,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "address": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/ashdod/restaurant/agababa-shawarma-shemesh-yavne",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל",
+      "en": "Found on Wolt. Dish: פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "812",
+    "name": {
+      "he": "Shawarma Tomer",
+      "en": "Shawarma Tomer"
+    },
+    "dish_name": {
+      "he": "פלאפל",
+      "en": "פלאפל"
+    },
+    "price": 28,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "address": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/ashdod/restaurant/shawarma-tomer",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל",
+      "en": "Found on Wolt. Dish: פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "813",
+    "name": {
+      "he": "Etzel Yos | Gedera",
+      "en": "Etzel Yos | Gedera"
+    },
+    "dish_name": {
+      "he": "פלאפל",
+      "en": "פלאפל"
+    },
+    "price": 34,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "address": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/ashdod/restaurant/etzel-yos-gedera",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל",
+      "en": "Found on Wolt. Dish: פלאפל"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "814",
+    "name": {
+      "he": "Shipudei Haachim | Rehovot",
+      "en": "Shipudei Haachim | Rehovot"
+    },
+    "dish_name": {
+      "he": "‫פלאפל 🌱",
+      "en": "‫פלאפל 🌱"
+    },
+    "price": 35,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "address": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/ashdod/restaurant/shipudei-haachim",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: ‫פלאפל 🌱",
+      "en": "Found on Wolt. Dish: ‫פלאפל 🌱"
+    },
+    "verified_date": "2026-03"
+  },
+  {
+    "id": "815",
+    "name": {
+      "he": "Tamara Shawarma & Falafel | Kiryat Malakhi",
+      "en": "Tamara Shawarma & Falafel | Kiryat Malakhi"
+    },
+    "dish_name": {
+      "he": "פלאפל",
+      "en": "פלאפל"
+    },
+    "price": 24,
+    "category": {
+      "he": "אוכל רחוב",
+      "en": "Street Food"
+    },
+    "location": {
+      "city": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "address": {
+        "he": "אשדוד",
+        "en": "Ashdod"
+      },
+      "region": {
+        "he": "דרום",
+        "en": "South"
+      }
+    },
+    "kosher_status": {
+      "he": "לא ידוע",
+      "en": "Unknown"
+    },
+    "source_url": "https://wolt.com/isr/ashdod/restaurant/tamara-kiryat-malakhi",
+    "notes": {
+      "he": "נמצא ב-Wolt. מנה: פלאפל",
+      "en": "Found on Wolt. Dish: פלאפל"
+    },
+    "verified_date": "2026-03"
   }
 ]
