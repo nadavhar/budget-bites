@@ -2822,7 +2822,7 @@
     async function signInWithGoogle() {
       await supabaseClient.auth.signInWithOAuth({
         provider: 'google',
-        options: { redirectTo: 'https://nadavhar.github.io/budget-bites/' }
+        options: { redirectTo: 'https://budget-bites-xi.vercel.app/' }
       });
     }
 
@@ -2849,7 +2849,7 @@
             email, password,
             options: {
               data: { username },
-              emailRedirectTo: 'https://nadavhar.github.io/budget-bites/',
+              emailRedirectTo: 'https://budget-bites-xi.vercel.app/',
             }
           });
         }
